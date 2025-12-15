@@ -55,14 +55,17 @@ local function findCurrentGame()
     local currentPlaceId = game.PlaceId
     local currentCreatorId = nil
 
-    -- Try to get creator ID from game info (works for both users and groups)
+    -- Try to get creator ID from game info (works for groups)
     pcall(function()
         local gameInfo = MarketplaceService:GetProductInfo(game.PlaceId)
-        if gameInfo.Creator then
-            -- Handle both user creators and group creators
-            if gameInfo.Creator.CreatorType == "Group" then
+        if gameInfo and gameInfo.Creator then
+            -- For group games, use CreatorTargetId which is the group ID
+            -- CreatorType is an Enum, check both string and enum for compatibility
+            local creatorType = tostring(gameInfo.Creator.CreatorType)
+            if creatorType == "Group" or creatorType == "Enum.CreatorType.Group" then
                 currentCreatorId = gameInfo.Creator.CreatorTargetId
             else
+                -- For user-owned games, use the Creator Id
                 currentCreatorId = gameInfo.Creator.Id
             end
         end
@@ -106,9 +109,9 @@ function ZlexConfig:IsGameSupported()
     return findCurrentGame() ~= nil
 end
 
-ZlexConfig.discord_key = false
+ZlexConfig.discord_key = true
 
-ZlexConfig.DISCORD_PRESET_KEY = "niggerboy"
+ZlexConfig.DISCORD_PRESET_KEY = "zlex"
 
 ZlexConfig.SERVICE_IDENTIFIER = "zzzhub2"
 
