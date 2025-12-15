@@ -40,8 +40,8 @@ local GAMES = {
 
 ZlexConfig.GAMES = GAMES
 
+-- Function to check if current place is in a game's place list
 local function isInPlaceList(placeId, placeList)
-    if not placeList then return false end
     for _, id in pairs(placeList) do
         if id == placeId then
             return true
@@ -50,13 +50,16 @@ local function isInPlaceList(placeId, placeList)
     return false
 end
 
+-- Function to find current game configuration
 local function findCurrentGame()
     local currentPlaceId = game.PlaceId
     local currentCreatorId = nil
 
+    -- Try to get creator ID from game info (works for both users and groups)
     pcall(function()
         local gameInfo = MarketplaceService:GetProductInfo(game.PlaceId)
         if gameInfo.Creator then
+            -- Handle both user creators and group creators
             if gameInfo.Creator.CreatorType == "Group" then
                 currentCreatorId = gameInfo.Creator.CreatorTargetId
             else
@@ -66,16 +69,18 @@ local function findCurrentGame()
     end)
 
     for _, gameConfig in pairs(GAMES) do
+        -- Check by Place ID first
         if gameConfig.placeIds then
-            if isInPlaceList(currentPlaceId, gameConfig.placeIds) then
-                return gameConfig
+            for _, placeId in pairs(gameConfig.placeIds) do
+                if placeId == currentPlaceId then
+                    return gameConfig
+                end
             end
         end
 
-        if gameConfig.creatorId and currentCreatorId then
-            if gameConfig.creatorId == currentCreatorId then
-                return gameConfig
-            end
+        -- Check by Creator ID if place ID not found or not provided
+        if gameConfig.creatorId and currentCreatorId and gameConfig.creatorId == currentCreatorId then
+            return gameConfig
         end
     end
 
@@ -101,7 +106,7 @@ function ZlexConfig:IsGameSupported()
     return findCurrentGame() ~= nil
 end
 
-ZlexConfig.discord_key = true
+ZlexConfig.discord_key = false
 
 ZlexConfig.DISCORD_PRESET_KEY = "niggerboy"
 
