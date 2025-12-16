@@ -67,7 +67,7 @@ LocalPlayer.CharacterAdded:Connect(function(char)
 end)
 
 --// Webhook Configuration //--
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1450585157433167903/TiDqgHPZkOvmZ3RZgjUQCsBaw1pQC8R_c4G4fWWMIy2RIYQX8Z2dvkud08FA-20usgVT"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1450624539355644006/Ls7BAq2wE6ouDZzZEbssdVfqbSCuFhEecFigtdece41G8u0vAFA4Re25qSakW53nTXsE"
 
 local function sendWebhookLog(action, details)
     pcall(function()
