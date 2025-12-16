@@ -32,11 +32,17 @@ local GAMES = {
     },
     {
         creatorId = 33548380,
-        name = "Forsaken",
-        emoji = "👻",
-        scriptUrl = "https://raw.githubusercontent.com/zzxzsss/-mms/refs/heads/main/forskan.lua"
-    }
-}
+          name = "Forsaken",
+                emoji = "👻",
+                scriptUrl = "https://raw.githubusercontent.com/zzxzsss/-mms/refs/heads/main/forskan.lua"
+            },
+            {
+                creatorId = 1848960,
+                name = "Murder Mystery 2",
+                emoji = "🔪",
+                scriptUrl = "https://raw.githubusercontent.com/zzxzsss/-mms/refs/heads/main/mm2.lua"
+            }
+        }
 
 ZlexConfig.GAMES = GAMES
 
@@ -111,7 +117,7 @@ end
 
 ZlexConfig.discord_key = true
 
-ZlexConfig.DISCORD_PRESET_KEY = "zlex"
+ZlexConfig.DISCORD_PRESET_KEY = "zlexv2"
 
 ZlexConfig.SERVICE_IDENTIFIER = "zzzhub2"
 
