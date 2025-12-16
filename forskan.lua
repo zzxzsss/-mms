@@ -1,3 +1,3941 @@
 
-return(function(a,a,b,b,b,b,c,d,e,f,f,f,g,h,i,j,k,k,k,l,l,l,l,l,l,m,m,m,m,m,m,m,m)local n=table and table.move or function(n,o,p,q,r)local s={}local function t(u,v)s[v]=u;return s[v]end local u={}u[1]=2 u[2]=3 u[3]=2 local u=66811 repeat if u>=38106 then if u==38106 then break else r=r or n q=q+p for v=p,o,-1 do q=q-1;r[q]=n[v];end;u=s[u+50123]or t(-36118,u+50123)end else return r;end until u==38106 end local o=bit32 or bit local p=2^32 local function q(r,s,t)if(s>t)then return end local u=t-s+1 if u>=8 then return r[s],r[s+1],r[s+2],r[s+3],r[s+4],r[s+5],r[s+6],r[s+7],q(r,s+8,t)elseif u>=7 then return r[s],r[s+1],r[s+2],r[s+3],r[s+4],r[s+5],r[s+6],q(r,s+7,t)elseif u>=6 then return r[s],r[s+1],r[s+2],r[s+3],r[s+4],r[s+5],q(r,s+6,t)elseif u>=5 then return r[s],r[s+1],r[s+2],r[s+3],r[s+4],q(r,s+5,t)elseif u>=4 then return r[s],r[s+1],r[s+2],r[s+3],q(r,s+4,t)elseif u>=3 then return r[s],r[s+1],r[s+2],q(r,s+3,t)elseif u>=2 then return r[s],r[s+1],q(r,s+2,t)else return r[s],q(r,s+1,t)end end local k=function(r,s,t)local u=t-s+1 if u>7997 then return q(r,s,t)else return k(r,s,t)end end local q=o and o[(function(q,r)local s local t={}local u={}u[1]=3 u[2]=3 u[3]=0 local u=78831 repeat if u>=23057 then if u==23057 then break else t[1]={}s=t[1]for t=1,#q do local q=e(q,t)s[t]=m(d(39,99),(q-(r+t))%256)end u=-25217 end else return g(s)end until u==23057 end)("\175\198\190\194",76)]or function(q,r)local s=0 for t=0,31 do local u local v={}v[1]=2 v[2]=1 v[3]=4 local v=-15536 repeat if v>=-29694 then if v==-29694 then q=h(q/2)r=h(r/2)v=-45254 else u=q/2+r/2 if u~=h(u)then s=s+2^t;end;v=-29694 end else break end until v==-45254 end;return s;end local r=o and o[(function(r,s)local t local u={}local v={}local function w(x,y)v[y]=x;return v[y]end local x={}x[1]=0 x[2]=1 x[3]=4 local x=-18907 repeat if x>=-18907 then if x~=-11304 then u[2]={}t=u[2]for u=1,#r do local r=e(r,u)t[u]=m(d(39,99),(r-(s+u))%256)end x=v[x+89306]or w(-26330,x+89306)else break end else return g(t)end until x==-11304 end)("\115\129\133",16)]or function(r,s)local t=0 local u=1 while r>0 or s>0 do local v,w local x={}local function y(z,ba)x[ba]=z;return x[ba]end local z={}z[1]=0 z[2]=0 z[3]=2 local z=-30738 repeat if z>=52718 then if z==52718 then break else if v==1 or w==1 then t=t+u;end;r=h(r/2)z=x[z+23327]or y(-19319,z+23327)end else if z<=-30738 then v=r%2 w=s%2 z=x[z+38871]or y(81352,z+38871)else s=h(s/2)u=u*2 z=x[z+32357]or y(52718,z+32357)end end until z==52718 end;return t;end local s local t s=o and o[(function(u,v)local w local x={}local y={}local function z(ba,bb)y[bb]=ba;return y[bb]end local ba={}ba[1]=2 ba[2]=4 ba[3]=2 local ba=84888 repeat if ba<=61694 then break else if ba<=67006 then return g(w)else x[3]={}w=x[3]for x=1,#u do local u=e(u,x)w[x]=m(d(39,99),(u-(v+x))%256)end ba=y[ba+24658]or z(67006,ba+24658)end end until ba==61694 end)("\142\150\140\142\140\155",33)]or function(u,v)if v<0 then return t(u,-v)end return(u*2^v)%p;end;t=o and o[(function(u,v)local w local x={}local y={}local function z(ba,bb)y[bb]=ba;return y[bb]end local ba={}ba[1]=1 ba[2]=2 ba[3]=2 local ba=-15264 repeat if ba>=-36300 then if ba~=-15264 then return g(w)else x[4]={}w=x[4]for x=1,#u do local u=e(u,x)w[x]=m(d(39,99),(u-(v+x))%256)end ba=y[ba+65867]or z(-36300,ba+65867)end else break end until ba==-45981 end)("\165\167\157\159\157\172",50)]or function(u,v)if v<0 then return s(u,-v)end return h(u%p/2^v)end;local u=o and o[(function(u,v)local w={}for x=1,#u do local u=e(u,x)w[x]=m(d(39,99),(u-(v+x))%256)end return g(w)end)("\205\205\219\210",106)]or function(u,v)local w=0 local x=1 while u>0 and v>0 do local y,z local ba={}local function bb(bc,bd)ba[bd]=bc;return ba[bd]end local bc={}bc[1]=0 bc[2]=2 bc[3]=2 local bc=-18847 repeat if bc<=-18847 then if bc<-18847 then break else y=u%2 z=v%2 if y==1 and z==1 then w=w+x;end;bc=ba[bc+12499]or bb(49997,bc+12499)end else if bc<=49997 then u=h(u/2)v=h(v/2)bc=ba[bc+14750]or bb(57372,bc+14750)else x=x*2 bc=ba[bc+55359]or bb(-30163,bc+55359)end end until bc==-30163 end;return w;end local m=o and o[(function(o,v)local w={}for x=1,#o do local o=e(o,x)w[x]=m(d(39,99),(o-(v+x))%256)end return g(w)end)("\110\123\125\131",11)]or function(m)m=m%p return(p-1)-m end local m=(table.create or function(m)return{k({},1,m)};end)local o=rawset local function p(v)local w=33 local x=85 local y={}local z=#v local ba=1 local bb=1 while ba<=z do local bc=ba+4 local z=(bc<=z)and 5 or(z-ba+1)if z==0 then break;end;local v,bc,bd,be,bf=e(v,ba,bc)if z<5 then bc=bc or 117;bd=bd or 117;be=be or 117;bf=bf or 117;end;if(v<w or v>=w+x)then return"";end;if z>=2 and(bc<w or bc>=w+x)then return"";end;if z>=3 and(bd<w or bd>=w+x)then return"";end;if z>=4 and(be<w or be>=w+x)then return"";end;if z>=5 and(bf<w or bf>=w+x)then return"";end;local v=((((v-w)*x+(bc-w))*x+(bd-w))*x+(be-w))*x+(bf-w)local w=u(t(v,24),255)local x=u(t(v,16),255)local bc=u(t(v,8),255)local v=u(v,255)local v=d(w,x,bc,v)if z<5 then v=b(v,1,z-1);end;y[bb]=v;bb=bb+1;ba=ba+5;end;return g(y);end;local function v(w)local x,y,z,ba=nil,nil,nil,nil local bb={}for bc=0,255 do bb[bc]=d(bc);end;local function d(bc)local bd=-1 local be=256 local bf=257 local bg=258 local bh=259 local bi=260 local bj=#bc local bk=1 local bl=0 local bm=0 local function bn(bo)while bm<bo and bk<=bj do local bc=e(bc,bk)bk=bk+1;bl=bl+s(bc,bm);bm=bm+8;end;end;local function bc()if bm==0 then bn(1);end;local bj=u(bl,1)bl=t(bl,1);bm=bm-1;return bj;end;local function bj(bk)if bk<=0 then return 0;end;bn(bk);local bn=s(1,bk)-1 local bn=u(bl,bn)bl=t(bl,bk);bm=bm-bk;return bn;end;local function bk()local bl=0 while bc()==0 do bl=bl+1;if bl>31 then break;end;end;if bl==0 then return 1;end;local bm=1 for bn=1,bl do bm=bm*2+bc();end;return bm;end;local function bl(bm)local bn=0 while bc()==0 do bn=bn+1;end;if bm==0 then return bn;end;local bo=bj(bm)return bn*(2^bm)+bo;end;local function bm(bn)local bo={}local function bp(bq,br,bs)local bt=bo for bu=br-1,0,-1 do local t=u(t(bq,bu),1)if not bt[t]then bt[t]={};end;bt=bt[t];end;bt[bd]=bs;end;local t=bk()-1 if t<=0 then return bo;end;local u=0 local bq={}local br=-1 local bs=0 for bt=1,t do local t if bn then if bt==1 then t=bj(8);else local bn=bk()t=br+bn;end;else local bn=bk()if bt==1 then t=bn-1;else t=br+bn;end;end;local bn if bt==1 then bn=bk();else local bt=bc()if bt==1 then bn=bs;else bn=bk();end;end;if bn>u then u=bn;end;local bk=bq[bn]if bk==nil then bk={};bq[bn]=bk;end;bk[#bk+1]=t;br=t;bs=bn;end;local t=0 local bk=0 for bn=1,u do local u=bq[bn]if u~=nil then l(u);if bn>bk then t=s(t,bn-bk);bk=bn;end;for l=1,#u do bp(t,bn,u[l]);t=t+1;end;end;end;return bo;end;local function l(t)local t=t while true do local u=bc()t=t[u];if not t then return;end;local t=t[bd]if t~=nil then return t;end;end;end;local t=bm(false)local u=bm(false)local bd=bm(false)local bk=bm(true)local bm=bm(true)local bn=bj(2)local bo,bp,bq,br if bn==0 then bo=x or 0;bp=y or 0;bq=z or 0;br=ba or 0;elseif bn==1 then local bn={[-1]=0,[0]=1,[1]=2,[2]=3};local bn={[0]=-1,[1]=0,[2]=1,[3]=2}local bs=bn[bj(2)]local bt=bn[bj(2)]local bu=bn[bj(2)]local bn=bn[bj(2)]bo=(x or 0)+bs;bp=(y or 0)+bt;bq=(z or 0)+bu;br=(ba or 0)+bn;x,y,z,ba=bo,bp,bq,br;else bo=bj(4);bp=bj(4);bq=bj(4);br=bj(4);x,y,z,ba=bo,bp,bq,br;end;local x={}local y=0 local z=false local ba=false while true do local t=ba and bd or(z and u or t)local t=l(t)if t==nil then break;end;if t==bi then break;end;if t==be then local u=z and bm or bk local u=l(u)if u==nil then break;end;local bd=bc()local bd=bl(bd==0 and bq or br)+1 local be=bb[u]y=y+1;x[y]=f(be,bd);z=(u==0);ba=true;elseif t==bf then local u=bc()local u=bl(u==0 and bo or bp)+1 local bc=bb[0]y=y+1;x[y]=f(bc,u);z=true;ba=true;elseif t==bg then local u=2+bj(5)local bc=bb[0]y=y+1;x[y]=f(bc,u);z=true;ba=true;elseif t==bh then local u=z and bm or bk local l=l(u)if l==nil then break;end;local u=2+bj(3)local bc=bb[l]y=y+1;x[y]=f(bc,u);z=(l==0);ba=true;else y=y+1;x[y]=bb[t];z=(t==0);ba=false;end;end;return g(x);end;local function f(l)local t={}local u=256 local x={}for y=1,u do x[y]={};for u=0,255 do x[y][u+1]=u;end;end;local u=0 local y=#l for z=1,y do local y=u+1 local x=x[y]local l=e(l,z)+1 local y=x[l]t[z]=bb[y];if l>1 then n(x,1,l-1,2);x[1]=y;end;u=y;end;return g(t);end;local function l(n,t)local u=#n if u==0 then return"";end;t=t+1;local x=m(u)local y={}local z=m(256)for ba=1,u do local ba=e(n,ba)y[ba]=(y[ba]or 0)+1;end;local ba=1 for bc=0,255 do local y=y[bc]or 0 z[bc]=ba;ba=ba+y;end;for y=1,u do local ba=e(n,y)local bc=z[ba]x[bc]=y;z[ba]=bc+1;end;local y=m(u)local t=t for z=1,u do t=x[t];y[z]=bb[e(n,t)];end;return g(y);end;local n=p(w)local p={}local t=0 local u=1 local w=#n while u+7<=w do local x,y,z,ba=e(n,u,u+3)local x=x+y*256+z*65536+ba*16777216 u=u+4;local y,z,ba,bb=e(n,u,u+3)local y=y+z*256+ba*65536+bb*16777216 u=u+4;if u+y-1>w then break;end;local n=b(n,u,u+y-1)u=u+y;local d=d(n)local d=f(d)local d=l(d,x)t=t+1;p[t]=d;end;return g(p);end;local d=v([==[FmB)/nNm6V!'r,*Ndg>Us8O8As8W+\+[Z2.s8W+KW/ucqA>kT`rfEiQs8W-!s8W-!s$MP;s8PHAq%"G,6Q[ZIs8W-!J#L_DW6h5)L\h&Nd%NdUW;f5?qZ"qBJ#L_f6N@)c+"$W0R*bm5s+^r0W'gT?$5!q&5_*o$HL0\lL\MAt,38cRW/uM-5@g_m%iO[4s8W*0IAfMgqEp#FIAfLT.WhW9LC,%OFJqPK.eKE$L\fAk5'3_fFK#5dTgJcf%XXSI@6SM;0]Bm%%J(Z"9\9mI+#ZgF0VQAi2I+lg@Di!b2U$pc*VM1B4j7?PK`*SH/o8&%J!dHK54%7F*[^74_Akc+@D[J\_hJO</o8&%LC(S#5$XIBL\^FJrfDZ02!)g+=>]`ls$&pL%iHR%Ll`biH&.P*667UeW6c\SKa\Ras$Ie^FGQ"d,1MB1FGQ$P64,d'LHa4C'\"9nKa`+fOFdu<)EME-clio73^h%c+o`+I6A>s^ndqJt*@g\rW6g.M6OPC9">Vff1fS-S$2P/I3b529s*L]kHDo2a"AKr["Y&Y3Jds6nOG4)[RR3,>g/*PO5?-i6KaspeqDFLl%LL\d@LTV0M&M#,dZ?1eJ!)*k9SLK>.PDcuU!Qp>W!Z%&nRFWE`acl>9i5=r@JcFB.)[N9_FAclL(XWAJeZTD`!d1XU0/sZelcNad_$-Zj\U.7g0-8TCl21AC6jK&=pR$%^8eGY@bJ%&6.AD:3=K)%L]EcYYUJ:8qsJrU3qo*/A/Q<T&Li%f*]KW8!e<;1+IXs7Ks[HY?lh'Ja3!:g(J7]bW?;gJZh>8XnVS?*k*'"EYU,0:b8Vhn!^#l!^!6M'duh>]3b)RFZA$#8C[YSbT60Y'$ETVR!\pZH>R(iHO^0R/IM:u#UdLEpn_g[b\q@kc$4/]V3njdVd)SmE?%l4_j*"aAPe\4nff9`p>G+Ds38_ZLCS[/iCTRjhWuT8mKH3Z?mYIbYiM+N!S^q\jmCm*!UQ.KOh>CQu2_WfkVjbr<P6ei8&%26_Af*BU>"+n8@3FQ\CFA6cHfFiKMP@PLWd-E2hf,7Q>dM-e%[f^'Q[>T\Mmi)#a>2EqlYE-*Vr].9T68_dXc/3MFGr8bk3^@6k`pR&Zjo.`Ou;P`9q9Wlgl8ul6.dNs2hjkqQSol2GG*X=8iJ_G$G2j"SU'9+e\f*RQ&",^qfU-QT(B':,d,g<(VQoRHd6%%ont_&YP"m_#tJaR^f`!BC&%1,XiOOiH'TI]RO)t=%-nr'guBi\L&K&^2G%K)W:Ah+ZK-=-8ukm+[G$Roj_cU/Yrs=Ya3uSTN1&Al9T=?QICUl/B9M>a_#l[]6?g?Y52ScMTlL&gB?pmT?o1e]XXQ)ja[p6U/XjZF,tqtOmZLI1GT2LV>HV/Ai8H)3[M3pXBmjM'!)lF+M%Y?[9QMeR!>r.GD$ba8f9iRp&^H\]X,K;&d,\eZ&YBKt>Hnk9+N3)jUadN>l=jACD'k,]<t3J!b!m,aBG,Y+b^,4eQ0a$i&\?-nd%cYK;D?f'qeNC?EXpnC&;K+L7,A\9Wc2o22!3;l&\OI7D_=Ol.#%h>;GfIT7jSq7loQuPNcm)I'=PChNVZ3Rno6GrOp0+!cH9snbBa2XS""$_B6W=0gUEu[]R1)'*[(RNKOb5$.LF9H!5h7D-uL80h5;I"UKLG4776O-&7T-PUbYk;UBa"66j&6:'cp+e>.(rd2MS)D`/J1HbBi0`6kiJOi5?,61Ub_bAkAX._3b@q0NH>mWi\)YKE.Me_9,b8:[%kMZZ'<;PU$eAi75Ln]^X-$>]<'&A^D/0/iFT_:/WBtbj*oIor^AhR5d"`*/`l=7:i8i0#-I^;Vgb71C*d<B:aVPS9AC24$(ubT#B0Yd4dKr>dItFarO3nVpmT4A3iIO,(Lj]>X5;gSk8u>!Uac86Db@rFpXgHQuel.d!4]c[^k\`k%pI$8FX4@c%&Bm^5rL3J<7orHFUd`)M!ZPjdIKX>ps>mD7*":_Xf:INN'/[C.Wr=8e3P3E1M2%B\6KuMcR9NRt5Ur?0A8"JH0l2J_lbXV/EsO#Naak@_B9i,SBYGgq&aERDS3$>ZUIA.ZKs)Z_BF=QA0Qie)4^tRgc`r.%$5eL=]*WdIENL`LI''OMQ_gk'#![f%Mc0B?sbJ>9:C54$Z-#BZQd``2*4RA9b!>EXT^&5X@l`-&)"[Kpak3!U3-MRE6_1#]`Y_esSCth-fX\[cVS^A6?"bMPZsPAs00ieMM=\!7n2uG;lIZ]qfZOH>:'_.9.q$8>PJOYhkI7ZeFG.=_lOY7Mu>Z\Kpm'W`"&AY,l&,!V8i8bUSm[&R^6J!bJ02KZn,:MH+\S+`KmY==^O"^nR.qblV<cJr)n4h!#.M4Xd5P,D!?MRRuY)=O9GUL,i*Z!mJcfUa.+Zl4@?b^d(b)EX;^hZ^u>dh;s;b.b^kgR:bP"KMg0&12A@jChaUcc]_p3E-kq5LZVc#:q1T7gf7c4b\bePl+N:L2")9ZlQX/KA^DtSd:ABq37TJ%<gnsoL=f-Y:D0>4AhD35CgQ5GcMdp(k:KpuCYW#?fNr7BC@q6ZHQ&INZ)CCB?R:C+_"Ml>V0fUdJZ@8g&+%@AqPC(QJRN\,^nju`gHfc=`h$dYf!;Y*ZRY[G5oR"r0lE*U@*gA0.Z/(Xma6#l6`aMWMj[/BU1:IWa.mq$]$B)P1=`f/\kKL0l;G7Fm:ON\$#$$lG%/qTV5F+mY`i<#)TpiG?m't:$DQ0JmS1-T%)?u_KNYF^gr;:?)^NJ[Y11\'CE`*jE3I&g;epV&Qpm'V$%NELK$C`3]19uEWgTiD/cc5n[u,;S?s/RcEXL1Tb>q(5/r2+,<06<[\n6(4(CgqkqWQ:Me.I/p@.,T2VU77oHZlRaf''+nPr=[K`srb_ac;WA[Mtut9G3"R_&g(OC:$SBpBhlb<P!=K1HO5Wk$"`]dBG]&F65rf1k^S8,QQ%6<NFMK#XA]L!8tAC"p-L\,q^@I<4][s0V15!p2TL-Bm"@.?3(JKA!F!pCn[=8lUK!lP+W#U.Q7#Vn'I=-'sf_l;=_Y'eK7dJX(l7n3&'<EPm\"@Z)>Dq4emYla!k.(!1K&c[Y_"fRoYhribgRQZ_$#;1*!s?.59e:GsZgjdA9$)aiRS(Ng'F.d+GBMpJQ95nBp/n&5"]EX=iM_MHcNJk3O8D,dTmJ^?]0K;$\(/8I4d$8O=!p+X0NgU0`H6KoB=L/?'QLS8CDG%*T,]@-nV4h?q@M_i-?&&B(e-8:W.VdALJgU?IX"P"R[,bVh:@XMFX"8PGnBg*,Oa:=GtXBZ(mJ5WlM@8%^-T2jlD1$JT3<n_P8gAjHg&j(L7fQkuVsM&DLi><N@VSd/],Z>4`&IW"(-6<#G_p2/r6)S0Gl_')lh:im4!&eQE]?&Dco;NsjEa\YQ28p`LEd&^!hUMt@r/@l_BrdJD^apf"m'UhoCUX78#T!P>'J<I/'Fe]XJ11BB*-`4IJ)(fJZ@dT86Aj^GQdEF@5ZeQSPk0<"R&N;Mu$mNhg$#uB?JVe8dU!/6m-o.Sa1`(4m%_"k]:$.S'f+_u,Nl<F@,#,Z!-1$R,H'VpJ?4%a5*`K;;9S3]WS47IsF_3ro.$i7o+]57Al%PkqZlj%X@2=O8>ZYYUPfd^"R%^QE(55V`c!NPs"keHThR!:<d^#Y^==7!&Pdu!.VWrdT=sfRdRap3IX?t"XDTFtc5qtoD*XGK6)4(ORM%WWSF,:H<eW\#bA-V-@'HL(&TbL0I#4n4mFZPLm;RG)7ScZnCBh2Q@E`irWk]V\_HS>h8a9NTYOG+Qr7N0LZ;Dc3$gXAG(K4N3h2;M!;>B4f#Hi\hee]&m#UDS$78Vjk2-&O'4qJ]Xc^qtK4#^UA9p,&LS=DeWNF.&PSlkKmrfF1V38C01)6<"M(<gKK^,\1L`!LqMf8c_!p][^P#aNU_EUb"r#kfnsC!d&Js`^HgaAnM8L@%OI1`"a,K-8]-uU1B_6K.nR;)a0PC>nrQg",+aXTJS&s0=SO2OBIg""^+gm#/DXaW8pF9$p^!]$aXC/;N+Rt&`qCg1GL[c=(]W2WEra:5uo63Q0=Hq/@\\0aTTCETj0>W$-\"V#YcY'<2rqR[n*KMmcM>rTQ62EdQA4QE%cg5^dKG;8Si-@Jl*S'Ou8LQF;%1h=A$dFO'OPM;%aW[C<Fe!@&TPfN06F?O$I-nEj.BuJf%3I8rSJJNFX;VU]K2"RjdEEAFNu-1+far!<s>d"VE!aKof5TK'r&?&Ar)q9Z6-_hP'"0?7Y`H@6/BMHB=WCbis5CRo"hP9G741!^3Kh@0tbA,"5@nBT^*W#UYe[Ul%G`)pUn!kb;T@Gq[<LP.:m=PK2`03\c_(Hc_Mr9J-]"8nJ^68<E%%;lWtfk(4b?>7a1L=shK47uoD];+As/L]UC.BS(&Zi[-ER,0Q/sAXqZ&M#(X+*%:\Y1-'2[=<?:/.a6\[/s`7M2*eG$1fp[l['j[GB%EaZ6]e'eWEO86Jm/NPRK@&<JZ,i]7X(b5h1]WbW`9m$*'d))+L5;8jOc.B(6+`b0iDo:.%is.cn_MO6fr:6+uc]/^E0n1e*;p_X,XWLS&JB,1Ms8eLYSXU=OC>S?na&Y`?Yi5#XM$OL&#=;R`cmLAjj;<$l"7`"%>\a?O[eT+iK0t$R.l>EWBRqA9FO22YLI_Gh0F,%<T1Xq'fDB[2sPH]%_*&)sqgXa0^8$\8VQA;]DF-VTIiSmJ<t"UB`'2K`M6e_a/hgAI(O6Pm015">iN2Mh5.k2*>^gCnQp<JIpWPlFAt3i3S`k_C5`V4>9rX0UN&ZFVBf/.YoNl:e"lu0j+(p/8:>Z]X&?T7Z>>f93KjlReGpQ<`$)jW^JNH,r2ZReo?)#:GkL67Z6]VjgbeP;(?9<.k5`D&4u43-t0M+DBr@@LdMl"#ud-]mK-3;UPsee"eg+?)_/p>MPMB73<C07YjS[UiC:^OTe*\b;p$CUVcp*<P%\]r$ulYs.9@:;Jk%&'`*c0Z1.6sb_9M)7D*_j2SHLRqXD!$$@Ds<:Q!(CHGJ?Vg9aB4UYEDbN\1/<bE?1_1#fP@_@&@NiO"Q,_R'F9&E+'kc.Kk:03J\89MTK9@0t@E0+r8[<A8n+#k]C<9QJ?[q+>m5>44"M<%B(=_4'IX;&<0*('GS2gm=q$4)sU^df%aYa('J"gkE`?NfJlcrggjtJ:q6n-e1bBT'O+FHYpSkL-CYgMh9/tMh1rm=.7<[%?m.G$g:X=!nglGqW)5U_VRf9=Ujo8USJ'CnGA+co&%b.kWCP-%g'k>"K6l3A(1dSV^k@UR(T1IUB_[AgTfc8=N53k.&6c[[8gXl2245jj5q.Vg9"$-oCQKlnJJAX4V*IGG+qXeuZcjOh'8=[,jXoIPrD^oF!WeZ61YYdQ<Md:Q;XlJUee'VUY&RFci?FI?)k445hM*7#[(GTVN)e8b[4E5%/p$1mh5Nq"6j[<hd[WSXbY9e<)6MMI#;^EXMMMlaBP((,?=p$m17PL.*b\<:\Y@7n3NAO0=_/sg:nWCPjp@eq._O-0-Bs%dB^=EE/(S_g1;G&n']Ro^\_]i/1!CeQa\7F#=//jA?o>Lfeh'`oUI`H@gaii`mfW[N$50#eMh)QBeC%fZ<k[mupE"GG^'EtUb:^K@BGU88ab*b7NTLk*5ZkL,KG/u-8Hq7';jJ](B)8G]p&p.Q&f'37lr$)E6D>?LQqAh]F[gOO4-X2r2`B8UR/q8K:k8\m(=gG7G5F@(_kmUo[[jg\<5_``R0a<P1DupubhL:A8"%!['JiD-HG[l[AqEDm9:./8d7Crk0?Qa"6c#/DjoSrHo&.WR]B(%#GGha>'\oHsTt-n_-)[PJXP''JkU,Z<NJJd_ON`:VW!Nd"*B,bc8Jm-o."Z^[3ups;M2ODuhqjJE\=@"Yk14!/=\&]Rgi"ZPaB?LILV6B67Be0?VVj#;PYt6B1WtB*JthYic9rIQ*N'VX1cM1W,ZA3A[,u)Ak5&23"q1\fLA%.oJY6F_P;8D7@\::0W3RgC%5hmlU?,?;QRRTVMfD1(5#?;(ZSisXo"s\9CjDh%QEkNZAM`^mH9JInGs5>@2<W&2CAl:+cgktFALSqK&1`sTZH3e3R=&$7EmL(@o@:AKKPAamd6*Y%4ASD3$%V:VASqq]o6QLMdC&F2(.1-m9.ZG]O.qM41j"pu1TBNZCPJ">2]JJ06L/ihWK7l@"V4WHVn($1E[Iu97KA6:\VZ\8e_(O-YF>PZMi9Do14c[&N0m,"ElOa\]r"%]/Q((>A!H-%O[7=U9uts.n"4dbKLcfZhF$L[.E!c8$7QL'DS*>.YB_`TW@k1rYjaDO:c$LX&6^7l0j.JEg7;W9O1AZ3rJ5=(VE-N.M5"I_\QkrfW#XWP#RClR6t2sp$IYCON1i/mKG3aW9m"6O1pVP(p5Xn<N*ne^Ee]^UYs+'JAolWadHY\^.5#GD"<"2%"C$b'_IT2"[W%loa(iT1XI6.nP=#ebc&+DnqE@A;%G0B'fq*IW#tgGU6DVVg"q%_1Vt)-tSM<.[\XV^sbZ[ul1(S3KB[#JpPg_u7)gcC6c=T0*3>f>F<D#+`%&mZ6=bBlL,)''VAcOR[)=>*RXk!fbX=^X=rJS=W2/aPCB3>E>9I3WbbDiTE/oA"+fr3/6M>cgrRt@B!@^E-jlW@"61o\.=S$c`b@k[n"O&;'l><cio[0e]g??F0=bq!pL;Q,^/Q,Y@X;FI6gH#We>jdGjt=j!mM>PuiVUZ;D)#)VCT"%,\k6Y/EDBF$2s#Xq!&>4OL]0[LAt3>c"PO@4m9A:BM9N7#h1/BP+Tm8_YF&WPl-2ThLH;^rMn+cgnJDM?L(.5,OkKjkV,0$=<-VA'^m;Bm]&cBNGfdE9*K3?b,+9,UpS@]H24A-a5kUC2*s/FrKhZU?ng(fEg,7Y4Gh$g:OsAo=3lg_8MB^edLa(`*<(M@a5@+:=&_A>F(*8OOh[U(BnLDFOs,7q*eW&N1ph&PS@W91Fd#-;h^?&;\P\64m5r,:u/KR>Da\&J6uO;*kE(9dE7Pm])K`8q[0U!d#*<#_C&>nk`/!8XV>EYA"N*U:\%Ql+0b>L6QE'0bY*!6rN,[LOtARXK5!)X)'8)H)FM4!45o4XE#M^G'bI'+bk$,a.bKQJ^(d"[BicYfb`h,J@J3PCS\f^CDIH+CCZ,T"u9,qb[\E8K'!T2U,ADMgViYMZ=`&aF=&GHdZE*VZ4q$^N/QtUYr=b?cTO&qW`NZShPQU.#7D\QOU`lI#QagC38Q$[,cmFaC4XbDF$kmaPpApF+t,`&GmH6*VG)f>Ad">+b$5JYOU+@J>h-"`d+,;BWu>1e3aT'CRuVil7VK+>hBpn>P.ae*1DSr%h8=S=&(Oo>OK"kf:227(R/-ja@XtuH=C#%LOt,chP(44V5`t>#7LC<Fg@XMnY)/n1g^beQ?#W']fMde+)!S>#fG\k2]<U6UEgR,!+9X6a[T`).;0$'AW=u^^NG<.X1W=MK,:sc+)0kV4&do("\Bkef*&Eh;r@MB<W$Vc2]12ns:`LI5JMASRRiT=9VZ9h]\ch_?Smc;Z/"$EGi+VcURA%$T#-k:jMcaV":tRXL(SGQjN$8:T$,k@'k.k_\G+\j@6T_R!ij]$6!'Et,mR+#),WPm5Bke2?+U%87'7`I[Of$((JtPXbPHn0nR:_^S'+(J'dnQGJ>4o`Zc`6k-E+^rSP/Oec1,nQ0QJ98ohcSX[+dge("V;s]7@]6Meic`m6BasR/PlT6$uj8(KsTLT@_[-`=mp9U)QTHI=RMqQ!:`tR=JmdPjumc3m"Te[ahXn&UtE<3<:0+h^'uMpMRiP7hO_eB0;-Y0j^usgUdijsN-'\SmmG?'p.XhBgKAC2/#eCQG*t\ZF1\1j:'[I<b`.-uSp<e?*i5GNG"7B8(@6sDBI0W[;jm=,0U/9nWaL70h(CQI6*L\$e-Woe*Z!IIN!/J[$<Ba8Y*UsGCK"?mQ?AuG<Ag1p2/+].+"g4e@h<O`BN-Up09"mmYGinM;..QM1FKW^N$cAa-="q,;C?X^!3g%o1j^We&uGgVRUoDRR:IitTEP<>!6ldn<hr"R8Q\V&LJ.^#T8S,,14pEXR:&=sC8beX@"N9Nm+1GpSm,p:dK*ng;QCIu'U2/=/4otL='6^$dL\rD#.UDbeAFJFcV_EFNa<8B-:W`a-;:d_6BoqAR8g:3dP,mg,[d*LDf1FD4RFT-S%6X<DF?`8;3JR<Wa1\8FA(:TSUrg,;_'D\C6E<&.(8?5E8.58'bp_8k#"j@+f(U]G+cdf_GohKYR4k%F^m7aV<#kRl(scp#mF]^fG$YCF-QV;?o_o?6&Lfc-J1[?mpVlAMEt\o(aZsD6`+>.ku;`7.6#?T1Qp341J4r,g'[36/kT.hOZa]p(1[<M9J#omUQc@I+;b.pjYU`#LM//A13]'1BZ_UoQiq)RYj/5^ja<&5Ris_BK-=1=9SPgZ\ftN"c!=q;&Lqi'@+Q*-d0To/R+qas&>HUk"5^F0=^\CgYfpSfc/ODT]U"XU$la7*NAc<DALe6/EPcUaBeGCeR%b!t,R@i+B9J;@ec\@C+OPGN$%mgA.k(si_'7&W"KE'2LD>3u(hq''@O>TG3@-=m@"T^<)X3>3LQVooV8\+^BeXWFk<8Fl#8Gr14(Uo?8-92n.8mI5S&1ms"quu^g$lKt6R_]NU_n00hWnt#QM:7,=qHLb"HfV/+.O\%%#r>0\sg!,kj+PjR`Q:4-Y#io14#.EU"Nj!@ouK%`1=p/Kc>31^q/Bjc9_qB&&mII9:8ps0'0H<D2Z?oOf:_2E3uM:-YBc"/7X4DdBc#k2S5P[38I<FKNO4U=OH5QUhWN4XtL3"`^lg3<%t<t`$H!C_i3s'Yg/J,,fX$M16aT#P1.nh$o47tF*EhB8"!>7&n;c]KmFSt#"+3[PXfrcCIafn#"Y/9_F5!,JfB@SG>g#VCc)FfP_fKOZ\L;/AgT3hRH2Iq/2cA57H"r5@o)=0U*U4G6-C^7`Nn'h8M_1fZX>LA6l;*J$=[DjhnPP$X_(=u3JfL'8m&BfMA(t)9,9XW)(j;"Pbsh;0b_um90u]7Mq_DYckN4MT\/l^H))9jYk4/U1fDecF^:$D*C>$*P>RIn955]r@B*gp0R>u?4Od/3Ur4+0GXL%QF-on&)_EF_`afk;BOkiB\4-(Y5n>]g?nj\s@Y#^?#8n;W)+H1'=k9o1dR"^Yo$!$q6m_GjBr%Y2b`U;?9?EDP#j%qrQ5Q6q.3b/cAkIp"]Zb'fU'D"9Ul8,"(=CWs"UY\RM$4RV&6^I3+q9O)0lo?L/lE434Tf7$EYjHQK#'&"DM>,3JifDh1O1Z(DmPus=pQH@%h_;cULLOUe#LHUU+'1eJjr[GN+J\rZ:I;=_u_Ck$>Y?smIK1+0EQ74OMde]An";#1Pp-D6&6A7gc^=ZM$YI_8VE'`+k40/A0J"1,`?cN<!sb+(pg0<)C'.9h4WO2;+BkZ#bhXK`SRRK18hBdOZ4O@8MY*<;arL:,QfSdKO/Sc#n)n%ePrYf-I2rO3dX_\!i(PO=@e$G%$k*k;Xi./Z7$7'i$jb`(t"S<"GqAl9)qEfeXGoi"]HIBjp@<I!o5Cu_;#0P6"";62QosDG\g2a,pb#DQft/WoLMt7$Z;ae("6<[@%KqDYDL)sYQDpX(nC"<L!'d]6&6I6Ok)dQ.9TN:/.\Q5)ap#qaLn!1b(([H&]k>%Eg2GD=+b($:6\i&UD&@F,,1K:Sh\_GTURX&'YRqT>Afua9?T,tb#MS36"1+3+^g@bbft1F6ic%PaI9Z9@1ql5`#O;IGI^WDPQ_4/b:$Fj?=\pZ+IP;7\XTT%;jN$[C0OC6-j%23k7,A#MH#at<7hIC^aPO;.9"n566WD,R:,I0OqBLN%k=>0'4OA?eO`I;TiX)i7U=t._Q:hC1<Wrl+He8YPD@Lo+ed"E/m$;"/dO34[XquSnr$tAl9PE8M.4OoKJ$\D-:!Mi9.@>>foh_""G;%FP3$f-g]IYFRMdgdBi;@55H:jh#[r#Xc5KEo8nQ4u(GqR32^'qcfS[poD:'PmW`n(e;8GpLa:4s[W$#Y,Me7L<ORhU9`%IOM65H?DN/h:6,;GKZ)<`fnS2"33k;4?B5sU+>"+$2g*i#![\m4L4bK`"a0LV>*(^s"oR7'p?.ZC1I,pol_RAEAh\-3J.\X=,W7F,7rL7-HNJ;Tb_Q0rN`i\`aP4ijBl;()s>R*<g2#89_R>%K,R<gg!ba,?<ej=r>C8-G.?m[6HRNk#rG>:a6/c:jrMbtLgL@k^JG0&i%>&6*b>!WamaKkTVC'=pbkg]WiUW'#_o@sqt+7n./=QWuds8Kh[h8nO3K7?[cb/RsrVQqA=+_Qm2[qE-2C#'n;N*cgl1Yr$NjV3%063F)n[98Y/S(1#)t]obem+^Q@j3A;qOR2D/*9o,]4lGUnX,dS2deoeM@._&'C#PScH@LO"eJj]daCLhs@k](*`\I7U.MPYZ?).ebaA_TOXYBNmIR`EX(\I<SX#88=n7[G&WabhJtWSj[[GtLsg"#C>).*4n6QNsu:A'IQ1;PUb=/jbJ:F2/JW&u?F-)NA?lM^U$4*^ZS1a]!VhN#la\RNg!._I/?gErq0gL1IB!=eN)Nj@Bk7HAmdk,RZrLS,d"LQ&7[=k:eblFNWgA&4X3U,`69WbTsA0>,OhWEXQp+9I<T-H.*[kge'A"<6-L6A:Z(bL!\$t8:kG#UZs2$6;'lk-jIkR:kk,UXun-9'8teb,E5:#+>J`V(WmAc#7Iqt166#U;:-3`@-5!g3PuT'R2?[`0Gl4T3Y5,.![Nh-DL7e>j:ofe+]].T%2tp1,(`il@W@Z=(DUN,gk/1skXH-p::U[];%6"h+EO<JDGY*1XI0kRMAYP61NWl,+9f)rXTb.5apeoCO_.MN&.N<M!8VB]+h/EOD?(hJ!g<F[/.+0@$j7]ig^k6q"a9u$\0jmh.Rp=.#q-%Gf1bRB]G-!M\Y6P7&=&A\8Y_FW`EXQG\r0<[0nil/aVd/`&6]>D5`BS\nrfh@Ai(tU+>t_hlR"0>10)Et"Ye"_2(VQYQmF2kTpt*qRYTf&kh^=j1`68t"_*n]QL,=/r:2*/H%UuSh6JGp<#'$l!(?li6!0Oe#L<Ib/"=L2c'_@>GssL3=r1J+CDN`m(Ts8g?^aD92E>__VHI]X.EsV:7'hc,BGRAB$UlNmZ'8kN/Q9'SC7;Q=4B'cI+1RI6OJ&U>n@5N.,!^__mb."t!P"Uuo6RC9Pr.5Aa=OHNbR09P2EI#0'*?eHig_a=9ZWZB@MDE9:a.#[Pt[I\BJa0rPsbVn>!`d##r:6W8ZJk+QMX60<=Ud"//(8\(c3bRG=%r76:_^hRul=^2s72IS'9lS84AG08`f65]!d473gO=-\P$NV<[=,&))A6&R=0Fs<B(=_AIl.)417[;d4>YJZatJin=j\VH8q=(".:ag7V%h^Lr1K)WX5)92$/;b:]s0!!$V`kP#PT*//FUP,ma2tCAA9H2.o=;P%LtX&dACcK4pS%?.,fb$tp9QW"V4[77<qLOu-ql]D5Q1-q&VgLWhf;<6E95"u8N@.Z"uC7:u4`b_e`!eKkbm8>Wd4d4@=RB&-0Zopj6p6=u3GWc(9.T_D*Q,;/:CgHo!'S:H^$6I8E+'TtG25U-h35U<&F#QOt+TTNAK&KmlQ+r(cZeJ806!e=2AEs&.>%V>cRRUon1+J``r!+Jik7&hk2Z_Arq!0i9hCP5I8B<%=4kbPL!Tg:/>Uk2'J,pBVC,*anb'WEiuekr.E&I-,s0*;EXMFOTf6=re4BpJd1<jGAukbdV_RABq`(hE>Wa=Ig_=oX^b\S9VY+#(t5bfHkMA6'a,>POB*U+.pVFXbQN6"K\+aK.")('Vcq/JFPS=<b))+gZ85Zfi7*'P(6dbQKtpoe\F.[$&YA9c5C4,dV!d-tiYnJdZ:[\7h$,4@uRHKhU%bpCYUTk!BT]r_/PGUffaT1lIJhWk-8&a#^309E[bied.'3MH!Od,:FcGJelFDg6jd%9h7_A%g9)G!7:5De"biG;Y;;d6)sRKX3S6'"n+[18Krp\ZXqm/MMBt*&jWGm%J>Sa-irN7'HpB0G(*Y)&fi)-'dTOW,(rKR&4%QcKEssi&41ntE(1.#,`%8,&4-p65nG1BKHQEh!g*bA&;1UN7"c*o#a$To#a#[g;*p'a+qZ"%!^["k66l[X,(]e++f)E*=_f9+"<^#VJk2>qKb+h.#_5I-=[ba#,_I$"ckO\0!UT-p$*?ZN;MGrU7$g:a&gAJei#*>'&0V0#+bGLMObb7g&0MU=5ZI[n8H9nK6UUqJHA^3=.Cj0$l4FU0JcJ1O#a$58_AOXb,gA)s<!l2"OT:LT5R8N$'$_mKKRaUG!$Mms&gE/D#U)Hh,Xd;VKF")F6ARUr"VD=jJ.Nn2OU*-r326V0!.bDB,Q^5#,\iV\&4qZh6:=3IOUqX-!0IC-&:lXk224@q,pWLX+HhN`,(U:26p_086pqRf+V4r'!!*4b!/)I;L]AX7)'oE9Le%Y7+@Hb`"G@><L^5.:+[QGY+qXhu!g/-9!<Njq7#47H)'oD/i/AR@#SE1%+X.Ob,U*:5BI8S!6mNq=+<h@g!!n,u&eWD;5sP]"M',^8+G::,"<erj5l`&@"<mkc7L9ZY&4qN\+VKA^PQW*?R08+4!.fZ6<YLQ%6=^c173J=oTHkZ`KSU1>l6@T7UP5'9P_]Vh!&5UL#iU^X#__,p)F=]qJ.RNm7#6[j<]p`i&HO'^!WnKP,Tn9X&->9GJq+,hKSU1q";/^o@3R+V&4Ap-,XWhW%#GN=Oq8`I!eL[iOU)#N+:o-A1J/c6Jj9T0#U'6P&L'L`,)@Lra=6QHcH\Rs8qAUg6o]%8if"WsJk.)KWea'MkDl+0L]L+95R</k5U8W@<=:!:"<sg;OK(SX8J"3V7*)G[Oq:3<&-<-:,c#_t#Q^&!KN&;1O@fO>#U+j463n/'&OD5'L^51mLd2)?,nV=,!?soSL]g*i6puie5XY_d![.Q"Uae_;"Ge0e#U1H!5X^Dr&.sbTLe%ZaM*b+:6iaC",R/*Ac19%PeV;9t)O[_"a=O&0ZRlo[<UGuQo(,`BUiI#s,6Z@!1e>Sn5sYd0Y`H/oh!*f@_$-1r;?k<jLmKaKl`A8=-"@KOSWTOcL.J0'4(hi^]*,<B-H-m#"WIS>9)tm9%;XRdm/XY)"2Q+IPA3NAlWQoeY)q?">H/\\>?=M\4>SQZ2ae2h8IuJ*";*pB!/O#C&-@YU6pq#!M$Thc)Fb=U)'srl#R!GHO9u$i#XJ_>J4K`p<#Gsm80B)^,(QVLL_(+!J4P3H!$J(8+;,80&0_,e&OHa(#_<O2M$QKL+peO,+:&)O!GAci1KkoS&.q53B@J%JL_)lU&SJH^+qY@tLdZnPausAA'=ln$P,hs,j;\1NSYM<]13UZKQSA$;08k"pl%-Z']BFji/rmS`<d?!d'ST>nOP22O1md.g1XAcMdsbqLr(O`dr-Vqci3Eaam%L:0\Ek-s:'8.LKb^kp,?C.s7fl#%_TojS>[Bo8<`fr[Y?l@#hta1Jj_()Y)U`nQ!RG*'kj;OdH\00QqGM<-m(FgJ0mRbM[uc2eH//Xt=&s(Amt..::SO+WQ6mG$mB`k*.:li,caL.:6;,CUV9lm5]^r-dGEJmr\\/Yh`(QT*-kQG)+VI'HOU)4\"@*5ZWXia,&4/c1!CD<-!^mZSJ4Lk.!YG\M!C?dB&4?XD#a#ZB!$M=c+9I3e&-O255U8Vu6i]VAWWaQg&!E(f8/.6o0Lf&WWG@g1P:C,H+G>qk>0T>,j3gP'/6q?FGUi-%p$QI!Ou8,<l.qls1\+5+??dO7X05D*Y.8MOI\pboFEoj<mJO2Z:$!),^f_/qe%N-/"B5=H"(qsR*kCo`+.VK?4Ro,V[usY@C;m%+bZA+K>MBJB`f"V+ZHubhPYH0s*'30/d@0f7)Fj:hp5X]^4/\[97*A4X8@YU)0/$('3/4OC/o>_dbV$.MjVM42q0]3uDO+^DI[Q5.YV6(K65>/Q[Vi,/3a4^=J_jN`BgS=&SC'Z&9ct&m&4?X5+`LX7i+PrQD*L1am6%:C*\Taq]GOi)9"XRbIJVBm6_g=<gFp1ORkEO?na\[tmA(1rIZ_/%-,S-fP>>h(qP=JuT-31-Qe!c2^:Kl%G"EH\?L&$?bHCOus0?h!b#?5!QQCNOk]kKZm`I%<fP?&/X"SWYds(J`2-T=kbQ4d]1u+jc?T'^m]W=9\5(&JIAq#%(dVf)XYo/5&7"PP0#SA".]U1Nkga:R(bds7Y=m,1aHLIn8HFA-lgjiD:DT0_1eWMIkg>.q^Y"O]i6K?j?i'f,@0$=>\^=+aM[&5>%DDkfF>jr+S5OlT8U*$.')l\8PASN3k1U6%*g,cE_i<>QZqd4i_Z@(*5\$phVAc6maI.'`"k'8fR)O3BjeC(ZS($0H4SsE-d3n.WQo7EOh`meRhcW7W7`la'[qG;"d7#J8*'OfP$RfKTr/,/up@-(N0#d*XL/I&l4G_j=Ac-jS+8Z;!5'm0P>WWf@9"9\dV/'mUt,k[GEReo0#f!@\A$$\AFAS7r>oB-K3ZS6?Y.b/9k<?/Wp6Yl[8QZqa]SKR_fHbt"QSu$MS&&fgEOD8jh.D&$7g2YC=VdJTCC0IOD>:206NSU'?Uf`PgSLgt6U22kKME9M.[`_ES&r4cGr/AI(T%?>Kc=8#rcFH=14gqrW53'qmm]<Kme58J&J.rWL>dDqIN$_P*"GG!V6NHuh!6$FQIaqF7QgIh9%sg/UT%,V:MrNgJWASV*AiST3^!gWEf;J&ul%7*9SE?Y7QZT=EYsJHWRjlk$<\S;Gg>0!/:o<%;dE=R[)1+"lj6[L<ZI>qI9cSZH54*H@ft=C"bhUcVi!^!:g%2M@PROUkcqmr7R$BL"qcu++=jLP-L6mjuh+jHOj'slDES$5jSaj5JZRj*ZR&XAK!!n/f+G_:@CZ\(e<].]u!ZH#sBYOqQ00M/\mI$7=bgXXegFd:)+V$CKl<JLCB\)@:gCP0-DF(ZS@cOc,\OisL`FLs[Gq+/'j8l=0@V23e'ESuDr;?N=(gMF\\Znrrg,XMmEsY!:>o\8q=09n&9BK/IUC'T0)k/L?@]1(aM<0_%'Ias27A17o"9O\g64b>-,XDup8;KN!"REUh<b`>g<f>1b0[m*bK_%")<\qAO@Y9Zsr8?OgZ8=>dF24bD@qVCMSnmq'/eu0d"DejRd]3,0Na7r`+e[q7QmGIm?&"n=5&enpotk4q.0_Ct,GA.m$dL;t\7+u;K*NIC#;3]gH-2gJQT)7l_3">9D5aTejgcj#)[2+t'G6H5+d/kT)S[E_I9*86okce:Y7dF8mAF;0>E/54N#bf#()k07bP[%;`?NW>4kXN9.#W_$?5ccn>nAZ+-EE\]WTKK/k':\Hiu(n\(;X5mUeY\j3M4HtXpGdc&>0qIbg`kl#IQliZ`8$hUrj7q84oqa0D/Z)DQ>_Ip,3<O<fn,"`u*p\ljthmOUGGYR'p:B`gMhcOVGC?QX3M3YAVj;s4*7JX@e7Q:]s$Q#eYSPp$:24gTmf-h<!p,Q1\eT[+m04(27gKr7$4nmE@Y7).$6T(YraZeZIRR@-SV&.5V\cC97np/'hn;4$1W/buq&$n'YXJe]>CtY,/`V!B]$opUK.8>Q?<q;Rt5=Aed7@fVf5uZAffIh7W(M/`("UR>FpN&LT^5>bg]WY-mOP0:T]+:ESh;h:\Dpj^f8V1dq]^P7[!.+N];@/V09#P=.g='FRT[kd@MJl/C%ucRa3\lDg&s94;MRjIQ\D]Gk#HT4^VTpEF@HhC;IlFdK"B[)RkR1(kq)L3]lKUS_2K:WQg\OjluA\25V7Vm=C-F/\6Qe3*1FcU,,)/j4W$%lI7!+Q0=/o#l;k8IJ[NXZ+1EK'&Ne''i`j=[sji6F%M`AV9N9FEQ*+Z<"Va*u\/2@!#j%2X<A8W`1eU&:t`1K_-VoPXHX57L=SVC^*m<QhegjRq-]50AD!GJBS&R!,.#n#=O^>LX@X]ogN"<)$FEKV-L@(-DG6@6sun+B`7=Y7Pe($BCW&b>s\hPH+aTQRAsr5cOADY3PRB,W5\2Ta_AACE8o;HfKGa+bL>Z$V5idN[PoKt8B$)Z`$H#"0.Mt5W3Xep!-E65='p!aL5Z"fXkV/_kkr,s]]e;P?Zs4NLE4*B_9BPLCO3/@IJ'>XFRmT)bo#XE#_<NeRt8fT+WJ!PB">R#NETU)+V4]=^>q$b[A'R437sHqBqhIs:"IcaQ:7k<%?j8KJ;=1lWg1QO_.L'!0e(UdR4@!)5K0)LUoT(R(<e=OG+NElg``mI<DMN[8H=_]!hlMLeDeBLY3.E&,?6pi#XFMeNU;0,ZXKhB,*Nla-j>-@V@\8IJ.$'C2sXBeQrPe3!^bhi=tJ<h<HMeKO'>)RPtC93dW$9DnD(I\!3dd2<(/#7R">VE[C2'o7r!_i0pdP$`^Hf\1%j$j15^$j:NrZd=j$rT>SZRLUr$hDjcG(inV_fOZN7'uOoT;j<>,BV#Q^J5!SE@2g43/G>QRSmehdVR5m3jE<iTG3)X)!7:kUNt##*RQEqk%E(E*HR&qH'H7gOZFF%K)k'>Zr,&Vj>c7]Ig;`$CB8WR<(%$>5E]HEB?]Q)^0D]d<`$6:ceR5R7p!4U=:YO]50`+9[f0+sI"RAnaRS"FuS+70;-!7qe]%ONPBW-%o5=$)o$M'7h?\&5je[+9[?/;H69<J5dR]KJQ4CUiIRj6M*%"!$TmGbZ[>FD'>17aG:6N<?6[Q8jb's&#gsDWX9mPKN&A35UqYJ8;'q^;Um\)[Kn#^R8nn?KN&WlWB-+Jf>t%t8G-/^;BcZME?MU#+g^a$8i`lb#U,HW,F*#*=^FR0ad<r$lO<t`B"^X59M#5g8LcVcWpL?cdO`(9b&_U(G"F1FP!io!P6<un!RM)pA6'>K^*E\,![/:Hd]>L*o!b(gMTfg&6q"$ZR8nrkOBG3^Q7\;_=[aS:Q^VMh,m&Td!$S\C&-,%/*?g]"5Y/j;Le4%X"Tk?m=iHO(TTNCOJtNA\P<]ob2T[L-,62CTogNJ@74MRjZUBaOek#I%TI:-j'bmXA-u.<f&l>C(+omUq#b[;P6Rl`EqOs+1)Za?D2?gT5P);9!;BiFU6n6_4e]T*i@msD*k5lJ,!(&.T8Tc1V/BBAL&I8Dr"OIH_5sQf2A6)SB<P9<MR#tMm&1ko([RdffKLRG>2bdOtCag5nB3nbH(0Woi6i![j@^MF1Q"Mc>k4KsM<JHncZ1/k8%LJWIkE`f&#?Rj4JC8t62-AH7kD361^M;QSYMK)(q1a'U!B`1^!Uh[p@:<@oPDMR0_H_hY";!nUL^5.8+p("8#Qt\E+TN+:#RGt`#*'!(+U!H08H?WqYQ6%A"<\78d]QKk\n,0WbVe)=A=?E>#llQId53'LWOlh388a/KZ@*4oB")GaT74[PkN3Z\U=cu%7E,E<$k.f>WGeHW*GB#bqaPt=gEO?CBhf+*,7TN?dBF9O33>@n0sD<Y\ZX7ZZmZ"#Ju$V+NU`TViF\SLZoQ',;9tJY1,i[n1hKVIL7U(gPScfgP_MM!H-8[4WSgpOglnPJ:iVC"7RD/gAqc_KBmQ_5Gnq,]Lb1D0MWVd1jWdJ-Y)l:)&V,F0QDNe2!g@6(+dJ'5-_b6`>f5@YcqJt1!JEjQRmf'P>_*+'1(f<e3?])20$d)2W#imOZ:p&k7$tRePD!)#Mn'5I8#?7lTt1@QVj&ViPDhhkU;1FT,RXX4A;'B=$();C$,fA(&/(K[FMcP"QlOI,;MY@t;kS`=R$h*B-"TD`$I#>3?jM@04&)Ln$T*VUPp$5$BhRSX,\&H(-75/(#pou@mS!Zg6rXjpP(@jSA1fYEL]`<u)3dNS85>o[K1&cdMO?"do\@]]Eg[2T!_lgiXt#9"0t3O7b8hMWbY0aTS=*#>,ZpF<MR#cc&'E[*Q:6s6J='4GPQC;bPRO,R)!OU-9R-o>YU!A[6m@JBSeTR?2pk31U(N`rXIHgPGI(gt.$kp3PZa5<\,JF.ZRAb:9QJU=RE7#gEZl<3Au6,M3`%RMjq7t]O[969n73dWVIW0[EZ"roTXdoP;#oDY+D-4eMBR0M-j!r]+[?Wi-6eWR-'JH[!f6Z7/T3ItJW_-5M]oV<(A&`.<gR5dJ6qA+#,%Fc0cE=^`>FP/,>#ESJ0sIsSVE.3'Grs=-tf8'W/+;N,Z<cem_Kq-P)K[A$S]nBOe<:16CP("SZ>8e&Bpf!`5Ei\blMUj,QRNA!G+*E?B.pJLaZ[tAV%!:$d&c:U?EflPfIH80H#l47M.+=2ZY*GQ%_"d+HdiK,)D&:(f[c'!!iU%&qD0+KRcOlA=aO6/'m?g%GouX+U(A-(;)k"M6:#7G8'U2-k]-@PC?=b5VlE^JcnPAV'(GY"W7=a`1>QK`uYjTZ4)H<8&%TTE`#=D&RF)[KM%+C1Oq*t+OGpX:)P4.:=7974H\?^8Iu.=!o3*2+i,Hj#UE#a!_O(K2$=L'!QcU?Les$f$B6/W2\RB47M$.Z,W>d9P":bkKLRqrKX`F!)8qOfF[[),?lo):Q5u@CQ0gOb'CjSaF7+-h8K\o*"CAV']Q-_GD`N47L]Q/VETN]F=^-FLWp\/l4+$f6g@qCsk1mRU;)iFMdXZ+[<6ad.W+)s),?nH26Ng^(U'HP&-Vl-i4de^Jlir'b8+S^*2%>UQI*#M=$lh!IAT)uc&?7(JO9KMHpt/^?[(6s1]'?)>-P#P125O<dc$YlS70h17>gs6g8\"D[q*U?nrjme@_t0qT)3D;p/&=9J*6DoA*e-ija,TWA,kH8LKcUO?pF)Euine*p]dsn=512X"d5Yc(N:CYnE48loM:D&#><%?t!i\9MU\,'+e?4becBsE0?4kD3&5Wuf!YcH>0pJCG&RP3s"iX#FaOn]OC*Ef@[_<E9h"`]Me;.`WD@=*ikJHS[4:('<\Ubn)DWiqY[gs*YhuZ#OU*Q=;gc7A2*$!F9IAA_C$mPp7p9"p<nXs2SJp;cT-lTlrdNLol<<TL;RUu23fT"VNk_nU.[n`^-7eZ.Rc]N8:Sp]n;qHi@)@htS[oPW]k3IBpt6ah.5H+RnXRsSJf5!6_MgKGsukFJTI_o8,!o+'Tcei\GnDsd%jc*bO[1"Z"W[2Q[4TZtHM]t*^8'0(.,/p>0i,B;f*riN6p?aKY)1"qnRcPnq>MA1#W4Kj$'al(#,ea24adoS0KH&HH;^[Q2A>d:frF@m6bgO)JT$Zg5*W/Y>d^g-G$"!$mC=@iKLK+]:p";!?3Ft?_VLa&"<#[h!R5S3ub!#-*2#U/3\2R>h/%#&u\0:uJe<8D&^?IG,lF<u\R7*%P)*68<X#78c>+*11sj\?U7-K*9HTkfn&]c:"5&K\LFL)!Qc'-FOoP!^2@o>:HEO<anc)Ae1lSJQs#Nf'j*YM&74<OH:G0]#m@XBH-I!eW+0\5bJ$-J-4q_*D@8CHANOij<'=/7Da<5'9/X#>35n/dik#Z^Mo\eM]2+eWPU"2Hh.YC[5MsX@_EgSp1UiXL?2nA<q#d0K!OlXQF@43,O5ji_r<_";+Wc,KO"UZee.LdTk"B&ujSK4&2eb>YK?A0Noo*$e)a->ZJOSYGA09JRs*AAY`3ni)#2.kuJT#ecYsp(i>]keP$$LF+d8pZM+82FT]:B(BuUI!(.l*"GF!*!^,GY;-1.P0!X828ObMNfOQUbVu=h_0#RRhOT;n`<-M+?]YuT4i(B^Nk(b"KWCiog:f<QJaRKC`D$g)D8;tK$Z_SC/eI3WEKV2lh7B-Ncm4m6E03]:b!C75#pUk=Z(<s5@X#n`2"ni_0oa*6#%4?nJnF=QnT4]C$#-Qj*dD5>?lhB.Mkqm;Fb@]f>+XHb4]P(6IO<VV"EV=A@5XQoWRKB[_m9rA=4Vm0pR0>iI5`QKi^cR.,J<,rKs'upbF$jUM!cZSBgU^qdCdpFJVNmO@\?0K1ET+c5A[ql$6nT&Q6E1P>![7p/)V]Jh*f\1D$,iK."<p0OGo@`GUEi,l0M.qY+oTMnEU:!TI9i*'&7=>^0hMLT_;.+8NokEnA93#A.E*?L+JNZG?kS/mBdD7UTVSU."GeN<RI.$tKHQp5L_/ONG$`CdA->>WC)r*=Kh*U0'j8$p,'!<i:bQC'S5d0iWmm[)\Y_TjEjqT__kM],:YF^)p(,`k!=*5&7bD@.KDE(L/j9'`F+Tsn@.64;O(UDm.Wm;!&%O<5/LMPF01qM0*I@&`>6H&Xc"b*)Aq7MQ$B!T79#\=3ZCS\Xo<)8R>-Hc!MEPJ?b-ag;O>P^33i)h]N=h0t@!#BT!cZj^&J,&==fRPj,"/bE,H5-LRO&0+V9l!9=[eN2Ms\4E-*t`h^gJjXfbQPuOBE2-">WUV1927g=_:E@faah2V.[A2Zdp>,]ng4-Rse-8]Y84-W%/8QNB4[2F[3LsjChfQ0!an#]3rg6;0uH(EM)QBC1Q38$i8Wj?Jhl/^R&NcD:!k]k$G3`>)0EO@FnhJmDXI#n45!a9C77?o1KSe'Rk5Qh6h[Qd:Oi]0kmPQ20KsK$r(Z].[>=emZd$t40[2C2P,$Ed!uVZA]a4W$,G#*[EmoZ7DZU&+*dLQh*sGA\$9o%g4QOj-bJTd9j>&Phqkre8+$4Ank0qTZ.@)gX_5qV3H=\#q94[ES*lbqk.&`5G^)Y:rVWBj^\ml%k,[S%la<g,Cu)tWY=`#:fWP&_$W#XRWZ;>dkAP7?4*%M<ABeU;FR@JE?CEdSMRI'kM.-/MaHaAD2983J36"_G1cDdRje4&5m7,<=oCsW$cQK8!??Be)8aW;uY;jp)><btL@d;I^LTITebrm=hj/pnc(3sB\&SEsR51ttM/"EmEP3/(dMG8sUS[Z-cFnq_j/XOCS(0s%8E,*]Lk$7,Yhl[oph65_C?bDui4MRo233]R'[eeR;0Qd5H@9:'AjjMUZSU9!Q4F+aYc8ep>c>!*W$g_9Hh;53]I/_!VZfZ5]p3$81V==VXY[m.S_q/p<?QC3>/K2q2Fq9"0c_4AYH:E'le^rP!=!,*<oit`d^@$W?m*(rg0-38cH;COoXh9>GYf.tr1NpA*P4Ph^2Kde8dQn\9C+e1[fXWXk^QLMlk$)RJY2\Q^#LA'E:;(7SLo5'dU!(@!iG3l$&fo8CHX=j[(L?G<hE5r$V5m?q\LRmhNlpbIW3c%`V]AhHMbb;G-!o;m*]UNm?+I\r3Dgn%D^3nX0b'&&l9P]DFbIQ-X6W?Z:c$af/=9+7P[m>(k(DU&##&c<*s*`PPoK)TKXJNGpkEiF^L//mmr^Ns[(3L-D/H89funC:GK'Nd+Ihak1U:LKb9A=aS$-V9-gmjHYp9(\ZJ!`n1treTI19FB,j610j%+g@I@8]&@Al.UR:Dk]UGI1k=WTc/_[eaRfrV8i_FKdi'Oh$E="W9:AWLB%[`"q&Ze`1F["%+IFE$=cnY3R]%k/aWI9;:.6K#2\$#oC8NWUBMTp'A!FQq*"LW4!AGF_+jju%=`/0C*i8\&hJ-EF]E8\?0"UYNXX9gZCDejI`,!g[)4%]WT>]Yk<0W*@6$?[kLSVK9lQc!/e<>.AMop?^sXLGM0`4ImSB)#_UcM^o=i+fh)bV_;jn)m!8.\tjW1$n'Zi3eNQ!3;Y\82[^8mf5\#ZJ3*u>J<+jVcVK8+R4pR%$?+Fs]VqEi$XpYj_1os#bHc_ANU5UkSb]1ZCuk[@p<5U<`G()IY]Os`Wo8O-I=GP7XqPta]ku&`bE!ZZXPV4Mr+:BIfEkdU\NERX?FkFKUuB&P^A?5IXr^Jd_B+^83[8EVCO(/Ek]I8.5,a[JYO=")Tl[X'daDSQ,$YkI"kK37p.8s\dJN[B".PXRP,3h\lH>P2^aM0!h(U')=%D:s'0Wn12H:Ghr=Dl+rIn.Hq5ogcbt6^+^us%N+q`NQ9:Wb4D/<;YNY4HPM_ZE.&AZ]o."_eUPn9a3O@hiOh'&&M&.nq^Z"oZEJ5jY4XJ;8bN(F`tWA4Sf!YbZ#Om55E1HEIJ9T\dS03r@X8VG/$nk,RFnEH,i)_cgulZ2W&&'K=G2P2Ec^nr`dKsh6(eX%<E"eTTmn);^!1g#E:"bhl@a<SXJeMhU(0h#3DDTFArTpf5NB--cmH<KFS#?5rD_Nrhgq:nPG<tZi$;RU4.a^R?Cfi^g&D/VnS=<P>TLSo%2.@o:`Ik'I%)D$%l`uGSVY#3tnn=K;d>\b.":5u?d=2b)p"j)&aiLY/5"[7*3a2/sriS6t'o'F"Fg3_>9nD62hjO1j>>aV]SS&T67<c9of2\<.&9LkYaD96he7:iTBcg<;fU=S"3mPSJAln,N[c>JpC$(6`UT,j0A-,s2h&G@Su'TG8PD9De/9?npWe)`X:U6r)tRRlQmR`TYKD\O"&iRldO9hPM[1k'Up`S"FAj@P'[RR;kOFgaOnG!q_EJVSR`DVcrr*UP6H3G#'cUgZbN!tQ1S(JbJkR3u"=R5DO[JnD9A'M5Wk.VclAbKo-.MToDA_>J=k5)'pqn8-J,o,#_5]sGbVCXg`)`O3u#c)%8gXa*Z(E0&i8d947c<&9C;@4;E&,dS65N=mG'dh8pBi0$Zr#t.T&6>-E4TLg8j5Z&qn&.ns%Z'sUq-kW4E)5Rh*R0Z5!&YZ/2`'E3-5>f?)+X1M%N<GGrcp]>ad"FZ(W8)Yf#goBYGWNCIRA*A-"t5<`M"'X\P!#XsqKgGmrcZn-JPO)#fn]GYcZT@H(CWm%%%%(O8Xf.E'4l1Gl6FH?"jtNp#soo+mns^<T`eaMPQ3*L<C%K7,mi[$U*N';YDrad8,s(Mm5;<9X<j@%SehWV'Fo0!_6@&$!kWh,*Eb#OeA&).Y)F\/K4!l-!4UK'dT7RQ@=.BiqFSte75jk3DJYsuEFH:N^p1CjFL5C`8=.q215NrDF#i!VQ8[e3LTW.O5P<*go"hZXl#0n;a8QHi^L?6OMUB_7fSSAS9[pAYUDq`IJ6&7ajQ_Z+)n:(hS2lpUU31HmWEJ9FI2(IIXoggbYZ";k68RtJY4H8K[TXA(Tu@\3m;J\#0[i$s^F!*+h#Z]ljJe%T:)^]!7='T`&CC!p9M?rPa>LN%'*4)C5j0g#"Qs,cKVq.u5RHEa-pgd-!$Tlt4C?`':Ga6s_mt@CJEKNpC5if%'@01dA!b\+A\OqRb!N4<6-YjaI:Z,t-\H-A4-BU9/8hI,A)R8i&p=p4DS5lq*?7Q)&+-<)T2]_qN\gcJqsJM<=31YOE.(TEVhK9!1J=:*)RQh",s6[!n%aT.^M_*iE;5qEDsLt40Yg<j^OG:_<f:VWIua2"c!DFFJ'P^HG+P-a')7i;P@$Q)ZhNAYddhrFr;8,i>aDk.B=&Q,[Vba7egAooj;d"`41\M[eSNR6T>eFnX6r7SHoMoS,?\f/Yhsl.Rg34YlI:j;rJ6Xigo!/]B"mA/Bs)9k&fnE$\hBU1kA34Me+7c7<WnL!k?''gSQ!fk5'H?'="nG-QpYH*>0^d'T!b%@bj9)Z_O#8/V;n^_R839IhQ6U:aY08aL9g3eO^b\RB,*S]m+-u,3+%""ioBCjp/V*t@,]73DF\@2Ab5)&iTa*l9]j>nQQERrf6OL&ank^K/&,UDg\&7LkAE9F]Ocu$O*b#,Uu<k.34Upth'%UTDhs)S@+'i3F%.rp&qD0&"C[NdPQ;=N93n@AOQqU_=\hTMXH,NFg`3)k>;akio#0Cc:7]/YXEbWN's@9o((L-5G4%nHjTXD)%/,Vq".*5Al_<_M^R3\Hp)[)G:5tYQlFt;X0/p).*OVc:I`+_4<O`2oD+WS+N08!-o=_c2L\W]/<mqZ/AN`.1IAWk.4Dopum&XY+20/*\hJCV8f0Wj'<h.1q-_?EeceW+(ghR,k>,F/--N&Z?[^L=g004O1e\O'/2I<O)Ai`.O+0p-P-GtR4IAa9G-&V2pc>JQHbKm1oEkk"I4;l/g>uNh!l_(FAFkX_GA]O#m$dYstXRkTA?lY($0=)l6-RYJ;[qTdB/(ri:QQ/(O'`%$%>=[p?G:!!e]k4`.4*'jZqnV&5dhHlR?Zu'qEU)==GgcE9Uuq'Pq3\]REK;>K(="[Js/u6(;Zp=;1<ghG5:5Hm_p13]X#s3P/N[PVX[O2DSAl4HI&K#MiE74_(sOrZE'd(8*6%?n)G,>%0A]o[T,fh#_3e!a=dPNLFYV@$OlK-L<`8AK$j?:OVqYg'Bp_t>FPG2(/R5UHliAQ*G4i,,/.:2B?0+sHBsO6ik"n:S*8>YEdINl-G'./=BNmdVaNS5K9PaOFjfQ)6?<uk]4GH8T\S[0?MAX=G4X($E4b\sICpl/VFj1h?PV*)+rShAba*ktJp=NsN`I$ru`8(:MG[sH;-]4WdW,V5+T0%bcdZIu&K#)`'Q$1hul]++"r:0aZ=E_id#PLkEQc4f&8RHra=#b&cof:dP*1Y"p$`7,)mQG*%cKm]iH2`[]\nYr0Q\Mj7ns=4\9PpA+Z8`;"Pc'`.%hG!]XZ4q]7IrYN*,K'RkZ'FZS`oqkF=u&!]3N05,S(>K/;gnP$spYcrLq:#^ZaIlHfWGV^2[F9jQA'N2%D`+eB_%*UtiM$pR1%)CZipCpBt#hSMbn`p(\rm?/p:cqW<WCs76_,4]eWm"[@A5M'ngCcuMe@W38C/l%4.t=sSrr=D`l+%NTW9%;'k`pn$SFY%A@aSBH$8k&[W/Qiudq:)Hr6EF+d9e8Il.2p0R*kFU&8LEBO??#U,m9:W6FT!cs4mOebGTEpb).EWcH\V)ACe0SB=/t:2_Z't35L9XKaas[<V2$g%9+gB6IJOi*6)9P?5UP:fTaoI;ub/iqe=^AAJn[roq*V+ig>3!\AEt%/RfH=gf?Q8<$K_jBX*G[8$\?=%lOmOpmA]pD\]PMgHluDj(`u_Oc0681:&B"[;T=#u3:>%[I`I]laB+,liCX;PtBCXp.o<+]GYdA!?LSYG]DEh[Xlc0OHFL,iRUWu*$[<-1B[-6Sa(,MH5n)R5\hJ%o>UN`MfFXt'R\[T4lFk:h3I7CL1aE<DW_m1#hbe9`nro'o=4XNXpK6eK'SorJ5$!t,NGfj4u#._=M-4:dU%$uN$8U<gFHG_$tIoN_t<lFf=GlEGBh40=uj(DVDHm:7(I/,C1<ZHU4I`@!5Z;XQ4GVG26pGO\*G@uWOeneT3c1mS.H\WhIfi_Npij!CnY]\'uEC8AL4)'bK4W!D1^,&ilP-uF9rMYR56$(:s(J4,1+D>:$,B%<t>,;"g4<8q)Y%u(b+W-kO1ZQ"d0CuF_lt**emYkUHE,Sr'":.:!Pnf)TjRRqDX`GMgESJ'PDiGj+chDk"f4f?,27i%0.r7Ijaeen)A@C6a;`e`\%/"pLCf`]g`B/=6ic,V*7DYIg;*:3K?k;5dldaHAT`j+-?B0h70;DH3dY0OZ2!SXnYIBUMG!_13MTHC1?266r!q3Q_-Nr@+=.aI0g!+TtGtX4OOJu.C3P.d,P9M2JEt%^SZk+E(/Cq?d'Q)79:5;B7O@hlP.3*P32kGKGH(.EG9ls63DE8t1RqR=kK0\Gi@MQbCaHK29MisK"8<Deq$SsOTU`K"%^;K/V8(2-7dXl2^dcOpY:Za2lH==Ob4a,,I>4!J+]+20p\0+F&s.Xa+I]URMlOjlWEM9@dGA31X)Kr5Cqf8"57\#D6O6@PNQ<"NmB4c4f$LLr"E*,cdrX@t+nCGh+o1mNjiVIf:OUEd(_o@(tXkn<=<Ft<l_r^d$8!Ybgs6<<=[:#p$INijjbn'1$;anQ/VA"7[::YHml#5]Fe[fg+^5-Uu;gG3=CW4is?&B=#Fm1`@)!ZIMMeb9&9XsP5.@2ZqW0V[Kkg3on3:#p-Y:nqRh:"3$V+6:!?$nejW&6EgdGLS^$pk=h3c,D>D!04;LO!En.m,-uX,R`R4DHM'3i?]B%k12F`\kpM;Gd_`R0/m"fA3jl7P<MgA]$[e4O=)"6dO!`6=QmoC#WO]ZaP)![rkJUW3$uaXtBt*d^5on)TQb<[hI&ukg[Kcm(8H/(;>I3:,Nf"`!B];mH]@"?V*KUlDm`;f3APWL\@h-_&ORFMK[8S<Pj<0&g3Q7gg-SPHJ>/DAd"+/Q01i#S2dafm(u[r4JU/(^&=:iIjt9Ujk8ZCaHtH.el!j'9gB=B>pp9dE`d%1/28$9L_5GJRUoVL1f@1\E/9qU[<&Iql)U8,/MQVGged:rjU4!uVYKf)-L(GLD18b`KS0#opFdLJpp@K8+;:A=An`pI.<^#A7r>?4&OWdq;mNoA^<9bQXl5+r@tPrjO<UhImiN)'d[d:+7TQE@0C3[n[*Y:^BmCCgD_,H^D&9Y39J>8qe/?^r$-t20.?a)JoiLL0?;G`f++"7WUSJ;kSTaL6"52B1H>L\0HP`G=b`BI`SsaNS]Q*\*7o#&9IGjD(3sT%A>B<VRhk@_!HiJO`]kV,lcE=rs1/%/B[d$G;1kOYR6WAeC7<M$iPq4l=>!ao]ctm`I1Z=XgnX'f)mlo9*0\AJ6*q'k%gN1c*E0,-[hV^:rd+[U2/]4&)RLB!Op.t(dI;o4*`(Pmk:HcC>Nmd$U&*6se:5@g1),Ec]jK=FR/@*>\pHXNW"O(CC=c!tq,%u]r+KCZg=WS,N">W0N-Ilq3X)tWq*jIV?eeS#2VgJB<(j[cKqo\jq8r>`Ph4]UoS]'8Ga\3)ONf1q=[Bn;8=2]MtB<2TTk'L`<;.9-tcI)oXFY^d;Vd;HhG%PdXO9N7jFbPOm:TY:pCY-,/DpBg#*#&/n0.30$A7k<^?]qPY,o7YGi!^\jQalYH.9^saCG>=9'l0Pj")Y5:G1]+i[eh+o#:r%j/@_A.R)s%)+)?hq9<Rh)2S,=+e'5a0C"XXF\17qH)>9suDdL8>8+=@oCNaC#97t8Me?dKHilDRqn`#gG(Xc&jj7'r$G,1)+fCJm(Bg*%q@pCX+)-P"F4d.%2-amT0ofe]l9P`&G\a;Nkp=aWbAQ1sF=he"/A^(m7V?`QYji7EG&Pk8:;LM:bM(n)(RYZ%uTebm!3S3pE<6m,*BJ'ht6'LL8J49gDUeIeqRIL."lS$!5oWnquXXfXjFei1O%(KgJ,,.[q!-!e10YL;=RG]!@$BcKp&Q*d[;J$P:%P1.;/MI20!l-i5!&]hbW*m^XV`Tk_]i3=gA>2Tb]nU?EQji<j/(`8uQd"uEEUYH'bQJeuA?*:$2/<LQC"Dt(VY+GG\,e7L#D^eVd0[79<R#20!;8h^@,G?^^lf6#)KZ$7(BOjS@E;HRrdfiZo?So*rnYjCI.WeC1r30h!-\mPOqiO*WDX(j#ZQF91eKr)TF/_tl"$=t/`<;P(IqP=lVD*E_3s:,F`8[6kLsNrdVCr/CqFN3a-RcOgn;Kc(EGC5iX7Be+bR4m0<]$?SM:u,mrV7D>s($BbF'unqA;4OO:uHTDWS.fL31f5o<iEZ/=t"!7lN;mmp38&EuPcUi5n[9Q/hjb`_No21H-qonIU+qrIC=m?E9!dZ[@YL_:L6NTm>J1N>_nW'+[-dc+%i>_Yr7"-KR6Hm)?$I\QY?AmFm<)HOin6#?*<<K\H+?^2Bb3TFj[n3S$W-8jpI*P\.&B2IqRj1BtB$JuI);eRR%N;P<_)B5uJ14m"ERZ"FJK_F'eFlYir1D5Yr<fUWOXZ=3R?)`I,!B-5B./2"Jt\am_ar&R#O-%,1`:0H*'B?.e\F%Z8]L[L>M]imejj7;fKi;@'7Bmd(noDkcTMOHRrEpJ$-]R1@N`GSclc>Ri_b?rgQ#*2u66;N:,8n?L-el5KP;[g=CYS98]AuDce9$TMPE,sLK,O=1WY1</>gNR81?/K-,45D+]<7)L1'7)!Hap9_kfQP([([Z@fP5:;W%'SI#?]Ah3?9'sIjGMnR`,&"!<>e\7"T_W?fbV,f&$riJ4^*.5F$';W,HS^Cf<4=B6G%^6Z+Dm=k2QPep!IjSl92/RK>ladC@<%g_6##tD/*[t/+u'/Fo9gpfCF>#46PgE$i;k(]B^3tkD&(:Yc[)#H`"=]&+(IrRG(ki@\N8GJ*;P[o=]rKDt$oaE^ua+bGrK,/(P3t399-k@&pCZ<c_<4l2kW3J6D/Rh/E&:g`.s%Zsi^BpDZ6-f.Ob&1>.E/>e>?(C:Ckd%&YQomE;nuST]u5]Dn"["f'bl"b`DM51QEi,a%[UC]FkF!s)7E!/a_b6@:fbXq!U<bGOU2^$Ga$30-uS9M_cRj,E(5LGNjc=gQ:oBD3LOm0BHWCgs%$E7cHNH.hJ2O3o470;J!E<7`+6^;9p"Y&1:p2*974hdoqdH.@39KaPk[?Kq''lH&N(F?IT5L,<0%(B"4b3-*W!k?h?`_un&(CQ.Z0#d"7R?q?`/Nfasj&=Pmmmkj9kW@g31Oq!K[`ZW)GfrXUd.s(55WE>a34G2HWMG^6"\7gD6=.u<aP!m4hd\CP]PXmoXca_c#(Tp!cYj6^GMl2>s/8qWIC\+iCkEtGkb^Gf%nAa]sj,#;[gJO;sj`qO^g9ejp3bVGJNm;LZI7KgXfPpiR%EHaF4EINLlA9oo/@rE6q*&uoE=5S2*>qW75pFhiI5,TXBGM+CDR;'%ZurVYjp&-5F`=kci%&L!`,pgIkDO1nY-,'g_Ecn!WQdGhXheu-NWZV,W*d-sg-H,=!NPE1"Fs-(D=$M*(F>^,]^LPorcl(jE+\3RXgc%$34HtB]iK/1KWEGSkrO09bO,Q&=coehd/K5;LF*.M6b"]o4-6%*mJu[C-<1i_Qj!dqD9o%Zq*rU0khDZ])WRh@\CuqB<[%O?@6PbA3%&\HNs#]sD7:J\#k4-o[HTH`fNPoIPeBk,`i+d`*GA2[L:$g&anpha\t?edNZ#S)[-aFU(L5mIq!t/e^<tt?32e(j>"]U%cbseLU)e;%Ehde@`O'KgT6#Z+;XQT[OFFpE=*4TK&O?pSe:hu*/-M-S7&hL6=;q:;6O.8[4h<I:F0A\LZXNjeUK[it/29B><uec=UF5MMnu:d,3_2`LB1&SO^:bn.os6TIIZ:L5etr6;>ZN)E@DgkFHWkdG>Y`<)Wh?bQ7S'"NJ&k6Z?%OaT!'XNk!*_(:nan>So\?d",El-Sa=N&B:2aq!;-()cO"MYjKsISTM@/e%N-q4<)E-hHfBsI;"ut+Z1g>B4bZ/"*,-.e;61"6@cH.]cjXW50h9=+&6H*`p$>/BHmuN76@mpa!aSSG<VtC4/RT!)6`BZ?n`p6p#(QCK)NVi;i8k3hGS($Pd%$R`,Q3<Y:BeaoB"]&J\b$\FL=L_q'/U\cMk+o![6S^u)Lc-;HdA3fqUZ_bm/c`7PTVRi#m!lplA=(,#hqdC+(0uIkb!W;e3oad5pGdB7`@($93H;QIVD4F"WiQJV\8U'5WrsL]&DUg.*7DT:3"qE:;jG9]=jhJSoCf\qB'p<?c*]6H$\fmo!&RcBI.'dN0"2SY[B5NF\kk-e0`tV3D<%)`LTfEUeO@[$O'$Gh?>D)@8.&<B748>7.%Ba9YA<OtE+V,8FlT<_=Yg5^-N,+<H5HJ,?$h/n<>$KB(@8?8-eWs&q8t^/;D2U9a<Z<"I-oY\E+I:/F)A]EcmLUU!%eHV0qphjp'^H_c54&k=jci>20H+(&@m0-cS85r-j+(E05IPS&:f+S`71GsZmFbS;_(tH15L+9_JsFnW']7'CI(aX93$&2RFi'8B@:ap!/a_b'3^Q!<hcR_bQSKg=HR@Q=?7Z?&?0,C:\>i0IV>>r&l+Dn'WGWN[ENj)$m05h@2&nIif/o6X9_iY&`E?R/R;-AH;C2qABJI2/_QK4JuO?u"T@nDG<`>_8QG=0M?('kTTNtH$0ZC?)4HCQ`j7O&m-&!gB8XCnXD)^j8-!F^M'o&ubtdgrZ78:*Ej6mXRp;tBjETJ\g<qdYL6O9rC:]+,5mC_t[^=O1djD;k!75":01_pO9^[^:d@s8VDOQ`V>UG'L-8SeiEf-mJbr&A$MujErTJTZL1$?J@<QoY]('st\+jk#dP+a-$'L<?)859033,?q3\U!F?Etb^>(aK))dC_s^J7uSJ[j61,b!?"=8_&uU,bUX,e9"`e8kr'3!!EAqF4lcd5`'_\OEhJkPaf3P)*kT-1fCI"-im:4!C[8;FJ3,L'?tQ!Q-;t\_VR<WRKS-p0kN8hGX*UVSd70N0N"L</9;UUf-CB]"UVG!!HObL'EE1fkH(Yp#7B\_%$?`/R]/mj3LU)<A/8^g6NU)I#U)ZfLdnGqjk<*Pl4RJ=4j"tnJ=0@_e#>230Si[]dO>TZ#RuD3mFc")&-\$n63%+Q;&.>HLB&on>X:gc6incG`.Wr(FP.C61aoDl?.)I^#+?/6bm8ip"@,O8!YO79*Eeq%F!Ct;,liY*FH.?s(b(j7&-+PD2$'$`k[JLe!"gTC:kHt?q[!Gg612U-PaUZnRLseS0#0fRi,mf!R1%.;6$u=%/g1A5)'sN@Y"T&EX=d?M66MX*mg=&2!p6I&-!)/>"U@F$A]oZ.BP'#,d)RQ^9raM)AhpEY<&"Li.s%+=D9urWBXp.7(m:$qRT0[&CD8ao9S,V7J:TsDS%7W9.*aVK$AfTD+I<T$EaWlm>B8+;Tc)iB08URrd0/<r+Q1.Omm;!t`AX]#P^$\_Ni>o+7%?LiOs/Q!gf4"`"V`*ajZlTCSNm<C,XFh366fJSSX'jRI)a*n<%d9D#QVjM6P<S0C8!$U,,on0qV$hpIIi%j9'0,od0S,'VFp6<l&]/`S^g[J7P10q<NG.i/827!W@B5;7T;5\MD2Sp/CFQ.6Aq(6m+.;HV&aaO@,XBQcmA*%&1(qoSm]?_WG8<1R7%%.80gZU(aT.oJ>dL%+jIQN!fauhR[#cI!1+5sFIH/#'Bc)e,#q6G<\[33RFmg&J/HFb>Tbdf8I-LW#`)=jJ-Z`0Uf&i4+I8`N&HGfYJQ.j7$V,;T3?;C+.0t#%S;\Yp=mJtB7cHj&it>`Bcs9-1-A!EQUUdI(Rg9"O*)K]ZL^QNL@pO7pDr^C;"#-EQ@1%P:M%M+8Jm^Edk:"K3(i]W*Pt?L$!&U.F8k@LE^M3Y9bqZbJh$=$8&k8)+ebqr\l0>]Ki$h`mEi*A6$q5u:#\)C2;=\!AeHs#.$/cs./rSj!-3un=+935a%1S!+O<hKg.VRu2+i$?2.^lIe]+"-TN2."bR`T5\'pFPQWp87^3%4qlf/CH^/p&C+@5NgR&DJSCTiA/m"J%icM@q<U:be?j@2'E8lC',iQ;VNsO_3a?H.=#["G>0^e>'s[H46IjZrSLk&0aJmZX%1-$(-o+7>?U*3]IY[_mjTbVqgA6(drIc92Q<&SihN+&HO]i'Hoad&jfD/<AUU%G>JM+oRePeO0McA&;O2;_4dumW_,Yq+G%U-*1&oq&-BY;A.\'ja5a\^*2S0^JF5%0,Fo2JSHB"L4b>F<8VAo3J0JHq32,U42Di6`@u;9.0K1^"Tj0X1B.6rGV$$c#5pJ'uDPFRqJZ=j"M*P"+O_a.f88(l#*gTV(dNh>P$.(IO!!>Ym7NfS&-ks6:"`^N!P/LTpAJ-g>M%]:@,LsrHLY>IU)hTr8)0!i^PXqWl5mSr=Q`Ai-)M&M%Yg/sO+P7qSRj,@QImltP#nnTeUmFK5KE)B3kd)lNE0u._Oh`ArCW8+Z;atOl+p"@=,:Ja%K'cfp"a:XbJ8S$%Z?#TAQ@al7YED:P:7+o.d1bp\c\^SG?4"DGFYP=eqis^,oLY@rblNLE#Y-<^OaJe`mQ@MC]a6qO(ef;<f.H1)Xp=P@2Z^/Ad?k(T5V`XRGp&Fa=f%GN7_"gR`B<t<;`r_LSUCnH#"?\;-.S/*#tG:%:P9+!U"Bd,YtK%h@oB_!#I3Lp:s"R\)D.$O'EW>)82:KZTMaXUP"_'1Vr0m^AOi+sXtshtn"#]Y;.d&UHquf+m12bi\ce^('HmVE=9T%(D$?AaV?f?tV?lW5d"4dJ9c?"Y>'\b\[d?j"YW(5>Ao\#X^DYhWUI&%i(`<u-U)oN?B`J5i@K]$E-#O']0rK$*,$b]&`X2bVP/rNW)1bS#@87u!8I.Yf7>"';,'\j:\Cq#'PC2G],E"rM&VJ:57=YLIi+`u@1aeqDJpSe)>sV41]PbHm$kD^J5XdcO"IG(:KMk4)d>\-Cf5t2X$pH_5#X27T8N`K?5f)E1Fi8A5`=7"1A<"s1M*a2&cS]*]]""!0G2%e,g\.ODaO4COogL-pG`DcN/fueKNk+>[k\c.B7.t.(3oP)``Sa_J9$-Ed5HE+E]cmGEM@([Q;BVWda?ZHHr,RKVLB^$l]4OZt7KXZ",_;+hhNdV7>p_k4>`oMQ5RCF_4A(eVhCm9odH@Wt+>3)[CU<)D5i5TZ%=B?kg6F7D.']BZ"\8I@/+DCd"3_#V6/uNR0ToTT$$8.$.!0JlaWsD"6%l<)0?XMkPECHZ!.tU;MK0S\/M&_-1^HC6cn#A-P_`"m8/D`.RmiYhma`O<7Klm*(Y;3412=-eQ#\rcR0fBp_MeUr+D@o+UD*F.?nr(nLlhb3&OKkf2T?Yd+s6q06>5($YEEF:MPh!N;7%hZK,!P_C"!hT*-<B:N>`?eT/AL(I#J'CAtGep,HY86A6snE,A*7,V#UqO-r9sW&PqPB-H+.;)GM?-TID-Y/h"o!&LsP(A0kgT1.1GsR4.*dP*u$;R:0?ti2RQ7R1hnaJ2.ETij:,s4M'eo)[/Ct'C]Rc0AQ>_J,,0*r9m_"o$splr>XYljdY0'me=Hah&j/kju`"Bn,=],rp8g?II>:nI/]spJ\V5ZWq>HjmsNO@pKr=570EP8(Z4r?#9Ws'45TP"J,<$Ul.(:]llZ&RS)/;66[sL<>Mo(X:H\X#kC<B^kGd(Io;DW`l?g;G^c*A1rP/:-?13*_98l*^4cfX*H#e_hh/@NCIuD)6l;t^pRc",7j*u?*r7A&0^AYa+IcU4#^A?V$NBdI<J,SnopV-YZ0,4o1B_VGpS'Sk=+hm*rhta5=qU"geh>Gqjs7,ims8>ZAs4`%9kJ^O%c]-9Ljh8F@l2*-jp??3snE9hGO$<QB]5B^t?iEe"ESIT[H0)*cCVTnp>P7lshtLIUiB8iAk(CGGgr&$Zqp2JBeQ4s*NrSk3$W"M:^E39pU]:"YRpYd<S,#QmIas?0i.k\2K#e>".Q?2UJq+q=s6g,Bjd/1/TD\$`HHX(<pMFi`;tc:(RNAup5Pa15djlKQ,@t5nj0mine=AhuF&Ju],_3WCoY.8,jpfcjQ^;(#`D>Cc"24Ms'Y`ll"TIsDs1J*6G=_L1^\p"HA=kW\<p-_XIfALprA!Q3s8/;#9)+mjr3aJ0>kf?Rn;m?oIdqo@++:n^Du9&8$/b9.*u"QPl*a[iU[Pq[)7NK-^*(3%n9$tj]tO;)s7=Of;Ib4Vgjd&sl`YQQoT>bnffoC`IFR-Jq'SDfhg=7-^\,i154gd_Kcg99;n'I%92GK_Et<ZW;kNsZk@4.mYCH"8T6Tn<Ue:ZmB-."2hu3CQhtH?Z36*<N+[eYM&0_Dl$)rCKTf8l\DDZEK2?NhDRa%VkK(GhlqF!+)G_K+2f._hB&JIR=L`+<UAJ1A-Ytntr)cADS5es@h!2(UbL^7C9Dm4Fu#1V+\Z9VF5-%RiI-_X+pAf]^gp]<mP"C/)e'GuO[:+4PV:aqJ@:T=6b\(uMF\`Mta\Y'6"\+0q,q<TWGpt@\&2a2<OJ%Y\ZYC4=Oc+uXD"omN:2h'\^n=_r3%L+Xq'I![sO!JV<J@R+"K"qU?)M'4Z5fg&"Dkb$4B'K<C2=K]*PB03J-C5Mq7S&4p""mS'8[It',Z:8cA(3'EZ\0Z*aiLPm01cud5UVhKU8fPl-;anbP:7_V1]i=S9JdFql$%_:!RQXY&JSTt]Kp$QBS9%k9lhC6.iJ^=WUpZu_&-Fm-37M>8Uu(P!-!SkYTboW+rsQ=)`>qeJ=B-LSE:#`aZCc*2ZmdU;C-)]2@295[@SNU5plYlU&[6Z70K1*RQ:JHokirOCs"FW#lnnRlMVupAH\(=R+,[.1hP3NEa$.37S+kD&D!""'UMW57*mSE&LhslZ6Vf*'s\$8D3kiu^gN%N!\b0@9e(Yg]lqjT5OlfV+8tCD2r8g-^?H+.j<_t3r#HmYb?J;SBB>'?qt]tm/-4Z&QTP35!l+K,DnQu4hfnAo^\d%u55ru_J,&&r_dE0dIu3sR584%Z?NgA;kKO\^IdiZ4^A3cI%:=SEe*m7^c*+Z>(]XC4]^^,gpkNW<s8AM*+8@5P:qcJ;qqh,)oX=M-.!l!/n'6.5q>TaCpOD+R<k_c3hX[T=4FcZkn%\8`DnRFkbu`k.?iRQ9rpT;>k0\*sm9_10A++a92/g/[&%C>&\)3n%?+O#9-itP7&=EeJ&3qLoJ-Z2X!g+%F^\#GDHJ@alou]5lk?D<`7_AE/f=^4:QTrPuGh^F!R)6.U?hs6$^$`%IeS]a"]7+M6>M^12qsA;aP01XW=Cd)'I,t>+oo=6Fif86_f41CYp!+)\<?I3]k.-!)gL#Eo,'oq->k^br:PLf=R0D%u?hof%mE`T;P%#9bn[%ugqKK-Sq3h9Zd[+='s8MgYL[I*mIf+bPik&RhQL^TOrd!,-?i/D9htd*&Ze%D3(dIuM]AE:OJ%tF_0<O=6DfB-;<!k@i!6kY^T.=DGr1/&hA4`F&M_%a#Yp@sQK'8A]2D0C'qpO6Vn=I,GroU]IruX1J/A1_Bl+c-%:W>TAMV#Q4R3t2nT)3DOdqdh3mMjWUhYVJGq)d",YPdi'pl>+*p:Au4Dgs-aoqS_ekaS2jkA+saLQsI)raVRFmG3cgQ(C56MYHZN&)Huo-Q]nibr=LOl5tN2=tbBEs8:KhDL9i&mk:PEs1u>Bc<%a5mXFa#LYdC047@O`qd/s\*H-An#@I:hE6Cld?[0WI+8k=q3PV%HnX;Q-]V"ZiaST??_:h!NkKU2TrN6+qRfC\%J+[Saou>UtmIhK;HLiZTHi&0HHqTA>O7CC(g+OLq0RNJsH*B6A[=7#XF^oUDHYu6Xs1X?YHmrK+kHB;jn\qt%n<4@u=5WVXJ%YH4hm+3YnrZ^3pq%(9i`2'>m_=5Hi.p4cQZrApO$EKt/cYXs8,hgmDgK>"?hs=-J%4r[0;\SiI.;Q%rh&*Gm.K?7n#?9Dp.rD95C1q:msaf0*8p:5iZ7K5gM:0p;TKZHIc2[Sde_]+nNF(go:^Ngrr-,/?@+?_nG;Xu"0^&BpHLS,M>qn&(;1FR\XNe1rR<>*R6L,as5jdi>5bT8KE'KtKC"F*hKjtISbMme08eZ!n!bu1s7s:pI967?4+I""O1b;MiJnH*n\D7cJ,<#8GJ3em:V?1`S);Tfqea)snPcoNqt]QeroNtMI-B-bqkNso?>S_Q\gcD*(B*@4YP[@\FBe/2&,\K.4/\^"_kYPmo#<c2DRnfFn,;j5J,;HZlUP:ZkZ_p6q:jbMLG_8=qsuU,mJH<_rKl)*rd<lL2no%:YIZCDEmHgcHe#IkCg$\aI?!?sgjZ!^:V>\h\(oZtbjo6'k$)`<^\Gtm*Um!Gqp7k0C:C/3JM4[V5Oal?5PL.U^U!O'>CZ5<s8DX%^A48%J*1GtSUAIaEd[U?J,AB[^<:GEl"aYg2u_hJYP@'Ps7a)(H,[6WG5!5BJ)qc%IGriro(VnY>J0nL2nl=m>$uQH\O$"qOPTj2O1sWAhgaUc?dn=jr4BGnq:4g`\)&A,IcH?)^Z3n31bZQ>q53[8nkXc!rVuc+5Q(<&b\qkkH[]f,5@/F&421CE:Hn[IO+$PLf9K]i_g?n'O`q=bFP$$Ga5.d*K5^YCPP1TRp-R^7j(lhVPuDVghL=L;n%7c>GDEXip&;Ear73e`hVRu#1uHaks8BVM5?,8T"hj'lFB:'UmsF$jYBfpa4\r`bVGBDJ[MNkppW]nTn!-7!J)lUg6ug[/?hp:;hYZs2hsdf#[?n)/q5lfs\%eitoCs]YpjXqo^ARi:^%)'irQm@h\E1^@^?5qmDgM#1DLK\[YDrR0DuU2Rkk86Kqo"9-NH\o_qU"VjqSR6_\\-hg]Q_i:4rcfYXq/a'q-.`claq%,n]gO6n)lVno"L7\o)3b'kl9Etp6r)OiLdf_q8i*thY"Sn%_f8ohjkk"p\(*5rm30<lcmE@"+%KV]6M0(Du07Xmi$PnNSXKg*'X:tG<GE4mI,MkbA[C%.pqnFce440.K8fg4c0cbibu;#s6.J3J,Hu%qYekbH.?,*h:),@2nZltT%?1!rYrcIc2$hcp$T<TFn^)D;1APR&(T,'s*OK7\%h+7f7.IEY&8[^/b`gP^V\HPs7?5Z-N;n.\%_dkk!KZmk+h=u5PD,/^TH]^HM;2]rVAIdWrHRIHe3$T[Kj_-55_;4/HWZ5GcBhZ#@>gPmMDsf(ES#k!<)9q^S!Y1Hh!X[]^:h?h#-+Ir3HpIrEXV3o&gh-T=k"0s*W?9rgDjIHmO<XLfm^G>L;`u'S$-_NS<^VS*`eZmD]:e>@,JImuQ)d4)Xmcj+2fsn`&rIna5djr#P;lDYqdJmshr4rTZ>Ts6Y"mptcOo5M^J&4)_n6[_[4c]slgC99Yo*/\Lo!479l<VWPiZDnhch]Qi=8mkfLV6hb9PVE<lP^9@3;a`L>=k'HaK\(u&uc+P4/-2$):CJG<RjkUVTYFY0ZG<PN6Hg]u#praa1hY!4"kr6BPfi*t1hf!qI;Ve%hI4)ZCCt+!kpMkQ\#DW?Ta_uUc-8'W.[TDH-Du8`K;r(cN^Z4k=hS`d(II?f(ADbYU#9U]N%pRp!?Mdh9MtauiId75&<l>dncb8mZ0D)td`QcL/<_U03CO<NT(n,Ajmm*plUm%8A`VUSb4T=E>ZKrSRH7%c5^,*Meh"Jio?@U.XD0ogM?f1IO5<a)ea,40u^YeY!ioBcl]L2.8b=M>XpP%>gh>G[@hfdoU[85SKm_:WT1-P1(amn)NhqrM8U\E:\HeV8i++)7<l+KmMGgefoI.:]jhb*m[ET9PrpRN+lI%emOcI]deDbp*kEq@mIo%*M=?3oI:?=9Pn&-.+Th(iF-RTJA&Sp\%mk&$`:ibc0^pVFIGG7I=GjX76WHg@$mh>a'.^A*TS^[U5-0>-8+qsM,o4aV\V[eC2YTQU:Hn$EV?Q#CsBS"=m%c0ouT5(3!O5Pb$QHS,-P*[`#CUKsq6p=!Zg\c'?or:aUpS+f,:Y+,F_`*Z#4GjH`m@eeOBD'/f!.j)F;;nFss%/c(mq=tQW'CNEmcB#_(];9\#55:GNaO>o_CN7XlR23L5J];Qs^$i/4lOUX'\(t6bHB2$P;Nm/*ot`$5E6CsO^\>aW4F#%RhgEismu!m/\hW=8]WlVJ><-^o^%o_3hu8O0meX*.][m)7NVOONdSoJFUGFlOUNL>?J'Z/"pjq1&n=@jj)J0ZWJ)l6WmsU&aVl#=FhXT"*?J>4I&,"N1qU(FOkS3gp+#En2b7D>S'Cd<eGO+B]>7Wsj59FXoNW!A+o.N<#U1**.O+6:<a/^;,jK[#os11^8GPpP)`@jFGZTl.@!oCK[F+=$RHH,E1,9MF)2>:;Kfl+nQ`?5-D#EO)amq&j$poWN#3&1*agYR6h<fD.nV47MLIt)D(hN.]t[ThX5pH;`!2?(ET$MV;HqAo;>^Z336GLtg3/KMSX9`P(JLL,&f?rhW_kE``>ATK-sGYddpDXp-?^+5D\S)JF,08:Dj\+Yj=q3MR/*Ftj2H9RW&(OY605C2gA2nen_nYQ=-0fDh>rpt81]_TP`mqM"$(YUfrcir1!Jm3/adS]%sIK-859E+j`l%lXZhsfR;[h[3S"@(1W>s%sOS/[4:F$<IB.u&n1dl*Y:GZ2B%O*Q;r+oaB/H4,:R99P\Dqt#.@?tf54WX!F1i8W1e@]_#aq`^&/qUjU7Fs#qU0E1?e^V!3B/JRdD>p$*b`<E)roC'Cr@X^s;#6kLt-3%IBBV4T@>C5-t@l_K,LOW0!!/l'WfDJsHint'6qofQmI.uY38pTLM&+B/rqaR.FBphP=jU6.@.Ne&-Tq`@rV!ds@Hd''cHY2ffJ_\or`4FLS]CFnX?Vl47Xm,8cR>1.@n&>+q([[>$'`RU1nBB^omY;!M0D[hWj+6nEnW'\ns2\u2)pd>XEN.LVRsO6\/F9),(_qLB\*gl_^2rJU4n!dGlG6M>\@)@Uipdg$k9D(Z5@j!6If8l@cA_oJpSVe&]f=L>pbs7DJ,`#'oh#/F<.B;lV?cR<nW=@=rXlTVoCqtGES2(dnYt6"p=u?7/YsDPcFp<A_oSH2=R>k!(V]p#S"IC]e*hSW96Yj\'9>?Ucc89@c[=Xke,O[T]l/5\o7)5Y1Kes0J)G\F]%'">ha]:`Jc[/ib^t!QXTZA(-<Tuhpdqqi16_Kqrg3?^G6'>AI!XLc?)"CtC30'tBXonWBLd.Ln49OYXY5IUW$dpJ_Q<\/CD-EFJO0<8e&J^cB(bmqMscQ4`*Dr\:/IRO3-*r=Z&WWqQaMj0qTlh[qTM=mZD$6V]sQNA+91DS%mGB]`8lD_,UtF<5'gln]50q9Q/V9m%Z4WBd7&QaR0,(rIEMfmnXpnJ3AIf+5P<0uTnQ_kZG!OOBp/b:_,?P63uEu!h<M#s6jhiKpg&)>2;;ar(pu0pm&As,?".)@jItb2bP&GlB_dK4>s'LXq<A,t`44H#*U/$$H>S=V`toNWG5L;:IBrSaqjtBXi:m6tSe^B]f4rp-Iu;U)2GY<lZ`bUq`NH:&@'Mki`]8kbh^)u-W!I$"G<ETM3!]`*"1Lt4NaH14iEOWTqkO<Y&QFh95?k&T.Lf`PC?2Nbq8L6OGq9e<U._W;=D,OYs#G"2YMI^5\'"L/;>,7L1.tPpqAqG$ONK5:-MCU1$HKNoJm^54\3tpu=r4E2Q6buf";p=OoY+"!>CKXsbkZ-A2j$Yn&!C\8GNG[Xr@,=WX8>YYaj_f$ElUtF-QDK1_k$t./Z3nqp4oc:jah-h($A^]ZZO[W$*o5f3o3aFe7.s)3H)BfHsh'mk1'9/n,Hela=[)2]To,b_<6:G[ho&6q*u@4J*AJkEmMu)J+%h9Hco@HB0Z1NYO;G.leXYoXnR>-[ML$8pAQGSnr_i#)uo`_2nn\,0A\*go@@,2#?<RQ#l#4aWHDbTfF>\\_ZI>lrg&lKi1jY..`i)mS\ja7:QAreP2'^#boB-eNSRNNI-g)fmX/qo`W12^<YI_W.S9n6Nk7N5([\k!DpeV,[j[1toZj@Fi6e>_#gci7Zhdn2KC+#[!pG=;QDnW2Ga)Z/Af]cVBC-d4J`+qr+1cUkY"s0=o[prn'L"7K,@5]%)#`9;5IA]bK0sH4;Q$_t`;@6L4oO0LT@]FEpr)c"4NY?eU_>rj_3\JU2>cAHT7??c%3???r7Vs=.R/0PVTX$:`o9&h=XU=BnbICSV-Z=[j]k$!a./m3!*NZe33XYd#>8Kr-jbYqMC6$MfBKjA8X:.Of*UoZd<3D5L2JCKShBZ!>X(cM?^lTW'EV&!*ui3k=/A[""CR8nn5;akmZQGh&%q'I2a@9R4oFUn^\=-l4Sn,5?gd@(@!W!f@?q$_f'5'#s57b_qd`Wd4HW?9-E`lCiCEe?+&<E#?[esipsF$[j-;cWq#[\p@7G]pgGiV\iPpo^_=8o0nFuD/@1."#p=55<T<EWu#%p^p6TDh$:%."T)U%t,[O;"Z12C&<]K1Kd!ITL')AfJ\JH,.R/lL`7_4,0:s$%dFmLrrPD-ZD9hu0VQ*pf?SOV.K2s5!=6[sn0Dms0c]Q,de@g^E^;pX%[`H.T7Wd7E/?ijR\0a?^o4Nbc#h*INm&[eShI%Pr<Vg9R37qBPsdjDT;gJ(-3C2U+i8NgajG#k4J@afBR[JLC</nAqMB%8$ioEm2En7kW%K,8G,0<%TX/msOl=Zf3]dpW"@l[\MpO!4Oe:J5S7M7?<!QI4siRS:Eh&1VjGrZ_@j+Wn)rZJE(^i>6F&4m+$L,D8YglmK9$+4S.5rj,:*e?[6kiko8OUkXV6?gqu9N[LP"M-W_h!&)>\&^>m&DOf-W?^]'E]J*S]Tr7WZV&*V>%am`^THX(gj$Y1<XlL!J%UAMR:E6#jl^Z?E<\aS\,IdKkerPcra^\uu\s8L[>ZCk!./9a0`pg)5"7sX@%a+ArWS<n'4aNF:3VgHJ9I^(4fZV6;t[%JQo+dRdCDC%8:\1eS`JcLmq<,%O(QUp<^\Z'bY$/i>mnrBnUceYFIQ5eCZA&X&ph,_n8iO=43WTT-A70"hE^]X$7PG/#/[uAnXmX+k/94+cMrelaWj/9Y:a%M0%s6IquH1$5:55;,'f(bQWhY6`i4TG62d%M4dKENJc"MoNXb'Nd>!tUSFSX07cg/p8g[ec8mTdp!W'0'=YB_LN-hfIC^mXF?S0Ac>PDhKL1*r50#hXSjgl5t9;$_Mq.duSqIJIb!=[jPp=G><Ya4YcnA[V+CVVEbg=hYX?YPJ4Rr!LV./:%S+=lTb)f/%1o8\u#2Lm9R9nf0AqrMuaVorp"t;D3%0l5?e)+.u=.!`bQ)Ljp0[Y^\HS7Sr?uJr0\gLpHoI%igt@CXF'Q2+3a3O_6<k0Q[cX7'CYkSgV3O%00]$pk8nm5dr0L*gMZl,a$8JVgI%U34a>_f[F*s<YZ\hE#0RG3mfL;V5P&#W4TNVM2&Gi6rq+ZHH)c:KLL#?I`KFJo$2_7c%Z=!#55CQB5P^/qo1uiFHH4M'rr,F*4eM_klT:f[d*^g)m!gBWo#'?:<U9QRBE4E\"leO9YN?pea1"ZFY9"U[V56fk<qh"fm-d-JXFAXSJ,I@E%acBXiU:"GcfVF;7m@t,I'+uINJ+dQY]rZaa3DpHInS#dr5)g1n]h[9/O-k8;h)!qr?[e586J6E90?N**$N(E)o#8@*KND"It-5:P-8,S*3;emoK;s)E*sH)$2W->mk/MR[nhK==u\,/V+88h[P-L.9K_jeQTiV3HY;<tU*U:3h.&B-2#XVMqo507I-Q9'@j;H^m*RIMo]QtWs3(_>pu5pn?+^!mG<LE<@s.o@Ykt&;XJs<3ZKGGmc%k_*^\>HdO!N>>1#2fc_$?8l55H^@GkYnF]4_-5jmp3+qr!+cd#T\Ngg[,X`^q'b4QaBV`m,6Yr:'72L->(-DjVI0%:=SZ4kqsR^[]##h`3_Xpce*afnWc`n\M-uk$'Y%8B<$bI.R$[<i#*\\c(-(=T!<Xq^7!)XS1tl8%9dnnoO7</cL!M=hEL<="S%Qqp5T?`V^+)IGr5+n:<^K`UVnecMFMVOcSBYqVZFeS6T7)ZL5bfdnbJdl&U8X`q%02h>Nbrb&Pa7(#SbR%mK]D8)A`F?fS*rqV=)[27C6mcJI;nJ(KH[((E0nroCsqWVF;6__F*!lm"@beD9T.T0)H0ntLp9&,B&jB_M7NPr8)5DUisfqStNZn\5OdRu0(q^\.$gD-qX7D!97o-cYTOa_)[gRV*/f3]XV?DmdBnQLu6rH6/T%]$MB3>T)icf<Cjf;fPG^kPX1TgbKfET7'f;d@YoYQ8c-n.qG_eHr)'Vq`ljJGG^pGcQ6)m:6,sEn1R!oAd$cXXk3*Ac?O3d]@i;;C[W,;o_VfVn:R=,#Is;q\Zc"f`6H7UTD1c@i,@HHKf@6SfYd.tD%82-<O^5pSL%@P[s*/e\'`c03,gijgXDeWT*ugFDL4igXnJ0Dg#W,#%!1ujd9jZUM4X'%^&RIe2ll&FS,%Zner(>/o,X,E4<B2K;`1+fbF5TKp(NYY)4H&kD.+$dEa\QmTBm#`DMc1h&T&,D+-Sn^d5e;NTS](`+1f(p>i@!HDtqc,FQ5m3"OF`0:5mNsj,J\[I+L]E4fX.lJ,MXs0s88Igj=r4+,G^On?p0)EUKFrQA<ALrmH/Gl+F40mpl>rS:%Eh)7sO0dG(*ke$F6l6oJ)[qsg/(kTciT1,Q.]i/8\hq2o-WnUl&!;U`+(oJ;QID7'HN?Mq$fjM5/a^@gtS^Nd6bB-3\5p=`3@epYl/iFg&gnSeCMSB:`u$6T+XmH1%Rj5]!i[sjRY,Mbf5TDneq+3@T_hK.#;pYFU'p?Oq,3k+:TNt"4$PN`Tr^9t6BiHK_<M47"Rrrq_lQiZ,r#6oX#o10_nKJ3/ULBlrMU_%V@IcWGiA5h?S_*'5^;/8p/5.\#43g6W8diifJ(\Qm2$_aaB)i=k_pAUrp%uXd3qtb:1lN9rDO5G0]eD0eIWRVpm+!4B$^cu+nWM3JWP1)Wq]C`G@,F*2;S#Jm29GbG5T6EEeoS5Xk?[&u/ahdg]Xir,`\teHK[VY1UmN28N*TQ+=:cCW#UCVgj^A=8/3)CE`)L;')oZ,^8n36_Gp[P.B%t<Z[Zn[KfT1WJV^ZUGXm'O6^h/M6aKcSj=C1fAL_LF$U&U#`$?/oe$D:gik/:)V/>4p+QljckKs(UJ\\@hf[eAT7WO`S^_<Y&gAV?%SKJTIP>Bp:&1(PY0H#n-\%Da.jC074oX;hG/qZ5`/Kqk&.@2UhPgVcEWTI?0C>%X@GTT<^D'jQE`7X$?G5qsLAo-f=`['Kr"+:McJ(UR0mXJ)uk)nV,<_F8q4m5F_\KV.bA&/oQO9fEXK]SfV>1l.uqG7-?i06dL7U'sg&Eo6U=.aJD>oI-,'+r/H/FbGRT!QK!P+&%qL/1Rue[85u4Nf(DY*e'i`<kSaCg]pS`96i=X1p5.X8m&Aj>g(WCO5PL-jId?=G^@Z'"hu*3BIsf?nYg-XS%D)ps"*O*g&btB)hphVSn?Y'?O1(qbn&Z>nrWD2mI3A+"S)t0INr@Oq>".(,fJ7k=XlF_sDfb2\r\+.pblG,@J+9@r4["s%[:<bs#[GVu8)qb>Yk#6b:rscq^5os3Ja&XGm>J_:'n)\kSi\o\c^^%kY3dk#HQK>rq5rZ=%h0?TbkT!nq:@9blk'6kJ*Q1BO9PYth"D+[giq)bQhJF3qnC5QA@'t\aC&1iCMm;+4oDK*\d*;24[3n4j6ln"J#Ofdq7'cp^`FqppONQ1g$4T*]'ZBL?L4ij7/#/85&@?Ff@;L$oaB]]f9s2lO"of.#^H+B[skRdf^P2hYPe3Ai-RQ\\#oLnhYHE*C4H'XB<j2_id\_d@(`kFA^A'gc_#IE08;+gEBth(DS#$hs30bXp>J%hp[?s"g+31pRMZ##b'uV1q#/+i:Vn4R5jY,/pFdMKepk+'aRl[nE6#/soB1=Bin5B#C%0mRFsDD'dG@;TIsUjAXZ:HpqTXXG<?-:]n[7h@Hh`Vn^Zj(:qeW`6moc$*ZFFQ2%r_@/V]L9Xj*,q5WA(&Zs8)9#rT7sX8Y?sjbO9lZO'e:Ml6!+nF*dV<@a"XqdYDR9c0:"5s2g>IcQ@!4Hn53T(N7$QKD0iUC#+/Lh"&_L"&FCB:MT;g@J>O]R3h;#jJUbA2Wi/?0D4/SpR>OPor%\ujj!ab9Rea5Gd@7qr?(gPpKoB8rG4XqrO,2(o0^j\f_J4F\uiYanA:SXI.G,2s5A*-q0`H?h464&SbP#=Y5JuRj.aBhRBc\%&)FO5ITY1shuio&qb+[XIB;hDgMcppZS<(AXp>qlpsXZ;s'B3qhlV0<S_+ZAZ8h5qe*+IeG^.(I#llTgpSES[<pLR0_JHVF1u(fdoM&"i*.1iT'<R&PpH/?s$%@V.YW",CFKWE=K8,<]7Q0-#LO1+X6grl]^CSTq5UZ%C=q3deqqK!js2]\lHpdkO>+*d%&FODZZtap^iLB9D_k6d9lgZX`qk`JinX].)Ed.97n,MVMp\s_8j1kB^CN''oDu]V1$WDQPkK!D'_4pfo[fuep?cMQLn$]j*f&!gAg_MR//5(LnhHI8`pWrg:NK)J4a3<Embqc<LrL/,W_`qi5\/)jPpWcU]]u,iIs&cUapo[,FE+-2hq8^)gl[HD?l"?k?]thoX5Hl7Ybk]"<^)0AR1%<EVe?+]>h^KlVZ;5o,cNA[]H0/2sH/oq5deH)terMunXnNMk*guo;f&AWjGj#B^)XJR#Ol"o`n)Nf/3M3hGj,8D(V`0[-HnGh&0#''CO"n!&+.[<7QqssIVW"HQo$-m;r`i[_5PA2;'sRCm`;AQi,qc<Ts8B]5;(TJ-Aki:;GD1Ac&AKWCl^-N/e>MTd^NnR^q3/e_Da3j6^VAnUGQ)"36]XG2fV892]!(_2q:Op0IJ<cdq>JS,q:rkTc,"ndHrFCkbLQbu*<"59`@(]^p@$j`:L)&W9)6ppD>_bYJ(L4brp7XZcX]gGoSqa-7"u,$?qG*OqoTR5RhKttgq1UUrPm1`m7fD0D*>?EB2<0'ok3"a(B1P9YCB$1qY6dS)7@d`N,<?[0([D;Yiij5k3l8(pQp)@HK>l)"9+';_[kTdGi(k1?M)ur/GRR4H25h3GI6NJo@M9'9l4e)UVZ/`hR50j54"UXr8F2RoliNCDjm8Breh9rh*4(&fgfu\bKiEPa9W#gR=+dn5CCd)H@?[TIE.stRCVK>07N9UKsuNlY(uAAp\hB\nj*2b><Z)hHL4u[Ierl&6P_<Q>kX4_\tAcX425l9@p*_W;24*uo:_6CrT;j^dC5!Or1H#a\Gfb%=)XT+d#VNq^%dTkpHJGUHTLoVp8e%I'W:Brr6rX"F`1Kho"iXG1`i7"WqcG>&&2aGqWNUgoS%iLp>:9kA*GR@G+UCArmpnu9u$ST]Hp3`Si(lkLVN27s8Ikho\.'!@`aV%mZ'4II.WPjDd2#mjJUmXf8F'7D>NigH2#7jp>00NB$f^(>DmJ!:TZDoJ,#H.ba3hXJ+"B"ij8pQ%ZM5GO#R!QH@P^`cb0([F.U$#TDQ[D4T!d5+45F!qf!.JPY6Fq_-:Mlj1qcM212O>3koaXmgkJ-F2%.8&12mMmqmR@2V5Y?YQ#FVrlZZ1HG'!!K5&B$:OM5Ol*I#]e&Q@*pM%T6IkWtVZVTIUQPMd?qY[7_8W/qMm8I`hVn^tYVmKf5nF?&C5'Y\r1)o!D;?#dqTAQS$Ds5LX/GdYqqnDt%D`tPgc";IO)i)3$2t-bC'2*5W2i]H>:LEn_g\RiInoSls/bq11m(9_YIIQs.mV`PgcJq.VAZXS]0>4br/foDu^#)QaFF.`]LH"a%]a*?hUG(F_j.l)&k8sX!UYWq.hZ%84n#c?aqYc<VDB&H9BR67'cM;qe8+4oVDiLQ@6_.Taao*=Vk^2c(4nnA/FQ`Ss2(S*Ckh\gaDn>7c+$T7RHbT%<^]39Y\'?H&o^Ugnnt!0qr:9j-dd)A]SqkALL6)<2lT]hs/">2[T&Frj4EK-05CC3Ei8e7oiaufqoV8,*it&:kq-P#mdeEY5r;#c)ht$^>hu7:n)cj`P_oa@YQ"UZC(NQ/IiD3hR`11-4q6uF@q2&[4H1@kh#@>(97t7O%)86'JXVq3>q%&2Y)$'ZeM@'1RLMsp*rZK"2AuQ1FJ>t'4O4N2ZVMp>l1A8X5[`p7F<Ttm+6F3Xgn;Alr[aClU#(if7XUcJWG<@bYEnWDL-DuMf0Y!be7@,:LN_A7,0i!]7!+3D=mb9oP<!"@2#QVmKJG"];mp@,8h4K`08#Gf8\872aDfb`f`YSgJ6X>/&$O+V-#0-b)[c,A`7YZI],J]QX5C@2-?h7W9hsRO@'bS9ShNCO[PR)+N1$1hWCC+V<EO5)Ll/-jSnF?ET`>=l+As"Fte"g'n;1ZY!7'lG36U)KHB!T1I735-@/W*=drdSj#I.tYXDS"`>n?,gTRm6htUh:j6jhH,qrGRYqI_LW.i]PWBXWW#ahoL:#F:\8.ii+K^mEL7.T4pF"]`1qEZBht2XnTC]jO;;!RK]BaP?K'%\Kq%L_:XPFAK,*)-se/h;o;oW6tD_71RU"BcmY*O"dt;<XWs"V,ahNnZoa8?LaVf!L&Tiq[NBq'T)JCb^GKI;rSY<6IJ&qVqW71[(Bk;0Wa\t$JEJ6:p-&LYrRHDpe%aC4_2I9?:.>mg"TD(-J7Vd^&`L:ss2n_8_"!_@Dlp!r7_h,2^p/Jn]b"cgCB)L+0G:h8XQ#Xd%hsWQ%ru^WB3[,W\7[ccp%+RdkOR1__R6!hc/n93Z?i<$F!Ige6tI=tiH%e0-;BO10?G9&Zg5lhL3M4?^&*_+G]ZM>n^aSg%XdGGYMJ'Fn,>>bO"\'0U&0-_7\@>3@.'@'D1(^qs80ep]e5eE?Ds:&7<BgV:7GiULpt"$+L;LATsC8p^h(3k2H!,m7;u<OBXpX\,_UjT&nI.3>P%gg?p*"a9$OrVeGe1ug`N-0L-PXKa.E7[B-.*%?`idP5Pi,2I[toP-a3L!F+8LEC1uh;T7"54B:Sq=*qQ"E^u+^pC]RqQV)ru/5@C70kFBFs-bagas-k\(RTogiO&++#pn-leDD(nKr6Q!^]JIFMW^&Dff/@>HT\[l3o?8IG$saK?Lo/'1dEH]VU5Ads(kBH>7`u,t:hu9,&7%!?4Dk!jXkS3.CsHC*>5_46ri#L.d&d16>6+ZLbi^X?Zq'7#ZSls7O7R1iAg/c85l\=h#>QZS+engK/5r]!9;=0kZtjNPM\)G`aC=bdPn/ob[ETT8R(#uX2hQ^[Ag2b;![3h\!&:4j+ef<15U=%r#EA/9?1_kLB_SKp5Ft*A]DEN,X[Ve[Ic833&#?^'r6j40H%:h9eJZ@FH"I]5"Gd&\:gI!1W0W1iIX'0'-%.RPjG05jobK?AI,h4D2u(j#mIdT_mbsoikUjtYr4i9j8(V<]aD=^lk9c6m<(Q??C)u%B5^VgijR6^\oF8:D,WYS:d$)cbI-ETipfl)#&!-_`J^6HLs8E8r]`-.E/U'GP_`uuPL\C45^\ijo^$`r@qjH@@o[f/[2t+"305[e=o]Nu:k,3OkJtB1DiqEQTr6fr,I,@_K)aF#Yri`u@FjG\as6Z<Gn'=4F8(P0?7o0/'oB/@8^E8/JHo[+51]GFU5PYAqGk^AC\`^Mto<$o"qJ.2NbL?Bu?i?\%s(fC1DpMYW`Op0#WeD+<#GtSr!/nr(^NEHt_glk+^#"\U(LiQ7p/Ui]&[(p"iW7&B<aap*lF>I"bVHf.2]V^IRm69'5+#<KdV;-)@EM"(+j?9IaP?j2FQ;LDEC9A]!`YJ']t^mi]_g[\'HQ(Ya0r`0]40KE8s0;*J*P.iA.7\<>p9ioWUK8`e'M;hRu<?/TUG)ZGj8Oc6%M?1#YrWY'%_]H]?mAbp*rlqR41c,^ZdU,j2bMAhRRaq<'8tj\sH9eB=TLG!"Kg!q#C?,c_)#2m%IYPWPdj7ZAp%39p3$e[g"78b_\%B2Xei!Id>h-DD(JL9GBFFQq9&jGJ1SaF:V(fQ&?tllcufjXp*;$$CC#[JM3uM'>UIIR&516#(G2tr+I[X\b@]NhIFMlhu;qsn,)r?+"63\!5p!(Wn:PS.QcWZiWX_e>oP[7c@)Bp_I+bm@'0Z)/b>iQAdnZ:a+6t'_3TX=M:30R=a'd!R*!>(<^$4P92$LErk18_Qn`Yc;K1%Ek+#:PGqdBmS=a5ta)ot97l&A<P@b]Fqs@a<j_J6'g@rARV]YlA)+1Y&(j:QUO(6uoGdu/8n[3])s"K.pnK(JXPj'E)J410,TYY+!W^8IfnSeGPrh"]=`Oa:;MPQ3$?Y8/RBEF)]edcPk+GNPi@fU+Q`XhgiCrn8*Ni8TAH\U-34hH=n=%9HR!,2?urXC=;3i/%"%[_M2(OrsBAqb^l0UBi8s#MR'h;\E2J],N5K:(^,L/#)E]@DdMK\^NN=:4@>J/`'%mup]"j]5A=@,4e5B3iG(&O`%!/XIAF!UM4m\A=^XqiF^?C-#jam_?Ze=:(O;H!a@p-NFk>WZ\r9eV2KkF+rDs0+<V=d3%g6oa$a(@O[G<]fEPj3N5<2%,e_3f6%XuRoHdn&ca_e>"0uJ1D'[&0iFu2WG8>)J0)YR&7Q!2)+6l."[kHu,pT'W'1s"'!Jh&\\giC7kX)7H#b!@?:ccH&!2XG(8kT^q'ifA9'%;l%:i;Q:5cMU=q$:Q/=_/!i<P/(^#Nl'B6prj^h:CAr2jL*K<@Pp1@]C'@T&tkB:(@R%JWKbpCMNtoNNk(Ca?io*0?HaR`?,]QOo2BF$'697o&IQ1LX%#"lT$B.r]cCpTN8M<]0BIMgI`<4P>&'AMfg9jmGmBb)1j-j<Q'qD-,XK1<nuk5K"gd6p+s'Bijo$nr:]7E#;Tk6gSS<oNSolTC8(]S87k8bZ=O.K6udR7@\JON)?6hj$Hbq!30XP2Vb&.9`C7j#%uCi0:V@$(b9+5c8RNZ@!crsL&-?,6OF@/l:]K[efc?-&rMdECQ$r7^T."6?;6F2W1bo+$j2ib7[).A/q=Z#5M^T,K#qtGWp<sYhi.!t<6o`oEUe'>tb1cmo/Y=(7T,Drm;D[#$VbPW3d5-B?$S;Z-![e;):Nq$T>Eq[Q"48ZVm))5tga#m6.]I/AoX7@,iN6)@1-uB\!JnN5VdBlqX?ZXVZ[Wkmm_IGgq2pY"`rA&r_k3J<IBLurp30g]g$9`bb.jMUs8C28^[Mb?s7RDHFP"n&J+pC4Ir4+&O&#WOD\I%-r8XtEHHRt5b&*j:2fJM(o>/!<QD@,4<]*km<UlFa&62=*5ierTN$+CP@*p2kJ>,H58o$&$_.-2B%$JldAXL]Q\pt?):mW""W6#J;f/e%;^h.u3Y['%'Zca.9d`/tYqSLfK^3mi,D>W^K^m[Ep/tSK"$%?[E?9M%^Ynr#t5clJnnc$(H(C,$A,4U8oKuPjm%4/erdKnIL3FX_fM-+Wh26A9N2\&F16anb2%$4jnWqo=p4_UK/5P@!%l]`R`V\m)7iV=4<8HM6j9aKAd$geu0R:t7"act2Lb"M6E5Ps7IHADOjpYWa<>7*%qJB;(?C6mXVr1tM82Z11]AITRA"<96!=98O$E"q6869)_)J/P=sSd@dbR$L-?rJlU^jTNAX<-"lqr5t=*c_Xe-Yono/Jha]K8(Au7e`b3i)8MF-n%:^gT$4tCIp`*&B7:PepdKT1=2/eMG<_9Uqq]uhb.?:u2J`2cWU`J'OBCrt<9Y(002pF[S,[^^TW>W=;b94bakbl<?V*;Qe?&)Cf!ki8;L\/%_E?-<B7BLEDh!LnjjG8>-BefKJhTOm\!H%,SonA@3g.]:^>UM>AR1NM3u:n6OfE7SXYF[.W`!-:>R'O@^o*J'!OEdL7"R@%7Q%n7q:#dNl_\/]#+tg<4koiq6bg;$(HnZk>3FAXq;HVVkQXboqm3&=rihVil<Ci9FC"Yms)4e]*m_$8AEbs.8u(`Ykk;3<]0XmKi391QAYt?)G[$+>drS=b3YuDao!u;f04j4%>GCbPOWJ^d8?,oUAmj(p8B&k%<HW!o<H[o%W]0JDRm5a,ni,:30)/!+#L1F"(RM0@4cPN1g+0NuX&mml"75id`N$%\eL9^Achuk%^!edpb5V7g[DQ:T$Klo=b]WXrk@J5O,u7)P:4e0&Rnbq;Wk4!bGVKI(TBq[iQk=kfs0W#24nmk)RD+6f=k:7VTc\`qf,=cOTjTt>PFh`:s6-*$fg!Zhp:^4Tn+b:3SpD_Gl[uaS>J>Tn<b3$I*0b%e%o7Z5g$Yg2diZ=",=>DArU<*O:V^o"mqV:3Erg4`3Es@TM4r+IYhtH.'%$?P]*[u+65BNZMjl'.I.oe=0>9VL4E]Doc*n4E1QUsd<djLRD9oQVa&^UG/$bo"gV`!j(L/q=5b!sa[q'Ba..H&iC)ucUjn%ASbKB^Md/`rYh'D[(UiA%/VSHMr"UM+,gC$!JFBu7'*io`N/u`.+rVh@#g=M(R0G$A.ilAV2JBK]6MffV'!$V_7#XAY^7&gEie/s&#J)nX\ILq$*&>#LA?ROssp//CO$_#ilZ8kWXkXN,Jq,oVcWA*GZ]Jk*(oTfruXU_K2NQ5UR(<%B_.07(LJd:[Va]>n,<b;4d"%>H\>eXI;NhASiSDM!?:#SS0D=!s/490IdIlh"r7b_':>iC;LJ"`iV*Q^N-EN?\SJ%g<ML1Vj:rf@78'nM(eU/$*JX--P9Sc8$-Q^TKk]74^;$LCkId#WT\1"l9CRGn-0F>_78TJ]@Y55-H+TWEFe)s:rk(mbp8neVABOdB)t'<n11l,98A_ZR$BLb:;oSOqj9!fXl%!\H(dFRuG97V.'HCIS*OR%tu-KWg2m:VUWNFfXid+F*k$Ym$%GCMA_A=OUathY`(aq/_#8O;eTA;RdlSHLL#\>+W!>AYKGCKQ,ZopTOA.B4r>!JUp6aPQ?%/d.&4I`1BZt\tS0*AJ3et\&U[Y_Yo8hcc#&gj-'B_*I(Z1s"1tO_i9-h^`q^IY*aP7[D$4p%B#%1@`G>>rf[I+*+.RQc=_>UeP-hrU'ke]S!!ol0o[j$I]U%_ru<qnQN"S\)Hr;MQ@6XQH,hh"j+"=d7N*2.6"^n#_40cPm<D'l"l;,`15khk4pUkB[U*VOr-%nuB-7#,.UEJ;qXJaJhs-g&p7QNIGWhiF[`R(,`g]H*22!9&XH>6lo:`4,mE*ehjiRAt8M_t>&%Q<e%"-=HCG&gZg%M$1W=XGMd/6]6KO&Uk_d'IGrqMtMR0c5VG%?b)/kh65`Y7P)Q*!%G)kF'tC5$oWfAF`TeEgOpEVJWtRBQsrrDaXgn^#XU]:HFC\H1f)7(;o=K2Xt3D.?n^pq/Q<]ku:QHHlBL0>0AVMHcZcAMcL0Il9L`U<^j[b5#DM5RXk`!`1&Rk,3^=n\!K!%4QTM<4h9%c'M@U1i:j*Id!a#kn#J^XnL/V9M;!1UXAZ(h8Xdp0c,0IBY0WZTj9Or\?bg4X%+AP!j\dX:s/c,p3lu>LCuE2.\%,YfBbMD@qaGfcS,f?I<E9.d_[Zpf>puOgTegZh-8s@^6pRDklpD]#7^[+gHNC<b(`8q$u`NY_\!Xbq##jt\kGp-R:j'8WG(c5/s(_6q(t'NAN/=RaKKTEp*#8]DIJOUpZ=\_kGqt)@Ddp!W0$TAXOi'?=587k-2)UHC$)H>6;&,[r1>e)^IGpp5'(3G9P-";IR1gLm"14(HMn2(]'a5,nBr_i*]#FLM;dINhnAX-__#f-e<.FbEGDl?rI!c-9t=e:rUQOuhtiPniM([6a26ZEQhWJ>O+j7b[CuFIiFc'LM>+-Te)D:l"2IctEQ]:Z^UL?g^*6/RiqS^2_CY\`rnq1*W"bgF%cO%0UjrEFhKJLYHK+FOIW<nuS5&h<11nCO"&sSJIbqc_h&#=Jd=%h:,%f_]^@YO2rNMm(@5@W+)l;m/pJ0S7HIGT,Cb*oe+kN-a`C"(Ho0A9EpE4F!03#sTU;OtEM>i5jB+A*;;eleN\o]OAMP!-/ks_G9:/TtX-BuRRO\d0Pd0.hPY,4mF9jA`pbHn9mr[PgS,ho#W$qMM\.sCW)Hes"]4+fjr"cWMlLfE\i0^bZ/;7TA_U'2"/=Knf44)KLorPm':qmsJKnt(o%J,I-V_2gf;r:H3/cO>kaqFc,*7j!)dp6FbV^Dt#YmJm.D]*i]Z9lI6qWWamtIQL>Hhq`Y7W02qO'_%bM7eQRqT'XsD5dXhA2Vt07V<k3OG&HHl;Me(!)Q@McHij]1-N"D9bM(drVS:Z_XF.`6#M@0^n1RibnmpY?IIgqf8(DD.GMA&AbJ*UV3>0**6&Up;Y#KRakPqDX:Y?eP^V[q3Fm6KXkLp;V:C!VnL@To[:FX7i%t+<&nH8D!m>P+iZ6>^Zo+ofLiE].C>/.i8(1(m0[J^VWWqUG_Xt;/;CrE_GBsm6`^$G:I\G94@q9'"SLX$j!-h`^sVk4El2fEC(B,39=16,\.0B/+qYZYae*jXqP2s1&&8-ZS?Tj;&LA3],=cbJ!$m<\VXG)Ul,1,>)(8l>+k^;T.[WYsDP)?"EeC[`d)p=mW/*Br#HeQM#l:5j='IuVDI^X`7!p\WX9LWUijq^3tmrca<uQIZECrRp@_n6.TQY]F6^rptV_DYQU!h\fhUY@Ci3gCRbqa,gnbTY*_P$F=&N]"%/$O5[Z1+6kZDRX.`g]?P*E=A.@+>0B5npsC\<YD5*`U_OO.0[OGSN%79aaSOY*luOIWDe@nM$t"JLn)%G$QiL<n<gKHJ]@elnC#`Qu:<Hi.J)Na.;9s[TQgZ;DJm1eqnP's0Qo]T*s3@V;K.d0&&hCUZ7W1c(5.AD8oVGdBb6a'.9Zp`"NsC<'rnf<b%BHe+H6_MF5?Y4d0Va4L<\$SkP27@GbYmp!Hl;$C0Fr*H2Wu+9B0S-F4jr7V_^A\sf=nQ#8JWQlp?TKZ<<TthTdrjGA!c;f52u"G5Pbd`e@tF)q``_qgkNf07?kXUpLCAX>JL08DCpp)0sHl$,`1MD]_L%(#e_9=lX/sAoXoZ7TD+?3'j^NQe9f_VW;l7[C"ZnNqXZ)`X$67U5TT]b>2T)6]7,1KYVBC5T3Ek;4$9Ohrp:Z>\V5AZmcuaH4kd_jh"(Nbesp[Qg(4F,e$%K]$P-H-\XB=hhDAd!POADJ]ubGF<H!9>A@j]R0/(pP7fE&m#O7Fii2```EK-rbIh2AJgNiXbO/MoMg\ts-C;I*'n[H7ER[:e1rq=qfnX_C_BQ]@m17`g<_o_?Eec5UC7snD'ggKR-[rpM6oj%:NL=L#Q7J"ni/Gd];P//Hd9XMS4m,jr=>W7BmDuChMV>HU.n`te*peEJNmkYEpJ+r+jIHd(WJ*F,!Pe[.^UDjMIPhu-0+*@1INMXDU,Ca[5"`SPWgV52TOl-&[f49:.qji672,!Z2O[";=^]/<!=u8,"OgaDVnV:qZ&]JYtjK%[Un*(ddC:DsokNi&KnF->P60!/m.1nlhN&&`LNUP0l2DjsC?i8uu>d:]S^3XD[pV4B0l6"4#r,5&'gVP%^A4(kDb>&!k9Jti<[1rPm^HVC)/Y;d=m,pSP:tm&g?"**sDY"89]L`"'/_RS,1XODhJZ[;skjms@IKH$f0@$_1RH#s5G,b[Qh#_Q=<#rbMAcS@o5W)b5\1*&1DgN4s6BuH:Z2aR4T06QZl>N;oGBB+Y=q@Nj+)HY`O9bRQ5DPgIHiN,Rch*Gd\@1S>++Eq*B;b`Ss5/90Yk-6`^[Zl%<do;=fLPu8PB[!##K\t&gKuaRO6>Ej,<M7#kpJ^@,efnd$.IT]]C;g"C[%tLLC"s$]C9*Gg'uunYLZ@'qgrudDQ=lR$/=r,D,M?s5"+prVB(?e^.I7"\bP#jm8r`PFT8OZO*p<;[dfKX57sDM\abjo(K$+$8&eh+>6sX,9CE-IcFMbJmjPoh"E']=q?"M3c[DeN[`/EM]=SQ%EkltaiDqSH]1dStW-TQPSd9jf]USqSoU'n&+1\nKehe9dk(.`cBOKbeHb&@21M('g_)DVR<<j1KJO,i#l;CODq6qf=og@Mq.Oan&r`M:f)7[j"\)HEof_FH0ne7AaH8+e#Ms'4gYMF&a_1Tuq[('e>AD8oZ<EV[R8UI;XR9FAnid?-gbX:;Drpq*u9jMa4)%N0\pr)=GL8!4'f\$[k2DnEVq$O_1>dO#p"b!tW]k1`FpOiQE"U@u?:sgf+\"fs1WkU_VrXtVfA<G*qoMkUXA,nfZ$\VK$EP[tX]VF=aV'Du!R=<D<mgnetX)RiZr`@"RD-m*KWKm[9AmSj.9V,eVM<eC"O3Ui0&qL#AWh(2cr)V9`)fC)6518[;Xcm>jI.cV*H!LDB1kA99`cQ(6ngA_bSmSdFbu\]S`E_l")Z#[]rO*A0@PFJ2HA9J/"*@hTC.o9#:RgK&FgN(^WMY5IK,U[fZjqHGQ]2'^hs>3'p]pE&pY.AdAM]l:d-sIY$b]g+&)XS9]b@hPh2ZPeon&UDU9t-j4lLS%HZ#k0n=YWK<NmF;n=V9<r&]`sk'2;j[l<Z[kUf/1c?S-7d2l<$D<D\OS1q(9IuoM'f"ZXcXo5-n_I[HUjDAXfc#W+Pri(;&q>\l!\rj2+HQp1/+e/L.cee&bg6/e[7If,h[ILDsWiGr5TnLU,I;YM4^[mn^^G09@??_`iVO9)0(M%Z`g*'A%_7K8'bk'7i3Qu/1FhY%BkgS<Pbl;N6h`bVbqk!a5l%^8HmJD2l<UK:,aB+<UdcsJ8hd"0J``Cd(_0SeCErQq.%q],PqoL)E=6Y4Kb:*r;)k"3?Bpq-LcA]`9+1=_0qaLIG!0blDr]pS1c\R*@i:2;WdEGj9!;@%^j3[idHT:s32(RI\$#KO5oAHNm)VN3@@kmr?O$<L6hg:\Br:$%;Yk!?pHt`Mj>K.c\gs84Ud&LI(rqrafej%l\Ir8f]iZCAQlq!Dt(^5;h1oogf8[G/%,QNi0\b'nD'jcLcJ+OkVB2Zf4Z(-tsa+M/+q3Up;RMIQb=5<U#7:pV\k,iBOi&rTJQ8boSh%^\*hdHJF\qk>$_qh]6k,F881\8V7W.08O^3!f48ka=7UU6\uGJ6sl2`A:a@u-Yi]J#_<enWQZPP70p3\b`k;/'8i:U(]c_\i6c`"0>YjHkA9$+%ODp1hhM5<=et$\J6.f\aI9F4gcnDe6qfrt@+GJL2QQF&=?M8Q$;j[fR.Q_MK]dJKb@B62[6@\WCPEWTNpjO=FVKX/t4Qj/9Z`W#J5j2dbdgS@%Rt<OJ_?k&hJJD5d=[mc[LONMe+FjRi)J5P*OJc+n5nFP5Elf@5/6rotTn@2>c(<;:5di>bat[=imZ!$7H1oAM)]SlF,7JcO[Z!V"@k*c8*kFnDiUG<[O],aE]"KMD3dRFYqe<GilW6_]O`UAOmeG`i'bbJI)]J,<0bSQY??r39QEqu.9oq9Z=ZoU0WGmC).1j>sZVC49s&m],UeRD<%?5CUpWn[VlE=LNU[*.Lh35ltBirm73cqrHRSgNg8*95^#$q!l[/1K,MqN_]i[*_cUa:R:)o!n\FE\0$2T+-t_A."R;sJ,RTPHO&Re[3l`%I]BGPeHL/uaF9uVG;?lfao?/&V>.%+"l7K:Y07S8du@8cd=4:/oA;19&1$-,GqY.1T:]Ot,N-1-n@m<R]I2m-n8)rd]j#B1*BrU9UQrOc:qiQu7e1%Y%^c<(4_AM8[,]u\%6;?2A8qKCff,N^Q5$a60?q?GA_ac8?LF9RD:aht/pjJ1HZ.fjO&20kV8p`rH8BTWnBpiT?No"A/[,2[.:Y``f7rTQF+SC=IDA3^,jC1oe=h;Rk'g;k@(<6>$6K`&'=Prqori@Z3PJ>[q9T)"50UA5qfT6hF`K&I\E.AAj)G\iD;c4A>YDR)q<DJ6h8j"J16DMo'CV-)fg\.H?:O>^K<]7E]>*I]NIU@#fL+M/K%ZcZLgN/@l\:3Y'5gfM^@HI\<^[3kftUb/e?RRb\hIFIqd8pST'1Ol4i%6Yl)9e12k_b..p4:^@ER'B=f%F#:`_'[.1'L`c/dTI5YXifqel0MIdt%B$l=ULOp/GVo+\fi*`U5t'VkKUd^jl6+.1tm)GU-Ii[ZU))HfLrB\R)H,*]H`q"I?.l,8aTHs9n9"/.'QrSU0fm7S'fp?+`=ooD.tLs`M@hqND:-au^K>$?6q9-)?.93,qU1^d5ta&aSRWH2+[PVFLu=j/`MVNa;)^9sYchKdh\m\rcV0QrX>cr]Gmdif7*YMmn7IS<pWS[JXFHP3K]VpqWjs+!7jDQRtc&HV=G<i@s*@LJ`N3=>j(G6-?7fW3:JAAAFe?2=HeW+jB0Wau/[8%n9d*<GZFTG_!&._Jb4$39Bq5L^2K#\BmleuqFYUV#Ya->NM7@b1dE%0uE&"CNj$9HH$\m?t?6_pfol4cn2"XVQ6Ge3BKL*c"i`-NH5fIn7)VNX[RRRW-e!)f')<Yj,h.'^ia#,9e'Pi(bp!YE$6RI_e.mC.l.qr/(Vrj%o(PJpRjMdaNjOKHkiF)LUP4:NE)rGiI]:_n1Epfrokp.pnkFr`uKq0+#XJTeh)0^h.8&*u<3S"VY)7>5.p'r;!+rh0V&-U'sI!N?Se\fP"ZjhT>;37mlNh<YIghn!\pXpqB,5X](IfHgc!qJR++kH5JqKFqP%E+pO578c/[!?aA3NOL"#!`)L?B'n5/5jh#1(0u:`3V.!)2"**3mh^#_?e/<c4IOKTY:NX>">7BENlkLUKr4+\s:AqYO<]r[,M0lu1%.15/;LFH5ND>]>h"8jB(rL7-q"hUh`U)gOK"Y_NMGFXm7D;?9MUS3rom((,Q5"_WKQ$`I+50EY,/O5MrQ+"=A:M%$o4(F\IFt!rTl)I/+t_?7Tb5J5X2ED[aGS:rP<Q])/BhU,oHdYrR^EPBYh63_NO!B.XCU&3b6IkDnB&1^ToWfZ\9=/9m.8IZAOFZ((q"&DZGu#KI/UsbAik56k=nP25P<s;:I"@)ZGW4@P>9?aauNRnJ,bHp)QPecZ_A-)[@=LiLZY+Qb%-KBF$jm/JXj!delu&#gg!B'B9Y*T.;,eG(l#J3R;=0-lff#-=cgjJ'`>:-k5=_?,o\Fjk`&]?"bbp.>S?<BJKN;>qckt*rOiSs+R]#*d%[_A7is[@]:X>JOMLcW^BoL1g@_uuoOS)Q7=m%])&[i@R)S/o]0cYT-A0M.P5'.(?DhBDN`Q<I8[#TjDp#SmXt$!@5PX<li7E9&Iso\g/i[k"!#bc,[p98IIrDGR?hr8-n[0lJ`d0?T::`nMgG=6RSc7E"#G6)#GMal%-Q#N:f2Z,T\LAp^b8<ud#+23DY3M5I9*)7;<P=u<eogte;UphoW`I4T^R%scq/,F9SW/L=-%9Y*MU(MKbNcru$eB.RZ5"<nB8eA_>rf=B<2DWY6@^7=/<umL*k<aI;S=CXO=1-cUh=c-Jm+j_0-u9N&H_]\-,61a3L58HG+?MK[^Dom"I-iuN8T2sWb&#"n8i(Bn4ZQ[,"uU2!k"'XaPV"=i1'\X8*u1H3P3t=n,HsGe`pfUm+S([PBrGY[F9OqDfFZ>#X522E*mQHqUFs>GQ)8`flqkjn,N+?:]3mur\0pB'^tkT(S:W_PG<VPQu>V^Cj&#,Du[hE^$"'E$k@^M732,Phs(1+ZiBr6XgmMM(I%S0rhi!<Z0:'A+!"]lMVBa1i93(:Fu,.%LfW%SFInS^9Z2Q3,*E5NQV=(3hK?N+eC!DJn`B"n'H)BhXo7"/L3>D]poke-=>eW3T,r5lmXq>nb-8`[Uo0i+s%SOAPU*/NlZIl:Lkl=)Cq@,b5q7:("i0:j42HF;WM2>-e5@AUXF@ZtbS7DAbT]ofJquu0_SFLrj!hutN;H+[:-scf3S`1*[_Y>K:R#c]@?+Ij^3ug].0tI_k%=G"73..2P$$e2(XMYM/i*R'o(=k!Pk#[?1pNK6qQEk1N'[pL(FnP]@aF/]r\6!J1CSh37+#NPK&7l)MhIoD9pM7HiP4IUUV3.-_tEgk!71S#E8Ko13c`ih9oM",9W];:Im76;SY%kV!2u4>)&Mo8^_>rs5Ol9;O3sGko3`V;]qgG%o(,G-+"LeB`P5#tA)Z<W-<B]<c%C(!7)dTLLZm_GA\:)ms30T*`[MVPDnLE@7(@(/o[+aer7Z"SCa^,nGqWUrSSX7t?9@=WZ+_sdnQ3d4**RG$IsB1>V"`6C4YPNs>kTlgrdLKr17aqr>Wnsh$Y/.C/]!M%6hNW]L<TG$/"W5Om;VGK*,IeXpY7lG\V3T;=E3lGa,eaN^?6qFolnCLIQ[T%15D'omCmq=RBj4.+'JS2F(jD4m3dBs6S8;r"6,j$?i,L>D@64/0$.PCA26ak"Y*L[iNec:k=u%JEWO75`6j;b:f9uO&`uH$aak908eR"\$j%gY+UCXt0/K7mWO1"o@P*plC!17A?Q7sj@nZc-mF>7J!8%tNM$U9G4Mi@hB(1U,9LMl?';6)dOq<ci:nn((&V1K7p`=u!5nG4A+TOi<VRQT/jR6;d`Xbm$MLX+PrL*,a'+gHo(.HC%"lKLqlUcZ0T*_(dinL2Kj_r&g_ABr`q9ON$ff-WC$=E"E[WKLbC;o]-ieo.2Dbu.;D.O59]cE!'4EM)U(+^G2-jD(#K+6NuT=+ttG68ZfnE0aC!4Z>:f;TPP1;54V-3A^ZC?Aj0r0*%jS]4DYn?ieN\Tc_*`K*3l-nH9dGhKD6>3'<<Cl@g7d[-20#!g%cTeFMdBhhR[rV=;1n.r"O/&1u=r\&\PruCFS(RHGgke^]K"[@7eVJTDZ)%K$EDp%/\;F(Bp'#6^<,%SlkHC3.&oA7%Dbl$3[s/k`?1hp(<iLg,6\N]U9I`GEaSNSWSq<$>^)?NELMD7Lteb1nu525<D@)u[LTs*m3r[ZiA5H*BnB8WQZ\p'L%2Kfhq.s%,`^3l7u^&RbpT:$*G.Y/Q1dq`k=0#FC3VH[BSQ=E\Hp%lKUqlnKAMgHoBB7BL!H]Q;ZDr5Y:k*3\\@oqh:0<)\PF35cDobZ`NY+M'VIbjm$fKdcK;9$A?>o*(8<k7Ihp;jS3ngs,e.)4@rhtr7n[5b<;duf*tj0s6."m;?[gHOeG?YZm)@cOh];&@EOKuQ3+dN;30*`Z&6`@URLC!G&:Bl)rEJRBAQqPr#Y1L=UNAUQPn*pbq;^W2T"$p#M#If0Y?`@L<lpAC-s]T6Y"(Q3C>7Jh3'+UR14jm0s)r!A@>M>=GobT_cm3dg/[2jBMK;C/la&\ucb\)Em\OMjCep1BQV_'&`M0:/c[V?s\0PhmjYQ'CZE7p);&,rRZJr>p8?P<%OQ862_f#'3f2IIejqG^3PuB(mEus'nfd=_ZSAk7>=A(-Pi/jpSKn$DG#Fcr5\.\G<1O9#]ES8t0T's!&O]K]t-c0:65M5VsupQ:+;EnrT%1kRVDpPt?#ks4[IJ%#,-+jPJs`d\@5D?EiWgF,A'(iLFHsR3dH'GfQOlZeEM,oCjL:)@tHUEZ_TSV/9T'8o'HUVF;#GbOb[t"FoiNmG.*j+_5%9go&2f`lGL/>':92."-9mK'5sQ](*,PbR@s\*R@&H.g0Mi"XPZn'EIe8;i![AU0)2FQXtGS,R=D/Z^hh@2RhLioF(7d9DMfj&,j*i0O;-.1]Hf?6AaAtXEj[5RLQkKG0n$6NT[Q#\X1q4i2<o4\'0bbMMu/Ae!l$lb"chJIDhVfX!)/qDd;f$-Qa9c_,&\Z#r#S5S'?qY%)J=:'XH.7eRZ`/k&PMRiX57c*XeSmAW?+V-a1&J?^?He^3VQWj-6*(*>'k2Jgj)Jc0iYIJ<0\"7^CPWZRDUD#!rn1VpL&'"-#d^2pllNf:PaQ%.NX9!rb$Ks6:1n=lOopoo8P"S$E%ha0iBQi)aj="bpk@pbm/^$1Po\=1WtdSM\H^"FSViru/a$s.3bS]oNAg8Drs]bm")=/o[U,<:CoL.8W/S:(dOCI`VaA!p6YcI@ZuJ%f1<TN3<[L.7>(^b67=YEe7eeo7>b'DU6fGZRp*F-c]<gUOQ".F3!#O9TH6"i^)C!o=I]O[Vs@@,h_bCk'U(@i6cncSF1c8jol^s8*)m=@YP-Jrs"+Jd<#'OL#V6=>Ps99pqi>=!?([h@g!kNj%GCUn>#]*h/A<LY4[5b5-XOEThP5fdnt1L7c3UmrZkes>Yp@T]?E6->'JP)#i.?ON8lBok/<eYBAiTh?=V<boog9P#MuSQ><Z&b/c3*^P:la>=Wn*;s7um:'.'EU-\77bU@0OgJ\]fP;?"V>I\&6T2PU]MQV>UAKXWL13FO8N7!&m#"@/JqDuIKUSH,nhc7caAr^.Cp?R9s`gER=^Us()NGkRP9:op2h(A#U/IOYAh>k97N"S`S*Dc"7E?S4$Z^B=X9;f!0GN5S!*6YuUjh]2Gil&hVd.Yr!O*XHDBT_uuNM%Br+4Tkrj-je6G+a4d>)\UnQQAU?F&eE6PS:"?mj5ZuO0=?E1M[XI?QW5q=T^HZcBEd5KC0'A&jBI3lR91%Gf`@]i5S6U`_1r>6D>eqj7,a5V_aI]r\RZ=4hQ]>n$*j9*%S?/&VrrcU/@Mm?/stSV$V)SJQod3>pA@3'n:`WA9.&2FL_-/#K+a:L+sA.`Lk)a\=][q)heQFA+<'kORN?:Tm&i+>laPCQLW]:8b4M)@2d$:SV+6.1Mn!(7^:!1^r)W[.+4s@HSU+5Ee\[rAp0U-M@(0tM'$L:2pSM"u1NQ1+54A41bsUa',;Y7uY&(S6*k'7LG%REc=9blW]'URlEAMu;[g11c^@5t]H1()*e1NJ)kE`mj64eu]?(^dB9ZR<_(D"j`!<3E?Kun'4*`14I0?c"_<*rU9,6<msbOq:i8&V?@).?G8T+_3kri)N?nRncM\>A.R]q=<H:DF,WAGW(%9'isrP^dp$3U\>=lDK+nbWn[31&o;6ot)'aG.ogA)JGP1rbdf_O2#Vapc'@#hbhT5,R\`0.@s@7m?tp7?ogAn!UTi8#Vo%b1?f^'\Fj:P$St':jq@mm+W$nQ\]eEBWoQoIIJdDq:kn:ghrk7g7CLap[IG=Gs.BH>.N#Enc<S%`02!LCX314ZP\JI.R?PB#NkD@jXUgoF'Ja5PUP)72)\S-n/=:Ea!R>#rQ26''$O.$9HSjSh#/64t'jX7I\%q3LQ)-p.s"5c#J%G%4TC+HfrU#=:Df`cQF5B<=_<+QR=:qkYo]ZqOQ29"655qT)J#':>!qho;07<a4cTLpb';$1FpUBS(TDA@+5/-F+-XL&hjS<"pq=(;Jrodja>4p^tgtVhYp[7t,05JP1DY_+=J,AH=Du\Q4K9&.ae8sOG@(*VXqu*SppYL[Spe^@q+5,\NJ^:Orl6gHi?ho1YIE0nLIcml+]^OUa5PM5Ir?2"!=6o2CO8nJ-?i3gufWU$'J<7tY<4^G40tPaR/;9H@$is0-@#2l:#tU3Z&;&)!OK;1WO\(^$UdDMk:!a.q#XC\7J5B4RL/c;$5a,/Uj[&r.!C[WlJt<OI'8-?b91Db]MMP4@![/[1Le+?bPnF[[$kS@/&J6-N#_<P?J:S9KST?&'U*q2e&2`\0&/l])&J<ta=&PmXNpaX6kr.7TZJ4dFEYQ:R!oQ/#:p!ubXD!p]82D8@iH-AM3iL[ZC<M!tbeKI\ru7VZX-rM(VjbP@\1N0rl:VVf5M2")\QcF"QCi!nD9i1PZbbJ'XACD&3%@4VFoV6K)$Y(uZhWF3b8Q'CaI^[t/>cR5CCQ(*QPFTd;(NL(EoJrc6(ol$+:FYKE)`j:h%pg^2*Y;\(J"?u(BE<5dsZ$#OC1_$l(@/=F"lDo"2G*mcrBs3bY;A?!6o8p!eULdALRbki1dl9dIF\?^]m/GglF5AStqaOi-CLKObpga[EFuhZD\>:=tYZb5rV8"He5K9AEchc'./?ms.o*),;G"8*cF:@oX\E=3WK"H9E.S18MQeu[ni<!L@H:6ghRMNVI0Z._m\*!o+nr$m@k==-pKjc7GPN4hR9Xmci+L]K:b<q`6Zu(?d49h>@q3]9BO3sWTj<QL$XbW&MPT"7Ep]Ro1Y'->pfZB\Z4m59qi4"hqQTk'WL/3-+_$=V2.<`8.hf'L";Nl@-p#45!K2Y,_5X`WdT<EMup\k[[CQ.]:2e8;gm:Lh:%PhCB\ll#_Qe^!a=_]&XPU-+l#\:N+Op3kSCr%$/1i!H@/eV/=\UW2if9hj#;aP*'B@iFN:RL3na+kce^c(Il/6uIae0h6;oJ=Ru5CIA,eNtYhU,Uh<j[&Y/>a)(UYp?;p^St;IK:#&$5WtQduSeZ?sXj*NGI(:2,d*WDN9q^KL3lkKI4V@fu\40+\)feQr(L5Pg.ao#(<Bepd,WJ,8:D7o[/$kg,3:UZPcFs1'47qYXWi+8YUOs4$K4qlec3b%g^jhsC)s?]9D'fCene4ob#0h2B&#N[rj7?MN@Jm9!!l4/;SargEDFJ\QZrMkBh35G.r>.g,alRuVpSrX>-"D0i+ZU5^_0\aZIN2#]klU&;;BntgrbX41.RdI1<rOAb%mR8rQ!(MH=M^A=lY!.<tGp-hFEZED?-Lk$\u"JClL5q9LK+96`Hl6cQ[J$P(Ih.4ggrl7g,s2ilBp4MNl3S_B^Gi>.[eU'M6Mea_K+E34UJ"JV$XUm3#YuCMT!,sgS4!fD!HD[Ac?7*10OloX8_[ctQW_c,Q+Cqr(^l>-f:J2FF!jJSp<6KbF_<M+EgH0aRo,g1G?9@u&GDnKK)F#SiH/;Y9kW=3tgKoB;lTL/L[8-1B^AZrnRk26jp\*A8I,-$:p""HSqoHh3)a!^gb]/7pK<i'6MJ,RX\"tr]nZ2T``W,kuGP^cQk/kqul_Ads:EsWrr:joRpsd6K^]'AqrV:;;kg!?/b<Pr9U@5F\s40tmTASS/<^&GQf2L<b^'r-%8SLmqo8NLgk3Ji>ps?_[gF4MA>aFQC?<f1/i?`38^\ogFb[@I6&eQR_$;I9HAK9!oWCBe'R!GnTL`=NOJb4XY0*]>RH(2k"Wt3`CmT2&6&)3rGQ1Wi3%$CeIS'B;hi)ndc1qieVhi+rFJ+3E?hqL['hsS>m/4b00bbAP>KrcETX-X@F/9#b@Mh?Fdaouqo$ka=+V5iq.DAt^lPCaBJOPKhJPo96q;CCOBo1_"=.Hn`0jF-j=m@Nk[!$94G%Iu/=?rm/mZYX3(IdY&dk$Bu`Ds>B(R;/XGfQYu2JPH3'Oe<%r0A!;pDSJ"a!)9I+"Lgg"8I]SN`)J/k*cY3Jb63:!9.Lr:eKilm<CnWO7!R5]h[&>AL./rR(##.0!Q8*])a/-*l/Hn*BnQj!DYqj<X![glQ2+j;k7>?+cqjPmnX]&NG'EPk)d_?ZDd)l(Vrl4fe\Vt`1\B4Q^A6mj)e\u129UHuPE,"uebAYPc+&%)GL:Wch+:T#qTpnp3P?\WV#L+Ljh`tKT/g==e1;[@eW@1F3N)L,5Hm8Wj$SIF5Ig%FC4TR\L%07lZPf!Dq]DD3=?b>^r2]0<VSUU)//VYe?ME*1@mBnh=+8s'jM5u;Pl9dIrdXAVR.!5f*;f(u#N&m9HHj@&ED$>VJqJ*ZlDI'\dq9`seiU@,BE)N/)pJO:2Y<$[lXbLu%U7V9jW<`7:E%r0cfX)r*kBW#fZ>KHJ>ZkRp[%)bnJ/AP'B$$ChJ]$5\6f1)]D%(@s7c]2n:\RE--<4JhjJ`]dF"#)lWs#gO$5YWI@[?Xc(02;DBBb!De[d<F?=u:[=n,j^d[nr5I(*KK=!EFL(ENuos`k72`1!,J%NUUch&hCJ(%6o@V_;'PoUR)V%N6_[6OB_a].>=i,0@$:UiWf>0lKJ@/-Vf7q!T$KS^u7M`&4!2qfo1r:pk>rT5]\?i9ctT50F6CSnAt\V37b0):uNm;=NV:#b&jT'iUXOp][>lEe*8"Fd6hO<d0b?c0#8lgqZ&B?aLaPl>=!dK+f*61^[-[.)a=G5^Eq?h$qIrS9]keo_$6Z.Ad5eiq?:CPMu#&"L3^Eln<Mh`]ijkMJ^.nP9;h^FTETj#rfTncoW_.BeTCmE5i`\_j?!>bdYO/9;:6!*>JdjD3ihe/>Zjo*et^m&OZElmJD^!V#]qa97$oV97X6f.Eq:9W5Q0pdEDMBts&q4!lnWdbPNEJ.2QMErnc1r[S"g<d"KEbR!!*W;9Wua8bU*POmfbEdr8K,FoD,S!eA/(5BDuo<1K1]iP%0U,+HpT8,?Y*BmtEcQW!4]5CdMFZgn!25sVG!/)JJ&;4"3:9XCC(eX@0)ufK3?bGmQYC65mc!Ls;M-qM[NqBFKlVIKY(I(n(;>cFD0qTrlBs=d$R"PMa.9D4+ZidGo3GeN\,HI/kCsEI%Pte%hNUQiD%igsqT3.][L"\0(B0SD#NENW:(k:C<!=T*].l(PGAVblQ_!$/9O-*n@rFZK6p9/qe0]"Rc=H)C6`Or&%s#/pI2fjb`Idl`sN/bE;]751kNEI9s:/Njj?25"Kh\&*oN'[.ZIdlWkX_Bop_G=D9r5&,6hW?thLU$!o?dbQrdtu1(eoTp3T4_RX,s(qXmsf4_AXWFbmEF;_^\Q%EIidfF0dSb5hY6@U3qbeLG**YZe&Y=+)pKsj++ER-T!.=\Ied:<WX[]e%^K1:baMZK^t2.33i-!L-U_pEU@b-mQ1iCr8<Aqm4XnYC[7Y)8S<H8RTK0"4YRC5F-M_3Ho'uH\,ImuhRk,C,0iH:^.@:*8dS/5@\P+WEM%F`.CG^l'l1EU*FM`Z/F2""H4.4A9obImfQTi(D$,5Y&2.K_0oCr6'rnlmGF.;RoQJ)L2S6<Q!6U/=?H7ddA<<):R6/e37^1;M#r7eE7+m/H)ritWJhd.0pR]m#Z]V7W)jkZ!Y#7f<[rc%`Gafb%&PehLOI]C,Yp"\&`54d1bI)QJ9H+agYr6pb:U(%(#&bc*FiJ<%re:'nFUr7hQ^.nB(,OYKBFEJ1`-11&PYO+36b$UP1kMG0is1.oFo;_t']D:r_;E&miD&X;bp0<g^=?eC@9aH7n9GTJZQbT#^2N;8K&rY_,)87e;COGiYh[KMB>9A4O\Ng$RhA_Frlhoi4htm$_r`T0g`F%i_qVlG=q;YEB+)D,@HcCPYcU33YoDeg^`b.NHXE!aRH]moe+8kWZ++<S#cXuK,nqG*4\Ug:rm`u#PAE@79@%HHZWiO0hS_O$Ii*=,12<tUKe<-\ej["DdAecK>&&4UPGIV7Q3gnM>M+.N#3<YHoDPW/$&#m.P$^%Ib#b=]mra$9m&ATk1i:DV#Us`"gGsX3C>ada@J+Ui1Sgf0]o5?fLB40+s[n\i"?bQGWhgAjn#M2Y!p(K)"$sVD/^\IDUs6h<WIrM7?5Ip@Zn+l5jrK>b2F)+\=T"6W"n")Ah88bECE[%K$XsNp"iU*2^Qf/C*q<uuBUIfB\(/C9)9D"`(N!'>m\8h@`T>(%1c-MI-e2Pk"O6H+WiS_%<Y07%,=Q+S+p:[0gs5J6PSCW0Bpr;saFEkd;?bX"]q,86q2#j"mB'<125Pk4nHTn)+?[HI*^Rfr2IX>ZHr-k]4$*Ll2;]D>HYoC1POaV^aqp1tV(HaQ13lWgIs7iM&h;)4`mShHfp$6REh5^)i_=9Z%[>;]kO%p)n5-hJ!Z&pQOoY(5G4?)oO\\%cWlt:fC<iqicfCcaZ5lf]W6@/DK4VN_/GH]B-TjA\k]3l_']`O$[C,1ZOrII#gqGMnBGDHG&=B;gaBi_X!0$Pjq&HJ%0#lsAg>*:?b"H<DS8N+kXKju_:"0(qSr8@II\Xg8$e":ka&`;!.hUWXW;^EIL_p=d$CQXNXfJE@ap:2h.pqLBWmBDBW7>38[CCeWR1OinqotE]9lLsDM\sp1/G"Yn^a(\f0HLbPR(U\&5DqsuPhcf@#[A1+;e0/W,ht=!Pb`9gLB">_Ag@'[a`T]&To9g+RqoPaCr5U1^T)JH15.c:1S"?hrKl=$,o?Yo$nUo/BUSCog;YV`PTJ6<";Z+V"KjZhQYVq&9</SSrMFme#\OiN5F]!g]V#-?p*?X87B]/HM^qk!O$E'm\eeH<<mI-p%s'dZ9&:i(r!U-C1I5MRd%K:'U'm!8!,CmPIQRC$MM?)M?a(,/e,R>Or!5BDi5QDs&WWW@c8Uq%>r<uZd&[Q4$8I/I9ie$@q?m+65Wq81u&H:@drpYR;IP\Y9>JFu+q!>\Hh`<nA48G(^h>])+aZK)[jkh+NWbF<!g.rYZRmg9FWYU1U5`%?!\a'nnH>M:(_iMP,bJ3rurquAq^O519TBmMbGk*ZPkdPL-g;p"iosXjkroS<DqPglpSF]Quhkr^3Ks0CYH87Dfd68p,$[UXaU\dg-PIER3A'+=S0O);tqiLKCGXG`KE,+!.4nn;Yjl(T5JYdN$!#m$FR9\6I\pCj]?]G*[Xp9IPXj931X.O"@HtmW!4Z(qs;Hk!Q]Bm/pqoR05TDhm:s2810jbp^Pg5tZOdB_WS>laUk_!p'3hj@R<bk)_OH<]j1T=j=*KAXB;GQ+H;D]or)!0dJ5HN!Di?Q?U2/&$2ak3b!aI,d`3[egm?kf\H&g$+"[&(u#rR\?Y7%@1_[2>nEa#O>M(p#(_b4F>]3q_ugVp@J:/TeU])56%nF4\Zk/MJb^LF'ec^Du@`'5!/9">JL!!J!;=LTaI"1%S<fN9X:tdb&T3d#+);7$@g%q\$bF)Ph\jYVHiBAoI<iD5UWn<-@tHE5g2&8.fp#0C&^k;aMj+j6CO=9Ep,7ZE$!TU83dbRp,$u>@0TF364a7sau."a+p1:HG01XI(gME!$mBi`Fe]b:m$Ig$"1(<dkV9TkcE5i\RF'UnL=Ld6agm%X27PGP`+SHF_:W;,TTfJiLVGiPjK1+Mc@-R:A]h@G)O^M=^-1O!jb33g7nsidW\G3Q@Hq@RD@KFYe6:CJ`NU4+W`KrQqTWKNT4eW^cC;s1M$t.S@lP^]&$q4WJcD+l1t?LhYPCoAQA$\Dq=X3u!%u]7$4j]JpjrY,\L;ER2!]V#&A[%*n>D`PR[r0^bq@rM>fSG`.;m7grSILhq=p_m1S8a+bn;(A<V=)pk;rXpIk]iJL)+q)Ol*9DSdp*RA,a:]0)\fo^q]>Qf([Qc'msMbh`3'2p;(+d^[q3Wrc"U<g;4q]qt5[rn7A$XC*9BV<=qPO-\-,rRWUO`Kl;D.Ob'-Qn"1+Q5(ClTqu6BXTE"bKp2pj.qh`"`qo@jcroNAt^XVi)-U6@fp\a(o[liMPqYBhO5Go@a0!`C7COJT/X1`*hCu8mi%E%kWO]Z.0p7'M@LIgXd)AWb]TuR(YGlNSE/C.A@a`k'0XoA:8msaV%?i.sC(Z!aD":8O-4'M<FiN.9OpY@rFmP:CPBh1JdF_[`2'\JTr^U!:,YC-$3^U`qXdso+37itt1kBidQriiu<.]n0d#9R4<SG1js\M*aRO7.>gj/^qH4^KOQR/[#rStHT(r;DhOrPS4^J:BL*'E1*Qrpm[Zk!&\6E;SPlh##JPQd8DQCKSuK.SGrW9`P+k^\fpjX$<u+fd^^*ds:>MO!R#hD!nP`"rEQj(%c@-r[UmsF>>?S!A%J(niIZG1mta._CTM@;:(,_kL_XarJA^-hW'oXS:]nK=h05@GP#!=XdC@j@uuNAmAq[K*u][3[:*_JF!GW#e6a"T^%gu)+8Nm>J,\6Ya,44'_riuVn@:2:qq-ecY@!@::Oi+aBpR#,5JCp:08@OEVSE)WqPm?Xnn:_tpAXdO5K]Rr)]PZS%S7E8Q:`r`PoWI_A"[3YTb0+/<QdqP,Xo#N"Ag?g@&-YV<6n-*kZn";:Ft6X`ePUbia_B%rN$_Npsimr%?Xtula,ZB7DF0n;c^+rA,TQUX@:>5^2bB&ds(MTO[iG1TDA'P^H&fD_sj#4++<KKmFIoEo7QN3jbN[/kKFtGrr;uYGCR3o`UD%NdMKVV:H)qG9*E'0hN>H!gc/a2gr8IMeMrj.U0'X'iV<D31=c3lei[H15.UU%Vrpd'ERAk%e?'"Hh<jHNG9>>qf@Ld&$pu2ae1B@&[U7d:5nL2(pRNriNV;U`Sh:p9-q3C:V&s%#@jr'upuH(SIW6Eu6OuW6S@_#rCnBM+[]IPed)>5PNSDGX[@-OA]&$@**gN*t2#d>X(4>GRO0*3$*a8QY5Y+hnbah4;PaFl6[0F\,@W!`U^5('51=R,)_JuUkIP.BZ7nmT5r9L0$I9H\kSkS(g9%Aeo!.N7OBH2KQDFBb4V1iG'BdP8C=\uJt`Q408PA<5A!HGk!#hG;g6UDKh-b.A%6PB$5Y[hW$qTK%sbPg-D&<[!+#;ZmA?8lAMDW4a/Rs.#u2]F/9VV`rIm,0,NB)oi-JIW)$QA"->1pN^(OoU/##_+8mE8:Y<JkddB_TN'qCq6K0.L)Tf%p\<T8d#\,67V2p;X^%##lre'&d?'97&jc1Jrm"?9FM'27&mVKcq/1D<&p:A"GED(#"ApoY69lrAjnAAWgFHe&L[^<!:XMsV$_fW7K>KCBJ_LK'8Z/\p!Q06P]YtXAi;0MJmY/5p?Jan*Qp+up'l(H>Jo&'?bSRZOiKR5qWi"'Mn\2nn\P8cdA`D!?mmLS?+,gH5<>(MJ#e]j&$K*PLEr[OX.99!,a;SQ$j#O70W;PsJjANs9Tr@s\!'G[ZFNPW_$!Sk-kU6,Z7#mu;)L9@-8M*Ud?GofqffRnn!Ql'9)Y!:H7Xn%(9R2^N/Bo#1RXA?63%*N(e"^]ScssA'jPVXYgjl&N_V(e";hCU12AErX"+6<!1FQtk[8>b6k.O+#lfP%,4P&1mWk[3fV5Yb)T.C:Y/pT&i2a/0^2Wgp"2E:Ro@'9=ZV3.abj(n:/bL-#gUouZ(CRbZJGF[tHq!SL$J0(TN',>j>*?[dghuMeTkHmG(>Y82=\:,8(<kDd5nO_.Tc*fEBCkbA"i,V^R/m986mo=*+HM2omu%D462IK?B"FEBT8KG+Ek,_JMIlCF3%6'57d&.uN8\k[P@ok[TuA16A]B)VQ/gJB>bS?=gtZWc?FP\+9Us#KI-I('fn)!ZFQ:)G-`gXE2hUi_ZYtidklndPO8DT\06m_>pCsWl8Uqrt-;rg(.6q5d1%)V*47oIlL<JC*BK<)i&$>%'>;Z%,_i!cL.s`a_+5@)+9'%mf.6hU7*_td:7/C<\ReGMgaNk]@oFGUiZ"=9<$nc-KK8EPE!e0M^;q7??J49N8r4J(<UUQ1+Th:DL;Z`P)X%KKu>A!0.,;3?6m1fEKbnb@GeG9@84gXWE!/qKis(10(&+<DT0;%AH?^9E61)gNSCh#:(lqNTTYF)P%TN0:_bnW#i2m>AL8li3H>4s2O.^dr/YsM_6%&>-K3an@JP@k:UKegf<;eR>s7>>'e?Tq']ABr756gO%]/CU:NZm!"aNCU9^*,[Yc'/0st`$L6G+TRW=SKZ4K?+:_"1tMaX+&DaQGluM/m^5f)foI[+b^3)fHqFep]M)DpX40;gCp;"0&3Z%'PePA-oa^/ae;fanNC=F\;ZPEO7L<!Z\7crsSM;P@`O3N2&[(VQ/JcD:=.AE,+\3sYoJd.BR:_0)RogsCNgKe`(n`p:nc'#Tii!S85SIKCQQh\_-u+mB&BG.AHr<8cB+/,'\1bI+<UWHnP_>-5B@<lY8@;p+WX/`WlWiB*8_EL3[$/Z38?/VNC*bVcl"&@cZO-+%PIgsl?.@=37I&VdA(&)HcG+P;\qU$-nmIq&QgHfQ.6ac'kp:pBXsP.9N-\O#/.SkgRZH(k8BZL`.9YZVg"p&`HDCn[[%YUNAspl6%*?^+N?TJJ0gbD[(KRs";X8]6MaE4WWFeOCp;/q$)j?\Af1_?MipZ"Wrmjc$FPCAEgD8rKYA/%EaNE$!)#`5aMqUX&[CMQEMpd@FF`W+C&Ia]]D$bqV-Gr+,pHtGskJEJ2XD+)\'60g1,LO<nWQ)Q=+[!V]Wj[(^0ZKPNPP;G.>Ln7Z_d"9BG*uQYTOX#0'>K!`9+n<nduD`:0Ze%qR\<CMg0-<!344h*jt)l:MuXt9.,\"bO[:GqS=h8BKQg.q&X`&ik4M3@0NnjM)510#d%s3k=rbn+m86qk$#kJ^:74L^hi=/5lqL$5+@3#lM91QmHD1)&^:Vb0[>1?KcG#W]p\qo(p:ar)`)Q$pFnl#MHiJirC9K/m4@KV(9ULe-:Fd0X3\a%4NauBX;Q!i+)8iVFgGGm-]j2"T$Cm9ek,\9<n[,p;@dkEF+=7ps:D@conIi!o,JoPRh9_Xc/49V8.CGE$hT6_TA^6O,FT-sN^4;k>09]PdA_T\"8)*`U>HE8jINct1Lf?Yq&X`0ZBt2agFgLGYMiY:.5"fhHI:[n`[f>p&0t1Lo:G%XP_`=[U$dZa&jB=WOBA$O!a\31-2j<c5$3/P`Jq5'YX\'ZP!EDb&?Z]!J7:pF(R=I0ZNIbFSW@?u+_Ltn!,_:(D-B'K(ML[c!aX'mc`IVJA@NfLdEVH1Fs3l\QLcO'lO#u?f1\%^!.hSUDAT$g[dojT]Q/f#Mm[5dtJTZ<S^:l;0`'P!lYj1+9]r?0"jLYUh<d,!(P9M\O.[Z2LLUG_K5n>DHj<@#*TP0bih2$nc&MdQ]1Y7MEWEMguU"q[K.&q6_Lk3VbjL%eVeR^RTAoJ.?_/c$<rZ22]bZ(iR:o0)Cl5>Q_Ero/LbQoU*;D,F37@Cu7\`IUaf%O+[,AIW/Z65+NnJZUGele(0j(YGNlb'elOf,X3P'`L[mL*5Bd()"HJ:]M>A:R9@dptpYdRZsRe>.a:K%7/GD;B%:W?!*iOoYD5;#p<b;*YCHG-hmQ@Y9EW9GYkY>-^D]OK`[sl"b!M@]Wa?&R3!:9Fm.F9i[Y5b:T'=!/sB4&ONMINWS.J>65`%Rj.sLf145;DISh1,unqPY"FN^K%)*68<p'IWar<jlX\1hn^b:E$P&?(c^mcd:qU9'<,4T8bX6ZlS?QX<A[JY>ps6q<]G:;PB$'ctF854<=&7.A>cYfp7:CABKmhNhUk%Q.Jt05;o.#lZ.SQ^E7PlE[<Y4J7M2[(aaK:egPi"1&m9p2ZA_D!mC!8_BOa9KFHtDh,`TVeL2mpECJdNp7Ca9N7:H78URjFYXMm0:&GbrYLCW21n*p],/l#`=VQ=<g<0egiDApk&m3H"\)_3aV6h85Ihb8Pp^Zr4WPQMP'M6;o%H_X_LD"d]lt>6]3m!Q6C`+8]#)',KeN@?*Y?>OP0Z?tV;&MBI$U,6m>SPPt%X*G9)@ef-KHi/5dl8c!-?h-,fpI9/l:E;cf2]q@#8_bGagDe5&O/7O%p90Ud*dg=]4XrJ9>A_HQE)qU@CZdlgT#^^`V=h<2g"`\X==m9:_C)?n+Df_%Z>"Pnn/[HH]6fW]BoL%2ecDpYb5-BC7+6#tHRI^,+=mf`:Cr1TZj,ql4oXc'1EXW`#[hg&32\Tk6qU+8C:6l$U/B0W%J48M4a_A510XVb&Ptfh_4n7uhhPY=Q4MAqfMESO`ld@?JHfGmPCQ'T?4B!q65;[(TrcM;]bQNp@N'L<k]l"&7GE3"ok.08F/E77]'cEuO(8>b^kg+Pk7'H%0SoudfcI&j8QUe1$"W(_JUN?Nf5`?!DL/]-S\Kh(9Q5(C8(JRc[IS13:;&8Z[VKQ1o&AXT`_";O_F\F@_54/"Q#JN1aAs/M_AapS&9iHl3VNG]bADom1MMaP*<6Z[lS?WA<K9CG*`[EnIaDD\#GAljh26`\3,%%Rt<"Z%fcqIK4g0rkpL%m[Im&*KG4c:1@!&P!+).=T)4']!DJe!2S1.Y/3J4>'D59MLX6qQI70uUYW87Is-H5uDRq"BftO?>rn[?5q#j\U%g_`S9FKdg\9Z8\#gAEhM%[<"$!BL.9QnE9bJQd"\Ud`h`:5qBH%e1_EF'R_ibURbP@b8"R-W9%'I))8qa+Z+&X7)>Z_3Xne-6oIab)_6p5BbF!BX8]:!noMgHiSMT'HAJ0Dp>ds<M%CeujgQll'h.hgp6N\Coij8#:t*]N`N8m:2u=,TfT^<ChY!7Mk-\\O5G#boA??DtGAfnp@jVs-8;!W%.C^d`;d25D>Y/DS;7T*;25rYX6<H;lbSjNCaU#Z5>.X-[d>Up<qs:q4iu6Zm`Sp)"fPb'HG&P[^BZu9FbBeNCf[AQ+Q@^Z$<Z5F5Z\m1)0(:N.c%.C"hVGHnEqEr?bc-kcAc&@bU\4:raHig?Fb\mASm/uA!E7i/i<q!p1q=2Ied5nCr9fi4U`<+FA>PftG<5Di[S,&JDGsEO4N/[LIm-)k.9[lcMUf*<@C<1^M$\]MWh'Fr+@Q.LgqMu[IonAOpZrC3;nfRTkSAl3Y+kYADfID;DZ5lHeGIb\X6Kr?l_fa2_KaVNOFK=P<r_im+;2XB`fsUqaWtM[:3VIGKum?T0pj)qr`c[kAMbj3HT*Qp2rh.`9auQrVh/-[(tF]K7VS0=&W$K843*#`(M)@q@[O3tOZ7,qUc,aGQ;quWE[o(?s#u\$nuueDqnDI/RCHd-jH-1N)r-Ug'Mbs&(l:>6M#B*cCRT@^U./$c9idjNRD)nK/E_9'cGnhMr;;]Ah.l8RMQut_NeBF,n>\W!fjEonhDS)TpN1e16*_U8Ed6*B#+KSGE/lc)]$BWLo4r,s@$^(F/BaEOD3m\18?F0q/`+$9orB@kU;gFIXgi1pEbB18f_fo*q#m7n\aq!`kF3!JSn/8?^3P"q`)A=`?bE`F1(Qh"-$K2HUZkCc_:0[eQ>6YCkJm+&i8XNn2_XdB"m>:&W/klOg%M2H"1Qq.?l\-8=%FX^k?F9sMGK;ldrYJnaV=&<)_[a@^1au<g%LtpcF-(n:BBB:(\E%))'"oBpnb#(#C>rmo<2jDL%1%P/fP,0dCa'ipPP1f\KFL)6SLDNS;/'W;U<1=lOLI1bgXO4pTHVkDXIIWfB/LPmBl+?X3G@]\ob]D9@M:TH^lO_JuANe]-K8?_QTqOZ,h5]lT;8kC84k%[qJ.M_H#G@j;,$X@S=,%m+R_6cr`)KlBYBm00SAtK[Q(#+k8DS'^IAc?X\gc%.VgtN)`&+H";%=8RlMh=dP!4'VgYn)+lbA2@W;6ceSsA#NdV+:0ob_5pWaE'7%'gLK5h)2O!7ejNFkb/@';Fj3k0q_-#jmX0Sr^?'-aJhVaPLFkY3$?$)2U2T_9l>Fd<Nc/^%;>,gF7JQ]("b4?lOIe]aEXeMo9>1ju4gRcN&3?tjm+3>0P9/X>_IF=q-FdhREHRX74?p:?kD,#'D'nt)ImdO[gM@BqN-*U_2PrC@WA_Ch=(r.mA"%d2u_d[KI/hu'$R-]>[4;$X3)FY3(TbkVC9X>uSFSehjVc>A7VNF4V=Z"`Z])RnpkqsIGDVS?KYc+)d5Dp>"c"^T9L=QQfQ=Zc8kT-?#or!=e`s_LIF/ruG>MGDH-YOYqa4YLID>kt7=SuTCAsVX(G$m8Qc[*d^'>$/-\j'F94\hTlV`N3Z0bkIhUnh.%%LJ->@h\7N3^]HUq%(M8Mh+#lV)^VM<g6O(PMS-tGHBNhZI)+KZ8kf<rBB*b>N?*=l1RA$8lAnjC-ahi7n+#cms<2Iqd-JR)NbEFU`3A'4=6BlPGICV?4:s`G`62kLI#oY@,::nL7%j;#R3QCs5o%d>d,P?-QinNJL%djanb<Y\_G5cd=hp\`DdT_/r,0g[Q7c@Zu7tOP^u&^ZBZ*(&krIr(tpApUJMS#:=FZ+H+g>*je>NKb<<[/XNbZ0DNo/.'WX03LfVn?9pO!1,TP0o/NMMDj)[>h1:9!Z-#$'#O&+Q84(#D,p@D$pkbR/gmD[-`K&[K`(g,l.e9Q<X%,$`cgU.s),_cd"lbV(EG$pVf&4:.SLrTg'(#&[;=/B0%Hm0cMo`RIh.(Z`igp?qTNK(gk2EajPHCbs'DE)`HC+Co#T7]6!Uf#1^"/B%Yd4RI8FrBH:7ikos+!$:f?1!QUU#_nk&c5^)DV-2aQEAOK2eK@k1phrUm)5%Q!&f`dA$fD;\sU'3n"K%4kpcA[DrB(*N6=4_PI2,e0%kZOp8`K3bWj\QV8cHVs+*!SA@l#`B(NZ&Th1d7i`u/P(hfss,rKd2gmlK"4ZZcC9ep!@6UHg?Z3.KZF0=t=(0?HsG/NMF<g"%C!oT.C1O>%$r&Oo;YUN'<BtKU<QeIP"II6+&cW,[beapLLm="^JMU?qt#05S?:Ec1c]igrVPXS3Q0?K,7n!SLh,t4TDdqpN);-qWmV>+`Q("D5Nbp(8][*lpC-aVfY.#SjMlKbPe*9+kobGEuL[X(8g1V8]3DU!YK3PX$IL-2e7Br&,l;R_e::s+4YU/UB/JQNQ^fej.R+!5^%gaIgeJe72-=KD>Q1rlO6o>X3U`k&_1_^q-_Rmc76a>>^%kbA6>5X`W(S3(7M?N8TNJ\C<@B]-lf)huhqlV\hbYE-;!NKg_L4?XCRX05jVhKR@2oCo^VS\Fk1D7A/AN\)4(FbY[lc17FeB9sTa3iE"Sbf;l]`GAfLOM%rj-Vh$.RG!=<P"Dn0"kI,?AL1W(m5?@e#CgsS$FKu\D:Vi-^ZQ!QmhVcOV9l@+k%1<u3qU)%[C=oD*NRl;OY7)VmF:]'0C+?iNF7]cC=Oa=pVsGV6p$?`SufDWX^"Q*rj_)i2`/C6Z5p9fEdII+2/:]d7rN:?g6%n@gTB1<4C!QLLA)C.oCBcEb)>%Re3(TMLed.rX4B4&\!`\+><:\Lj?d>bg-GF@<,ZSHqGrNso8W]#`lb\_'oY)>68=i4gn*#bQ2S;P'!3f//_fk8CPp*eoNrapQ`8ZqWY[n)dB*@4<b7obC/%q)(kA;AVpifCi`*4rZ$;If+@f!.&L._?N.\_OpE+'P=k5sXb)#\NoP(_^pP\H>)^W;!`hh\J_;<uHEmb!?c<4QoBOAu&a&,$=U`FflfIY9=Oc'YK=,*9YoBa=]q"#+3lfA'sL<.1cG)>=3rAln=Dsbb`4]erScFrlFm(^D;6T+ZsgFjYY[cFj1<S)A"BPF*oO,Mkd@eu%E1mE:J7qNXjY-G[ZSQSu<@$cB]E<ngW_26;LL:ipT;!Bnhf6Q9#Z(:[Np)a$CMcL@NG>;JOd.T9u0CG>91gS\sekViHFe0E(b<1Kq[$kKU7</m1-P'X*L7:>bp[AKC2)K=P^kNNF8*5fYkj;#!k0^:'Co?->:i/a03LT6aK2Z@8mEjMSbBK@i$s@FA@qc3qdSe4Np]Al<KQ32+Y1\p>i/T>^O)p>qo^)/fW\9_f/h_//]<W.^gC6?sLd_jJ>?S==_ttjZZS$UXQ$L7:qJp1N&s&Np^&._Rmi]5n+WeQeZ4?JDBiu\CM$O+!.HTu+@PuWVohI/O"$rEih\OMr.;d]fD`:Hp[uhg<L;&eLX(HaGb=<)sDi#0,*`bp:A0hhY<k%\;mb<p"d+3WRm5K"0Sk%F^I8B7`ZhO"mnm/]5"r;1G]%smbT[&.W]m84lHQ5j=9]+cF8(RDc<ZK\*SKA>$qN+"flT&]Q3]#OjXJ<*Z]mf<>YrR28SI`'#rNGsL"3[+a<_0eF'AK-3nhKQ!1>3$R[[b7F=NcF7jrpX(CDd/5%:.E7D=b03`Et1AQZ$2m`r!Ul0:H%^+r.<6]Sl0gpPtNXU8;+bkKR#NEr/obC8)e'1BoHrm(0]#p;]YiOgKGrp>,&hqRCIdp0T8YT4S$'F#IZFD755g5;>quT/SLO[qb@6j^J(+`XV0Va2YFRaSl!/5BO`la.6ZUkb+,7$"`>uEebb(!%o5HQ>Q3Ff<W&!h4,_%Ag*(5V'Z4$p?N%J[#R.$Ktm&bV1)Blhq^,Xc7[q2["De3]P+RLWs9kjbF@TZ0s+ZBcSo'ISF9cGF,W"&H$S6][8!!Fb6"G-MTepj=NBQp4bn)ZX[`1iIIiKBSHl%c*jsgP)llI>QnH;E>PGW*("D'LA+tTc#`:)'=P+CZ#?hB"G-'5.hE&N64e_"!7Q_9-N8^.f8)n5]N:R`2cThBPdn[I9N75pEql"RjS(H<L=`==pMrn=X`iltTDY*ni.R-I=2e]Ud2'#jpRnBlRn$1F/KC.VO33m>%AdeWE[PG"a\!NtG3]]b"GeLt.hbAmN;m*g&BD6[eI.b(Yg#cJaL_m_]ZMlBJh6p"b:0&.pcf3VoPo9'Fl1U36fK+%@DK\RW)mra*Q5_eF<\DtZ"DT#c'USWcFul;gk&/tg0TJQ_dN[j;hK/>9=<'?pE'I$!G0YYOe9P<n>um]-)E[lb]O7)<`gbYdqaBdRfLdqMk;Lm'[\KkbgG\H*HTCi@I^5g<0RLC_YETrd/H3^a]ht8CnkeJ]CU\p7@>%k`hoe#)*>pgPAe'dN=6@B;-"Ei4-k'a.:WkEUK`7t/gUtNW/IN^D>jf=rIc^[m7A2rqm0'k_IV700fmL,GUL-BJ8Zb@cKPg2ELrXjdBPWPURPt3QAZ01F1oo>jIE'`emX=KqX!?_!MCmNH]Z-L0j8I0)Cl\/sm?KOFap)WSbJRhYj+/@erf0."Ssj>.G$RWc2[=!AT(PNHB@dXI4bRue+WM3>R+uF6mSPR[SU9;oS7Q3hJAXalie]_X'ST^B1_sjNe>rqI&'dm-k[U_Hb?B%c]H2Bg_02F)[r?V124$#CKW-LdiM#VO.'(l<*$TaJTn]+:lSc0]``F]sSR(-U"])a%H*RUuPqGpB[+08fk`fC0Pg!*4.t[>$f84&0pSuVM)GTlf-e%TlC431mA$!.?A0EZ'FQ`Qa#&bL+:7]F7$rZp"_pir-65;lZl/nne2l]"8'Jnu/((7<Fl#)2J(_1:$(X:V=Z/VO:<PQIHVN\SLIi"C+9U2&1W+O$>>`4ikb\8'b$Pt];WM@=R/jH&2YA5-p64C#.BpEMXW*?T*`cA@9;TM4rh:6l?I:tPIp"]047*)]^rI-6@o<p53E8mh<B0qn]oF%m\G#d,[n*GDHnNkFm79mVmjhPi8F1i*Smdh1"0Tm'm#f-,&_Vr,G]%(PBS8Q#KT5u<Mb>-peP*9Wj#IX<meFTD[M(@&TF4IdglD2*(q3O8(F5@Qse'*B@Umd>Y`d_uF/,Ig<S0,C^D4*7sNLnsMMrT.!a])&q]^B?sV0q5F20P.fb3Kg0VIQrX8'<GA_r4)XSY5hG]f8b7=AWtCHLN_FZ8u\=%Ad']BlanG9\57(i4!ImcT4(PLZNNN#4bRB@EXSN,Bqn,LRN/FB-#['Kafr8]UNV1;%"gnZKHb>DTPg:aAf2d7BZKR]TY8j*ND5,^NGmEfGpAlefO9cl[rX%0sV?$QHj+4-6%n0fgl4CZP5WdjkaX0bdlcdq99ZUY\_8*CgYNCK8OH3ch2R!Rot.bKXIei.`C\Gqcu=dR6?IdC\36[=dCGQgr1u]\@pHn]j6:A[Vn:j8Eo&#RK,jpS@5OE]KORC@ariJ).I$O-F&_]?Cq@<l!nSh0Djmk\D2Gb1F#!0WI6R+-27#k!@-3d;CKQ&6<E]U(uZ]l#;l$GefOsRKr1F!g%++L'm4ZRCjQ3b(0?utgY.:gUOOrABRZnV`N)LR?QL##SsO-:B-mi?eW#Hoo$D6md+LDg%=^*IH`W4HZU\b-27Hh,0`]VlOF5ud0\U>I9s%>.dXfldZ,c?u&+@_?o\c:Xp8tBF6s%BM&u"]:Ubd/FQfEOWe]K-#6'e"I$Upi`>PmdDghR^fAp8%XI$Gj3Z?`Kt\+X,`1VE&9,%Koh<nGPhgsBh(_/N3/F)Mol2jK?!SP:]QYmtn%%g>\ZNX1s?_-H\M9j<*,'a4#K_S882j+%#&]=4D>T)\+0o^L\E+27/mIm*<S>0pEA^@Z?K(/chtl.EuCEu,WDq5roDUnrWZAbgaLjj'3!AB3EdN-=b)1GV1440gE,8Lq!r[nHOa.8DT^^Lk^4j*Jmuaa91=8+4Z,Y"bVPRq,$%BBQ-9M[*ks@r"#X9=KXUN@RblVf:Xo1$#T`q`6d.)c)`McgYI/DMFQ"elTmoPe>uH6W(?,GC#HRAE1n/a)I0@lSU<D@7:IV)m4@19*e\HfB43[p?9f?L!rtIkg\V%i2_G9i1ilR26PS<p(XVu]oV:D%R0j4aP.+^AnCuC%]d6bief^=:&bt>q<mW[lG\GY$XqMpTK\oVYhnolg:se->SSB5>PkejU<=!N58$[K[^ua0Ep`"?AlEO6=l2S+,jfH4PPsJ^$gSejgc>\\/H>J#Cg%(I'lB4SRVXTjcLkYS^q+:tmNrnjo:W5tEN69gC<ej@fIaJ;(r3aO8mXT-jnQ3^Q:>)IkZt(b5&kn,NNDJ&Z.E_o^1k'(9tC/(PI5FUfp[p\.[kUd\R(dX*5A`9Or!IBYVXa1\(f!BjIVir$d7>2g:S/GJ!ma`Fr2.c2eP-M$4DETh*$.Dd@TV0hiD>grfZ6u75pKan_[+`-qhb.rZ()R[lF%l#JcFK+pmS!9f+@GhHPg5p+GCb^!1!uMI)#"PPAP@0/m\ofLgeUeW^r\76iH>BX56(p18MmH@BSB6885\PdY?(>;HS6it^S=$/9*0o5q#\7\_g89ii68TZa7!C$E%jE?:uG@_Q\/X4OEjg1=SPIGG;6!.t_VeULu3cj@Yl29p.6*k(/#n`tg__+RC]XFjfFa"t&dG[Z47C!P$C9$R4^ep3fRkD+qSQ?MQQ>,0`hi>m+?d_p](HbdnF@/mIH7kU;JWrKG+4n]4L._&\N\AqpQ=iFYMhV>DJU2d(#:@Gkme9,ooBN^dJ`2^*4<&QMl=BM=J<Q_4H>?gCO8ko%!X'Wn#>o7!W^TCPg)(3%I6Q;)XDql[o@SU^,i-#LI$HCBVe)lTb9au=j!5a#`ZWt9R7ik`X]BDi`m]s$_WO.f8XZ[-np!@:A)TOFEUjVOMP`;6al+\Wh1FAH<Q#c*/]8-cDl/dTsW@&Z#VA\^]EK-1&j,9,'\0g\]c##H.mGlJm5+Gp:CZ]>*@-TK?ap<<uQU>gR70'hA!9!7fpDjZl:;HJTAZ]RHiSALfPCD7LYnh4qS@@dJl,I$Uc4d,1m>UVrZNL%[V.-6oZ@;%QmkjD;&#jVXP;ee>`gB9/?ihCoZaIgl.YYm*U$S^GgG).IQ+$GWZ/Ra$X63c9gu/J[mTm"<moLLs=gOf0c#!:4".,#hAuD9]n`a5Z^U*_%\cZcW452B]`C@O0dh!"4)!IA=aoRTPKj1_:h=nZt`b''0cdmrJo,!AZm<c-EU7.^Y?Gddde7,HkN?%HXAge:1'5r6N*XdQ*0BP=-j!rY&TWH5agQ'>;B%rXKQE=p\R91IiC$'#6[R/*uplbJALfr%lXg"-\mCB]p%1Tb*(<)&?eE'kQL`398\p%r8^4R(tV]HE'-S:?gERVGB:[M7Rmb]Vi8+!WXf/Ru2%4SM1p219-W524el^`^r_!N&#D#rQ)S(1j_>81P]1h^.@3NX(,9^J<!"6US(?DS@HVlWut?bF_A+Z-OZej<*]K$GpC0YCsoAkp)j\(X+WSWiV\\5o2hH=Y3&6Na?f[oG8!oJdcfSC.nlMD?hV<reW)@./sa'TSZg6SiTGBHSq`FnJaLoS/Z?E"(`3]8<_rAjJhoh!2bX?1<;25r_`j*ns_L4tYLRE*bklPk,dMF0u!p<.,('#Nfse[[,0T'l@C9pW3&j;EWLCEi7iWE1hZ)*ZN!P@d/3QAhe$pGQ+aZUsKEik/V[!>e])mF6:f:C(HgNk)Bln&[KfTH*L.(J(j1'3.FG/YX@$-BGh0XcDqi)$+hc>Z5kMMbE.dW:?MEhB92Lnf6UTlF]..ueqi.Jk4Njun(Dh&&Xa7O[EZ=eft,q,obpoiG%XM=n-,.qNn1E0L=QV2OFXAFJC,irUK27jS^L<]^h+`_g[\`kREu56qIuADeYUj`(#/VM0b25<)AZT4:?tR(#_CD.SL[lGFS3<H>j-@:jRni@?@VC2`u]Zo_5nF+:ec'e9D^<GFdaAann%c+c.dI9`W!XfWmZIip?>^@'KEgPV)Lg:MVU*3LeI)jo+f<RHEN<b/[6ULI8*c\(MV8T8S1/?UG4F.RWQ3^MPbp"Sjb17rbKLBP!s$Gd9AC_]Bs%8V0OIhm$P@L(,:_2b<oI&7h$e0`0Ed]:;Vd=E)t@e5.Gj`b7=o#[J?3[Cg-W!r+.UQ60aY=f:?gQQ(.X]S2+a"4]'"p9>^o@43^[=@*PIEr2_Ih4.=rO:JpHu[:puR%t;NT7o-R+(=ol?*oC&BSD,upe%G[1guA+30gDJAkcb-16Q"uHn`HckrrJ[cVHQ.U7f$;$?r9UKmC)&+=H#((-gp;)2i"B^G34@ZO'KD'6eK"V$QFA;F2M4'Ju)Gidn!#lP1MIsZf8&L[Op,D6LV_S\JI<<^9cWQ99rG=j+<Ui\TY7:COLD:Ql#@A(T!K[K.MM%+>qA#bH_cp(n0:&(i(&E4iET%0c+--H,'@.hJ`@hJ]mfVL6-11j<p:8G?_?HNlA[NMGlToiLG8trL+0F#I7Y;*9ui2Om/sP_,clRqRQObGr*X)S<5[5SbBHl:O8GIKS-.%-h"$Pjs-rQ+4K3_C[J0CVK0`Y33%P6/QjqYf;6G:)tgYWlapAL@:S'F6fPGi.jc54%i*\i#gg>^Gm<V0mFYW-CT`BJ'hc^*s(h//ch5B"G3b"Hggf@>EGh,h[N3.aZ*CLf3F'M6ot.5*9=Z\/o?\4@:MaaLZ^Gke4D*E$ORG@R;p9tcUY!Y>`QBQK"4#VQjP.9e;YLr"*S4dc3*N1]gOIPCL=[WPnuA&RGcm04N+>LNgclVsBe#U_:iW5)/Ls9L*^Nh"k=C0io1$$+TLesN`.cu%33d]e\_2R\?Vcm_.$\k/VID.F3B2D'.d%<8jo&c2F$^G,'t,Q\Ir`&$E9d(;_%Gi<CLb'(KE-aWC[0!;=6qt/@uL;miB=U;mZVX)fV&'*kDI4O=<lrf>h^DUO]fdg$?3s5U7K!\^2j>dD7j=+[DK*>)Dghr>8jXtS_#Q@U%,@;BeE1eOA4lE,sFY.FFg>9QStEpA\oHFp$>nKrOo>'O"`8spmm6"KS*&SACYq7Gi>nXcRP"5`<!4#R$WsZWZm*eihUm>GA;5/IJL#rZNL0A^!t^NjpBXV]6a'k-DUHcj3CE3GA(e'%VMOsVPl`kK)"7*`SPp;*[*d`K&P]e*%@\LYb^Q*,=aZ[^..JB.QCi-RVHcmY+"<YOX4^ZWH>pp;'ULi9LHcgdoiepf_jT,&VCU3(c'*(:(M&HoAI2r+[_^>0?^GaGMThu@8a@XTYA($S8><K4R6if$KZ$aA(5e2o'BES:O^eCDI/lPSr/ZXk&b-=[t!jco90*5qWjK<''9Y)U8:fsB/eRHT=-3F;4$BUXc-[CJLMqrHV$s-dC(<jmRB"=Qo`V)DQHeF(F4"S!:WtS48H0e]tK?IfQ$UlGR<MID-_N`M'9*^fKZ2-;e^>f2SK"AjQ1juLVe]o^J3q@;X)qh*BPp86a\2,2%OGlb9Ig+UMfaLOHk8]&XqV<k_;a)@K4d3k;7?XMkV#K,].^uB+$K#1<?a)WSo]uOC!'MJ4F@\g?"H6i<bulf,hQ3\R/]>>!JpdVp*h/KM#Bo?N3889JGK(]\_LXK5+lu,MBo&G$igfF.MMt^0muL9`X%\FiX9gV8X4u*`8>jPGZul_![A"_lcKUJcs8coEA^*Yrf81<nN4b8jOHc*Ln)BPR1a[H"N&\BDY"fSXT5[*8m=pkrOVYf/.\>JrNh`=CK4C_-Qqs=0sYsdftEJYpJ1jiK]Qq?"n7\]q/B)?Y_84<DT6[Mld&aB^tRS0boo^X\?+Y<3ra;:3:!ufW3-Li21,"aEDY9[%_W3D;BN`61nqbSCHL8h,qZC4ObdV)TU''W=rQqqPFJkmu9tE0(;\3Ce%er.:'L*m"3l.Q:D>!H]DB\VFEJ9</g_,U8UZPm0`oL[TR*u_qp.8@VcoA@5%sl?5"<EQS?\O7)IXE[deT\G-rD+e/r]%SpR[4L0T8R*+5gS>;a>a__"<oXk/o8V]HMf9`t&2@gK[^4iUVV&*6VuDmYq<L[5:L0"'ZnhB(X.Q=<WcC)sMAk'Q`le/6nW$_,bne'=*<IiT4$m&Y,'+krbF`61Z>>i'EA[#iga%T'k^k1QTO>AYj?DS^X7;jqJfU\jM(klp6Wi;8d^j4'6nT^hf2Nm%<iVYL]khU?iM?oB1l0rh[9j^gk=B76\bXJU`k:.V%]T!Uo1hn1`:O+i-q@7>ZV<dq<pXHpS8!l.QVZ9$!EeBEN>V6k@E?qFE>OAX]J\P'OnB^^s8)\hI^GEV<i'jdlfE->J,3Hh7,`5Rr=g,4odk01.1[P)&?PHa,&IL;+#:0Pj(et#LD4%jq+Ku<;k2f3@AA1\RL29%bhb*MUYHOO?I*8BR)n"+lC3um,a1VU923?0qqj4;TKDqtM=#*p]HDdE6F]VD>eG:E74L*Ot;/'Y>&F(sk@R]8)EJ9at=VK#4f1RDh5gibbnpKBOfFR\d^BZK(q'-XFTqt8WoJ[q-1F#mqKIJqk]>2]I--KFWVR5:6cRdbQL=mgABY$KfSbcdtG@9cD.SWKQfg!XWY#d+]sR&'6N21:BECJS*h*q&^CbPE$n^b@Uq1Umg@C#9B\Wa5@WbJTu#9<DANgV$bP7k\55mr<fK@XJ!LK@Vtrhs_h1=g3fgRs-\u[s)PkG+9LQLKoH`mCD]>O_#bRG@L$,$bLbe>IUi?eE&XM`R1Zh_)F*YRR%.2=#.n+&\,=d7$_I9Cli(>mg483$XMmL23$(cC--gnqDG\!:"dY#`/_1\GjbRJXR@&<'5VEnV$)$O2+cbkWRe_&@,@%EH#pK.<BP3KBYJ&=Sis[VHO$$QT&]]^<AVG)Nbc#.6:VKgaU_O;j^Grk(0as#&8IcI#3)qqP`?!$qH;7Z=F/[B7H)4uOf=2Jk1T`HPK'nbFa5_6STZs5:$ejA>59iK0B%PLdHSjAkWRT?k_b+,+_\Q+$js5%O`1eSSA<O'G0L-`AZ=K'Z+tpiZ<8GW;Yh/uRq5$/M`0/?_'Aj+0%fL<"4(1Tmuu#CD%39>fSJ3Sk+Z(R\734LDI7\Bal>.aQ=$jtI`e*kipiW0U$\n'J25;\g4_8+cffnR&=ENq\I+K?^1s))@su242BC,5Cs#DGFrO`"[!lWee?H24^R<<3YZ,DFEH]'AMWT&Qm^[jNY\dG/fAgY:h%[I>lF%JLdk5^Y2hue4n]';ZZEeAflg7??=C&(fqA(UIbH)[)LnV5+Wa?oXehbZUdM-=)(1()97"(2qjLZJ@A[%Odi9Sp^g_mN>p[1%]bS$T!M^!huW*gL2%WVl8S5D%pa=KC8N>8%*Y3;Q*Iep@QGAk:<jc(eQ?[[W"A2(l$TDUHA.fXq?i_>nOfHe)ujSA]?]%=HgJSce&U#XS,rqXNHg%fW"gru/MUCs3,^oOju+:$.ECp,uof.dX^J0Prc).R=Ngjg'3C].pqCB(H-r2M7M]\3A<'lZP@\6s#H^Li`=#9lRB^'KP->a?knT-FgU$7$hT_Q.G=h>u6M2=S1G?#ooV7SM>C)\L+W[;'/gXL0b57U54];CC+'G\'Uggp0gP5K.o95R=P4JF%Tu0m,Sp6<rNS+NJ8.:5q3-@'h4(1AR`_XRsWo.[sH;]Zr=LCW=DBnCk=R\qi.:34Ur.pkSppApo`'$EnW_W\&Tf(CL458m]5@T&\p/4%0-hFiAVD03pRk?mB&.Sgsgm<2E22\5nh@AWt08;Ab;<&aJq$)?NBrS)L+[n;9IEJ4`l@r0.S3jgZ=HGl-$kdMBso)$b<fg'RqPB)p//;rX#A#8aNT+qm5!9\5f/IFfPen;>JZ<`[=(fc:V(043>s<KotN6BE(lFZ[10FZur!cM%^mf]i))ifQmHqQ]FHWmm7c\*BAX"E7qEV1t!p6G+bsM5jJR5ZJBt5R\hCS424bGl7%2TJ(">>VN6o*PC`<9@>AFb.oEsnS9A1$_CNegRI5]U;9?J\En;M/bEerQn-lJSJ2&?(uP`%TW)+tr:1s_p1pjp"XW7GBbV[j8J+5/XE%oo"jb>CTPL];=pRl/1*J%/>bJ7"FLEfPF0&7b+TtkPWQID66#8(e!*7s]1(:?g'aKU^jrn=Q?ZCX0Q5Q)'anP2SSdbe3A=jEoWM^mM7E>"A;JoWcJ%5`DS[D11W=\\II*NHqACA+`(2D/G"[7+F#hKos%9fh+QJPn"O+W1`?Qt"02(f1I5Rh"B>Qd.9_#'tP`9.e]<gco9R:_kVk#jHA#rq)l<NpEB-hfJFEGZ>mdlKcd!#>qj%NHW%[6g:\D4JoC1`0:3CMn%[mSQ($)emA`b+?"R:Cf5C513C'a4R[(-E3Em:bc8%GU0n==Z]r7q8>9\A_E_qn)Z]Fe`0cifq"RSbm%-1#QRrK_?'aGSF5=:)$-4V'F]XjpB:Oblu"]tEro2R0pr>7A<[C>[_^`"YT+H52h:#"!:,+LQbE(-U1BBl.VrUucp[!Kp&W9HTM\U[A0N?dLmd=u5m]Dc18-]B,uNf::'8&(fa/:!/$PS!e'+'n?*2?IV<e!Q,_7K3*$^uGqtql/IF\DfJE>Gfb&UYJ39O0?1lk@2e?&L\U!2/N&Z9Xn!F"u!QVg5o.Y[pk_:TN.8l]daD/$r@nXdVr>V3DHkrZpcZ.=Grh_Ud+$Du1<PVDi$$X6*.AH@K`rEV]/D:VTOdY3>lc(c'NV.Moai&$Wr@WYY]kYgBU>`&7p!@1?9O=]J7c'_;W"*RnlbQX[%FT'R_[SlKnG9BZTI;ZNhqmoZTio2!gXim4$_.BmbTd^/i.XT=Vb]ZJ;@Mu!gfUH#ei;r(C6Pj,Gb\5?O&_5,gG9`8)L+!oc![0f79i>RH;Kt%E6k`fVmUC!>U0MNa>F?=%Qnk)hOCn/[0H.Mr_.H+fZZMVZ.0GN<BQ!3*<AKTkG*Nf:b$'8tO>nVT+@H9-N[hC[/C'S!o<n\s1/I&+O:tH^6u3u'RbIdNdB%X,F5rq0p%Y<us/-2OeLOAX?3E-bl=Z5^.0csrIu+A^JlnVq)]IinF=e5/R"Z*TDJ?Cj"0J8;G_j]"29_e)IYGuH7.lorecadiaikSL1t\shh-gaD<s!;bgT&:r5g_rTm:d:B!%1Wh?8f!te.e-@`luX@P]c,mn13hr6A-@(jg_&<<K$q?oo;?]Qm?7p>pp@J3=DOl@=H_Od[Bg7U+97\H$%1/&41L7`DTSd=;X<a*Z,+Ol/@rI!n6B+^"6P/H-%bNjSVF_hJdB$'(/qM7_']tQ7M!?*^bl6O+kmWpm"t)q)=WE)n=j9>!8<nd#1l0iH?9c)d%b_,O?0[o.re@<ga]IX0-9i'5u#kW>P0i=q8pXb(4gn+,p(k>h+Y@I#J(YbBej[Z(]>D?I.pN-0X8=CMH4!rL0,%Po#s_/`FE:@Qe!CYZ9Id-=s0R7<Z*#Y"YWt=>!igkg$8KB6L,V7tBYmN<U1L8HbuhGg!DgiGugT;VT=+-#)kCOa'<Sf+mHg,<TtA%@qR>+l9QE-X(\A'ReB:,<8N,,@'6K?CAa^@r8KsX4[?Z/$o!`Aq.<DB#BsiMOc7U$c[)%o=DnkD<52PP0IODQ;o/$,K.Q0.Z^93L,]`"CQ(Lk"]?"Nm$a"R6R-=5c90Zc=0:DF$qp%E2O##!Z:qc.K//cqV@"eD.'*&O=52G-%>L"t&^%R%*^8E<ooV5o`"Tdt==.;841eu8@YD\`<jDIY7f,1!XQ\HY_P!L<*0(U2hTQ..2J<jm0F3a('EMn-9WD83JLRQrSP3$m?,L`g3E4/>:)M,-&&JElmC9/tNs<B-\r9AR,+7!$&60)=+2:.XWbJ0I%5kmlVUPqU-.jRNSM7fZ4\>csK,kCrMe&_DrlZI1D1uu2/6c_>Qc1^/Wd@%/o.Em?7tPD`.0+:p/i0S\!/>&V=;c%:e.sG$H6u%j#!JTGc:85JOXO;C:=FUVQN]9_h@L7;CW]A<KXOGdSH/<Cae6U8cRe^UZTVsBNFj5.(,X#h9a'.4/#UM!G,7-=0oD`l,W]@mkefaY1)fLVO+9E+Z`Jo2PY>$SK$P:P-g*P8BWe.cQW,eOOo`eNd&*r!VPa4,:tBJd<3'ibAu'+;B"LUAZ;I[In&m\T[IVrYQ4![-Pa2T6V0-7Z6&@q%>inj,Y\ZD%[Y%XkVD=129(Nh.NTKA/)d1gdq;le&j.eY9(sZ4U+]XeLH)T<W1<gC]#=d[Ke5M2!g$Ec?$PtC4m1!43BSpguAGRP\(fn)'OFHl&K'c%"ahjK8?E'(,g2+<-llm0-I8]->"sFUE<njk/3b]n^]\0[s+5(G/AQmNio<-raWE\f$1$5e8.i&Y[Vrntf%fHVP^L)'0MQ*<':i2[Z4;VmMS^:Hh[Y30HAkm?q`T)ZYmOPtf\[CeXX#nom*u/+L4"(*Q3dkTtc8,He3D+O?ACaVf8.CP9!^M_,L*Ip3%0/CtKjiZ;;^<-2R;]JVYrgJld^$Yn1V=rZ_+L#^'ceC\ak(Q4fI[:#"[SPEUb!@]?oHl=b_^/>hGbD:dk:ObCQ:jBPF5PkdcffYe_dU11+rhJ29b89!@15r\Pf(G;<68cenNQ]a4bfO5-oBuo8@SPgk#BjY!9Do;?NH>fGLF"[D^LJ3FnirK7O)oLOE2/pQ"X<bTtKq57FN+.H*Aj+uj,9<<Z)HK`DD'i9W:1AlX/ui)ITD[4jO5BY`dKRTHO5!%+sZZdMeLkgCsa:c9q)[Fjd`#@K85=Lt/nLknG%K8;PrEmHCTbpd6/$I3QC:tT\\OQjo=_dXCdBHX*b_$hWA+sSsDs1UjU/_W,n%^,$-C.hp]2m_\5St_#-H7YF%3B.iYW-nS2gCSW@S"f+th1HV[\nB90>lZ]9P)B!CP*&mQL]h\sg,UNS:3Y9\\1>6.)B/koksO(>Yssc,Y!%3F%ICG$`L5><3bn+Md9T]HZMHc6I1&rW34(4I#*N5WCeS(KU?jQ!H?0-%1njZ"ikW"]`AX0AJ55<'"J@9DBCUH[*J;-Hq=mNOHhHtse`to2/tc2)G-sV(\&"@J5%bkFapjtb*#[3VcZ9.(\[+AOiFl6[>g!,oQ_^V[($1`M!bQ0TTR);X_YVK?UKBPGMQ4C)B)Y)5gqV`d2d@LY$ClIg'cpSIOpLL^@_H:Cn6BCDlpoFWGO<,BqKa]rPoO]OF]0]C9=JSp1rXFPP!\<:$#)l[q]G2n@DcKN/Z_&k,SkR)'4B:pe#tNO-=#D;!+qq^.Mb`(YS/P='ePr*q>,WcR1-St2>+*b_PsCIoe9e(]?rV&$NqhTXu;]V5t,eMQ(#+FBP*0e`8]jJIcYk<7_ga`>'8BVV1pdWrQt"X9tW$!j1#3L/N(4f#;%?F5t8iUR%&W>-[11GV9rjiCmN&7?`D1<>rEoe/oZgQcPcf0Kh?epTMJfI:^HMEpaC\@,/Atn6I8.H+9E)T+9Y)WV(ME4_%WqK1AFZI&\(Z]<4UhbQqTVP?:qrb?nZ)(kj%9`\3Stt5>PAu6L(+j-S<_h3he.;d\a'>!6PQhd]EFF@j./T=h:CJ;)fa?5+"j(JKTW)H&khFj@cIXbeX%blF$&!]@#69_-tNUM?\Uk\Y>2W=6'A4_cb6'Gul+V"<8^%)ai6=WgY\CP99lL5R7?V#cY'$je5l6NN1Q_?tRs[<1L+l0=oTa>:UrnYQ40gXq>T.2pH!3cSRJZIr_auXfYalR*gYZLBWKAena:U$\;TM#dBmN!;9bOp6B*M^j=dmAlXn^Ve%Xg0O(;f`?$[d*WW>Yp5,o?.X[b3(p'cA_blHN%2+18IBo<GLp4qG]5l-Ce\9V84FH5oWg*4!@+.*`bF%mPWu"lm@:u3F8%85X:F'psXlQM+9:#oa2aOKW?I$mZ9K'Cm%3LB6-3kIHaU<Y[O#U.l::J#q4[tW4>\KZglh^a]7Vst;M]n1YI3%iSPd>LCH&@Ga)c6*.j,-eB+[Q=o&>50%Z8\i=Z.tVt>^9,W=C6#s4_<%8iHpIGEsC>*bV*u:Q5[o"AmBWK@QPu-7KqoW\un6kl2\$Ag`SP3!+$I0QpsEW_a@XL8T<>7#m.a+[T0DW7:8")e:5$F>,mDr0M,E+Q#n5P%rY9[Y-p9!DJ.!%T+Z=se#SA4hg@]mG,uCAUgX=!+q7hERpj2[RMc]P0Jja+1B;&^Btpspc^`nY-_@iaC+1f6Xa@soqA%bgo],5Yi;+.>=/s=e$!R:lo*?\0#Q__g:\X0helbQF\4Ot0c-6Pecj]8&hlo/N]@3g*8>cf5qD&l]>)t-jE#c7-('`^,=&'3)1R"ho5su;=[h7"oJpPZ\\_;9SQO.%<:?0@>iiX\q1V1ML`FsZ$Dfr6^giKte8$g'Qc2(q+Lk9Q7&cdPc2/1WcFJN3SU,2jsp+34T<u?I3?QmY+E&>tf?R(kC]bA8J'1Kj@20.QmeqGLXLYE$A*=St/Y](l";ET2TAkh$5J\\uuBbW;aUe67U<%1CJ+8/W4bpdq19NEaS+FkYdOBKanoWt\3=I9t8/sCrX!(g&UrALm8(1^Kam5(7l9mH&!>tX$\HX1WOERmHRX*\';?VNW^6BtU=oaUA6FQ)TnE2R!X-l+-A=hF":0lmACjDs3W5-AYnA5RS')*$Q-R+N^B4=BX(jp*j0Y:$bYj,/s.\T@>lXXne=OsS'aUk+tb-=]K3/-ORDUg.F.CW"/>VPD7]k?l]mM3c2UKdSP-X-%^/$He3n,Zg9>7R7VGp[Bf/#ojIK"E+%e^fa!/`2\L;B/EWHj+0,u]:(UJFXFu4BQ,d5r;QnM1<NUrm7T)i1VaY[XpQKVLh3$?'WF+r5U<aXUX0.f'ud>1"]3s>:#r>(#$EP9Gjdu&oKZR(c%2(4TVUFA!K`Db$Sba9!;%B>W_,jj<Pq#N=ATO]o\-hPE7R+uM*7o!Z!8Yq+Fm^rR[_D!,3U#f%?3iniBbkhLFe<"ie[Xl\g#:UM4tjr\k]!19L]R[R4Ao'YRQSW*1NY0a-"P'oo6(Xd!qSYfFd-ZO79$$0:`n7XZ9H^+<^lUQ*Ri:YFWK[U)C:n61Q.5h>2:HpCPOt"a!?BAPT.k/B]K[%*^/pRg3ZZ/OiU5s'iNs_*r#s1k!^sL(Z9m#q=N0H*/jA!+*(.0@[d*=*-f2V)r,:H@-N[8@<%Bm]$e4,`HE#E95Z)s"im>$rPQt%.J6WGD1WM:BFoOLo.5IbQO\Q$-5Dh-320gBS-@S/g.0[@PSOu(;S,1dbq@Fc?O5/95<QHb:5_6:"_WN\q8F2kX&KTYMestk?I'K3*S).8"6nUeJtN6#QUo-5A0M_(;3V.0SEu>;_QLJ="=qjaTsoS`$\4[/'SDS2)DHj4tW9;]Hs'^!2BR#!"2ft+]Z\.Q=XrG5bTV=M'=d6&g:.?7KEbt5Y0E:N29c.Qs;la!kM$gQ9)$P9c0YhQ@]L'F9>,8<"ME&<J!N`#WPJ9%&S<po/>+;5*m>3\AF7e\a>TWfNgY-CcX6lm!3B+fhj+LCYHq-h<lmZ'mC`:dRY.jI*Ls%N2ojcXB3B\6Q-p`PuV_JGukAM"DkX'dSjU33$8dkS5?2R0"U[g8JOH-!Hk&crF5C4"2Fq!:K^E-@cpV63LB'+j,.MT.>XD]=ufsj]UT;DCPim-Gm&0Q,!05ql@Xe#k3=iL[PVU_#V8t%#khrp3FZn_nG!a(K`^bT-is1oKE1#3i^j0+7thAO:[/-BA#1FNS34j-kJ^t5/T>eU6Q(]>K_E:A<3:u`;$94c"CW%ck88^\^aT?#k+mYW!R2lZ!e`gbg(tU!SDL4!YX,f"CAcj9j1#,$[&\uZ1grHJ*#,%c?1=YN>c\tK1B@_[q*p/@p32`(T_2JbF,kR@Z&5rG\4i=`9*3kBL.lP`-I3!XJ.Q0&3#hp>M'TW&Pq\CI_-'1:#Z_fT0`drJJdA"eMpq'.<=5-^-q4<SiLX"p<JrPD`7?nSG&rlj:'Vu6,2T[6Db/[FRV*@9T8J^5cjLeeOC"P4M%G($.cZ$mP7W>ET(b:u?an0f[(41BK$+h0C%)GnP,jf<7_7eU_*Ai-,4,&^G-5j*39.q-cLW2h1a[gnJAD9([WOu+#[k$"GWmQ4J3uCS!SB,ob>b>:W`a6$l&0b(E)^'<,m^L(-DP]nbA&5c%h*b[Ep+571>@2)bM1dX^$VO']Tsk/`n*prK+iTMfX>@>3@Q$k8]'=PRZ.kuihCMG#IdYC;0L[(G1M9EPW*'rk)Uu/OpJM,l\]/I's3Xd6jUiOfNbl$Hm'(F<[f;FLk#I:K'tZq)ulN4App];19j`Bg]c(VP7(fY_HOcp+^J*b5hIeD)VZ]MVQ)q<,[QIYaIn'dog:q;QugFnp'-db&Ee&8k1S7S\W6Ve$,FrsF&APbX\]k>8hm-;C8HoCC!j3oX_O0+)G&&j+=<?S?naQeJ*"OTo1,?X'7ddejV%j]-8-BAgGOE)^19+Q\^HMGFYW8@g$%a+hVR4Df4t=fMmeHch`T7)):%'Hn;Lmt)]riNir36W08+\AG32)]A"lt=VFC`4qW]#@p-nWkC_)@H6kTJC+G_;gW$.*&@Rc$,+<j,XO]41Pqik99&k)eR!$WU1,)@KENS$mcbRG&M_0o;<eJ_\^(UYFSgfu7@N_(dS6-BB@)J&sm-:/tG6pq<"J8TrO2ABgQQP!(=`06/`6UjR5e`V)gcoIkUr<joMPs?K*+Tb+7TASlW:.&TeaZ9QW&V:Q\&C"p&7Af@NpY*;9a:YFS$3@Z@NjZZ/.s9gMWj$1J@r9R,a=O#rG1'@qZ8'rJ$^0Ra1*RnK,/D>FeM8Tc8L,9sM(1FL(K%#:lQWCd]&)/2e/5Sn<r$`8I)J;b`R2eoQ1`iB6&]k*C0@l!m=6-$Z,Mje8so\3[_Ae!S5ZthD@L*L.ZJ/tX19d^3>a.hb_=BM&d,(If#5*S-S`umKI2Kt":b_HD*]&Tr0gHi\k/.;:"'9MR!)4Dlrt`C3^XP)WoTjm?rXml,.V,r9L1@E"HfeF8;712"\M64-lF1?#)Ls6^T<M>KE.6g.O>--!_%oqU*u7'L]EP\J-\l61'I]2cu#IUq*Gf\+\]aV&eQq_a>t-=UQuL!1Xqe`M4"AQfh<oqV(g[R-8Z_[c##;]l2"dpR#5KE?1"oDC8EYF#G:@G$#^$O%nC``:ilJ[gr3+!d7ul7Q@bMN;_M"5@ol$]P)#E-9]fY1"bp!D\W"Tr*^V\P1T/4k+`UhYW@+_qb5965];GE-f@h:R<filZ.\Ha=>s%Yep^+Jfk6gBCPg^B#^W5'C*n4M#qOu.<#F^t)<HL/=cV#kFNtqtY_Zr;8HOPu.-QDfU*/B:%@W/fc41@.1cg7)P9;^JBXgq/-.)d=k,`RL5$U,F[X*%<Is/$N4cS^6r<F,(Xfi.7.%dZjTF+Dqulbk19orFA&M6l@C<afe_Qs%Us!>&7&U+Jp4NF0uPQiU4hDo`&`lG2tU-'R7ZlfV(g]"1t!:_j3h!Sgd^(&Jb-Fu6k_3G$hOS"!k"4*,*m,*rj-#kLSP8S"p!meY^dnk)1d"RIiCCkaE@/XrT`e\[m+lI-IK00$K*ZD*Lh9OOP$D@2Zo$#E:TXk4@B\!A_Le(hA4H\=!WJIiED84(6Y_Oc^E"@*B:;$7.>PSM30+>8+C^YqHu'R7[^L"!'Ob->.2G\p!9pXDoIPKVGtQ7m"]be-R1*6u*Q'3\jrK8YCcZR.@80!h;Ppb])COMMLp:T!g*H2kIi`<1u*K@k-^SMCeRG089A:[VAXH<.3CL>kZp*^.8a5]sPL^dbF_NapP674cdmA*em*jLf%C3%TtV+98dGQr,-TX;5@[ECsgT_jkmE1"]$_YuK'_=UYqfnn9bN7;Fk5R1Ph&Ce168IC$>&EFYBF\S'i^Oipc^eudlIFT1@OQeT>rji1f!iOGHnF5bKOZ23UK?bOX1@s"Z*E7gUq0-,lm(RUYE=:bIZ\k>DF+^\b)Uka_k-1TibSm9L6_&.3&joW%Bo=>;;P%UIA`oJH1)sh2qc6s3CI!N'E6h8IS'7te!'16YH'n]nYbbetf%;r0tE,5eN"L..$^_g_WZ0L6*d!R1W@07VjCeo?012&.12h@]\/EBk-]"t0bP%n(?0Fh]Q%Ed(X_JoTLAY*aW\2B/?JR5ArXq1S>CDG29,6;22/(?Dd.YdU'!1?u)<i)URI#9P0JG=M]V(e(q($q?RaT0PRC5=%$B82P)+>,4h]g`n(L`JE1B^W,PYZEWo%Tmul-&`)QD/%3<JOfi]8B"`++sMiR"0[T&@)uS0P6=4*OD4fB;.Of:1YV>k37Jmte8nZEMs^r^^h?;UW+q$k)2(^q##.?a/p<3$6NnFG8cVs"kLt-FN/]#sZ-_K3Q3*io"XJ0mJ>lA)TU4dLOVm2C#uHAt."N4t;%uH0PU*4:Js&Mi6lCVdOQ71'3^O_]"c'S*3MsZ!<HCGBKE*2UUP&V6!6H-'#!e<NUTEYq!4E#7m;,&"La*CO;jANV`@?ZD,"1AE0b\Mk!)<mJM^\[SE`0`(fX(WX>ufUPPT/Q2[9'D$Q-=b-#QS@87)dB_mTHZjTacdc#DY\I9S.oq#"A]6VZ8QWeli)KJ6>et4sjT5[;X.D,2O:9MW=<$%'8dfmXuCoq&p!``SJMbqETE)i;D0WjR''SHMiq92DsgVF,#aj=O@.Q(od%?IpM>:DdD_A[c^9Q[*/NS:i&aW:Y?HeMZ(Gm>jALkJ0[NN>^WfZc1(5Q@UEc^fFrNR!$&W7@,!6jq=Uf[e""fF.T_lnB\%:8c;EQ,r;pda(LTb#$Gi=QTk7G#GVoh'WD^9=3W^9s'C@;2#+o4<O8sk8$&B-a<*j)km<ZH`5RVNrYkR7n956+4kU\>$qSHK-HakuL.i/K,<rHj.-,[n9O(_Q-CJ1Jg&--kWG>W2roYT`"p>r9m#MS::7Fn+(W&JP)2GJ\%;%(@Zc!'AOFC$`gdD'>7QJW`uB@1:90rc@Kc"k<\VbAopXOiOB<Gs^8CVOnY<UcZo-CPn^R4(CYC'[L$-B/nM7];]t[5a\VMD^dU=ooPBip'^5M-[0fKc]3I\ml',I[!KnKh*ORa@$<L\s3'W`S,C:MntI8,AUZ#V'W9IJ&V36T#:-uXTf(dAqIO7>[tj9C\h3@fTXQ0]B0Fs]in,\7XM<Q?kNJ&X0Y.._Ae4^d%^l(La\<q/$%`G?RM?o!&d0blP@KA9F(=/;g[f6D:)Jk2m*Y!W8ZJmB6FO)L'D"Oc!<"eSL57Y6)Rhn1aHu5D0aCc``g=9j8]o!eD&7$>FUiQL\HY]^.L92QDT5XNX71cAi*O<6kbq`$UBQd@]jIXp0Bl!kXms7CPU+?An$i)@llW@\69kR4(cKZH`1O7-n\.+AZ$m!_ofjm3'['&l*P0jT=_I5,[+/T=drk^D(,rsB*58c3HoLjb:VG:IBMIKZR1E-*+'Kgfr379Or),ac3=b1n(U&#ROcF\Ce*fJS[LdPV'.)SP1VlG2$eLD#,_4uX+X&3]rMGElJCPX%jjuEbFJmA&QPVr/dIS?YY^Cr=c:N5*-=AQ5Z^o.U5BBt/*1TSSA"ORLrXt&Ia:StY]j]AI<A%<XSpnIs6/Il_%8NU"/&4qs&l8BYc(Wp9?V&/g<a6V?RB/FB3W>=QGY#cgi:#gbhr-/s+dclYV_<a"`Ld^qR#6u+"WUr@V7*\CrY$<HSfP`SH`hDeOHP/?h^%VAIMaB,_FlC`u(nda/0uN9%'knAi`02EEL:]jL)^u;u;RKcX"qbN!=j"-ak(;^=:k60Pb6[Xsf=qW0l0(:CAA.=B!`>;s\K+?7X^enbK&$5^0GU6LW"6Q9?kh9n6#EHe,0s2dEq'QV;[tFA=ue\=hVV)l^fUmYP_fp'07?\tSgMh8\aIg?.(!cea-9<lU4+!-[X:R-(6@LaGf']-0#:hnV/hF^(TK14I5J28Z<E3i!dT?LQ8b]2)aE^4JE^k8MNtqo5srQRn[e,K-OoHi63.N:*^8k%(c*YfTC5<b,icLLaQZWl=N#oAbjYh=?JIY1n0<E88jm4*SqL(i*1Hi.5/?G[c&IXN`3Rm\-!eZXAI%L,.-^)H28mVd*Ys`J&RLl0%es+_]1>=0TmG3jQ]A#_U60\.(`X4j4`Q4*]5EBrS]mLqZ@b0cs;Q%^Tt(`tt&>>&nM`$"(]R1b<F2hm"KF0r<I`ii!$dou5Q9daCLipd!_jKe]HtqKS(-O*_aQVY)6nkY=#l:f0`SIaBt\`K[&WCcB8S>*kh]Ee=rVZJ':7m;psgNFJ1.bVo]`obaor^lIDJLmFCn-'[NITqmQa.BU.P=MD(NC1u^VQ@6sUI.TZc!k.gHlS4'30p@\)%$L0(@)%Y'Ce?Gn"4AJ3/CZBVk1TR<d+ce<+,^ccUdh^eGOMDiB7>`'8*js3o5s2>aqf1k#<W^QiPC9F=pO5uK16&>9)ItL.>s,l+hH[CeL^?tl:^>?Q78Pu;%D+,_QVU]HQ+`_gPb[%]_p)"Fc#&/*];:+SibX_`oIL5gh/[E/Bj(aY[dV/U^e\qjPYd2n]p9K9a,I`129tH:%"%reC;8?b<co&31PqeKD)!4!%=Dj.mPX`MD;S]ZX"j"QEoR&$anK@IC;b+2TH6MEWKfW^!Io=Cd)$JU_$li3_r8j#sGT=qsV/UgkKs,?bL!i7nn%e`F?<<X#K/\+rKpidQ<XL`7o9XF"*[g_AM$Y7&qu2o!>NuV(>_7X#3C+)Cqk&nq,XW>K!Hc^`lic;/'Y3n,m^6093er?PUVQ_O;NL>PB8W>WVkGWT?ULPdpr&KYjj'B=a_SX=-/!>!motiG.+_NQgQ%gp&C_08J]0:_Z"Vfu85ReUf!'*\Z=\MBW`^YV[R7gX.Ff!1;r[C)frNSe@T0#^pnUoFI6brWDkQ=MAeDOKb,0l0Xm@G?M\@Z`2^s'S_e6Vj*al@?qnnBf!G*e3n5g0;:>VhrN=9-R,lN)NXRbL_>n-;t"[9Ak@\em"q,V9/JY2"?KsJID0E8-CCpV_n8oo)tEiYZNKA4fB65]J(`2['k^g^@+jbjO@<E'm.-oQZcN"kpR@Y:V*GR%?%.TBFmVb&Ng@tR18[Do\!i5pi7>MZ+J2EqDHecsCCCmuC@c1gNV`)1Yp+Xu?EuPLQ,0)aN(#/rkH6!;!YbHo_,NX1:=q/$rPuo#SJ.k]_7_^8M^G`5kh4,dbq/3GJ$"rBIOtZHOu-G\Xg+lbMGHcb2epUm,Z<7.]iHOadeYPB.;,21?I@/<dmY[_h<4M*%J:LQ@Q7_2S4]/7pH1hnF\TOc=O[BcchJIQ@H]8UrgKlN"lcf$Do<A82k6HeVmukPrj=,02XW0-;1usR"oIlt5CkS.A`9HF[B=I%b0cl1c*#g8QEBtim?=@W042EmWa3h2Zh%\Z5PlM*28$+HY?5Fs-Pm\B7+FU*q!:*rSZT?HHCMa>n9d:Ke=meOC^.>\8BUd^LPgpb9Q!MhLTd;;5C/c$fU[TH,^Qh`-o&o@ahArocL&4+4a!&!@BgS#>@4]?'`HDHekE6RU`Ka*=_k>XeLt'1ZYf_j7V`*Ig-s4Ye'dX3aHib1@k5K_777bELOmia0N[b_Z"#JGP[Hf(kh1Ik7;k"')B%>@:!YI'l^&%45%A:Z(X-72?=k5ZQk`[N*'1fJgSR*%'i##*<Api3i0"u07LK%_\KGM$@hTPH.8p)qZ=Up@9mR\BZ=$U$/gaVo;)XOU'bI8mf<@pd5s.pEH6*>GX,/HE2N@I'9J\[f`J(j@pQiD_QttACU6pW:C7Q%"-;.""=YgRb'!gL6ZD3VBR>Xe;AX6T>S:\l[C,(!A02)&D91WYS[I7!l;"R$A8HpKgcj2%`2*;Va83Pj>@2oHDM]-CZio;3Wkq(+d[,]N%>CP+KDRjl<Wl38DlC[Omd`2)sXU>Zf(_1A.6!UoW'B.qjEn5c*<:e0CQ=UC5ZYkV?Y#nu4/U!\#DBe\c2U`nSa%1j1jctFN<g9#jr[<)p6'muBHPOLST,4lm694MiYe"bD+5@cLma$nR!2fbF?n(!&_USI_(4U([EkMu=Edk\FYu8lB9fobjB&6)0CBh9q.X.F#a((5j\M4c9!SH%g<W>@qJu=3OlS:=X3n@0:0q)C=-&S&d(@OEIZK&EU35;9EN3EYh\Ues@kJS/4@HX/Ok=mgn7WoII(--F=QtQ)ZEfK7H-dh+q2GqQ[JBm!OmA(-O<U/aY/R_1B7C'_nr6dnsA+HfPQ4u"7S%>`YU0QA6p=+pMmXN>`>BS?]rH=1ng!Ma[rg-g<?4d;#_@Ui(ZUO\`j2OTLoqZ1[ifpE;)$`UR8;hSJZHU86$>+pbJ;A2T:M_$*U4kr+S<XD>!GDZZg:($D@7;&0ZMijS4XYFad94Qn?m<iH'iq_5!(*'bKrRE=Ai]CA4$0/;-f//:!'M5$0Bm<GX0=-NikfOr0=@5fF`s'Z*)^WH5qVKD'Lm0J<Vh4S5:#49fLU9g.rW30B,*1^AI3%IhD,V9"\2?0I5ncN"B(/[\r%[[=OT$YRs+#V?uc>$-MT>lG&al>NgO94,?cftZj^N/f?>5S.uhB<Z<3r&(L`P0.<cW7[tJfU=r@dnaJF_0DP/cK#KFLMZ;AKXVLC:k2Y@MaJ+.XMXf%`@lsE!Gl@IHNRg$bRW2)"21pr:ZQp_eSW#![!1SM?*[i/Nq_Ji=KHeYq(j>d4+$bHG)rQ%l@_tEW`4$A=.AiOu+K!G0G*i[;G7jF<&oNX!KNHrc+R046/g+r&iem=M`CN6gaG/;n\VOQK/=mDL:ZKC/1nl5qCJCWTk@&U%h`J.s3j<PVF&3/EDASG1#AhXl09ah5GC,G;ppN'fGd7QuUg"3,Z.2T!%eL3POZSDAj9gql;@m"?GgTo]T"o4mON%V%)9igRR\mt99X6'X5'C-34-?#n^3n>_[4_08&Qa(p`XLV2?+GE_5qcD%CeU?Y3A-ZZbL@Yj->;G.nTtPSX,b3@G?;.FLdu*iKO','uTZ&D*jF[9_jSC#k$q3=E3Dpq-J=^Et!)!>)_Q%CVO;Nq\CK\kmSb51JqAGEe,Rg5u"BnU`']lo:HCZ.`]l@*(.Z=F#;*>&4\-*oei5sb"!0ac@6t-TTRphggDR[J<*olL=F]\#LXkZZT@$tpQcO[C%@\?L/VQN&C*kddjm$:+GK;+eIO]4qd/eKL//g)bLJ.P$I&/0rJ9[Ha!M'hV"66h.q#g9*5KT3X70K1,+C=1cE-CMKE5'(2O":NZ%d8sI6ROmKq`&"G21:"h]1Crf=6=rtb<A\b;D?58V/S,<kpQD0n-qP2?eRWhs)2tmL(8lDY[3]b&P3J41\?cq\;.oD.jn=)\i5%o'*,-QME;,H=`:jbp[Ws29M-%[M?p<p@CM?\CS,f8F;3aV0"IK(Ff2FkW_9?YKiF%1]OHsGZ7Bg[>YU9cc+B;&4<3-o@1N>]hM`R!&eu"j$o8PqPq`"iG@J@Z>9D-"FG/Xk2d%O_>heK6sPQh=/$?rBTGHJ<%a&BF&MHmu`bPfck8JVKFoecbli<ijkd];'&0mMYi%gZb_N$]Un_X"1'ph7#O=r4,19D'Gtlh27c8>2T$2_Zr?UeH2i+h2?=0[U2\:-#H+Wg."bROp3$=luX6h"L'obnE#-GD[t$L!5L;.eQI[2:np@B&\oscsju`jFM>$80NZr<7nAkYZ_;?89sE2f7LgS*OpnQRaKLtQ^^`O]!=hF<du!N&Jf4f>.W'Y0K,[]B<BsG[oN*gI:1\I$d1EAab;@p9]2\D03*>S!9ZAX5?,TJ-RW/G7<?@1`hsZ%8*Z>@HttajbVBqs]=;j54QP`8MB[%Lfd_iMaYHl<0#lTbHWZ^s>[XI)Aqt<<pr%5DAp,c':,m#TESrSKjLb0Z>h<US-ah/0p,WqI!+7`ICIq,*U,(9T<X6r8dg?:EZs]4cAIE=]e`'-6E@_OQAU?p?#;Yq+iP@m,F1!;DLg7PKm$9Ypaet"&@^Y!R6;._DJ]<$/iT:,2Am*ic-53$aE:#Mg2;Egk5aa>tHd*@DcEXalMjNiemo3L1Pgkk)k]1uD(.2JCGaA(S?FtH_S,8p1r(B2[jCmP-UU7qKL(@BIY*L@N)#:C(Ms"O#g_]?<'_VncqraP"9@:rYX7ki^Y7s8&fFB63<rt)XZl/tM'Dd;0f%mteqI8Zc*j%>=Fj=]TD#F=udAH/j^;@dVBUR.JD<u*K_436u>%T!&p#Yk./+N%r717[_(kBd7=&Le-fJXe/OWJ!RbjeNgbQ@dRfh@;=Rd/DR=F`V[RUt0d8$25?MS_PaQ2Ej-iP=m'c&M$*].B;hW6o(R)&`Og;b$tjV18F[B\([SP%9B!4i(/.N#X_*3/'\1C1VHBZU+;j@u^Z_QLoDP/D`d^X"G&_)&cYuK"Ku@Wq@+u#I>.j;%%_'DItm4+-M!dERdtncn[07S\\"5\MeXo!h)Q1b)%K;#'#Ta&'ct8Qr1Z?Fip(4rNrtRLj9guE\+6N1C$E/Lj?VRXX=S_\Pg=V$tZ<CQg3Wo;i!-!@L=9GOt/Jd(#()&oNk.%K0JK/PRBrVbdVo>Km-&(IO<Z,Tbr[1A=9W(SHkLIf+5MBVP5]?HJXWE-g")QgqjEPoeF)VI"gY6Rql-(S6M>X%,A@hcU(>p:hdIJYYI]gP&9jjFC[3FU2Y+6\AjmQM^&MjVX:&t0=cs(c=m))YFi,D`a*rfo'??,p'g)bf@QKjM&$M\8pDf=dE)k._DGm[WSnn=`;.)LmHVTfr:lu7BqaDmFAqk.rp9ZT!45p-901iq4WClo@_6M*A2\l.nqm>_;_T,jo?%*O'eO9sm8l-0Kf.8+IZ_h-@j)"r<"b,I5m3l1iP3<"KH_TQ('`pDWE<*\)Z<$GDd;HH4UQfdH/m7tjLsutZi8NQNA*6AK),[c34_WIl@Z8W:[rNQ"6])j_E;PHR<gZ(,%G=.Qc-t3[81:(<S[:0H_``Clop3db:!&>qj=4uT[G@VR3h$_9pL)[8h^ihGWT=a0U1&GSJ/;[0X.drY8qpm1CO*.9MbQC#M-!_RDmC?]46`;J=%(&);Q/YAXNb%:93@]*]R2u*;IL(b<'%-R"\[Y$\36ZjL,r8q>ksIc]=H&=Lesbk"_q?QHVQFeAF=&08*jB!"YGl3%U=/+j>-<k'_E]HZH4RN=]W&AS/:o:RF6p3*VTSh@AR0/FpY>*4i;%Pe"r-K=%IeLU'oj$JUaRm1:#ggY'k.3rSknRE)u%Ea5$^CW4*EAEk!HY<R64bfkYZ*U:eW`*8.1k2('[EEbnW1IOh?\;G6!&Mr;3(J^f7qe*9t;$'VfR[qpZl(Wo&<b7G]AsNTV\oQ'+Cnd3:/G.;'SiiYN1QuAc`a^]31M1X!'Dc/l6S\AmPF2ce,GRA3"qnoKC\e>OJY=2!1!7bcqM3&;W3MZ![29V)\0Yb,D3:R?gdYc/LMO73^$:m+c<9*A&!A+_#eVbSD"Vt(SIj"$>/4J=V=Gn>h#`k3OeQps-<Z9AY7^'8-":rrFJOL"#t,t8`E++k59YV5LaHj"N0Z?)<ERdS>pJ=0oeNjJQ@^%j*0#)YoMpQN'15E]3Q;3i*\c]D1*QpX&!2K$`Pq4uiQErS:[%l8K3@#@ETbF&TtDZ:Je,nMNa'_=*:(d\D4fU%BI5?k"V6=nZn,]Q9-QYK3HaaT@EG%!dTiKMfUs'0)T=j2Sq[[_:3/'@8M3dtA7grZXMZ4YP\V/\S/cb+N6D'&1^^H4"fn:DH>?9V'j`14en3<($gV5c^59WcII5NV+a0au"J\AoT#b7*kt.;H4S59XiR&cme-I`Q=HdkSp.B^/,t/Z\OOe-i.iRh3'WrL;AjN$8Y#uU<3PE8!5/=/.5+/7+1?\'l^n#R_AqoD4.17-fd^WjA?+/s-mN8ZCFrs7H$%qUWdN6+uI4A?:1a+%U,#8ma'1F<]N.K$ho+[H!PN%tle=N9%:63<E#D"8a%V7=7//iBLl8$L]AC1Qh["@"eiP_\1ZYK>%jt]]]:aY<b6_1c#.Pqd6@\:(W)]l8jR7C\U=CSFZCPTCRNT:Fe6F50VaHMbAr4EeNrR#%^B:B(GMGWHIV#8HmFA3`2/ZN[\H&%pIF4n.=_+]Od4K9(M1(rXFAhSj@a=]DM:.7c+SHd@5@n].>f`X7Uk]IL_,DB1L1int0(i2p+c:Mar9jFH0V!,ha4nqo,Nl&ZH-#\%jWVj6eRB$a[EpIWigKHBpa.2.Q_f:t7-<G2ONg4<GdZe$C5OX\nWOAu?\T#mV"8&Gu<'!nYAf6g-r1ZW=d4h3u$+P^N]@iujM^aP4'F(.1-a4#Sk-9^o?+m-)F[mf'5S$33M9P>?qIrErBuG=R(T1e)Rg0E]R?u%+a'/[]iH8#sY8^amf4dC7&%t/]s5mQ,Gf$](_p*_JFD)9k(I2Io\5)WsM8W\HpQYu'Hf+HfVb?o!DT9*U#E5;f-Gmhj1\K4XMu-!(]!4+iI"GEX`JL.tlNeqH<Bi->!)1UB2%;0[>',a8*:3IZog0rV7^e'\)E]#53bJJS/saQVO-m4_$@0?KBOFs<'Q7o,3d*2HGAqcQb=Fu%^rfbIO^`8t[&"c6$p(T;@s9E2K!FWN<b;SZMSi>^)G^:h/\3i#qp_DVdSO,0CI]6Xr)\;TSL]F/%>2q:HmkBuL+U6MQ!Q*pV,\Z[iatJ>C?1e<^cP5bF)9^kXr#)U(9BLqGT/Y%1BZB?D]([Mc3V<1[d&$Bd-=fCj+@9pSte@$:N01QL!>gkEft1I\1`f.<Y./6rmO3[,+p;<n,W25=kI6t#Jq35b:Kq:R*fV?6kW*]=d[]l'*Z^l:tfE-Z22rk0aJ#Nc4HG3";mNUQ.b@h1/hN*kO9)dVs7-rS8JP_)bo=/_Q2^#D6aOFT21>e(:pLd\(>mV8_T48%'KEe-k_`@4@ORj+iVr];*lfAG'4HH>a^=(B#.Zn%QLS?HGnsG/2IKuSSP+.6-23%QCUV<'bcl:ZX!BiIDRF7T+ZRLDJ(Wi,Nusig>0-og'-S;HW,nm9ZF_I_OCXj>ri3^E&;29D=1+c.@cSRSHt">_XXHr/(Yi)ClK`Ks$h%s`,XL+bZ4sdiiY)^fhA'W#;8p!$amM\Ro?]>o'(3*,p^pHEkon29Pc2)@E\Cco-!^egTj/i`hHhj$oL%T9"hs``A=P?b\E:-V@Hj[m8aGC77BcCT!G5GdS)q.9Z1^(Rg?s\5SQ)(*aPY=Y3[?r-,I-=85rc)9c7^QB\r=*(?TdPZFo;9i#AM]'I@01S0Y]W'1_5%`0H4rG1f!uVD?g2.@eT)RdnT;=H5h4AFjqgWhhHY)3'N1p$SsRH>F]P3VGq9*F**,jsK2p[WfV[9@G[%DU-+E].L`bX5+:WAF7UNih%Ze,fYeYS[)Y^OtHs-[$#BhMj>;.733XnES8c_r@8,2+Dn(=K\eBofa/^jmGMkKQooW#]f9Q:LUm.dh;_T'2Bu_?N\l`5,5(#'S%&%N,UW>p_mM?O<gcHF^Y0.L-+*KEf.?\'`i2=#-uB@bo)6!UC13[^^grA";\'uY>RW7;a/Ge+)'KYgO8&u:"X2HYFC$R)a0p-ag8HMs88aZ)NBE(Rl)LDi6p#hT4Cb*PIG$ArZtitp0e>=KR)Pj<_iTh.qm'Z%'-rGNbQMf0fL(1Mgor>'qgp,&d!(I("1pX=e+V;i%utFaL1@Z7cCoV>HI3nY0GfWqGnpslB/=@j4WAa''EYIRPLVe%5R?<.rCu-P_aUqK;(rpO\D0b=hSqHA\ad2@k4=UAIgj&!ON'O)NXdgJWbuiA7GII&\q:d:73n=?equhOcnQs9i@A6DJnO=c/,#b,1J*4bc=*RMAO^?kiuq1U"kJ-!S@6.0+ZG2.G=KE1.=Bg&'9#GJqrGr'E2/aViF=t/p*4EEYZ6kZQ^4&]Kl"H&?n<94PZ,ffg\7k?DtY<Sd^bG]&N^p\GH+OK_4,>_SnbS!r;<*B-eql]/^XJYQjY_P%`frSC#1!,':i-*ZaeA:.JI(2LCq<PCUoJShJp#!AePf095O<2h0)uHEq.8+"^`VNQCJJHM7H,:5Z&d=k;+pR)BFY!SSS%#(8@A4ZEnQ&PGJ^@`\]0]GZJ:8r]G"/B1F$bR6rhH:6l)X@GTm+D-AB>Jb3rt/e2+W5b&'h$>[tW\$sI[8-f)4)o96P*)kT&)@V-brP.0J/IV(UgM7TC9@Ll'8:*-eitcsTY]3ud2+MM1#S)*Sa$^<lFaBXVEnXXUoiX:no^!?#2Os4`R"Akk2R'*DP!oW<LK^Yr(7oo"SG0Q;ro78[DM1[Bp4',M'DL[$/)#n4cPdl%K#sd80a5@a]I)>bR5%lnYP,f,S$X!s3*00Ne.YSZT@mA1Hqe"?&+2C.1'`qDA--#oH+q3RBBB7F*mZWbhr<B$mYEM8;p!7mgO`r$DW\Pe@LQn=)/tJDSTGU3CrJec(j3Zt)hO&hF!I&,*,"5T65rIQqbhhdd*PtZmrkqAb3@GVTik5$!9'-b[B(<0Akph,k,o&4a)/U/)2s>uIC&@'nm&aPb5`BDA:^IhBh+R3R;9'MI4"RD-JB?l&!AL$<g9s4GNn<CP%69]_)TVK'F#aJB8$$%USL'`1sQq9kcp%][VVLq?@&>9H.Y>3oeL9sUN7*Q5Ep^C7us<K]itq?/9]4u^.Xme8*UWhXP[hUO$q*MMi((FRHpT/cd5;d%(J;SqeHd2(+kd=pi<M*>uV5WE9FPJ.Fa!mKh4pS:C71aKU6@/dTr&O/j#5`AK`B>,9ArTk,'o<>!6\fD\&^jEH-)mBK%N1i;Zus!fHn?\Jqn(Kb1()P6IA]9M8](4aF(m\E'-c5WPQHLp0(h;\kY,p.+H+gZ%-r;=:>*jpJMZ6(?K(JB0hU_E@V!A5JF<(=>6Ig-g4j?iqIoNYk\S_DIMA'Ljm/;*N;W\hYLQL1mAqP"V?=bBR\[:r,k@k0siPed]akZFVD^1i-#]N;p;O.\jD8R1ibR\B5<l@Ii"j=2Ac/06:a5;Sd)l_)$^a2]XB9"JKi_\UeY87tNZ0<`j8!mO3)+-uG#bou;J=@j^0RKaeg*d%V5P8hs`s8uAsu.EIH[<e`#l?J-<@1B;>*k6=-$mlD/LTZ``.*@en$6j>&Vp,^V.6\FYU6We"3F0_bugD]h6El&Yf0$F'4d<M.MXkgeqc$Bs]UdMMQ#4+DsjR/=Y=3.Qq7i(_b-O6g\ShF?\=+1W6.PdC:FD3Ip'3e4^eR:#B[/LaZ!)51REertm0_$&gS'$Z\VV!^oVrnC>E-Ljf1NcqUX6#cDO0pk!TZ,]OM=otp5mn@2bAM2L2]sFb6@]V6AdQUkO_t6g;.0l<+l9?:o9%-UjglL=3P8qVL6To7n#bYR$5,=]Ks'+P>[53Oo#(4ZB<PjS2Mbgam7]KI[a#kH(!2ZJo0T,>k%OrlKQiW<2DXIR^Y<J_a'"CqY+W)OTOc,kVp",oN%taQ7J[h+Ha4,Z3V52K"Yt:FBJG<H7UZP^$r*/3Bb")R+c')D(Qf"riXun1knia>\o#Z^_$$d'1FUu-B5a-\GN5s11h[rT/hDmoV"YpAo$J>O?&h(T:+fdD0EaA@8I(;G;)T8D!5jbPP7=oKRY6$>YhdDWPMA)TMUfWH/M_6H>T)?s";)pQom5+f>0j/]=0fmbnhSb5!YbR$4<1_5='.;NG!kh>8@4UrPTmAMe,TZiOf^kT(U?I1RrK_Xjl]D\81ll`GC,`Ge"u2XoJX`jYWlVgB%t`D%jlk(K3Ji"1af&1e='3ld4_ja$m>a6b,-V'-m#88lBMB64HG^6BlHEH1#nJ'QX(9hhMjsB?-Wb86MYlCP["2kLs#%"(<r<Q$K]lXmd2G@;U'EL'lJ"'GGf,@2_Qm['8s"$Cm$=>0fGKJM!E)$hMQE+_'PBfg<.+b!:u2d*1rGFGMd:n'drS56nO!SC15AW;O5Lca-S@e!\>uJN*EUtI'UMq=$<\GqX%EF`%O)Xh!u$:@R#s<1+Hd"(_>D0rA>fNCj3GG5QFK5OZLt!AnEASHm!0j?Ck>g9X$C==WA*?,G<40jojDUB&&tba-]cZ0is6-!Vcqm%b@Q$ZX[o]bX\-Wlf8]pj'JJ6)9an\=6(]eg#eVYD1]PMAn/Q*AT@d*/Hd"Ib$"8+Ct#A(4s8+,hQ7#"Z>j0WD[`<Qo%m1V)tkB>1BYE%-ELrrpG6uh:>BEA3=7KFVZ)e"Zb?2j-MEU]1'[ni?Y32gV(?L,=mc?9R6KZ.UYD1S-0sp7a2>K[-93a*P]oHZr8^Mrj+G@+goM[=O:?"8R;@_5R9b'J%/U\BFJ\)Bo[6);SgY&4.+4`(5U:$H['KEjMCVoI`@O8=J8fiNTSa$p%;l2a1''L*@)!/=!AI*H:6a[=[(T2ST9k[&h\Prk_(0qk[>Z8\\#iGKTf9Bkl3]d,(TSGJ+NhLM*K^mHf0j+4GuDc>_Wo?Jk$#DjWCl9\e:Io0g1<']X_(LP!</#jS`6HC4AE&<$g"*q&kb7hXu13]#qK`(@\ctV"gqBDeLjh;eo7[_fN<%RPThj===qmS331G?/DE[C+eGs`(3Vem$9KXo3CJPl[nc\+2-"^N!$R`A6G6ff0s9Mi%&!<f]9?"i8B5QkZl<Ub=WC7"2IA,r?*Z/^j`3"a-_;B2%:*'H[8>EmSk%PFams+WPh,t6AC>QV'0o4.0r#i$5Se'<2!Q,6SpAJ-ZGIQgXs,7XldWDYa%O]gZj:3UX.$(uaMZKua60(X1tMmV8jH176/2,F!Dlg`!'GBtON!1e;Ib.C1bd:H=n"PBg?rh;6!.])0:!59Z*HaP_b>rq_G2P]<W'TQ4)AS0YU=<Eb?]Sp;+(-pc]\IX#(fb2<\=\'29Wn&duabIMoG*LnUa3sl+rm@&kioa=:U0)n;/9B/LaW/MZ:%Z1:tEsR_rH4SfKeb%,c.9;mHQR^_1-X.-j*1.AcB]3-$R89PNt4M#e%nF.Y8rTUCC^R)GdK<WihHj$rC1gVT6j9`TrI[/P1<aa)hnJkOjUR:TV``Mfk\jU-2P*hjNY[^&,"PUD1b%f]==])local f=1 local g g=function(l)local n=0 local p=0 for t=0,3 do local u local v={}local function w(x,y)v[y]=x;return v[y]end local x={}x[1]=1 x[2]=1 x[3]=1 local x=56712 repeat if x>=34203 then if x<=34203 then break else u=e(l,f)n=r(n,s(u,8*t))x=v[x+29196]or w(-48401,x+29196)end else f=f+1 x=v[x+29952]or w(34203,x+29952)end until x==34203 end;for t=0,3 do local u local v={}local function w(x,y)v[y]=x;return v[y]end local x={}x[1]=4 x[2]=1 x[3]=1 local x=57552 repeat if x<=-12239 then f=f+1 x=v[x+99293]or w(55271,x+99293)else if x~=57552 then break else u=e(l,f)p=r(p,s(u,8*t))x=v[x+61573]or w(-12239,x+61573)end end until x==55271 end;return p*4294967296+n;end;local l l=function(n)local p local t={}local function u(v,w)t[w]=v;return t[w]end local v={}v[1]=1 v[2]=0 v[3]=3 local v=72436 repeat if v>=70652 then if v==70652 then break else p=0 for w=0,3 do p=r(p,s(e(n,f,f),8*w));f=f+1;end;v=t[v+50070]or u(-16892,v+50070)end else return p;end until v==70652 end;local l l=function(n)local p local t={}local function u(v,w)t[w]=v;return t[w]end local v={}v[1]=3 v[2]=3 v[3]=2 local v=80532 repeat if v>=-30052 then if v==-30052 then break else p=0 for w=0,2 do p=r(p,s(e(n,f,f),8*w));f=f+1;end;v=t[v+13095]or u(-44968,v+13095)end else return p;end until v==-30052 end;local l l=function(n)local p local t={}local function u(v,w)t[w]=v;return t[w]end local v={}v[1]=2 v[2]=0 v[3]=4 local v=-29657 repeat if v>=-23252 then if v<=-23252 then return p;else break end else p=0 for w=0,1 do p=r(p,s(e(n,f,f),8*w));f=f+1;end;v=t[v+49685]or u(-23252,v+49685)end until v==62419 end;local l l=function(n)local p local t={}local function u(v,w)local x=q(w,w)local v=v+x t[w]=v;return v end local v={}v[1]=4 v[2]=3 v[3]=4 local v=-42838 repeat if v<=-42838 then p=0 p=r(p,s(e(n,f,f),8))f=f+1 v=t[q(v,80447)]or u(-35074,q(v,80447))else if v==-35074 then return p;else break end end until v==87472 end;local l l=function(n)local p local r={}local function s(t,u)local v=q(u,u)local t=t+v r[u]=t;return t end local t={}t[1]=4 t[2]=3 t[3]=2 local t=-43408 repeat if t<=-49090 then return p;else if t~=-25475 then p=0 p=e(n,f)f=f+1 t=r[q(t,68283)]or s(-49090,q(t,68283))else break end end until t==-25475 end;local n n=function(p)local r,s,t,u,v,w,x,y,z,ba,bb local bc={}local bd={}local function be(bf,bg)bd[bg]=bf;return bd[bg]end local bf={}bf[1]=3 bf[2]=0 bf[3]=4 local bg=66123 repeat if bg<=-15942 then if bg<-15942 then if ba==0 then if bb==0 then return z*0;else return z*bb*2^(-1022-52);end;elseif ba==2047 then if bb==0 then return z*(1/0);else return 0/0;end;end;bb=bb+2^52 bg=bd[bg+85027]or be(46013,bg+85027)else break end else if bg>=46013 then if bg<=46013 then return z*bb*2^(ba-1023-52);else r,s,t,u,v,w,x,y=e(p,f,f+7)f=f+8 if bf[11]~=1 then bg=bd[bg+44824]or be(-20715,bg+44824)end bg=bd[bg+34475]or be(-10428,bg+34475)end else bc[5]=y>127 and-1 or 1 z=bc[5]ba=(y%128)*16+h(x/16)bb=((x%16)*2^48+w*2^40+v*2^32+u*2^24+t*2^16+s*2^8+r)bg=bd[bg+12120]or be(-20715,bg+12120)end end until bg==-15942 end;local p p=function(r)local s,t local u={}local function v(w,x)local y=q(x,x)local w=w+y u[x]=w;return w end local w={}w[1]=3 w[2]=0 w[3]=1 local w=72101 repeat if w>=72101 then if w~=73425 then s=0 t=1 repeat local r=e(r,f,f)s=s+(r>127 and r-128 or r)*t t=t*128 f=f+1 until(r<128)w=u[q(w,96767)]or v(-39919,q(w,96767))else break end else return s end until w==73425 end local r r=function(s)local s=p(s)local h=h(s/2)if(s%2)==0 then return h;end;return-h-1;end;local h h=function(s)local t,u,v,w local x={}local function y(z,ba)local bb=q(ba,ba)local z=z+bb x[ba]=z;return z end local z={}z[1]=1 z[2]=2 z[3]=0 local z=23042 repeat if z<=23042 then t,u,v,w=e(s,f,f+3)f=f+4 z=x[q(z,59384)]or y(73581,q(z,59384))else if z<80386 then return((w*16777216)+(v*65536)+(u*256)+t);else break end end until z==80386 end;local s s=function(t)local u,v local w={}local function x(y,z)local ba=q(z,z)local y=y+ba w[z]=y;return y end local y={}y[1]=3 y[2]=2 y[3]=3 local y=-24135 repeat if y>=26847 then if y~=71449 then return((v*256)+u);else break end else u,v=e(t,f,f+1)f=f+2 y=w[q(y,61689)]or x(26847,q(y,61689))end until y==71449 end;local e e=function(q)local t,u local v={}local function w(x,y)v[y]=x;return v[y]end local x={}x[1]=1 x[2]=0 x[3]=1 local x=-49047 repeat if x<=-49047 then t=h(q)u=h(q)if u==0 then return t;elseif(u>=2147483648)then u=u-4294967296;end;x=v[x+88474]or w(41745,x+88474)else if x<41745 then break else return u*4294967296+t;end end until x==24282 end;local h h=function(q)local t={[1095]={},[2902]={},[7389]={},[4776]={},[2369]={},[2060]={},[4336]={},}local u=p(q)local v={}do local w=(0)local x=(1)local u=(u-1)if x>=0 then while w<=u do local y y=l(q)if y==0 then local z z=l(q)if z==0 then local z,ba local bb={}local function bc(bd,be)bb[be]=bd;return bb[be]end local bd={}bd[1]=1 bd[2]=1 bd[3]=4 local bd=87726 repeat if bd>=45219 then if bd<=45219 then f=f+z do o(v,w,ba)end bd=bb[bd+50630]or bc(-33871,bd+50630)else z=p(q)ba=b(q,f,f+z-1)bd=bb[bd+23472]or bc(45219,bd+23472)end else break end until bd==-33871 end;elseif y==1 then local z=l(q)if z==1 then v[w]=r(q);else do v[w]=e(q);end end;elseif y==2 then local z=l(q)if z==1 then o(v,w,p(q))else do v[w]=g(q);end end;elseif y==3 then do v[w]=n(q);end elseif y==4 then local z=l(q)if z==1 then v[w]=r(q);else o(v,w,n(q))end;elseif not((y)~=(5))then v[w]=l(q)==1;else do v[w]=nil;end end;w=w+x end else while w>=u do local u u=l(q)if u==0 then local y y=l(q)if y==0 then local y=p(q)local b=b(q,f,f+y-1)f=f+y;do o(v,w,b)end end;elseif u==1 then local b=l(q)if b==1 then v[w]=r(q);else do v[w]=e(q);end end;elseif u==2 then local b=l(q)if b==1 then o(v,w,p(q))else do v[w]=g(q);end end;elseif u==3 then do v[w]=n(q);end elseif u==4 then local b=l(q)if b==1 then v[w]=r(q);else o(v,w,n(q))end;elseif not((u)~=(5))then v[w]=l(q)==1;else do v[w]=nil;end end;w=w+x end end end t[2902]=v;local b b=l(q)~=0 if b then local b=p(q)local e={}local f=0 do local g=(1)local n=(1)local b=(b)if n>=0 then while g<=b do local u,v,w,x local y={}local function z(ba,bb)y[bb]=ba;return y[bb]end local ba={}ba[1]=3 ba[2]=3 ba[3]=2 local ba=-37090 repeat if ba>=66192 then if ba~=81956 then break else w=r(q)x=f+w f=x o(e,#(e)+1,{v,x})ba=y[ba+12603]or z(-23873,ba+12603)end else if ba~=-23873 then u=nil u=not((l(q))==(0))v=u and 1 or 0 ba=y[ba+39521]or z(81956,ba+39521)else g=g+n ba=y[ba+14708]or z(66192,ba+14708)end end until ba==66192 end else while g>=b do local b b=not((l(q))==(0))local b=b and 1 or 0 local u=r(q)local u=f+u f=u o(e,#(e)+1,{b,u})g=g+n end end end o(t,4336,e)end;t[7389]=l(q);t[173]=p(q);for b=1,p(q)do o(t[4776],b-1,h(q))end;local b=p(q)local e={}for f=0,b-1 do local b,g local n={}local u={}local function v(w,x)u[x]=w;return u[x]end local w={}w[1]=1 w[2]=2 w[3]=0 local w=88468 repeat if w>=40378 then if w<=40378 then for x=1,g do b[x]=p(q);end;o(e,f,b)w=u[w+64042]or v(-45130,w+64042)else n[6]={}b=n[6]g=p(q)w=u[w+34992]or v(40378,w+34992)end else break end until w==-45130 end;do t[3599]=e;o(t,2369,l(q)==1)end local b=p(q)local e={}local f,g,n,u f,g,n,u=0,0,0,0 do local v=(1)local w=(1)local b=(b)if w>=0 then if v<=b then repeat local x={}x[2326]=p(q);local y=not((l(q))~=(1))local z z=l(q)==1 local ba ba=l(q)==1 local bb=l(q)if bb==1 then local bc bc=s(q)local bd={}local be={}local bf={}local bg,bh,bi=0,0,0 for bj=0,bc-1 do bg=bg+r(q);do bh=bh+r(q);bi=bi+r(q);end do bd[bj]=bg;end do be[bj]=bh;bf[bj]=bi;end end;do o(x,8514,bd)end x[6708]=be;x[2781]=bf;elseif bb==2 then local bc=s(q)local bd={}local be be={}local bf,bg=0,0 for bh=1,bc do bf=bf+r(q);bg=bg+r(q);bd[bh]=bf;be[bh]=bg;end;o(x,8514,bd)x[6708]=be;elseif bb==3 then local bc bc=s(q)local bd={}local be be=0 do for bf=1,bc do be=be+r(q);do bd[bf]=be;end end;end x[8514]=bd;elseif(4)==(bb)then local bb bb=s(q)local bc={}local bd bd={}local be={}local bf={}local bg,bh,bi,bj=0,0,0,0 for bk=1,bb do bg=bg+r(q);bh=bh+r(q);do bi=bi+r(q);bj=bj+r(q);end bc[bk]=bg;do bd[bk]=bh;be[bk]=bi;end bf[bk]=bj;end;x[8514]=bc;x[6708]=bd;do x[2781]=be;end x[8401]=bf;else f=f+r(q);do g=g+r(q);end n=n+r(q);u=u+r(q);x[8514]=f;o(x,6708,g)x[2781]=n;o(x,8401,u)end do x[4102]=y;end do o(x,3794,z)x[3178]=ba;end x[4020]=e[v-1];do e[v]=x;end v=v+w until not(v<=b)end else if v>=b then repeat local x={}x[2326]=p(q);local y=not((l(q))~=(1))local z z=l(q)==1 local ba ba=l(q)==1 local bb=l(q)if bb==1 then local bc bc=s(q)local bd={}local be={}local bf={}local bg,bh,bi=0,0,0 for bj=0,bc-1 do bg=bg+r(q);do bh=bh+r(q);bi=bi+r(q);end do bd[bj]=bg;end do be[bj]=bh;bf[bj]=bi;end end;do o(x,8514,bd)end x[6708]=be;x[2781]=bf;elseif bb==2 then local bc=s(q)local bd={}local be be={}local bf,bg=0,0 for bh=1,bc do bf=bf+r(q);bg=bg+r(q);bd[bh]=bf;be[bh]=bg;end;o(x,8514,bd)x[6708]=be;elseif bb==3 then local bc bc=s(q)local bd={}local be be=0 do for bf=1,bc do be=be+r(q);do bd[bf]=be;end end;end x[8514]=bd;elseif(4)==(bb)then local bb bb=s(q)local s={}local bc bc={}local bd={}local be={}local bf,bg,bh,bi=0,0,0,0 for bj=1,bb do bf=bf+r(q);bg=bg+r(q);do bh=bh+r(q);bi=bi+r(q);end s[bj]=bf;do bc[bj]=bg;bd[bj]=bh;end be[bj]=bi;end;x[8514]=s;x[6708]=bc;do x[2781]=bd;end x[8401]=be;else f=f+r(q);do g=g+r(q);end n=n+r(q);u=u+r(q);x[8514]=f;o(x,6708,g)x[2781]=n;o(x,8401,u)end do x[4102]=y;end do o(x,3794,z)x[3178]=ba;end x[4020]=e[v-1];do e[v]=x;end v=v+w until not(v>=b)end end end do o(t,1095,e)end local b b=p(q)local e e={}local f f=0 do local g=(1)local n=(1)local b=(b)if n>=0 then while g<=b do local o,p,s,u,v local w={}local function x(y,z)w[z]=y;return w[z]end local y={}y[1]=0 y[2]=3 y[3]=1 local z=62232 repeat if z>=74228 then if z>=75871 then if z~=87866 then g=g+n z=w[z+62986]or x(64704,z+62986)else u=nil u=f+s if y[11]==1 then z=w[z+96886]or x(74228,z+96886)end z=w[z+37942]or x(37269,z+37942)end else v=l(q)c(e,{p,u,v})z=w[z+98351]or x(75871,z+98351)end else if z<=37269 then f=u v=nil z=w[z+48719]or x(74228,z+48719)else if z<64704 then o=not((l(q))==(0))p=o and 1 or 0 s=nil s=r(q)z=w[z+17753]or x(87866,z+17753)else break end end end until z==64704 end else while g>=b do local b=not((l(q))==(0))local b=b and 1 or 0 local o o=r(q)local p p=f+o f=p local f f=l(q)c(e,{b,p,f})g=g+n end end end do t[2060]=e return t;end end;local function b(...)return{...},i('#',...)end local function c(e,...)local f,g local l={}local n={}local function o(p,q)n[q]=p;return n[q]end local p={}p[1]=3 p[2]=0 p[3]=3 local p=76414 repeat if p>=72472 then if p<=72472 then break else f=i('#',...)for q=1,f do e[q]=i(q,...);end;p=n[p+12571]or o(66518,p+12571)end else if p<66518 then return f;else l[7]=e[0]or 0 g=l[7]if g>f then for l=f+1,g do e[l]=nil;end;end;e[0]=f p=n[p+43664]or o(-25108,p+43664)end end until p==72472 end local function e(f,g,l,...)local n=(f[1095])local o=f[7389]local p=f[2369];local p=f[4776]local q=f[2902]local r=f[3599]return function(...)local f=m(f[173])local s={}local t={}local u={}local v=0 local w=0 local x={}local y=0 local i=i('#',...)-1 local z=o+1 local b,ba=b(...);local bb={...};local bb=1 local bc=-1 for bd=0,i do if bd<=o then f[bd]=b[bd+1];end;end;local i,bd while true do i=n[bb];bd=i[2326];if bd<=10 then if bd<=4 then if bd<=2 then if bd>=2 then f[i[8514]][f[i[6708]]]=f[i[2781]];else if bd<=0 then local be=i[8514]local be=f[be]v=v+1 u[v]=be else if i[2781]==1 then f[i[8514]]=#f[i[6708]];elseif i[2781]==138 then f[i[8514]]=q[i[6708]];else f[i[8514]]=#f[i[6708]];end end end else if bd~=4 then f[i[8514]]=q[i[6708]];else if i[2781]==138 then f[i[8514]]=nil;elseif i[2781]==86 then f[i[8514]]=f[i[6708]];else f[i[8514]]=nil;end end end else if bd>=8 then if bd<=9 then if bd==8 then if i[2781]==125 then f[i[8514]]=l[q[i[6708]]];elseif i[2781]==139 then local be=i[6708]local be=g[be]f[i[8514]]=be[1]else f[i[8514]]=l[q[i[6708]]];end else bb=i[6708];end else f[i[8514]]=f[i[6708]][f[i[2781]]];end else if bd>=7 then local be,bf=f[i[6708]],i[8514]f[bf]=be[f[i[2781]]];f[bf+1]=be;else if bd~=6 then f[i[8514]]=bb+i[6708];else local be=#i[8514]for bf=1,be do f[i[8514][bf]]=q[i[6708][bf]];end;end end end end else if bd>=24 then if bd>=54 then if bd<=539 then if bd<=223 then if bd>=89 then if bd>=155 then if bd<=189 then if bd>=173 then if bd<=181 then if bd<=177 then if bd<=175 then if bd>=175 then n[f[i[8401]]]={[8514]=(i[8514]-7),[6708]=(i[6708]-16),[2781]=(i[2781]-2),[2326]=n[f[i[8401]]][2326]}else if bd<174 then n[f[i[8401]]]={[8514]=(i[8514]+71),[6708]=i[6708],[2781]=(i[2781]-46),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-36),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd~=177 then n[f[i[8401]]]={[8514]=(i[8514]+22),[6708]=(i[6708]+27),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-22),[2781]=(i[2781]+8),[2326]=n[f[i[8401]]][2326]}end end else if bd>=180 then if bd==180 then local be=bb local bf=i if bf[8401]==282 then local bg=bf[8514]local bg=f[bg]v=v+1 u[v]=bg elseif bf[8401]==150 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==134 then f[bf[8514]]=f[bf[6708]];end local bf=n[be+1]if bf[8401]==143 then local bg=bf[8514]f[bg]=f[bg](f[bg+1],f[bg+2]);elseif bf[8401]==281 then f[bf[8514]]=f[bf[6708]];elseif bf[8401]==220 then f[bf[8514]]=f[bf[6708]]-f[bf[2781]];end local be=n[be+2]if be[8401]==100 then f[be[8514]]=f[be[6708]];elseif be[8401]==265 then f[be[8514]]=q[be[6708]];elseif be[8401]==52 then f[be[8514]][f[be[6708]]]=f[be[2781]];end bb=bb+2 else local be=bb local bf=i if bf[8401]==190 then f[bf[8514]]=not f[bf[6708]];elseif bf[8401]==129 then f[bf[8514]]=f[bf[6708]];elseif bf[8401]==65 then f[bf[8514]]=f[bf[6708]][f[bf[2781]]];end local be=n[be+1]if be[8401]==156 then f[be[8514]]=q[be[6708]];elseif be[8401]==272 then f[be[8514]][f[be[6708]]]=f[be[2781]];elseif be[8401]==48 then f[be[8514]]=not f[be[6708]];end bb=bb+1 end else if bd~=179 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+37),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-36),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd>=186 then if bd>=188 then if bd~=189 then n[f[i[8401]]]={[8514]=(i[8514]+14),[6708]=(i[6708]+40),[2781]=(i[2781]+10),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+66),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd~=187 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+21),[2781]=(i[2781]-36),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+52),[6708]=i[6708],[2781]=(i[2781]+54),[2326]=n[f[i[8401]]][2326]}end end else if bd<=183 then if bd==182 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-17),[2781]=(i[2781]-22),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+69),[6708]=i[6708],[2781]=(i[2781]-54),[2326]=n[f[i[8401]]][2326]}end else if bd<=184 then n[f[i[8401]]]={[8514]=(i[8514]-1),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+30),[6708]=(i[6708]+72),[2781]=(i[2781]-37),[2326]=n[f[i[8401]]][2326]}end end end end else if bd>=164 then if bd<=168 then if bd<=166 then if bd<=165 then if bd~=165 then n[f[i[8401]]]={[8514]=(i[8514]-18),[6708]=(i[6708]+29),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+48),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+9),[2326]=n[f[i[8401]]][2326]}end else if bd~=168 then n[f[i[8401]]]={[8514]=(i[8514]+61),[6708]=(i[6708]+34),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-30),[6708]=i[6708],[2781]=(i[2781]-34),[2326]=n[f[i[8401]]][2326]}end end else if bd>=171 then if bd<172 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-29),[2781]=(i[2781]-23),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-72),[2781]=(i[2781]+24),[2326]=n[f[i[8401]]][2326]}end else if bd==169 then local be=bb local bf=i if bf[8401]==283 then local bg=p[bf[6708]]local bh=bg[2060]local bi=#bh local bj=m(bi)for bk=1,bi do local bh=bh[bk]local bi=bh[2]local bl=bh[3]if bh[1]==1 then if bl==0 then local bh=f[bi]s[bi]=bh bj[bk-1]=bh else bj[bk-1]=f[bi]end else local bh=g[bi]if bl==0 and bh[0]then bh=bh[0][bh[1]]end bj[bk-1]=bh end end f[bf[8514]]=e(bg,bj,l)elseif bf[8401]==47 then f[bf[8514]]=f[bf[6708]]/f[bf[2781]];elseif bf[8401]==213 then f[bf[8514]]=q[bf[6708]];end local bf=n[be+1]if bf[8401]==285 then f[bf[8514]]=f[bf[6708]][f[bf[2781]]];elseif bf[8401]==61 then f[bf[8514]]=f[bf[6708]]-f[bf[2781]];else local bf=bf[8514]local bf=f[bf]v=v+1 u[v]=bf end local be=n[be+2]if be[8401]==106 then l[q[be[6708]]]=f[be[8514]];elseif be[8401]==212 then f[be[8514]]=f[be[6708]];elseif be[8401]==76 then f[be[8514]]=f[be[6708]]-f[be[2781]];end bb=bb+2 else n[f[i[8401]]]={[8514]=(i[8514]+78),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd<=159 then if bd>=158 then if bd<159 then n[f[i[8401]]]={[8514]=(i[8514]-21),[6708]=(i[6708]+50),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else local be=bb local bf=i if bf[8401]==233 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==86 then f[bf[8514]]=l[q[bf[6708]]];else f[bf[8514]]=f[bf[6708]][f[bf[2781]]];end local be=n[be+1]if be[8401]==73 then f[be[8514]]=f[be[6708]]/f[be[2781]];elseif be[8401]==133 then local bf=be[8514]f[bf]=f[bf](f[bf+1],f[bf+2]);else f[be[8514]]=q[be[6708]];end bb=bb+1 end else if bd<=156 then if bd<=155 then n[f[i[8401]]]={[8514]=(i[8514]+46),[6708]=i[6708],[2781]=(i[2781]+19),[2326]=n[f[i[8401]]][2326]}else local be=bb local bf=i if bf[8401]==240 then local bg=bf[8514]local bg=f[bg]v=v+1 u[v]=bg elseif bf[8401]==191 then f[bf[8514]]=l[q[bf[6708]]];else f[bf[8514]]=q[bf[6708]];end local bf=n[be+1]if bf[8401]==140 then local bg=bf[8514]f[bg]=f[bg](f[bg+1],f[bg+2]);elseif bf[8401]==56 then f[bf[8514]]=f[bf[6708]];else local bf=bf[8514]local bf=f[bf]v=v+1 u[v]=bf end local be=n[be+2]if be[8401]==257 then f[be[8514]]=f[be[6708]];elseif be[8401]==284 then f[be[8514]]=f[be[6708]]+f[be[2781]];else f[be[8514]]=q[be[6708]];end bb=bb+2 end else n[f[i[8401]]]={[8514]=(i[8514]-29),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=161 then if bd<161 then n[f[i[8401]]]={[8514]=(i[8514]+63),[6708]=(i[6708]+46),[2781]=(i[2781]+24),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-27),[6708]=(i[6708]+23),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=162 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+54),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-43),[2781]=(i[2781]+14),[2326]=n[f[i[8401]]][2326]}end end end end end else if bd<=206 then if bd<=198 then if bd<=194 then if bd>=193 then if bd~=194 then n[f[i[8401]]]={[8514]=(i[8514]-43),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-12),[6708]=(i[6708]-68),[2781]=(i[2781]+33),[2326]=n[f[i[8401]]][2326]}end else if bd>=192 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-7),[2326]=n[f[i[8401]]][2326]}else if bd<191 then n[f[i[8401]]]={[8514]=(i[8514]-58),[6708]=(i[6708]+3),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-36),[6708]=(i[6708]-25),[2781]=(i[2781]+38),[2326]=n[f[i[8401]]][2326]}end end end else if bd<=196 then if bd==195 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+46),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-61),[6708]=i[6708],[2781]=(i[2781]-34),[2326]=n[f[i[8401]]][2326]}end else if bd<198 then n[f[i[8401]]]={[8514]=(i[8514]-60),[6708]=i[6708],[2781]=(i[2781]+35),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+31),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd>=203 then if bd<=204 then if bd==203 then n[f[i[8401]]]={[8514]=(i[8514]+44),[6708]=(i[6708]-59),[2781]=(i[2781]-74),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-29),[2781]=(i[2781]+54),[2326]=n[f[i[8401]]][2326]}end else if bd==205 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+30),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+48),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=201 then if bd~=202 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-5),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-26),[2781]=(i[2781]-27),[2326]=n[f[i[8401]]][2326]}end else if bd<200 then n[f[i[8401]]]={[8514]=(i[8514]+50),[6708]=(i[6708]+66),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+15),[6708]=(i[6708]+70),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end else if bd>=216 then if bd<=219 then if bd<=217 then if bd<217 then n[f[i[8401]]]={[8514]=(i[8514]-76),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-3),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd==218 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+7),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+76),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=222 then if bd<=222 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-68),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+28),[2326]=n[f[i[8401]]][2326]}end else if bd<221 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+38),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-76),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd<=211 then if bd>=210 then if bd~=211 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+36),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+3),[2326]=n[f[i[8401]]][2326]}end else if bd<=208 then if bd<=207 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+13),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+35),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-48),[6708]=(i[6708]-48),[2781]=(i[2781]+29),[2326]=n[f[i[8401]]][2326]}end end else if bd>=214 then if bd<215 then n[f[i[8401]]]={[8514]=(i[8514]+7),[6708]=i[6708],[2781]=(i[2781]-9),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+29),[2781]=(i[2781]+28),[2326]=n[f[i[8401]]][2326]}end else if bd==212 then n[f[i[8401]]]={[8514]=(i[8514]+51),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-9),[2326]=n[f[i[8401]]][2326]}end end end end end end else if bd<=119 then if bd>=103 then if bd<=111 then if bd<=107 then if bd<=105 then if bd<=104 then if bd~=104 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+60),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-31),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-44),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd~=107 then n[f[i[8401]]]={[8514]=(i[8514]+75),[6708]=i[6708],[2781]=(i[2781]-24),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+25),[6708]=(i[6708]-60),[2781]=(i[2781]-34),[2326]=n[f[i[8401]]][2326]}end end else if bd<=109 then if bd==108 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-17),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-23),[6708]=(i[6708]+53),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<111 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+65),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-16),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd>=116 then if bd<=117 then if bd~=117 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-79),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+17),[2781]=(i[2781]-5),[2326]=n[f[i[8401]]][2326]}end else if bd==118 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-23),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-76),[2326]=n[f[i[8401]]][2326]}end end else if bd<=113 then if bd<113 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-46),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+61),[6708]=(i[6708]-17),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd==114 then n[f[i[8401]]]={[8514]=(i[8514]+1),[6708]=i[6708],[2781]=(i[2781]-25),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+11),[6708]=(i[6708]+16),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end else if bd<=94 then if bd>=92 then if bd>=94 then local be=bb local bf=i if bf[8401]==229 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==54 then f[bf[8514]]=f[bf[6708]]*f[bf[2781]];else f[bf[8514]]=l[q[bf[6708]]];end local bf=n[be+1]if bf[8401]==176 then f[bf[8514]]=f[bf[6708]]/f[bf[2781]];elseif bf[8401]==139 then f[bf[8514]]=f[bf[6708]][f[bf[2781]]];else local bf=bf[8514]f[bf]=f[bf](f[bf+1],f[bf+2]);end local be=n[be+2]if be[8401]==265 then f[be[8514]]=f[be[6708]];elseif be[8401]==133 then f[be[8514]]=q[be[6708]];else f[be[8514]]=-f[be[6708]];end bb=bb+2 else if bd~=93 then local be=i[8514]local bf=f[be]local bg=f[be+2]f[be]=bf-bg;bb=i[6708];else local be=i[8514]local be=v local bf=w local bg=bf+1 local bh=u[bg]bh(k(u,bg+1,be))for bh=be,bg,-1 do u[bh]=nil end v=bf local be=x[y]x[y]=nil y=y-1 w=be or 0 end end else if bd>=91 then local be=bb local bf=i if bf[8401]==225 then local bg=bf[8514]local bg=f[bg]v=v+1 u[v]=bg elseif bf[8401]==274 then local bg=p[bf[6708]]local bh=bg[2060]local bi=#bh local bj=m(bi)for bk=1,bi do local bh=bh[bk]local bi=bh[2]local bl=bh[3]if bh[1]==1 then if bl==0 then local bh=f[bi]s[bi]=bh bj[bk-1]=bh else bj[bk-1]=f[bi]end else local bh=g[bi]if bl==0 and bh[0]then bh=bh[0][bh[1]]end bj[bk-1]=bh end end f[bf[8514]]=e(bg,bj,l)elseif bf[8401]==69 then f[bf[8514]]=l[q[bf[6708]]];end local be=n[be+1]if be[8401]==78 then local bf=be[8514]local bf=f[bf]v=v+1 u[v]=bf elseif be[8401]==158 then f[be[8514]]=q[be[6708]];elseif be[8401]==44 then f[be[8514]]=-f[be[6708]];end bb=bb+1 else if bd~=90 then local be=bb local bf=i if bf[8401]==143 then local bg=bf[8514]local bh=bf[6708]local bh=bh local bi=v local bh=bi-bh+1 local bj=u[bh]f[bg]=bj(k(u,bh+1,bi))for bg=bi,bh,-1 do u[bg]=nil end v=bh-1 elseif bf[8401]==78 then f[bf[8514]]=f[bf[6708]];else f[bf[8514]]=q[bf[6708]];end local bf=n[be+1]if bf[8401]==199 then f[bf[8514]]=f[bf[6708]];elseif bf[8401]==285 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==210 then f[bf[8514]]=f[bf[6708]]*f[bf[2781]];end local bf=n[be+2]if bf[8401]==198 then f[bf[8514]]=f[bf[6708]];elseif bf[8401]==85 then f[bf[8514]]=#f[bf[6708]];else f[bf[8514]][f[bf[6708]]]=f[bf[2781]];end local bf=n[be+3]if bf[8401]==265 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==68 then f[bf[8514]]=f[bf[6708]];elseif bf[8401]==173 then f[bf[8514]]=not f[bf[6708]];end local bf=n[be+4]if bf[8401]==145 then f[bf[8514]]=f[bf[6708]]*f[bf[2781]];elseif bf[8401]==209 then f[bf[8514]]=f[bf[6708]][f[bf[2781]]];elseif bf[8401]==228 then f[bf[8514]]=q[bf[6708]];end local bf=n[be+5]if bf[8401]==236 then f[bf[8514]]=-f[bf[6708]];elseif bf[8401]==189 then f[bf[8514]]=f[bf[6708]];else f[bf[8514]]=l[q[bf[6708]]];end local be=n[be+6]if be[8401]==106 then f[be[8514]]=q[be[6708]];elseif be[8401]==278 then f[be[8514]]=-f[be[6708]];else f[be[8514]][f[be[6708]]]=f[be[2781]];end bb=bb+6 else local be=i[8514]local bf=f[be]+f[be+2]f[be]=bf if bf<=f[be+1]then f[i[2781]],bb=bf,i[6708]end end end end else if bd>=99 then if bd>=101 then if bd==101 then local be=bb local bf=i if bf[8401]==239 then f[bf[8514]]=f[bf[6708]]+f[bf[2781]];elseif bf[8401]==77 then local bg=bf[8514]local bg=f[bg]v=v+1 u[v]=bg elseif bf[8401]==264 then l[q[bf[6708]]]=f[bf[8514]];end local bf=n[be+1]if bf[8401]==121 then f[bf[8514]]=#f[bf[6708]];elseif bf[8401]==53 then f[bf[8514]]=f[bf[6708]];elseif bf[8401]==88 then f[bf[8514]]=l[q[bf[6708]]];end local be=n[be+2]if be[8401]==244 then f[be[8514]]=f[be[6708]]*f[be[2781]];elseif be[8401]==62 then f[be[8514]][f[be[6708]]]=f[be[2781]];else f[be[8514]]=q[be[6708]];end bb=bb+2 else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-38),[2326]=n[f[i[8401]]][2326]}end else if bd==99 then n[f[i[8401]]]={[8514]=(i[8514]-22),[6708]=(i[6708]-20),[2781]=(i[2781]-35),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+20),[2781]=(i[2781]+14),[2326]=n[f[i[8401]]][2326]}end end else if bd<=96 then if bd<=95 then local be=#i[8514]for bf=1,be do f[i[8514][bf]]=nil;end;else local be=bb local bf=i if bf[8401]==119 then local bg=bf[8514]local bg=f[bg]v=v+1 u[v]=bg elseif bf[8401]==266 then f[bf[8514]]=f[bf[6708]]-f[bf[2781]];elseif bf[8401]==169 then f[bf[8514]]=f[bf[6708]]/f[bf[2781]];end local bf=n[be+1]if bf[8401]==299 then f[bf[8514]]=f[bf[6708]][f[bf[2781]]];elseif bf[8401]==250 then local bg=bf[8514]local bg=f[bg]v=v+1 u[v]=bg else f[bf[8514]]=f[bf[6708]];end local be=n[be+2]if be[8401]==87 then f[be[8514]]=q[be[6708]];elseif be[8401]==115 then f[be[8514]]=#f[be[6708]];elseif be[8401]==185 then f[be[8514]]=-f[be[6708]];end bb=bb+2 end else if bd==97 then n[f[i[8401]]]={[8514]=(i[8514]+9),[6708]=(i[6708]+44),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-56),[6708]=(i[6708]+40),[2781]=(i[2781]-25),[2326]=n[f[i[8401]]][2326]}end end end end end else if bd>=138 then if bd>=147 then if bd>=151 then if bd>=153 then if bd<=153 then n[f[i[8401]]]={[8514]=(i[8514]+30),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+22),[2326]=n[f[i[8401]]][2326]}end else if bd<=151 then n[f[i[8401]]]={[8514]=(i[8514]-41),[6708]=(i[6708]-33),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-18),[6708]=i[6708],[2781]=(i[2781]+21),[2326]=n[f[i[8401]]][2326]}end end else if bd>=149 then if bd<=149 then n[f[i[8401]]]={[8514]=(i[8514]-56),[6708]=(i[6708]-4),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+16),[6708]=(i[6708]-40),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd~=148 then n[f[i[8401]]]={[8514]=(i[8514]-69),[6708]=(i[6708]+11),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+73),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd>=143 then if bd<=144 then if bd<144 then n[f[i[8401]]]={[8514]=(i[8514]+69),[6708]=i[6708],[2781]=(i[2781]-32),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-42),[6708]=i[6708],[2781]=(i[2781]-34),[2326]=n[f[i[8401]]][2326]}end else if bd==145 then n[f[i[8401]]]={[8514]=(i[8514]+33),[6708]=i[6708],[2781]=(i[2781]-61),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-39),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=141 then if bd<142 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-71),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+57),[2781]=(i[2781]-3),[2326]=n[f[i[8401]]][2326]}end else if bd>=140 then n[f[i[8401]]]={[8514]=(i[8514]-32),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else if bd~=139 then n[f[i[8401]]]={[8514]=(i[8514]-9),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+35),[2326]=n[f[i[8401]]][2326]}end end end end end else if bd<=128 then if bd<=124 then if bd>=123 then if bd==123 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-1),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+5),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=121 then if bd~=121 then n[f[i[8401]]]={[8514]=(i[8514]-67),[6708]=(i[6708]-36),[2781]=(i[2781]+26),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-55),[2781]=(i[2781]+13),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-38),[6708]=(i[6708]-17),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=126 then if bd<=125 then local be=bb local bf=i if bf[8401]==215 then f[bf[8514]]=f[bf[6708]]-f[bf[2781]];elseif bf[8401]==97 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==265 then local bf=bf[8514]local bf=f[bf]v=v+1 u[v]=bf end local bf=n[be+1]if bf[8401]==152 then local bg=bf[8514]f[bg]=f[bg](f[bg+1],f[bg+2]);elseif bf[8401]==48 then f[bf[8514]]=f[bf[6708]];else f[bf[8514]]=f[bf[6708]]*f[bf[2781]];end local be=n[be+2]if be[8401]==110 then f[be[8514]]=f[be[6708]]/f[be[2781]];elseif be[8401]==77 then f[be[8514]]=f[be[6708]];elseif be[8401]==50 then f[be[8514]]=q[be[6708]];end bb=bb+2 else n[f[i[8401]]]={[8514]=(i[8514]+30),[6708]=(i[6708]-57),[2781]=(i[2781]+18),[2326]=n[f[i[8401]]][2326]}end else if bd<128 then n[f[i[8401]]]={[8514]=(i[8514]+65),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-74),[6708]=(i[6708]-30),[2781]=(i[2781]+68),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=134 then if bd>=136 then if bd~=137 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-55),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+40),[2781]=(i[2781]+30),[2326]=n[f[i[8401]]][2326]}end else if bd~=135 then n[f[i[8401]]]={[8514]=(i[8514]-78),[6708]=i[6708],[2781]=(i[2781]-75),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+46),[6708]=(i[6708]-30),[2781]=(i[2781]-38),[2326]=n[f[i[8401]]][2326]}end end else if bd<=131 then if bd<=130 then if bd~=130 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-21),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+76),[6708]=(i[6708]+17),[2781]=(i[2781]-15),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-30),[6708]=(i[6708]+51),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd==132 then n[f[i[8401]]]={[8514]=(i[8514]-16),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+18),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end end end end else if bd>=66 then if bd>=75 then if bd>=81 then if bd>=85 then if bd>=87 then if bd<88 then local be=bb local bf=i if bf[8401]==86 then local bg=bf[8514]f[bg]=f[bg]();elseif bf[8401]==284 then f[bf[8514]]=l[q[bf[6708]]];elseif bf[8401]==234 then local bf=bf[8514]local bf=f[bf]v=v+1 u[v]=bf end local be=n[be+1]if be[8401]==135 then l[q[be[6708]]]=f[be[8514]];elseif be[8401]==292 then f[be[8514]]=q[be[6708]];elseif be[8401]==205 then local be=be[8514]local bf=u[v]u[v]=nil v=v-1 local bg=u[v]u[v]=nil v=v-1 do local bf,bg,bh=bg(bf)f[be]=bf f[be+1]=bg f[be+2]=bh end end bb=bb+1 else local be=bb local bf=i if bf[8401]==40 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==119 then f[bf[8514]]=f[bf[6708]]+f[bf[2781]];else f[bf[8514]]=f[bf[6708]];end local bf=n[be+1]if bf[8401]==246 then f[bf[8514]]=#f[bf[6708]];elseif bf[8401]==187 then f[bf[8514]]=q[bf[6708]];else f[bf[8514]]=l[q[bf[6708]]];end local be=n[be+2]if be[8401]==211 then f[be[8514]]=f[be[6708]];elseif be[8401]==218 then f[be[8514]]=q[be[6708]];else f[be[8514]]=l[q[be[6708]]];end bb=bb+2 end else if bd<86 then local be=i[8514]f[be]=f[be](k(f,be+1,i[6708]));else local be=bb local bf=i if bf[8401]==113 then f[bf[8514]]=f[bf[6708]];elseif bf[8401]==277 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==176 then local bf=bf[8514]local bf=f[bf]v=v+1 u[v]=bf end local bf=n[be+1]if bf[8401]==246 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==178 then f[bf[8514]]=f[bf[6708]];else f[bf[8514]]=f[bf[6708]][f[bf[2781]]];end local be=n[be+2]if be[8401]==289 then f[be[8514]]=f[be[6708]][f[be[2781]]];elseif be[8401]==111 then f[be[8514]]=f[be[6708]];elseif be[8401]==52 then f[be[8514]]=q[be[6708]];end bb=bb+2 end end else if bd>=83 then if bd<84 then local be=bb local bf=i if bf[8401]==136 then f[bf[8514]][f[bf[6708]]]=f[bf[2781]];elseif bf[8401]==95 then f[bf[8514]]=f[bf[6708]]/f[bf[2781]];else f[bf[8514]]=f[bf[6708]];end local bf=n[be+1]if bf[8401]==162 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==69 then local bg=p[bf[6708]]local bh=bg[2060]local bi=#bh local bj=m(bi)for bk=1,bi do local bh=bh[bk]local bi=bh[2]local bl=bh[3]if bh[1]==1 then if bl==0 then local bh=f[bi]s[bi]=bh bj[bk-1]=bh else bj[bk-1]=f[bi]end else local bh=g[bi]if bl==0 and bh[0]then bh=bh[0][bh[1]]end bj[bk-1]=bh end end f[bf[8514]]=e(bg,bj,l)elseif bf[8401]==144 then f[bf[8514]]=f[bf[6708]]+f[bf[2781]];end local bf=n[be+2]if bf[8401]==292 then f[bf[8514]]=f[bf[6708]]+f[bf[2781]];elseif bf[8401]==138 then f[bf[8514]]=f[bf[6708]];elseif bf[8401]==166 then f[bf[8514]]=f[bf[6708]][f[bf[2781]]];end local bf=n[be+3]if bf[8401]==299 then f[bf[8514]]=f[bf[6708]]*f[bf[2781]];elseif bf[8401]==149 then local bg=p[bf[6708]]local bh=bg[2060]local bi=#bh local bj=m(bi)for bk=1,bi do local bh=bh[bk]local bi=bh[2]local bl=bh[3]if bh[1]==1 then if bl==0 then local bh=f[bi]s[bi]=bh bj[bk-1]=bh else bj[bk-1]=f[bi]end else local bh=g[bi]if bl==0 and bh[0]then bh=bh[0][bh[1]]end bj[bk-1]=bh end end f[bf[8514]]=e(bg,bj,l)elseif bf[8401]==152 then f[bf[8514]][f[bf[6708]]]=f[bf[2781]];end local bf=n[be+4]if bf[8401]==46 then f[bf[8514]][f[bf[6708]]]=f[bf[2781]];elseif bf[8401]==296 then local bg=bf[8514]local bg=f[bg]v=v+1 u[v]=bg else f[bf[8514]]=not f[bf[6708]];end local be=n[be+5]if be[8401]==119 then f[be[8514]]=q[be[6708]];elseif be[8401]==247 then f[be[8514]]=f[be[6708]]+f[be[2781]];else l[q[be[6708]]]=f[be[8514]];end bb=bb+5 else local be=i[8514]local bf=i[6708]local bg=i[2781]local bf=bf local bh=v local bf=bh-bf+1 local bi=u[bf]if bg==1 then bi(k(u,bf+1,bh))elseif bg==2 then f[be]=bi(k(u,bf+1,bh))elseif bg==3 then do local bj,bk=bi(k(u,bf+1,bh))f[be]=bj f[be+1]=bk end else c(t,bi(k(u,bf+1,bh)))for bi=1,bg-1 do f[be+bi-1]=t[bi]end end for be=bh,bf,-1 do u[be]=nil end v=bf-1 end else if bd<=81 then local be=bb local bf=i if bf[8401]==42 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==272 then f[bf[8514]]=f[bf[6708]]/f[bf[2781]];else f[bf[8514]][f[bf[6708]]]=f[bf[2781]];end local bf=n[be+1]if bf[8401]==280 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==120 then f[bf[8514]]=f[bf[6708]]/f[bf[2781]];elseif bf[8401]==288 then f[bf[8514]]=f[bf[6708]];end local bf=n[be+2]if bf[8401]==59 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==167 then f[bf[8514]]=f[bf[6708]];else f[bf[8514]][f[bf[6708]]]=f[bf[2781]];end local bf=n[be+3]if bf[8401]==101 then f[bf[8514]]=q[bf[6708]];elseif bf[8401]==46 then f[bf[8514]]=not f[bf[6708]];elseif bf[8401]==250 then f[bf[8514]]=f[bf[6708]][f[bf[2781]]];end local bf=n[be+4]if bf[8401]==87 then f[bf[8514]]=f[bf[6708]][f[bf[2781]]];elseif bf[8401]==148 then f[bf[8514]]=-f[bf[6708]];else f[bf[8514]][f[bf[6708]]]=f[bf[2781]];end local bf=n[be+5]if bf[8401]==241 then local bg=bf[8514]local bg=f[bg]v=v+1 u[v]=bg elseif bf[8401]==59 then f[bf[8514]]=f[bf[6708]]-f[bf[2781]];else f[bf[8514]][f[bf[6708]]]=f[bf[2781]];end local be=n[be+6]if be[8401]==82 then f[be[8514]][f[be[6708]]]=f[be[2781]];elseif be[8401]==285 then f[be[8514]]=f[be[6708]]-f[be[2781]];else f[be[8514]]=q[be[6708]];end bb=bb+6 else do for be,bf in a,s do if bf[1]==f then bf[1]={bf[1][bf[2]]}bf[2]=1 s[be]=nil end end local be=u[v]u[v]=nil v=v-1 local bf=u[v]u[v]=nil v=v-1 local bg=u[v]u[v]=nil v=v-1 return bg(bf,be)end end end end else if bd<=77 then if bd<=76 then if bd<76 then do for be,bf in a,s do if bf[1]==f and be>=0 then bf[1]={f[be]}bf[2]=1 s[be]=nil end end end local be=u[v]u[v]=nil v=v-1 local bf=u[v]u[v]=nil v=v-1 do return bf,be end else f[i[8514]]=f[i[6708]]+f[i[2781]];end else local be,bf=i[8514],(i[2781]*100)local bg=f[be]for bh=1,bc-be do bg[bf+bh]=f[be+bh]end end else if bd>=80 then local o,ba,be=i[8514],(ba-o-1),0 if ba<0 then ba=-1 end for bf=o,o+ba do f[bf]=b[z+be]be=be+1 end bc=o+ba else if bd<=78 then local b,o=i[8514],(i[2781]*100)local z=f[b]for ba=1,i[6708]do z[o+ba]=f[b+ba]end else f[i[8514]]=f[i[6708]]<f[i[2781]];end end end end else if bd<=70 then if bd<=68 then if bd>=68 then local b=i[8514]local o=u[v]u[v]=nil v=v-1 local z=u[v]u[v]=nil v=v-1 local o,z=z(o)do local o,z=o,z f[b]=o f[b+1]=z end else if bd<67 then local b=i[8514]local o=c(t,f[b](k(f,b+1,i[6708])))bc=b+o-1;for z=1,o do f[b+z-1]=t[z];end;else local b=i[8514]local o=u[v]u[v]=nil v=v-1 local z=u[v]u[v]=nil v=v-1 do local o,z,ba=z(o)f[b]=o f[b+1]=z f[b+2]=ba end end end else if bd<=69 then local b=i[8514]local o=u[v]u[v]=nil v=v-1 local z=u[v]u[v]=nil v=v-1 local o=c(t,z(o))bc=b+o-1 for z=1,o do f[b+z-1]=t[z]end else local b=bb local o=i if o[8401]==147 then f[o[8514]]=f[o[6708]];elseif o[8401]==278 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==214 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==185 then f[o[8514]]=q[o[6708]];elseif o[8401]==147 then f[o[8514]]=-f[o[6708]];elseif o[8401]==232 then f[o[8514]]=f[o[6708]];end local o=n[b+2]if o[8401]==117 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==179 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+3]if o[8401]==291 then f[o[8514]]=f[o[6708]];elseif o[8401]==40 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==122 then f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+4]if b[8401]==169 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==108 then f[b[8514]]=f[b[6708]]-f[b[2781]];else f[b[8514]]=q[b[6708]];end bb=bb+4 end end else if bd<=72 then if bd~=72 then f[i[8514]]=nil;else f[i[8514]]=f[i[6708]]>f[i[2781]];end else if bd<=73 then f[i[8514]]=f[i[6708]]>=f[i[2781]];else do for b,o in a,s do if o[1]==f then o[1]={o[1][o[2]]}o[2]=1 s[b]=nil end end local b=i[6708]local b=b local o=v local b=o-b+1 local z=u[b]return z(k(u,b+1,o))end end end end end else if bd<=59 then if bd<=56 then if bd<=55 then if bd<55 then f[i[8514]]=f[i[6708]]<=f[i[2781]];else f[i[8514]]=f[i[6708]]-f[i[2781]];end else f[i[8514]]=f[i[6708]]~=f[i[2781]];end else if bd>=59 then local b,o=i[8514],i[6708]local o=r[o]local z={}for ba=1,#o do z[ba]=q[o[ba]]end f[b]=z else if bd==57 then f[i[8514]]=f[i[6708]]/f[i[2781]];else local b=i[8514]local o=v local z=w local ba=z+1 local be=u[ba]f[b]=be(k(u,ba+1,o))for b=o,ba,-1 do u[b]=nil end v=z local b=x[y]x[y]=nil y=y-1 w=b or 0 end end end else if bd>=63 then if bd<=64 then if bd==63 then local b=i[8514]local o=u[v]u[v]=nil v=v-1 f[b]=o()else local b=bb local o=i if o[8401]==296 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==41 then f[o[8514]]=f[o[6708]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local b=n[b+1]if b[8401]==99 then f[b[8514]]=q[b[6708]];elseif b[8401]==42 then f[b[8514]]=#f[b[6708]];else f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+1 end else local b=bb local o=i if o[8401]==108 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==132 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==272 then f[o[8514]]=f[o[6708]];end local b=n[b+1]if b[8401]==156 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==292 then f[b[8514]]=q[b[6708]];else f[b[8514]]=f[b[6708]]-f[b[2781]];end bb=bb+1 end else if bd>=62 then local b=bb local o=i if o[8401]==51 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==163 then f[o[8514]]=q[o[6708]];elseif o[8401]==228 then f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+1]if o[8401]==186 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==272 then f[o[8514]]=f[o[6708]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local b=n[b+2]if b[8401]==251 then f[b[8514]]=q[b[6708]];elseif b[8401]==90 then f[b[8514]][f[b[6708]]]=f[b[2781]];else f[b[8514]]=f[b[6708]];end bb=bb+2 else if bd<61 then local b=i[8514]f[b]=f[b](f[b+1]);else f[i[8514]]=f[i[6708]]*f[i[2781]];end end end end end end else if bd<=363 then if bd<=293 then if bd<=258 then if bd>=242 then if bd>=251 then if bd>=255 then if bd>=257 then if bd==257 then n[f[i[8401]]]={[8514]=(i[8514]-24),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+31),[2326]=n[f[i[8401]]][2326]}end else if bd<256 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-65),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-44),[2781]=(i[2781]+46),[2326]=n[f[i[8401]]][2326]}end end else if bd<=252 then if bd~=252 then n[f[i[8401]]]={[8514]=(i[8514]+37),[6708]=i[6708],[2781]=(i[2781]+14),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+10),[6708]=(i[6708]-31),[2781]=(i[2781]-7),[2326]=n[f[i[8401]]][2326]}end else if bd<254 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+21),[2326]=n[f[i[8401]]][2326]}else local b=bb local o=i if o[8401]==94 then f[o[8514]]=f[o[6708]];elseif o[8401]==77 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==153 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==81 then f[o[8514]]=f[o[6708]];elseif o[8401]==130 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==155 then f[o[8514]]=q[o[6708]];end local o=n[b+2]if o[8401]==298 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==257 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+3]if b[8401]==289 then f[b[8514]]=f[b[6708]];elseif b[8401]==242 then f[b[8514]]=not f[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+3 end end end else if bd<=246 then if bd<=244 then if bd<=243 then if bd<=242 then n[f[i[8401]]]={[8514]=(i[8514]-42),[6708]=(i[6708]-10),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+9),[6708]=i[6708],[2781]=(i[2781]-2),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+30),[2326]=n[f[i[8401]]][2326]}end else if bd==245 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-75),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+6),[6708]=(i[6708]+21),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=249 then if bd<=249 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-30),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+24),[2326]=n[f[i[8401]]][2326]}end else if bd~=248 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-33),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+26),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end else if bd>=233 then if bd>=238 then if bd>=240 then if bd==240 then n[f[i[8401]]]={[8514]=(i[8514]-69),[6708]=(i[6708]+52),[2781]=(i[2781]+15),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-79),[6708]=(i[6708]+33),[2781]=(i[2781]+14),[2326]=n[f[i[8401]]][2326]}end else if bd~=239 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-10),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-13),[6708]=i[6708],[2781]=(i[2781]+36),[2326]=n[f[i[8401]]][2326]}end end else if bd<=235 then if bd<=234 then if bd<=233 then n[f[i[8401]]]={[8514]=(i[8514]-7),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+41),[2781]=(i[2781]-8),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]+48),[6708]=(i[6708]+12),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd~=237 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+7),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+79),[2781]=(i[2781]+5),[2326]=n[f[i[8401]]][2326]}end end end else if bd<=228 then if bd>=227 then if bd==227 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+46),[2781]=(i[2781]-39),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+60),[2326]=n[f[i[8401]]][2326]}end else if bd>=226 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+39),[2781]=(i[2781]+68),[2326]=n[f[i[8401]]][2326]}else if bd~=225 then n[f[i[8401]]]={[8514]=(i[8514]+38),[6708]=(i[6708]-43),[2781]=(i[2781]-78),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-25),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd<=230 then if bd~=230 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+69),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-48),[6708]=(i[6708]+52),[2781]=(i[2781]-24),[2326]=n[f[i[8401]]][2326]}end else if bd==231 then n[f[i[8401]]]={[8514]=(i[8514]+63),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+38),[2326]=n[f[i[8401]]][2326]}end end end end end else if bd<=276 then if bd<=267 then if bd>=264 then if bd>=266 then if bd==266 then n[f[i[8401]]]={[8514]=(i[8514]+31),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-22),[2326]=n[f[i[8401]]][2326]}end else if bd<=264 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-2),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-6),[6708]=(i[6708]-5),[2781]=(i[2781]-12),[2326]=n[f[i[8401]]][2326]}end end else if bd<=261 then if bd<=260 then if bd==259 then n[f[i[8401]]]={[8514]=(i[8514]-36),[6708]=(i[6708]+72),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-57),[6708]=(i[6708]+49),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+21),[2326]=n[f[i[8401]]][2326]}end else if bd<263 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+22),[2781]=(i[2781]-66),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-16),[2326]=n[f[i[8401]]][2326]}end end end else if bd<=272 then if bd>=271 then if bd<272 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+36),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+19),[2326]=n[f[i[8401]]][2326]}end else if bd<=269 then if bd<269 then local b=bb local o=i if o[8401]==260 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==58 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==213 then f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==57 then f[o[8514]]=q[o[6708]];elseif o[8401]==66 then f[o[8514]]=not f[o[6708]];elseif o[8401]==298 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==196 then f[o[8514]]=not f[o[6708]];elseif o[8401]==78 then f[o[8514]]=f[o[6708]]-f[o[2781]];else f[o[8514]]=l[q[o[6708]]];end local b=n[b+3]if b[8401]==287 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==281 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)else f[b[8514]]=q[b[6708]];end bb=bb+3 else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+41),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-43),[2781]=(i[2781]-10),[2326]=n[f[i[8401]]][2326]}end end else if bd<=274 then if bd==273 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+17),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-49),[6708]=(i[6708]+72),[2781]=(i[2781]+60),[2326]=n[f[i[8401]]][2326]}end else if bd<=275 then n[f[i[8401]]]={[8514]=(i[8514]+13),[6708]=i[6708],[2781]=(i[2781]-78),[2326]=n[f[i[8401]]][2326]}else local b=bb local o=i if o[8401]==248 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==263 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+1]if o[8401]==64 then f[o[8514]]=q[o[6708]];elseif o[8401]==123 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==164 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==77 then f[o[8514]]=q[o[6708]];elseif o[8401]==41 then f[o[8514]]=f[o[6708]];end local o=n[b+3]if o[8401]==142 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==222 then f[o[8514]]=f[o[6708]];elseif o[8401]==163 then f[o[8514]]=f[o[6708]]-f[o[2781]];end local o=n[b+4]if o[8401]==114 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==225 then f[o[8514]]=f[o[6708]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+5]if o[8401]==63 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==86 then f[o[8514]]=q[o[6708]];elseif o[8401]==227 then f[o[8514]]=f[o[6708]];end local b=n[b+6]if b[8401]==269 then f[b[8514]]=f[b[6708]];elseif b[8401]==89 then f[b[8514]]=q[b[6708]];else l[q[b[6708]]]=f[b[8514]];end bb=bb+6 end end end end else if bd<=285 then if bd>=282 then if bd<=283 then if bd<=282 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-64),[2781]=(i[2781]+5),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-16),[6708]=i[6708],[2781]=(i[2781]-74),[2326]=n[f[i[8401]]][2326]}end else if bd<=284 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+15),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+53),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=279 then if bd>=279 then local b=bb local o=i if o[8401]==207 then local z=o[8514]f[z]=f[z](f[z+1]);elseif o[8401]==67 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==106 then l[q[o[6708]]]=f[o[8514]];end local b=n[b+1]if b[8401]==75 then f[b[8514]]=f[b[6708]];elseif b[8401]==178 then local o=b[8514]local z=u[v]u[v]=nil v=v-1 local ba=u[v]u[v]=nil v=v-1 do local z,ba,be=ba(z)f[o]=z f[o+1]=ba f[o+2]=be end else f[b[8514]]=l[q[b[6708]]];end bb=bb+1 else if bd~=278 then n[f[i[8401]]]={[8514]=(i[8514]+3),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+76),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=280 then n[f[i[8401]]]={[8514]=(i[8514]-59),[6708]=(i[6708]+78),[2781]=(i[2781]+2),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-59),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd>=290 then if bd<=291 then if bd<291 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+24),[2781]=(i[2781]+15),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+12),[6708]=i[6708],[2781]=(i[2781]-30),[2326]=n[f[i[8401]]][2326]}end else if bd~=293 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-75),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-37),[2326]=n[f[i[8401]]][2326]}end end else if bd>=288 then if bd<=288 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-67),[2781]=(i[2781]-13),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-55),[6708]=(i[6708]-62),[2781]=(i[2781]+51),[2326]=n[f[i[8401]]][2326]}end else if bd~=287 then n[f[i[8401]]]={[8514]=(i[8514]+67),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-71),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end end end else if bd>=329 then if bd>=347 then if bd<=355 then if bd<=351 then if bd<=349 then if bd>=349 then do for b,o in a,s do if o[1]==f then o[1]={o[1][o[2]]}o[2]=1 s[b]=nil end end local b=u[v]u[v]=nil v=v-1 local o=u[v]u[v]=nil v=v-1 return o(b)end else if bd~=348 then local b=bb local o=i if o[8401]==191 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==297 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)else f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==97 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==207 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==223 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==81 then f[o[8514]]=q[o[6708]];elseif o[8401]==231 then f[o[8514]]=#f[o[6708]];end local o=n[b+3]if o[8401]==177 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==210 then f[o[8514]]=f[o[6708]]/f[o[2781]];else f[o[8514]]=f[o[6708]]*f[o[2781]];end local b=n[b+4]if b[8401]==214 then f[b[8514]]=q[b[6708]];elseif b[8401]==254 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==91 then l[q[b[6708]]]=f[b[8514]];end bb=bb+4 else do for b,o in a,s do if o[1]==f then o[1]={o[1][o[2]]}o[2]=1 s[b]=nil end end local b=u[v]u[v]=nil v=v-1 return b()end end end else if bd<351 then local b=bb local o=i if o[8401]==101 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==255 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==148 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==255 then f[o[8514]]=#f[o[6708]];elseif o[8401]==60 then local o=o[8514]f[o]=f[o](f[o+1],f[o+2]);end local b=n[b+2]if b[8401]==220 then f[b[8514]]=q[b[6708]];elseif b[8401]==169 then f[b[8514]]=f[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 else local b,o=f[i[8514]],i[6708]f[o]=b[f[i[2781]]];f[o+1]=b;end end end end else if bd>=338 then if bd>=343 then if bd>=345 then if bd<346 then f[i[6708]]={};else local b=i[8514]local o=i[6708]local o=o local z=v local o=z-o+1 local ba=u[o]local ba=c(t,ba(k(u,o+1,z)))bc=b+ba-1 for be=1,ba do f[b+be-1]=t[be]end for b=z,o,-1 do u[b]=nil end v=o-1 end else if bd<344 then f[i[6708]][f[i[8514]]]=f[i[2781]];else local b,o=i[6708],i[8514]local o=r[o]local z={}for ba=1,#o,2 do z[q[o[ba]]]=q[o[ba+1]]end f[b]=z end end else if bd>=341 then if bd==341 then local b,o=f[i[8514]],i[6708]f[o]=b[f[i[2781]]];f[o+1]=b;else f[i[6708]][f[i[8514]]]=f[i[2781]];end else if bd>=340 then f[i[6708]][f[i[8514]]]=f[i[2781]];else if bd==338 then local b=i[6708]f[b]={f[b]}else local b=i[6708]local b=f[b]v=v+1 u[v]=b end end end end else if bd>=334 then if bd<=335 then if bd<335 then f[i[6708]][f[i[8514]]]=f[i[2781]];else local b=i[6708]local o=u[v]u[v]=nil v=v-1 local z=u[v]u[v]=nil v=v-1 local ba=u[v]u[v]=nil v=v-1 f[b]=ba(z,o)end else if bd<=336 then local b=i[6708]f[b]={f[b]}else local b=i[6708]local b=f[b]v=v+1 u[v]=b end end else if bd>=332 then if bd>=333 then local b=i[6708]f[b]={f[b]}end else if bd<=330 then if bd~=330 then do for b,o in a,s do if o[1]==f then o[1]={o[1][o[2]]}o[2]=1 s[b]=nil end end local b=v local o=w local o=o+1 local z=u[o]return z(k(u,o+1,b))end else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+7),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else f[i[6708]][f[i[8514]]]=f[i[2781]];end end end end end else if bd<=311 then if bd<=302 then if bd<=298 then if bd<=296 then if bd>=296 then n[f[i[8401]]]={[8514]=(i[8514]+47),[6708]=(i[6708]+27),[2781]=(i[2781]+8),[2326]=n[f[i[8401]]][2326]}else if bd==294 then local b=bb local o=i if o[8401]==195 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==75 then f[o[8514]][f[o[6708]]]=f[o[2781]];else l[q[o[6708]]]=f[o[8514]];end local o=n[b+1]if o[8401]==236 then f[o[8514]]=#f[o[6708]];elseif o[8401]==161 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==101 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==223 then f[o[8514]]=l[q[o[6708]]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+3]if b[8401]==294 then f[b[8514]]=q[b[6708]];elseif b[8401]==123 then f[b[8514]]=f[b[6708]]*f[b[2781]];else f[b[8514]]=-f[b[6708]];end bb=bb+3 else n[f[i[8401]]]={[8514]=(i[8514]+2),[6708]=i[6708],[2781]=(i[2781]-13),[2326]=n[f[i[8401]]][2326]}end end else if bd<298 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-31),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+12),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=301 then if bd<302 then n[f[i[8401]]]={[8514]=(i[8514]-59),[6708]=(i[6708]+9),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+20),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd~=300 then n[f[i[8401]]]={[8514]=(i[8514]+19),[6708]=i[6708],[2781]=(i[2781]+45),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-11),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=308 then if bd<=309 then if bd<309 then n[f[i[8401]]]={[8514]=(i[8514]-33),[6708]=i[6708],[2781]=(i[2781]+1),[2326]=n[f[i[8401]]][2326]}end end else if bd<=305 then if bd>=305 then n[f[i[8401]]]={[8514]=(i[8514]+49),[6708]=(i[6708]-7),[2781]=(i[2781]-67),[2326]=n[f[i[8401]]][2326]}else if bd==303 then n[f[i[8401]]]={[8514]=(i[8514]+30),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+22),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd==306 then n[f[i[8401]]]={[8514]=(i[8514]-10),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+36),[6708]=(i[6708]+48),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end else if bd>=321 then if bd>=325 then if bd>=327 then if bd~=328 then local b=bb local o=i if o[8401]==74 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==242 then f[o[8514]]=q[o[6708]];elseif o[8401]==98 then f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==160 then f[o[8514]]=#f[o[6708]];elseif o[8401]==105 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==60 then f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==192 then f[b[8514]]=f[b[6708]];elseif b[8401]==218 then f[b[8514]]=not f[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end else if bd<=322 then if bd==322 then local b=bb local o=i if o[8401]==99 then f[o[8514]]=f[o[6708]];elseif o[8401]==251 then f[o[8514]]=not f[o[6708]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==254 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==47 then f[o[8514]]=f[o[6708]][f[o[2781]]];else local o=o[8514]f[o]=f[o](f[o+1],f[o+2]);end local b=n[b+2]if b[8401]==220 then f[b[8514]]=f[b[6708]];elseif b[8401]==67 then f[b[8514]]=q[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end end else if bd>=317 then if bd>318 then if bd==320 then local b=bb local o=i if o[8401]==121 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==140 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=#f[o[6708]];end local b=n[b+1]if b[8401]==49 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==153 then f[b[8514]]=f[b[6708]]/f[b[2781]];else local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+1 end end else if bd<315 then if bd<=313 then if bd>312 then local b=bb local o=i if o[8401]==188 then f[o[8514]]=q[o[6708]];elseif o[8401]==71 then f[o[8514]]=f[o[6708]]/f[o[2781]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+1]if o[8401]==279 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==188 then f[o[8514]]=l[q[o[6708]]];else l[q[o[6708]]]=f[o[8514]];end local o=n[b+2]if o[8401]==239 then f[o[8514]]=f[o[6708]];elseif o[8401]==275 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=not f[o[6708]];end local b=n[b+3]if b[8401]==190 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==122 then f[b[8514]]=not f[b[6708]];else f[b[8514]]=q[b[6708]];end bb=bb+3 end end end end end end end end else if bd<=433 then if bd<=398 then if bd>=382 then if bd>=391 then if bd>=395 then if bd<=396 then if bd>=396 then f[i[6708]][f[i[8514]]]=f[i[2781]];end else if bd<398 then local b=i[6708]f[b]={f[b]}else n[f[i[8401]]]={[8514]=(i[8514]+56),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end else if bd>372 then if bd>=378 then if bd>379 then if bd~=381 then f[i[8514]]=#f[i[6708]];end end end end end else if bd<=416 then if bd>=408 then if bd>=413 then if bd>=415 then if bd==415 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-57),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else local b=bb local o=i if o[8401]==221 then f[o[8514]]=q[o[6708]];elseif o[8401]==113 then f[o[8514]]=not f[o[6708]];elseif o[8401]==226 then local o=o[8514]f[o]=f[o]();end local o=n[b+1]if o[8401]==254 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==148 then f[o[8514]][f[o[6708]]]=f[o[2781]];else f[o[8514]]=q[o[6708]];end local o=n[b+2]if o[8401]==230 then f[o[8514]]=not f[o[6708]];elseif o[8401]==53 then f[o[8514]]=-f[o[6708]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+3]if b[8401]==77 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==69 then f[b[8514]]=q[b[6708]];elseif b[8401]==47 then f[b[8514]]=#f[b[6708]];end bb=bb+3 end else if bd<=413 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+10),[2781]=(i[2781]+16),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+71),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=411 then if bd~=412 then n[f[i[8401]]]={[8514]=(i[8514]+55),[6708]=i[6708],[2781]=(i[2781]-22),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-24),[2326]=n[f[i[8401]]][2326]}end else if bd>=410 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-69),[2781]=(i[2781]-10),[2326]=n[f[i[8401]]][2326]}else if bd<=408 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-22),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+39),[6708]=(i[6708]-36),[2781]=(i[2781]+21),[2326]=n[f[i[8401]]][2326]}end end end end else if bd<=403 then if bd>=402 then if bd~=403 then n[f[i[8401]]]={[8514]=(i[8514]-52),[6708]=(i[6708]-57),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+50),[6708]=i[6708],[2781]=(i[2781]-25),[2326]=n[f[i[8401]]][2326]}end else if bd>=401 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+20),[2326]=n[f[i[8401]]][2326]}else if bd<=399 then n[f[i[8401]]]={[8514]=(i[8514]-17),[6708]=i[6708],[2781]=(i[2781]+30),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+20),[2326]=n[f[i[8401]]][2326]}end end end else if bd<=405 then if bd<=404 then n[f[i[8401]]]={[8514]=(i[8514]-13),[6708]=(i[6708]+6),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-30),[2781]=(i[2781]+29),[2326]=n[f[i[8401]]][2326]}end else if bd~=407 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-52),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+17),[6708]=i[6708],[2781]=(i[2781]-9),[2326]=n[f[i[8401]]][2326]}end end end end else if bd>=426 then if bd>=430 then if bd<=431 then if bd<431 then n[f[i[8401]]]={[8514]=(i[8514]-16),[6708]=(i[6708]-44),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-9),[2326]=n[f[i[8401]]][2326]}end else if bd==432 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+76),[2781]=(i[2781]-43),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-16),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=428 then if bd<=428 then n[f[i[8401]]]={[8514]=(i[8514]+1),[6708]=i[6708],[2781]=(i[2781]-60),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-75),[2781]=(i[2781]+38),[2326]=n[f[i[8401]]][2326]}end else if bd~=427 then n[f[i[8401]]]={[8514]=(i[8514]+70),[6708]=(i[6708]+78),[2781]=(i[2781]-32),[2326]=n[f[i[8401]]][2326]}else local b=bb local o=i if o[8401]==68 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==194 then f[o[8514]]=f[o[6708]];else l[q[o[6708]]]=f[o[8514]];end local b=n[b+1]if b[8401]==54 then f[b[8514]]=not f[b[6708]];elseif b[8401]==59 then f[b[8514]]=q[b[6708]];elseif b[8401]==273 then f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+1 end end end else if bd>=422 then if bd<=423 then if bd<=422 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+28),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+41),[6708]=i[6708],[2781]=(i[2781]-9),[2326]=n[f[i[8401]]][2326]}end else if bd<=424 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-74),[2781]=(i[2781]+8),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+44),[6708]=(i[6708]+42),[2781]=(i[2781]+8),[2326]=n[f[i[8401]]][2326]}end end else if bd<=419 then if bd>=419 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+10),[2326]=n[f[i[8401]]][2326]}else if bd==417 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+32),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+67),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<421 then n[f[i[8401]]]={[8514]=(i[8514]-61),[6708]=(i[6708]-21),[2781]=(i[2781]+23),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-36),[6708]=(i[6708]-26),[2781]=(i[2781]+8),[2326]=n[f[i[8401]]][2326]}end end end end end end else if bd>=471 then if bd>=506 then if bd<=522 then if bd>=515 then if bd<=518 then if bd<=516 then if bd<=515 then local b=i[8514][1]local o=2 while true do local z,ba,be=f[b],f[b+1],f[b+2]local z={z(ba,be)}local ba=z[1]if ba==nil then break end for be=1,o do f[b+2+be]=z[be]end f[b+2]=ba f[i[8514][2]]=f[i[6708][2]]f[i[8514][3]]=q[i[6708][3]]f[i[8514][4]]=q[i[6708][4]]f[i[8514][5]][f[i[6708][5]]]=f[i[2781][5]]end bb=i[6708][1]else local b=i[8514][1]local o=2 while true do local z,ba,be=f[b],f[b+1],f[b+2]local z={z(ba,be)}local ba=z[1]if ba==nil then break end for be=1,o do f[b+2+be]=z[be]end f[b+2]=ba f[i[8514][2]]=g[i[6708][2]]f[i[8514][3]]=f[i[6708][3]]f[i[8514][4]]=q[i[6708][4]]f[i[8514][5]][f[i[6708][5]]]=f[i[2781][5]]end bb=i[6708][1]end else if bd<=517 then local b=i[8514][1]local o=2 while true do local z,ba,be=f[b],f[b+1],f[b+2]local z={z(ba,be)}local ba=z[1]if ba==nil then break end for be=1,o do f[b+2+be]=z[be]end f[b+2]=ba local b=i[6708][2]local b=g[b]f[i[8514][2]]=b[1]v=v+1 u[v]=f[i[8514][3]]v=v+1 u[v]=f[i[8514][4]]local b=i[8514][5]local b=u[v]u[v]=nil v=v-1 local o=u[v]u[v]=nil v=v-1 o(b)end bb=i[6708][1]else local b=i[8514][1]local o=2 while true do local z,ba,be=f[b],f[b+1],f[b+2]local z={z(ba,be)}local ba=z[1]if ba==nil then break end for be=1,o do f[b+2+be]=z[be]end f[b+2]=ba f[i[8514][2]]=l[q[i[6708][2]]]v=v+1 u[v]=f[i[8514][3]]local b=p[i[6708][4]]local o=b[2060]local z=#o local ba=m(z)for be=1,z do local o=o[be]local z=o[2]local bf=o[3]if o[1]==1 then if bf==0 then local o=f[z]s[z]=o ba[be-1]=o else ba[be-1]=f[z]end else local o=g[z]if bf==0 and o[0]then o=o[0][o[1]]end ba[be-1]=o end end f[i[8514][4]]=e(b,ba,l)v=v+1 u[v]=f[i[8514][5]]local b=i[8514][6]local b=u[v]u[v]=nil v=v-1 local o=u[v]u[v]=nil v=v-1 o(b)end bb=i[6708][1]end end else if bd>=521 then if bd<522 then local b=i[8514][1]local o=2 while true do local z,ba,be=f[b],f[b+1],f[b+2]local z={z(ba,be)}local ba=z[1]if ba==nil then break end for be=1,o do f[b+2+be]=z[be]end f[b+2]=ba f[i[8514][2]]=f[i[6708][2]]f[i[8514][3]]=q[i[6708][3]]f[i[8514][4]]=q[i[6708][4]]f[i[8514][5]][f[i[6708][5]]]=f[i[2781][5]]end bb=i[6708][1]else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-54),[2781]=(i[2781]+13),[2326]=n[f[i[8401]]][2326]}end else if bd==519 then local b=i[8514][1]local o,z,ba=f[b],f[b+1],f[b+2]while o<=z do f[b]=o f[b+3]=o f[i[8514][2]]=f[i[6708][2]]f[i[8514][3]]=f[i[6708][3]]f[i[8514][4]]=f[i[6708][4]][f[i[2781][4]]]f[i[8514][5]]=q[i[6708][5]]local z,be=f[i[6708][6]],i[8514][6]f[be]=z[f[i[2781][6]]];f[be+1]=z v=v+1 u[v]=f[i[8514][7]]v=v+1 u[v]=f[i[8514][8]]v=v+1 u[v]=q[i[6708][9]]v=v+1 u[v]=q[i[6708][10]]local z=i[8514][11]local z=i[6708][11]local z=z local be=v local z=be-z+1 local bf=u[z]bf(k(u,z+1,be))for bf=be,z,-1 do u[bf]=nil end v=z-1 o=o+ba end f[b]=o bb=i[6708][1]else local b=i[8514][1]local o=2 while true do local z,ba,be=f[b],f[b+1],f[b+2]local z={z(ba,be)}local ba=z[1]if ba==nil then break end for be=1,o do f[b+2+be]=z[be]end f[b+2]=ba local b=i[6708][2]local b=g[b]f[i[8514][2]]=b[1]v=v+1 u[v]=f[i[8514][3]]v=v+1 u[v]=f[i[8514][4]]local b=i[8514][5]local b=u[v]u[v]=nil v=v-1 local o=u[v]u[v]=nil v=v-1 o(b)end bb=i[6708][1]end end end else if bd<=510 then if bd<=508 then if bd>507 then local b=bb local o=i if o[8401]==232 then f[o[8514]]=q[o[6708]];elseif o[8401]==298 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==284 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+1]if o[8401]==144 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==52 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=q[o[6708]];end local b=n[b+2]if b[8401]==111 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==132 then f[b[8514]]=q[b[6708]];else f[b[8514]]=not f[b[6708]];end bb=bb+2 end end end end else if bd>=532 then if bd>=536 then if bd<538 then if bd<=536 then local b=bb local o=i if o[8401]==258 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==110 then f[o[8514]]=f[o[6708]]/f[o[2781]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==130 then f[o[8514]]=#f[o[6708]];elseif o[8401]==146 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==43 then local o=o[8514]local z=u[v]u[v]=nil v=v-1 f[o]=z()end local o=n[b+2]if o[8401]==163 then f[o[8514]]=q[o[6708]];elseif o[8401]==96 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==197 then f[o[8514]]=f[o[6708]];end local b=n[b+3]if b[8401]==132 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==293 then f[b[8514]]=f[b[6708]]-f[b[2781]];else f[b[8514]]=q[b[6708]];end bb=bb+3 end end end end end else if bd<=488 then if bd>=480 then if bd>=485 then if bd<=486 then if bd==485 then n[f[i[8401]]]={[8514]=(i[8514]+2),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-24),[6708]=(i[6708]-30),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<488 then n[f[i[8401]]]={[8514]=(i[8514]+22),[6708]=(i[6708]-33),[2781]=(i[2781]-34),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-16),[2326]=n[f[i[8401]]][2326]}end end else if bd<=482 then if bd<=481 then if bd<=480 then n[f[i[8401]]]={[8514]=(i[8514]-3),[6708]=(i[6708]-6),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+1),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-31),[2781]=(i[2781]-6),[2326]=n[f[i[8401]]][2326]}end else if bd==483 then n[f[i[8401]]]={[8514]=(i[8514]+25),[6708]=(i[6708]-22),[2781]=(i[2781]-33),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+6),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd<=475 then if bd>=474 then if bd==474 then n[f[i[8401]]]={[8514]=(i[8514]-9),[6708]=(i[6708]+25),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+5),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=472 then if bd==471 then n[f[i[8401]]]={[8514]=(i[8514]-17),[6708]=i[6708],[2781]=(i[2781]-4),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-38),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]+33),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=477 then if bd<477 then n[f[i[8401]]]={[8514]=(i[8514]-13),[6708]=(i[6708]-39),[2781]=(i[2781]-3),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+10),[2326]=n[f[i[8401]]][2326]}end else if bd~=479 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+43),[2781]=(i[2781]+2),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+17),[6708]=i[6708],[2781]=(i[2781]+10),[2326]=n[f[i[8401]]][2326]}end end end end else if bd>=498 then if bd>=502 then if bd>503 then if bd~=504 then local b=bb local o=i if o[8401]==83 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==205 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+1]if o[8401]==237 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==66 then local z=o[8514]local ba=u[v]u[v]=nil v=v-1 local be=u[v]u[v]=nil v=v-1 f[z]=be(ba)elseif o[8401]==293 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+2]if b[8401]==74 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==53 then f[b[8514]]=f[b[6708]];elseif b[8401]==49 then f[b[8514]]=l[q[b[6708]]];end bb=bb+2 end end else if bd<=499 then if bd==498 then local b=bb local o=i if o[8401]==227 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==225 then f[o[8514]]=f[o[6708]]-f[o[2781]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==194 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==121 then f[o[8514]]=q[o[6708]];elseif o[8401]==110 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+2]if o[8401]==68 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==255 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==253 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+3]if b[8401]==201 then f[b[8514]]=f[b[6708]];elseif b[8401]==44 then f[b[8514]]=q[b[6708]];elseif b[8401]==286 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+3 end else if bd==500 then local b=bb local o=i if o[8401]==280 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==180 then f[o[8514]]=f[o[6708]];else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+1]if o[8401]==295 then f[o[8514]]=not f[o[6708]];elseif o[8401]==199 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==246 then f[o[8514]]=l[q[o[6708]]];end local o=n[b+2]if o[8401]==269 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==65 then f[o[8514]]=not f[o[6708]];else f[o[8514]]=q[o[6708]];end local o=n[b+3]if o[8401]==55 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==296 then f[o[8514]]=#f[o[6708]];elseif o[8401]==87 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+4]if b[8401]==172 then f[b[8514]]=-f[b[6708]];elseif b[8401]==179 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==156 then f[b[8514]]=q[b[6708]];end bb=bb+4 end end end else if bd>=494 then if bd>=496 then if bd~=497 then n[f[i[8401]]]={[8514]=(i[8514]+28),[6708]=(i[6708]-10),[2781]=(i[2781]-24),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+28),[6708]=i[6708],[2781]=(i[2781]+13),[2326]=n[f[i[8401]]][2326]}end else if bd<495 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-1),[2781]=(i[2781]+1),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-9),[6708]=i[6708],[2781]=(i[2781]-23),[2326]=n[f[i[8401]]][2326]}end end else if bd>491 then if bd<493 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-26),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end end end else if bd>=452 then if bd>=461 then if bd>=465 then if bd<=466 then if bd~=466 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-34),[2781]=(i[2781]+18),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+32),[6708]=(i[6708]+7),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=468 then if bd<468 then n[f[i[8401]]]={[8514]=(i[8514]-39),[6708]=i[6708],[2781]=(i[2781]-12),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+1),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<470 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+28),[2781]=(i[2781]+4),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+3),[2781]=(i[2781]-9),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=463 then if bd==463 then n[f[i[8401]]]={[8514]=(i[8514]-47),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+31),[6708]=(i[6708]+16),[2781]=(i[2781]-8),[2326]=n[f[i[8401]]][2326]}end else if bd~=462 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+33),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-16),[2781]=(i[2781]+28),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=457 then if bd>=459 then if bd==459 then local b=bb local o=i if o[8401]==112 then f[o[8514]]=f[o[6708]];elseif o[8401]==132 then f[o[8514]]=q[o[6708]];elseif o[8401]==136 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+1]if o[8401]==224 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==119 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==285 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local b=n[b+2]if b[8401]==264 then f[b[8514]]=q[b[6708]];elseif b[8401]==56 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==83 then f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 else local b=bb local o=i if o[8401]==84 then local z=o[8514]f[z]=f[z]();elseif o[8401]==98 then f[o[8514]]=f[o[6708]]+f[o[2781]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+1]if o[8401]==109 then f[o[8514]]=q[o[6708]];elseif o[8401]==119 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==75 then f[o[8514]]=l[q[o[6708]]];end local o=n[b+2]if o[8401]==152 then f[o[8514]]=f[o[6708]];elseif o[8401]==279 then f[o[8514]]=not f[o[6708]];elseif o[8401]==42 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+3]if b[8401]==107 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==291 then f[b[8514]]=q[b[6708]];else f[b[8514]]=not f[b[6708]];end bb=bb+3 end else if bd~=458 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-14),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+14),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=455 then if bd~=456 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-21),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+11),[6708]=i[6708],[2781]=(i[2781]-28),[2326]=n[f[i[8401]]][2326]}end else if bd<=453 then if bd<453 then local b=bb local o=i if o[8401]==82 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==280 then f[o[8514]]=q[o[6708]];elseif o[8401]==279 then f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==132 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==197 then f[o[8514]]=q[o[6708]];elseif o[8401]==145 then f[o[8514]]=l[q[o[6708]]];end local o=n[b+2]if o[8401]==282 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==262 then l[q[o[6708]]]=f[o[8514]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+3]if b[8401]==208 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==102 then f[b[8514]]=q[b[6708]];elseif b[8401]==160 then f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+3 else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+26),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-7),[6708]=(i[6708]+58),[2781]=(i[2781]+8),[2326]=n[f[i[8401]]][2326]}end end end end else if bd<=442 then if bd>=439 then if bd<=440 then if bd<440 then n[f[i[8401]]]={[8514]=(i[8514]-17),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+42),[6708]=(i[6708]-55),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=441 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-22),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-17),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=437 then if bd<438 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+61),[2781]=(i[2781]+5),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+66),[6708]=(i[6708]+51),[2781]=(i[2781]-27),[2326]=n[f[i[8401]]][2326]}end else if bd<=435 then if bd~=435 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-7),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+38),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-39),[6708]=(i[6708]+47),[2781]=(i[2781]-18),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=448 then if bd>=450 then if bd<451 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+16),[2781]=(i[2781]-37),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+8),[6708]=(i[6708]+24),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=448 then n[f[i[8401]]]={[8514]=(i[8514]-8),[6708]=i[6708],[2781]=(i[2781]-21),[2326]=n[f[i[8401]]][2326]}else local b=bb local o=i if o[8401]==278 then f[o[8514]]=-f[o[6708]];elseif o[8401]==182 then f[o[8514]]=q[o[6708]];else f[o[8514]]=not f[o[6708]];end local o=n[b+1]if o[8401]==54 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==113 then local z=o[8514]f[z]=f[z](f[z+1],f[z+2]);else f[o[8514]]=f[o[6708]]*f[o[2781]];end local b=n[b+2]if b[8401]==223 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==117 then f[b[8514]]=f[b[6708]];elseif b[8401]==273 then f[b[8514]]=q[b[6708]];end bb=bb+2 end end else if bd<=445 then if bd<=444 then if bd~=444 then n[f[i[8401]]]={[8514]=(i[8514]+18),[6708]=(i[6708]-21),[2781]=(i[2781]-32),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+57),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-28),[2326]=n[f[i[8401]]][2326]}end else if bd<447 then local b=bb local o=i if o[8401]==121 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==255 then f[o[8514]]=#f[o[6708]];else f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==176 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==111 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+2]if b[8401]==134 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==267 then f[b[8514]]=f[b[6708]];else f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+2 end end end end end end end end end else if bd>=1100 then if bd<=1379 then if bd>=1240 then if bd>=1310 then if bd<=1344 then if bd>=1328 then if bd<=1336 then if bd<1333 then if bd<=1330 then if bd<1330 then if bd<1329 then local b=bb local o=i if o[8401]==167 then f[o[8514]]=q[o[6708]];elseif o[8401]==289 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==215 then f[o[8514]]=-f[o[6708]];end local o=n[b+1]if o[8401]==202 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==175 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else local o=o[8514]f[o]=f[o](f[o+1],f[o+2]);end local b=n[b+2]if b[8401]==147 then f[b[8514]]=q[b[6708]];elseif b[8401]==112 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==127 then f[b[8514]]=f[b[6708]]-f[b[2781]];end bb=bb+2 end end else if bd<1332 then local b=bb local o=i if o[8401]==203 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==198 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==215 then f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==211 then f[o[8514]]=q[o[6708]];elseif o[8401]==77 then f[o[8514]]=f[o[6708]];elseif o[8401]==126 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+2]if b[8401]==158 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==72 then f[b[8514]]=q[b[6708]];elseif b[8401]==279 then f[b[8514]]=not f[b[6708]];end bb=bb+2 end end end else if bd>=1341 then if bd>=1343 then if bd~=1344 then local b=bb local o=i if o[8401]==268 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==199 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==97 then f[o[8514]]=f[o[6708]];end local b=n[b+1]if b[8401]==139 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==106 then f[b[8514]]=q[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+1 end else if bd==1341 then local b=bb local o=i if o[8401]==258 then local z=o[8514]f[z]=f[z]();elseif o[8401]==185 then f[o[8514]]=f[o[6708]]-f[o[2781]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==94 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==136 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==115 then f[o[8514]]=q[o[6708]];end local o=n[b+2]if o[8401]==117 then f[o[8514]]=#f[o[6708]];elseif o[8401]==276 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+3]if b[8401]==248 then f[b[8514]]=not f[b[6708]];elseif b[8401]==242 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==113 then f[b[8514]]=q[b[6708]];end bb=bb+3 end end end end else if bd>=1319 then if bd>=1324 then if bd<=1325 then if bd>1324 then local b=bb local o=i if o[8401]==203 then f[o[8514]]=-f[o[6708]];elseif o[8401]==165 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else local o=o[8514]f[o]=f[o]();end local b=n[b+1]if b[8401]==272 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==166 then f[b[8514]]=q[b[6708]];elseif b[8401]==113 then local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+1 end end else if bd<=1321 then if bd<1321 then if bd~=1319 then local b=bb local o=i if o[8401]==167 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==152 then local z=o[8514]f[z]=f[z]();else f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==183 then f[o[8514]]=q[o[6708]];elseif o[8401]==263 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==178 then l[q[o[6708]]]=f[o[8514]];end local o=n[b+2]if o[8401]==221 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==172 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==238 then f[o[8514]]=f[o[6708]]*f[o[2781]];end local b=n[b+3]if b[8401]==201 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==149 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==280 then f[b[8514]]=q[b[6708]];end bb=bb+3 end end else if bd==1323 then local b=bb local o=i if o[8401]==262 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==297 then f[o[8514]]=q[o[6708]];elseif o[8401]==253 then f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==221 then f[o[8514]]=#f[o[6708]];elseif o[8401]==280 then f[o[8514]]=q[o[6708]];elseif o[8401]==46 then local o=o[8514]f[o]=f[o](f[o+1],f[o+2]);end local b=n[b+2]if b[8401]==204 then f[b[8514]]=f[b[6708]];elseif b[8401]==209 then f[b[8514]]=#f[b[6708]];elseif b[8401]==74 then f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+2 end end end else if bd>=1315 then if bd<1317 then if bd==1316 then local b=bb local o=i if o[8401]==70 then f[o[8514]]=f[o[6708]];elseif o[8401]==93 then local z=o[8514]f[z]=f[z]();elseif o[8401]==96 then f[o[8514]]=not f[o[6708]];end local o=n[b+1]if o[8401]==233 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==60 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+2]if o[8401]==121 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==106 then f[o[8514]]=not f[o[6708]];elseif o[8401]==84 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+3]if b[8401]==53 then f[b[8514]]=q[b[6708]];elseif b[8401]==275 then f[b[8514]]=f[b[6708]]*f[b[2781]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+3 end end else if bd>1312 then if bd~=1314 then local b=bb local o=i if o[8401]==70 then f[o[8514]]=q[o[6708]];elseif o[8401]==241 then f[o[8514]]=l[q[o[6708]]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+1]if b[8401]==209 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==232 then f[b[8514]]=-f[b[6708]];else local b=b[8514]local b=u[v]u[v]=nil v=v-1 b()end bb=bb+1 else local b=bb local o=i if o[8401]==49 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==229 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==202 then l[q[o[6708]]]=f[o[8514]];end local o=n[b+1]if o[8401]==75 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==94 then f[o[8514]]=f[o[6708]];else f[o[8514]]=not f[o[6708]];end local b=n[b+2]if b[8401]==249 then f[b[8514]]=-f[b[6708]];elseif b[8401]==176 then f[b[8514]]=q[b[6708]];else local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+2 end end end end end else if bd<=1362 then if bd>=1354 then if bd>=1359 then if bd>=1361 then if bd==1362 then local b=bb local o=i if o[8401]==228 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==291 then f[o[8514]]=f[o[6708]];elseif o[8401]==79 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+1]if o[8401]==206 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==254 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=q[o[6708]];end local o=n[b+2]if o[8401]==272 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==161 then f[o[8514]]=#f[o[6708]];elseif o[8401]==53 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+3]if b[8401]==188 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==131 then f[b[8514]]=q[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+3 end end else if bd<1357 then if bd<=1355 then if bd>=1355 then local b=bb local o=i if o[8401]==115 then f[o[8514]]=f[o[6708]];elseif o[8401]==288 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==266 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==142 then f[o[8514]]=not f[o[6708]];elseif o[8401]==92 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==188 then f[o[8514]]=q[o[6708]];end local b=n[b+2]if b[8401]==199 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==209 then f[b[8514]]=q[b[6708]];elseif b[8401]==226 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+2 end end end end else if bd<=1349 then if bd<=1347 then if bd<1347 then if bd>=1346 then local b=bb local o=i if o[8401]==294 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==55 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==103 then f[o[8514]]=l[q[o[6708]]];end local o=n[b+1]if o[8401]==142 then f[o[8514]]=-f[o[6708]];elseif o[8401]==160 then f[o[8514]]=f[o[6708]];elseif o[8401]==147 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+2]if b[8401]==71 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==242 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==167 then f[b[8514]]=q[b[6708]];end bb=bb+2 end end end else if bd>1351 then if bd<1353 then local b=bb local o=i if o[8401]==164 then f[o[8514]]=-f[o[6708]];elseif o[8401]==104 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==190 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==272 then f[o[8514]]=q[o[6708]];elseif o[8401]==175 then f[o[8514]]=-f[o[6708]];elseif o[8401]==241 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+2]if o[8401]==260 then f[o[8514]]=not f[o[6708]];elseif o[8401]==99 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==254 then f[o[8514]]=q[o[6708]];end local o=n[b+3]if o[8401]==213 then f[o[8514]]=q[o[6708]];elseif o[8401]==289 then f[o[8514]]=f[o[6708]]-f[o[2781]];else f[o[8514]]=f[o[6708]];end local o=n[b+4]if o[8401]==139 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==202 then f[o[8514]]=not f[o[6708]];else f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+5]if b[8401]==159 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==187 then f[b[8514]]=f[b[6708]];elseif b[8401]==126 then f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+5 end end end end else if bd>=1372 then if bd<1376 then if bd>=1374 then if bd>1374 then local b=bb local o=i if o[8401]==227 then local z=o[8514]f[z]=f[z](f[z+1]);elseif o[8401]==214 then f[o[8514]]=f[o[6708]]*f[o[2781]];else l[q[o[6708]]]=f[o[8514]];end local b=n[b+1]if b[8401]==235 then f[b[8514]]=not f[b[6708]];elseif b[8401]==130 then f[b[8514]]=f[b[6708]][f[b[2781]]];else f[b[8514]]=q[b[6708]];end bb=bb+1 end else if bd~=1372 then local b=bb local o=i if o[8401]==221 then f[o[8514]]=q[o[6708]];elseif o[8401]==204 then f[o[8514]][f[o[6708]]]=f[o[2781]];else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+1]if o[8401]==75 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==152 then f[o[8514]]=not f[o[6708]];elseif o[8401]==263 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+2]if b[8401]==186 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==190 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==259 then f[b[8514]]=f[b[6708]];end bb=bb+2 end end end end end end else if bd<=1274 then if bd>=1258 then if bd>=1267 then if bd>=1271 then if bd>1272 then if bd~=1273 then local b=bb local o=i if o[8401]==66 then f[o[8514]]=not f[o[6708]];elseif o[8401]==46 then f[o[8514]]=l[q[o[6708]]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==291 then f[o[8514]]=f[o[6708]];elseif o[8401]==76 then f[o[8514]]=f[o[6708]]*f[o[2781]];else f[o[8514]]=q[o[6708]];end local o=n[b+2]if o[8401]==98 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==110 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=not f[o[6708]];end local o=n[b+3]if o[8401]==196 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==138 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==165 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+4]if b[8401]==293 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==281 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==244 then f[b[8514]]=q[b[6708]];end bb=bb+4 end end else if bd>=1269 then if bd<1270 then local b=bb local o=i if o[8401]==70 then f[o[8514]]=q[o[6708]];elseif o[8401]==235 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==64 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+1]if o[8401]==150 then f[o[8514]]=q[o[6708]];elseif o[8401]==97 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)else f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==83 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==195 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==215 then f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+2 end end end else if bd<=1262 then if bd<1261 then if bd>1259 then local b=bb local o=i if o[8401]==175 then f[o[8514]]=#f[o[6708]];elseif o[8401]==76 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=not f[o[6708]];end local b=n[b+1]if b[8401]==239 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==214 then local o=b[8514]local z=u[v]u[v]=nil v=v-1 local ba=u[v]u[v]=nil v=v-1 do local z,ba,be=ba(z)f[o]=z f[o+1]=ba f[o+2]=be end else f[b[8514]]=#f[b[6708]];end bb=bb+1 end end else if bd<=1264 then if bd<=1263 then local b=bb local o=i if o[8401]==51 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==129 then f[o[8514]]=q[o[6708]];elseif o[8401]==86 then f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==282 then f[o[8514]]=not f[o[6708]];elseif o[8401]==293 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==141 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+2]if b[8401]==276 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==169 then f[b[8514]]=q[b[6708]];elseif b[8401]==297 then f[b[8514]]=f[b[6708]];end bb=bb+2 end else if bd>=1266 then local b=bb local o=i if o[8401]==288 then f[o[8514]]=f[o[6708]];elseif o[8401]==227 then l[q[o[6708]]]=f[o[8514]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+1]if b[8401]==250 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==272 then f[b[8514]]=q[b[6708]];else f[b[8514]]=not f[b[6708]];end bb=bb+1 end end end end else if bd>=1249 then if bd<=1253 then if bd<=1251 then if bd<=1250 then if bd<1250 then local b=bb local o=i if o[8401]==58 then f[o[8514]]=f[o[6708]];elseif o[8401]==90 then f[o[8514]]=q[o[6708]];elseif o[8401]==170 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==93 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==118 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==57 then f[o[8514]]=-f[o[6708]];end local o=n[b+2]if o[8401]==227 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==289 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=f[o[6708]];end local b=n[b+3]if b[8401]==116 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==128 then f[b[8514]]=f[b[6708]];else f[b[8514]]=not f[b[6708]];end bb=bb+3 end else local b=bb local o=i if o[8401]==47 then f[o[8514]]=-f[o[6708]];elseif o[8401]==221 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]]*f[o[2781]];end local b=n[b+1]if b[8401]==177 then f[b[8514]]=#f[b[6708]];elseif b[8401]==197 then f[b[8514]]=l[q[b[6708]]];else f[b[8514]]=q[b[6708]];end bb=bb+1 end end else if bd<1256 then if bd==1254 then local b=bb local o=i if o[8401]==235 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==283 then f[o[8514]]=f[o[6708]];elseif o[8401]==54 then f[o[8514]]=-f[o[6708]];end local o=n[b+1]if o[8401]==290 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==130 then f[o[8514]]=-f[o[6708]];else f[o[8514]]=l[q[o[6708]]];end local b=n[b+2]if b[8401]==85 then f[b[8514]]=f[b[6708]];elseif b[8401]==75 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==196 then f[b[8514]]=q[b[6708]];end bb=bb+2 end end end else if bd>=1245 then if bd<1247 then if bd~=1246 then local b=bb local o=i if o[8401]==81 then f[o[8514]]=not f[o[6708]];elseif o[8401]==78 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==213 then local o=o[8514]local z=u[v]u[v]=nil v=v-1 local ba=u[v]u[v]=nil v=v-1 local be=u[v]u[v]=nil v=v-1 f[o]=be(ba,z)end local o=n[b+1]if o[8401]==144 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==168 then f[o[8514]]=f[o[6708]]*f[o[2781]];else f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==119 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==271 then f[b[8514]][f[b[6708]]]=f[b[2781]];else f[b[8514]]=q[b[6708]];end bb=bb+2 end end else if bd<=1242 then if bd<=1241 then if bd>1240 then local b=bb local o=i if o[8401]==167 then f[o[8514]]=q[o[6708]];elseif o[8401]==92 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==130 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local b=n[b+1]if b[8401]==156 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==151 then f[b[8514]]=not f[b[6708]];elseif b[8401]==270 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+1 end end else if bd~=1244 then local b=bb local o=i if o[8401]==113 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==88 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+1]if b[8401]==204 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==183 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==164 then f[b[8514]]=#f[b[6708]];end bb=bb+1 end end end end end else if bd>=1293 then if bd>1301 then if bd<=1305 then if bd>=1304 then if bd>=1305 then local b=bb local o=i if o[8401]==74 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==270 then f[o[8514]]=f[o[6708]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==226 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==88 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+2]if o[8401]==93 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==203 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==228 then f[o[8514]]=f[o[6708]];end local o=n[b+3]if o[8401]==290 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==157 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==238 then f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+4]if o[8401]==83 then f[o[8514]]=f[o[6708]];elseif o[8401]==47 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==106 then f[o[8514]]=not f[o[6708]];end local o=n[b+5]if o[8401]==150 then f[o[8514]]=q[o[6708]];elseif o[8401]==90 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==285 then f[o[8514]][f[o[6708]]]=f[o[2781]];end local b=n[b+6]if b[8401]==147 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==243 then f[b[8514]]=l[q[b[6708]]];else f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+6 end end else if bd<=1307 then if bd~=1306 then local b=bb local o=i if o[8401]==74 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==199 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+1]if b[8401]==287 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==119 then f[b[8514]]=q[b[6708]];else f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+1 end end end end else if bd>=1284 then if bd>=1289 then if bd<1291 then if bd<1290 then local b=bb local o=i if o[8401]==267 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==72 then f[o[8514]]=f[o[6708]];elseif o[8401]==224 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==48 then f[o[8514]]=f[o[6708]];elseif o[8401]==120 then f[o[8514]]=f[o[6708]]+f[o[2781]];else f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+2]if b[8401]==210 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==215 then f[b[8514]]=f[b[6708]]+f[b[2781]];else f[b[8514]]=f[b[6708]];end bb=bb+2 end end else if bd>=1287 then if bd==1287 then local b=bb local o=i if o[8401]==51 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==140 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=not f[o[6708]];end local o=n[b+1]if o[8401]==143 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==190 then f[o[8514]]=f[o[6708]]/f[o[2781]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+2]if o[8401]==48 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==68 then local z=o[8514]local z=o[6708]local z=z local ba=v local z=ba-z+1 local be=u[z]be(k(u,z+1,ba))for be=ba,z,-1 do u[be]=nil end v=z-1 elseif o[8401]==145 then f[o[8514]]=f[o[6708]];end local o=n[b+3]if o[8401]==40 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==153 then f[o[8514]]=f[o[6708]];elseif o[8401]==258 then f[o[8514]]=f[o[6708]]*f[o[2781]];end local o=n[b+4]if o[8401]==92 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==90 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=q[o[6708]];end local o=n[b+5]if o[8401]==277 then f[o[8514]]=-f[o[6708]];elseif o[8401]==157 then f[o[8514]]=f[o[6708]]+f[o[2781]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+6]if b[8401]==131 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==175 then f[b[8514]]=#f[b[6708]];else f[b[8514]]=l[q[b[6708]]];end bb=bb+6 end end end else if bd<=1279 then if bd>1277 then if bd==1278 then local b=bb local o=i if o[8401]==77 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==228 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==207 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+1]if o[8401]==73 then f[o[8514]]=q[o[6708]];elseif o[8401]==175 then f[o[8514]]=f[o[6708]]/f[o[2781]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+2]if b[8401]==124 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==75 then f[b[8514]]=#f[b[6708]];elseif b[8401]==55 then f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end else if bd<=1281 then if bd<1281 then local b=bb local o=i if o[8401]==201 then f[o[8514]]=q[o[6708]];elseif o[8401]==206 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==224 then f[o[8514]]=l[q[o[6708]]];end local o=n[b+1]if o[8401]==88 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==243 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==103 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+2]if b[8401]==267 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==123 then f[b[8514]]=f[b[6708]]-f[b[2781]];else f[b[8514]]=f[b[6708]];end bb=bb+2 end end end end end end end else if bd<=1169 then if bd>=1135 then if bd<=1152 then if bd<=1143 then if bd<=1139 then if bd<=1137 then if bd>=1137 then local b=bb local o=i if o[8401]==123 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==277 then f[o[8514]]=f[o[6708]]/f[o[2781]];else f[o[8514]]=f[o[6708]];end local b=n[b+1]if b[8401]==72 then f[b[8514]]=-f[b[6708]];elseif b[8401]==271 then f[b[8514]]=not f[b[6708]];elseif b[8401]==292 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+1 end else if bd==1139 then local b=bb local o=i if o[8401]==170 then f[o[8514]]=q[o[6708]];elseif o[8401]==242 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==166 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+1]if b[8401]==261 then f[b[8514]]=#f[b[6708]];elseif b[8401]==222 then f[b[8514]]=q[b[6708]];elseif b[8401]==294 then f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+1 end end else if bd<=1141 then if bd>1140 then local b=bb local o=i if o[8401]==225 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==291 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=-f[o[6708]];end local b=n[b+1]if b[8401]==122 then f[b[8514]]=q[b[6708]];elseif b[8401]==111 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==216 then f[b[8514]]=f[b[6708]];end bb=bb+1 end end end else if bd<=1148 then if bd>1146 then if bd~=1147 then local b=bb local o=i if o[8401]==233 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==236 then f[o[8514]]=q[o[6708]];else l[q[o[6708]]]=f[o[8514]];end local o=n[b+1]if o[8401]==284 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==282 then f[o[8514]]=f[o[6708]];else f[o[8514]]=#f[o[6708]];end local o=n[b+2]if o[8401]==168 then f[o[8514]]=-f[o[6708]];elseif o[8401]==92 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==79 then f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+3]if o[8401]==59 then f[o[8514]]=q[o[6708]];elseif o[8401]==294 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==198 then f[o[8514]]=#f[o[6708]];end local o=n[b+4]if o[8401]==93 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==282 then l[q[o[6708]]]=f[o[8514]];else f[o[8514]]=f[o[6708]];end local o=n[b+5]if o[8401]==269 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==279 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==238 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+6]if b[8401]==229 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==211 then f[b[8514]]=q[b[6708]];elseif b[8401]==45 then f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+6 end end end end else if bd>=1162 then if bd>=1166 then if bd<=1167 then if bd>=1167 then local b=bb local o=i if o[8401]==180 then f[o[8514]]=f[o[6708]];elseif o[8401]==283 then f[o[8514]]=#f[o[6708]];elseif o[8401]==225 then f[o[8514]]=q[o[6708]];end local b=n[b+1]if b[8401]==57 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==164 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==240 then f[b[8514]]=q[b[6708]];end bb=bb+1 end else if bd==1168 then local b,o=i[8514],(i[2781]*100)local z=f[b]z[o+1]=f[b+1]else local b,o=i[8514],i[6708]local z=b+2 local b=f[b](f[b+1],f[z])if b~=nil then do local b,o,ba=b,b,o f[z]=b f[z+1]=o bb=ba end end end end else if bd<=1163 then if bd<1163 then local b=bb local o=i if o[8401]==228 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==46 then f[o[8514]]=f[o[6708]];elseif o[8401]==108 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+1]if b[8401]==288 then f[b[8514]]=not f[b[6708]];elseif b[8401]==273 then f[b[8514]]=q[b[6708]];elseif b[8401]==192 then f[b[8514]]=l[q[b[6708]]];end bb=bb+1 end else if bd>1164 then local b=bb local o=i if o[8401]==166 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==110 then f[o[8514]][f[o[6708]]]=f[o[2781]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==268 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==58 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+2]if b[8401]==89 then f[b[8514]]=f[b[6708]];elseif b[8401]==190 then f[b[8514]]=-f[b[6708]];elseif b[8401]==49 then l[q[b[6708]]]=f[b[8514]];end bb=bb+2 end end end else if bd<1158 then if bd<1156 then if bd<=1154 then if bd>1153 then local b=bb local o=i if o[8401]==85 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==187 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==86 then f[o[8514]]=f[o[6708]]*f[o[2781]];end local o=n[b+1]if o[8401]==231 then f[o[8514]]=f[o[6708]];elseif o[8401]==213 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==107 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==94 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==155 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+3]if b[8401]==182 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==105 then f[b[8514]]=f[b[6708]][f[b[2781]]];else local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)end bb=bb+3 end end end end end end else if bd>=1118 then if bd<=1126 then if bd<=1122 then if bd<=1120 then if bd>1119 then local b=bb local o=i if o[8401]==52 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==258 then f[o[8514]]=f[o[6708]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+1]if o[8401]==194 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==297 then f[o[8514]]=q[o[6708]];elseif o[8401]==234 then f[o[8514]]=-f[o[6708]];end local o=n[b+2]if o[8401]==252 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==256 then f[o[8514]]=f[o[6708]];else f[o[8514]]=l[q[o[6708]]];end local o=n[b+3]if o[8401]==232 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==129 then f[o[8514]]=f[o[6708]]/f[o[2781]];else f[o[8514]]=f[o[6708]]*f[o[2781]];end local o=n[b+4]if o[8401]==64 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==168 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==67 then f[o[8514]]=f[o[6708]];end local o=n[b+5]if o[8401]==284 then f[o[8514]]=#f[o[6708]];elseif o[8401]==148 then f[o[8514]]=q[o[6708]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local b=n[b+6]if b[8401]==84 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==111 then f[b[8514]]=#f[b[6708]];elseif b[8401]==288 then f[b[8514]]=l[q[b[6708]]];end bb=bb+6 end else if bd==1122 then local b=bb local o=i if o[8401]==101 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==73 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+1]if b[8401]==242 then f[b[8514]]=-f[b[6708]];elseif b[8401]==276 then local o=b[8514]local o=f[o]v=v+1 u[v]=o else f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+1 end end else if bd<1125 then if bd==1124 then local b=bb local o=i if o[8401]==73 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==129 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==74 then f[o[8514]]=#f[o[6708]];end local b=n[b+1]if b[8401]==161 then f[b[8514]]=#f[b[6708]];elseif b[8401]==61 then f[b[8514]]=f[b[6708]]-f[b[2781]];else local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+1 end end end else if bd<=1130 then if bd<1129 then if bd==1127 then local b=bb local o=i if o[8401]==290 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==276 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==54 then f[o[8514]][f[o[6708]]]=f[o[2781]];end local b=n[b+1]if b[8401]==144 then f[b[8514]]=q[b[6708]];elseif b[8401]==287 then f[b[8514]]=f[b[6708]][f[b[2781]]];else f[b[8514]]=not f[b[6708]];end bb=bb+1 else local b=bb local o=i if o[8401]==143 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==187 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==158 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+1]if o[8401]==112 then f[o[8514]]=f[o[6708]];elseif o[8401]==101 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==254 then f[o[8514]]=not f[o[6708]];end local b=n[b+2]if b[8401]==131 then f[b[8514]]=#f[b[6708]];elseif b[8401]==280 then f[b[8514]]=q[b[6708]];else f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+2 end end end end else if bd>=1109 then if bd<=1113 then if bd<=1111 then if bd<=1110 then if bd==1109 then local b=bb local o=i if o[8401]==108 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==249 then f[o[8514]]=f[o[6708]]/f[o[2781]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==292 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==225 then local z=o[8514]local ba=u[v]u[v]=nil v=v-1 f[z]=ba()else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+2]if o[8401]==262 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==286 then f[o[8514]]=f[o[6708]];elseif o[8401]==112 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+3]if b[8401]==283 then f[b[8514]]=not f[b[6708]];elseif b[8401]==167 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==215 then f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+3 end end end end else if bd>=1105 then if bd<1107 then if bd==1105 then local b=bb local o=i if o[8401]==90 then f[o[8514]]=not f[o[6708]];elseif o[8401]==219 then f[o[8514]]=f[o[6708]];elseif o[8401]==133 then f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==154 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==255 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==190 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+2]if b[8401]==218 then f[b[8514]]=q[b[6708]];elseif b[8401]==126 then f[b[8514]]=-f[b[6708]];elseif b[8401]==269 then f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+2 end end else if bd>=1103 then if bd~=1104 then local b=bb local o=i if o[8401]==60 then f[o[8514]]=not f[o[6708]];elseif o[8401]==230 then f[o[8514]]=q[o[6708]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+1]if o[8401]==141 then f[o[8514]]=not f[o[6708]];elseif o[8401]==229 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==177 then f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==242 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==218 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==241 then f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+2 end else if bd<=1101 then if bd==1101 then local b=bb local o=i if o[8401]==191 then f[o[8514]]=-f[o[6708]];elseif o[8401]==88 then f[o[8514]][f[o[6708]]]=f[o[2781]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==299 then f[o[8514]]=#f[o[6708]];elseif o[8401]==264 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==238 then f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==119 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==129 then f[b[8514]]=not f[b[6708]];elseif b[8401]==42 then f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+2 end end end end end end end else if bd>=1205 then if bd<=1222 then if bd<=1213 then if bd>=1210 then if bd<=1211 then if bd==1211 then local b=bb local o=i if o[8401]==146 then f[o[8514]]=-f[o[6708]];elseif o[8401]==99 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==266 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local b=n[b+1]if b[8401]==236 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==116 then local o=b[8514]local o=u[v]u[v]=nil v=v-1 local z=u[v]u[v]=nil v=v-1 z(o)else f[b[8514]]=l[q[b[6708]]];end bb=bb+1 end end end else if bd<=1218 then if bd<1217 then if bd<=1215 then if bd==1214 then local b=bb local o=i if o[8401]==68 then f[o[8514]]=-f[o[6708]];elseif o[8401]==221 then f[o[8514]]=q[o[6708]];elseif o[8401]==286 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+1]if o[8401]==134 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==298 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=not f[o[6708]];end local b=n[b+2]if b[8401]==65 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==105 then f[b[8514]]=not f[b[6708]];else f[b[8514]]=f[b[6708]];end bb=bb+2 end else local b=bb local o=i if o[8401]==119 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==112 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==67 then f[o[8514]]=#f[o[6708]];end local b=n[b+1]if b[8401]==246 then local o=b[8514]local o=u[v]u[v]=nil v=v-1 local z=u[v]u[v]=nil v=v-1 z(o)elseif b[8401]==284 then f[b[8514]]=f[b[6708]];else local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+1 end end else if bd>=1221 then if bd~=1221 then local b=bb local o=i if o[8401]==49 then f[o[8514]]=#f[o[6708]];elseif o[8401]==273 then f[o[8514]]=q[o[6708]];elseif o[8401]==166 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+1]if b[8401]==263 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==91 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==85 then f[b[8514]]=#f[b[6708]];end bb=bb+1 end else if bd<1220 then local b=bb local o=i if o[8401]==79 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==118 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+1]if b[8401]==106 then local o=b[8514]local o=u[v]u[v]=nil v=v-1 local z=u[v]u[v]=nil v=v-1 z(o)elseif b[8401]==263 then f[b[8514]]=not f[b[6708]];else f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+1 end end end end else if bd<=1231 then if bd>=1228 then if bd<=1229 then if bd==1228 then local b=bb local o=i if o[8401]==104 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==96 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=f[o[6708]];end local b=n[b+1]if b[8401]==188 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==63 then l[q[b[6708]]]=f[b[8514]];else f[b[8514]]=q[b[6708]];end bb=bb+1 end else if bd<1231 then local b=bb local o=i if o[8401]==232 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==184 then f[o[8514]]=f[o[6708]]/f[o[2781]];else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+1]if b[8401]==44 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==82 then f[b[8514]]=q[b[6708]];elseif b[8401]==205 then f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+1 end end else if bd>=1226 then if bd==1226 then local b=bb local o=i if o[8401]==108 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==224 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=not f[o[6708]];end local b=n[b+1]if b[8401]==139 then f[b[8514]]=q[b[6708]];elseif b[8401]==114 then f[b[8514]]=-f[b[6708]];else l[q[b[6708]]]=f[b[8514]];end bb=bb+1 end else if bd<=1224 then if bd>1223 then local b=bb local o=i if o[8401]==233 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==66 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==106 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local b=n[b+1]if b[8401]==247 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==158 then local o=b[8514]local o=u[v]u[v]=nil v=v-1 o()elseif b[8401]==193 then f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+1 end end end end else if bd<1236 then if bd>1233 then if bd~=1235 then local b=bb local o=i if o[8401]==134 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==63 then f[o[8514]]=not f[o[6708]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==236 then f[o[8514]]=q[o[6708]];elseif o[8401]==111 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==204 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==180 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]]*f[o[2781]];end local b=n[b+3]if b[8401]==208 then f[b[8514]]=q[b[6708]];elseif b[8401]==291 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==250 then f[b[8514]]=not f[b[6708]];end bb=bb+3 end end end end end else if bd<=1187 then if bd>=1179 then if bd>=1184 then if bd<=1185 then if bd<1185 then local b=bb local o=i if o[8401]==298 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==161 then f[o[8514]]=q[o[6708]];elseif o[8401]==251 then f[o[8514]]=-f[o[6708]];end local o=n[b+1]if o[8401]==254 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==88 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=-f[o[6708]];end local b=n[b+2]if b[8401]==57 then f[b[8514]]=q[b[6708]];elseif b[8401]==104 then f[b[8514]]=f[b[6708]]-f[b[2781]];else local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)end bb=bb+2 end else if bd==1187 then local b=bb local o=i if o[8401]==170 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==248 then f[o[8514]]=f[o[6708]]/f[o[2781]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==86 then f[o[8514]]=-f[o[6708]];elseif o[8401]==259 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=l[q[o[6708]]];end local b=n[b+2]if b[8401]==181 then f[b[8514]]=q[b[6708]];elseif b[8401]==47 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==95 then f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+2 end end else if bd<=1181 then if bd<=1180 then if bd~=1180 then local b=bb local o=i if o[8401]==50 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==255 then f[o[8514]]=f[o[6708]];elseif o[8401]==246 then f[o[8514]]=f[o[6708]]*f[o[2781]];end local o=n[b+1]if o[8401]==50 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==67 then f[o[8514]]=q[o[6708]];elseif o[8401]==231 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+2]if o[8401]==193 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==244 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==264 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+3]if o[8401]==283 then f[o[8514]]=f[o[6708]];elseif o[8401]==190 then f[o[8514]]=#f[o[6708]];elseif o[8401]==169 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+4]if o[8401]==46 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==146 then f[o[8514]]=q[o[6708]];elseif o[8401]==152 then f[o[8514]]=not f[o[6708]];end local o=n[b+5]if o[8401]==127 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==208 then f[o[8514]]=f[o[6708]]*f[o[2781]];else f[o[8514]]=#f[o[6708]];end local b=n[b+6]if b[8401]==57 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==239 then f[b[8514]]=f[b[6708]]-f[b[2781]];else f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+6 end else local b=bb local o=i if o[8401]==231 then f[o[8514]]=f[o[6708]];elseif o[8401]==135 then l[q[o[6708]]]=f[o[8514]];else f[o[8514]]=l[q[o[6708]]];end local b=n[b+1]if b[8401]==256 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==225 then f[b[8514]]=-f[b[6708]];elseif b[8401]==268 then f[b[8514]]=q[b[6708]];end bb=bb+1 end end end else if bd<1175 then if bd<=1172 then if bd<=1171 then if bd<=1170 then f[i[8514]]=-f[i[6708]];else local b=i[8514]local o=u[v]u[v]=nil v=v-1 do local o,z=o()f[b]=o f[b+1]=z end end end end end end else if bd>=1197 then if bd>=1201 then if bd>1202 then if bd>=1204 then local b=bb local o=i if o[8401]==147 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==74 then f[o[8514]]=-f[o[6708]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+1]if o[8401]==42 then f[o[8514]]=#f[o[6708]];elseif o[8401]==117 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=q[o[6708]];end local o=n[b+2]if o[8401]==292 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==169 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==249 then f[o[8514]]=not f[o[6708]];end local o=n[b+3]if o[8401]==210 then f[o[8514]]=q[o[6708]];elseif o[8401]==184 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==182 then f[o[8514]]=f[o[6708]];end local b=n[b+4]if b[8401]==84 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==272 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==220 then l[q[b[6708]]]=f[b[8514]];end bb=bb+4 end end else if bd>=1199 then if bd~=1200 then local b=bb local o=i if o[8401]==110 then f[o[8514]]=not f[o[6708]];elseif o[8401]==236 then f[o[8514]]=q[o[6708]];elseif o[8401]==79 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==208 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==111 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==75 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+2]if b[8401]==58 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==173 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==272 then f[b[8514]]=not f[b[6708]];end bb=bb+2 end end end else if bd>=1193 then if bd>=1195 then if bd==1195 then local b=bb local o=i if o[8401]==299 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==258 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==105 then f[o[8514]]=f[o[6708]];end local b=n[b+1]if b[8401]==234 then f[b[8514]]=q[b[6708]];elseif b[8401]==231 then f[b[8514]]=not f[b[6708]];elseif b[8401]==227 then local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+1 end else if bd==1194 then local b=bb local o=i if o[8401]==220 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==147 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]]+f[o[2781]];end local b=n[b+1]if b[8401]==150 then f[b[8514]]=q[b[6708]];elseif b[8401]==95 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==297 then l[q[b[6708]]]=f[b[8514]];end bb=bb+1 end end else if bd>=1191 then if bd>=1192 then local b=bb local o=i if o[8401]==240 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==144 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==115 then f[o[8514]]=f[o[6708]]-f[o[2781]];end local o=n[b+1]if o[8401]==217 then f[o[8514]]=not f[o[6708]];elseif o[8401]==213 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+2]if o[8401]==212 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==79 then f[o[8514]]=l[q[o[6708]]];else local o=o[8514]local z=u[v]u[v]=nil v=v-1 local ba=u[v]u[v]=nil v=v-1 local be=u[v]u[v]=nil v=v-1 f[o]=be(ba,z)end local o=n[b+3]if o[8401]==86 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==205 then f[o[8514]]=f[o[6708]]*f[o[2781]];else f[o[8514]]=f[o[6708]];end local b=n[b+4]if b[8401]==284 then f[b[8514]]=q[b[6708]];elseif b[8401]==220 then f[b[8514]]=f[b[6708]]/f[b[2781]];else f[b[8514]]=f[b[6708]]-f[b[2781]];end bb=bb+4 end end end end end end end end else if bd<=1519 then if bd<=1449 then if bd>=1415 then if bd<=1432 then if bd>=1424 then if bd>=1429 then if bd>1430 then if bd>1431 then local b=bb local o=i if o[8401]==69 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==48 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==97 then local o=o[8514]f[o]=f[o]();end local o=n[b+1]if o[8401]==134 then f[o[8514]]=q[o[6708]];elseif o[8401]==173 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==46 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+2]if o[8401]==119 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==205 then f[o[8514]]=not f[o[6708]];elseif o[8401]==115 then f[o[8514]]=-f[o[6708]];end local b=n[b+3]if b[8401]==69 then f[b[8514]]=q[b[6708]];elseif b[8401]==98 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)else f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+3 end end else if bd>=1427 then if bd~=1428 then local b=bb local o=i if o[8401]==127 then f[o[8514]]=q[o[6708]];elseif o[8401]==97 then f[o[8514]]=f[o[6708]];elseif o[8401]==68 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+1]if o[8401]==212 then f[o[8514]]=not f[o[6708]];elseif o[8401]==67 then f[o[8514]]=#f[o[6708]];else local o=o[8514]f[o]=f[o](f[o+1],f[o+2]);end local b=n[b+2]if b[8401]==289 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==234 then f[b[8514]]=q[b[6708]];else f[b[8514]]=f[b[6708]];end bb=bb+2 end end end else if bd>=1420 then if bd>1421 then if bd==1422 then local b=bb local o=i if o[8401]==40 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==222 then f[o[8514]]=q[o[6708]];elseif o[8401]==283 then f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==295 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==81 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)else local o=o[8514]f[o]=f[o](f[o+1],f[o+2]);end local b=n[b+2]if b[8401]==130 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==296 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==202 then f[b[8514]]=q[b[6708]];end bb=bb+2 end end else if bd<=1417 then if bd>=1417 then local b=bb local o=i if o[8401]==254 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==106 then f[o[8514]]=q[o[6708]];elseif o[8401]==98 then f[o[8514]]=f[o[6708]]-f[o[2781]];end local o=n[b+1]if o[8401]==72 then f[o[8514]]=-f[o[6708]];elseif o[8401]==289 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==250 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+2]if b[8401]==254 then f[b[8514]]=not f[b[6708]];elseif b[8401]==156 then f[b[8514]]=l[q[b[6708]]];else f[b[8514]]=f[b[6708]]-f[b[2781]];end bb=bb+2 end else if bd>=1419 then local b=bb local o=i if o[8401]==233 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==169 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=q[o[6708]];end local b=n[b+1]if b[8401]==228 then f[b[8514]]=q[b[6708]];elseif b[8401]==238 then f[b[8514]]=f[b[6708]];else f[b[8514]]=l[q[b[6708]]];end bb=bb+1 end end end end else if bd<=1441 then if bd>1437 then if bd>1439 then if bd==1440 then local b=bb local o=i if o[8401]==107 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==114 then local z=o[8514]f[z]=f[z](f[z+1],f[z+2]);else f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+1]if b[8401]==152 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==167 then f[b[8514]]=f[b[6708]];elseif b[8401]==253 then f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+1 end end end else if bd<=1445 then if bd<1444 then if bd>1442 then local b=bb local o=i if o[8401]==214 then local z=o[8514]f[z]=f[z]();elseif o[8401]==139 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==107 then f[o[8514]]=f[o[6708]]*f[o[2781]];end local o=n[b+1]if o[8401]==280 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==211 then f[o[8514]]=q[o[6708]];elseif o[8401]==289 then l[q[o[6708]]]=f[o[8514]];end local o=n[b+2]if o[8401]==275 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==278 then f[o[8514]]=not f[o[6708]];else f[o[8514]]=l[q[o[6708]]];end local b=n[b+3]if b[8401]==214 then f[b[8514]]=-f[b[6708]];elseif b[8401]==80 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==180 then f[b[8514]]=q[b[6708]];end bb=bb+3 end end else if bd<=1447 then if bd~=1446 then local b=bb local o=i if o[8401]==210 then local z=o[8514]f[z]=f[z]();elseif o[8401]==265 then f[o[8514]]=not f[o[6708]];elseif o[8401]==109 then f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==233 then f[o[8514]]=#f[o[6708]];elseif o[8401]==278 then f[o[8514]]=q[o[6708]];else f[o[8514]]=l[q[o[6708]]];end local o=n[b+2]if o[8401]==125 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==136 then f[o[8514]]=f[o[6708]]+f[o[2781]];else f[o[8514]]=-f[o[6708]];end local b=n[b+3]if b[8401]==115 then f[b[8514]]=q[b[6708]];elseif b[8401]==188 then f[b[8514]]=f[b[6708]];elseif b[8401]==213 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+3 end end end end end else if bd>=1398 then if bd<=1406 then if bd>=1403 then if bd>=1405 then if bd<=1405 then local b=bb local o=i if o[8401]==161 then f[o[8514]]=q[o[6708]];elseif o[8401]==175 then f[o[8514]][f[o[6708]]]=f[o[2781]];else f[o[8514]]=-f[o[6708]];end local b=n[b+1]if b[8401]==146 then local o=b[8514]f[o]=f[o](f[o+1],f[o+2]);elseif b[8401]==297 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==274 then l[q[b[6708]]]=f[b[8514]];end bb=bb+1 else local b=bb local o=i if o[8401]==261 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==44 then f[o[8514]]=f[o[6708]]+f[o[2781]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==289 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==138 then f[o[8514]]=f[o[6708]];elseif o[8401]==190 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==151 then f[o[8514]]=-f[o[6708]];elseif o[8401]==275 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+3]if b[8401]==278 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==144 then f[b[8514]]=q[b[6708]];elseif b[8401]==261 then f[b[8514]]=f[b[6708]];end bb=bb+3 end else if bd~=1403 then local b=bb local o=i if o[8401]==191 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==241 then local z=o[8514]f[z]=f[z]();elseif o[8401]==100 then f[o[8514]]=f[o[6708]]-f[o[2781]];end local o=n[b+1]if o[8401]==147 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==62 then f[o[8514]]=q[o[6708]];elseif o[8401]==287 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+2]if o[8401]==67 then f[o[8514]]=q[o[6708]];elseif o[8401]==242 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==143 then f[o[8514]]=f[o[6708]];end local b=n[b+3]if b[8401]==296 then f[b[8514]]=f[b[6708]];elseif b[8401]==83 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==118 then local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+3 end end else if bd<1401 then if bd<=1399 then if bd>1398 then local b=bb local o=i if o[8401]==228 then local z=o[8514]f[z]=f[z]();elseif o[8401]==242 then f[o[8514]]=#f[o[6708]];elseif o[8401]==269 then f[o[8514]]=-f[o[6708]];end local o=n[b+1]if o[8401]==284 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==283 then f[o[8514]]=f[o[6708]];else f[o[8514]]=q[o[6708]];end local o=n[b+2]if o[8401]==166 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==69 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=q[o[6708]];end local b=n[b+3]if b[8401]==271 then f[b[8514]]=f[b[6708]];elseif b[8401]==288 then f[b[8514]]=#f[b[6708]];else f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+3 end end end end end else if bd>1388 then if bd<1394 then if bd>=1392 then if bd~=1392 then local b=bb local o=i if o[8401]==87 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==68 then local z=o[8514]f[z]=f[z]();elseif o[8401]==172 then l[q[o[6708]]]=f[o[8514]];end local o=n[b+1]if o[8401]==156 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==180 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==213 then f[o[8514]]=q[o[6708]];end local o=n[b+2]if o[8401]==59 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==265 then f[o[8514]]=f[o[6708]]*f[o[2781]];else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+3]if b[8401]==245 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==158 then f[b[8514]]=q[b[6708]];else f[b[8514]]=f[b[6708]]-f[b[2781]];end bb=bb+3 end end end end end end else if bd>=1485 then if bd>=1503 then if bd<=1511 then if bd>=1508 then if bd>1509 then if bd<1511 then local b=bb local o=i if o[8401]==248 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==225 then f[o[8514]]=f[o[6708]]/f[o[2781]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==116 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==206 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+2]if b[8401]==114 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==218 then f[b[8514]]=l[q[b[6708]]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end else if bd>=1506 then if bd~=1506 then local b=bb local o=i if o[8401]==187 then f[o[8514]]=q[o[6708]];elseif o[8401]==64 then f[o[8514]]=f[o[6708]]+f[o[2781]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+1]if o[8401]==135 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==90 then f[o[8514]]=f[o[6708]];else f[o[8514]]=#f[o[6708]];end local b=n[b+2]if b[8401]==243 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==239 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==151 then f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+2 end else if bd<=1504 then if bd>1503 then local b=bb local o=i if o[8401]==97 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==106 then f[o[8514]][f[o[6708]]]=f[o[2781]];else f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+1]if b[8401]==262 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==106 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==89 then f[b[8514]]=q[b[6708]];end bb=bb+1 end end end end else if bd>=1516 then if bd>=1518 then if bd~=1518 then local b=bb local o=i if o[8401]==238 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==40 then f[o[8514]]=-f[o[6708]];elseif o[8401]==123 then f[o[8514]]=f[o[6708]];end local b=n[b+1]if b[8401]==70 then local o=b[8514]local z=u[v]u[v]=nil v=v-1 local ba=u[v]u[v]=nil v=v-1 do local z,ba,be=ba(z)f[o]=z f[o+1]=ba f[o+2]=be end elseif b[8401]==187 then f[b[8514]]=q[b[6708]];else f[b[8514]]=f[b[6708]];end bb=bb+1 end end else if bd<1514 then if bd>1512 then local b=bb local o=i if o[8401]==46 then f[o[8514]]=#f[o[6708]];elseif o[8401]==199 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==122 then f[o[8514]]=q[o[6708]];elseif o[8401]==54 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==176 then f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==109 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==257 then f[b[8514]]=f[b[6708]]+f[b[2781]];else f[b[8514]]=l[q[b[6708]]];end bb=bb+2 end end end end else if bd>=1494 then if bd<=1498 then if bd>1496 then if bd==1498 then local b=bb local o=i if o[8401]==295 then f[o[8514]]=q[o[6708]];elseif o[8401]==69 then f[o[8514]]=f[o[6708]];elseif o[8401]==215 then f[o[8514]]=l[q[o[6708]]];end local o=n[b+1]if o[8401]==255 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==140 then f[o[8514]]=f[o[6708]];elseif o[8401]==273 then f[o[8514]]=not f[o[6708]];end local o=n[b+2]if o[8401]==294 then f[o[8514]]=not f[o[6708]];elseif o[8401]==78 then f[o[8514]]=q[o[6708]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+3]if o[8401]==178 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==259 then f[o[8514]]=f[o[6708]]+f[o[2781]];else f[o[8514]]=f[o[6708]];end local b=n[b+4]if b[8401]==222 then f[b[8514]]=#f[b[6708]];elseif b[8401]==124 then f[b[8514]]=not f[b[6708]];elseif b[8401]==172 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+4 end end else if bd>1500 then if bd>=1502 then local b=bb local o=i if o[8401]==280 then f[o[8514]]=not f[o[6708]];elseif o[8401]==114 then local z=o[8514]local ba=u[v]u[v]=nil v=v-1 local be=u[v]u[v]=nil v=v-1 local bf=u[v]u[v]=nil v=v-1 f[z]=bf(be,ba)elseif o[8401]==187 then f[o[8514]]=f[o[6708]]*f[o[2781]];end local o=n[b+1]if o[8401]==219 then f[o[8514]]=not f[o[6708]];elseif o[8401]==277 then f[o[8514]]=#f[o[6708]];else f[o[8514]]=f[o[6708]];end local o=n[b+2]if o[8401]==244 then f[o[8514]]=-f[o[6708]];elseif o[8401]==102 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+3]if b[8401]==222 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==207 then f[b[8514]]=f[b[6708]][f[b[2781]]];else f[b[8514]]=f[b[6708]];end bb=bb+3 end end end else if bd>=1490 then if bd>=1492 then if bd~=1492 then local b=bb local o=i if o[8401]==104 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==225 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+1]if o[8401]==69 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==64 then f[o[8514]]=f[o[6708]];else f[o[8514]]=not f[o[6708]];end local b=n[b+2]if b[8401]==71 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==65 then f[b[8514]]=f[b[6708]];else f[b[8514]]=not f[b[6708]];end bb=bb+2 end else if bd~=1491 then local b=bb local o=i if o[8401]==285 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==157 then f[o[8514]]=q[o[6708]];elseif o[8401]==96 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+1]if o[8401]==182 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==131 then f[o[8514]]=f[o[6708]]/f[o[2781]];else f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==245 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==102 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==223 then f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+2 end end else if bd<=1487 then if bd>=1487 then local b=bb local o=i if o[8401]==268 then f[o[8514]]=-f[o[6708]];elseif o[8401]==53 then f[o[8514]]=q[o[6708]];else f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==56 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==229 then f[o[8514]]=f[o[6708]];elseif o[8401]==278 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+2]if o[8401]==259 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==86 then f[o[8514]]=q[o[6708]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+3]if o[8401]==254 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==250 then f[o[8514]]=f[o[6708]];elseif o[8401]==176 then f[o[8514]]=not f[o[6708]];end local b=n[b+4]if b[8401]==127 then f[b[8514]]=not f[b[6708]];elseif b[8401]==224 then local o=b[8514]local o=f[o]v=v+1 u[v]=o else f[b[8514]]=#f[b[6708]];end bb=bb+4 end end end end end else if bd<=1467 then if bd<=1458 then if bd>=1455 then if bd>1456 then if bd<=1457 then local b=bb local o=i if o[8401]==109 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==137 then local z=o[8514]f[z]=f[z]();elseif o[8401]==123 then f[o[8514]]=-f[o[6708]];end local o=n[b+1]if o[8401]==299 then f[o[8514]]=q[o[6708]];elseif o[8401]==230 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==278 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==250 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==165 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==91 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+3]if b[8401]==128 then f[b[8514]]=q[b[6708]];elseif b[8401]==79 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+3 end end else if bd>=1453 then if bd==1453 then local b=bb local o=i if o[8401]==233 then f[o[8514]]=-f[o[6708]];elseif o[8401]==176 then f[o[8514]]=q[o[6708]];elseif o[8401]==70 then f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+1]if b[8401]==193 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==120 then f[b[8514]][f[b[6708]]]=f[b[2781]];else f[b[8514]]=#f[b[6708]];end bb=bb+1 end else if bd<1452 then if bd~=1451 then local b=bb local o=i if o[8401]==93 then f[o[8514]]=-f[o[6708]];elseif o[8401]==103 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==119 then f[o[8514]]=#f[o[6708]];end local b=n[b+1]if b[8401]==240 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==223 then f[b[8514]]=q[b[6708]];else local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)end bb=bb+1 else local b=bb local o=i if o[8401]==183 then f[o[8514]]=f[o[6708]];elseif o[8401]==152 then local z=o[8514]f[z]=f[z](f[z+1],f[z+2]);elseif o[8401]==269 then l[q[o[6708]]]=f[o[8514]];end local b=n[b+1]if b[8401]==171 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==114 then f[b[8514]]=-f[b[6708]];elseif b[8401]==48 then f[b[8514]]=f[b[6708]];end bb=bb+1 end end end end else if bd<=1463 then if bd<1462 then if bd<=1460 then if bd==1460 then local b=bb local o=i if o[8401]==71 then local z=o[8514]f[z]=f[z]();elseif o[8401]==197 then f[o[8514]]=f[o[6708]]-f[o[2781]];else f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==232 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==292 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]]-f[o[2781]];end local o=n[b+2]if o[8401]==177 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==269 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==157 then l[q[o[6708]]]=f[o[8514]];end local b=n[b+3]if b[8401]==235 then f[b[8514]]=not f[b[6708]];elseif b[8401]==209 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==140 then f[b[8514]]=q[b[6708]];end bb=bb+3 end end end else if bd>=1466 then if bd<=1466 then local b=bb local o=i if o[8401]==171 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==238 then f[o[8514]]=f[o[6708]]/f[o[2781]];else f[o[8514]]=q[o[6708]];end local b=n[b+1]if b[8401]==162 then local o=b[8514]f[o]=f[o](f[o+1],f[o+2]);elseif b[8401]==208 then f[b[8514]]=q[b[6708]];elseif b[8401]==191 then f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+1 end else if bd<1465 then local b=bb local o=i if o[8401]==106 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==123 then local z=o[8514]f[z]=f[z]();else f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+1]if o[8401]==287 then f[o[8514]]=q[o[6708]];elseif o[8401]==197 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==186 then f[o[8514]]=l[q[o[6708]]];end local o=n[b+2]if o[8401]==237 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==257 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==136 then f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+3]if b[8401]==276 then f[b[8514]]=not f[b[6708]];elseif b[8401]==80 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==190 then f[b[8514]]=q[b[6708]];end bb=bb+3 end end end end else if bd>=1477 then if bd<=1480 then if bd<=1478 then if bd<1478 then local b=bb local o=i if o[8401]==262 then f[o[8514]]=f[o[6708]];elseif o[8401]==205 then f[o[8514]][f[o[6708]]]=f[o[2781]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==296 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==299 then f[o[8514]]=f[o[6708]];else f[o[8514]]=not f[o[6708]];end local o=n[b+2]if o[8401]==43 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==123 then f[o[8514]]=f[o[6708]]*f[o[2781]];else f[o[8514]]=not f[o[6708]];end local o=n[b+3]if o[8401]==252 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==295 then f[o[8514]]=not f[o[6708]];else f[o[8514]]=f[o[6708]];end local b=n[b+4]if b[8401]==190 then f[b[8514]]=not f[b[6708]];elseif b[8401]==262 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==275 then f[b[8514]]=l[q[b[6708]]];end bb=bb+4 end end else if bd<1483 then if bd>1481 then local b=bb local o=i if o[8401]==120 then f[o[8514]]=q[o[6708]];elseif o[8401]==266 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=l[q[o[6708]]];end local o=n[b+1]if o[8401]==128 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==263 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==164 then f[o[8514]]=f[o[6708]];end local o=n[b+2]if o[8401]==142 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==166 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==173 then f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+3]if o[8401]==61 then f[o[8514]]=f[o[6708]];elseif o[8401]==220 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==274 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local b=n[b+4]if b[8401]==133 then f[b[8514]]=not f[b[6708]];elseif b[8401]==204 then f[b[8514]]=f[b[6708]];else f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+4 end end end end end end end else if bd<=1589 then if bd>=1555 then if bd<=1572 then if bd<=1563 then if bd<=1559 then if bd<=1557 then if bd<=1556 then if bd>1555 then local b=bb local o=i if o[8401]==54 then f[o[8514]]=#f[o[6708]];elseif o[8401]==80 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==133 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==77 then f[o[8514]]=f[o[6708]];elseif o[8401]==67 then f[o[8514]]=f[o[6708]]-f[o[2781]];else f[o[8514]]=q[o[6708]];end local b=n[b+2]if b[8401]==78 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==224 then f[b[8514]]=-f[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end else if bd>1558 then local b=bb local o=i if o[8401]==155 then f[o[8514]]=q[o[6708]];elseif o[8401]==262 then f[o[8514]]=f[o[6708]]+f[o[2781]];else f[o[8514]]=not f[o[6708]];end local o=n[b+1]if o[8401]==42 then f[o[8514]]=f[o[6708]];elseif o[8401]==122 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==66 then f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+2]if b[8401]==148 then f[b[8514]]=not f[b[6708]];elseif b[8401]==45 then f[b[8514]]=f[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end else if bd>=1562 then if bd<1563 then local b=bb local o=i if o[8401]==68 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==154 then f[o[8514]]=q[o[6708]];elseif o[8401]==210 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+1]if o[8401]==66 then f[o[8514]]=f[o[6708]];elseif o[8401]==56 then f[o[8514]]=-f[o[6708]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+2]if b[8401]==117 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==141 then f[b[8514]][f[b[6708]]]=f[b[2781]];else f[b[8514]]=l[q[b[6708]]];end bb=bb+2 end end end else if bd<1569 then if bd<1567 then if bd<=1565 then if bd<1565 then local b=bb local o=i if o[8401]==203 then f[o[8514]]=q[o[6708]];elseif o[8401]==147 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==60 then f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==291 then f[o[8514]]=not f[o[6708]];elseif o[8401]==288 then f[o[8514]]=f[o[6708]];else l[q[o[6708]]]=f[o[8514]];end local b=n[b+2]if b[8401]==254 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==287 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==171 then f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end end end end else if bd<=1581 then if bd<=1577 then if bd>=1576 then if bd~=1576 then local b=bb local o=i if o[8401]==290 then f[o[8514]]=#f[o[6708]];elseif o[8401]==91 then f[o[8514]]=f[o[6708]];elseif o[8401]==219 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==43 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==149 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==292 then f[o[8514]]=q[o[6708]];end local b=n[b+2]if b[8401]==264 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==40 then f[b[8514]]=q[b[6708]];elseif b[8401]==55 then f[b[8514]]=f[b[6708]];end bb=bb+2 end else if bd<=1574 then if bd==1574 then local b=bb local o=i if o[8401]==82 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==75 then f[o[8514]]=q[o[6708]];elseif o[8401]==154 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+1]if o[8401]==92 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==238 then local z=o[8514]local ba=u[v]u[v]=nil v=v-1 f[z]=ba()else l[q[o[6708]]]=f[o[8514]];end local o=n[b+2]if o[8401]==260 then f[o[8514]]=f[o[6708]];elseif o[8401]==129 then f[o[8514]]=not f[o[6708]];else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+3]if b[8401]==126 then f[b[8514]]=not f[b[6708]];elseif b[8401]==263 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==277 then f[b[8514]]=q[b[6708]];end bb=bb+3 end end end else if bd>=1580 then if bd<=1580 then local b=bb local o=i if o[8401]==183 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==160 then f[o[8514]]=#f[o[6708]];else f[o[8514]]=f[o[6708]]-f[o[2781]];end local o=n[b+1]if o[8401]==253 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==116 then f[o[8514]]=-f[o[6708]];else local o=o[8514]local o=u[v]u[v]=nil v=v-1 local z=u[v]u[v]=nil v=v-1 z(o)end local b=n[b+2]if b[8401]==73 then f[b[8514]]=-f[b[6708]];elseif b[8401]==85 then f[b[8514]]=q[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end end else if bd>=1586 then if bd>=1588 then if bd~=1588 then local b=bb local o=i if o[8401]==227 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==155 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==172 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==197 then local z=o[8514]local ba=u[v]u[v]=nil v=v-1 local be=u[v]u[v]=nil v=v-1 local bf=u[v]u[v]=nil v=v-1 f[z]=bf(be,ba)elseif o[8401]==297 then f[o[8514]]=f[o[6708]]+f[o[2781]];else f[o[8514]]=f[o[6708]];end local o=n[b+2]if o[8401]==168 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==252 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==69 then f[o[8514]]=not f[o[6708]];end local o=n[b+3]if o[8401]==121 then f[o[8514]]=f[o[6708]];elseif o[8401]==187 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+4]if b[8401]==100 then f[b[8514]]=q[b[6708]];elseif b[8401]==219 then f[b[8514]]=f[b[6708]];else f[b[8514]]=not f[b[6708]];end bb=bb+4 end end end end end else if bd<=1537 then if bd>=1529 then if bd>=1534 then if bd<1536 then if bd~=1534 then local b=bb local o=i if o[8401]==151 then f[o[8514]]=not f[o[6708]];elseif o[8401]==226 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==275 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==105 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==246 then f[o[8514]]=f[o[6708]];elseif o[8401]==229 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+2]if b[8401]==59 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==120 then f[b[8514]]=-f[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end else if bd>1531 then if bd<=1532 then local b=bb local o=i if o[8401]==193 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==91 then f[o[8514]]=q[o[6708]];else f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==281 then f[o[8514]]=#f[o[6708]];elseif o[8401]==122 then f[o[8514]]=f[o[6708]]*f[o[2781]];else f[o[8514]]=f[o[6708]];end local o=n[b+2]if o[8401]==43 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==202 then f[o[8514]]=f[o[6708]];elseif o[8401]==196 then f[o[8514]]=#f[o[6708]];end local b=n[b+3]if b[8401]==94 then f[b[8514]]=f[b[6708]];elseif b[8401]==257 then f[b[8514]]=f[b[6708]]*f[b[2781]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+3 end end end else if bd>=1525 then if bd<=1526 then if bd~=1526 then local b=bb local o=i if o[8401]==165 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==155 then f[o[8514]]=q[o[6708]];elseif o[8401]==86 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==242 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==113 then f[o[8514]]=f[o[6708]];else f[o[8514]]=-f[o[6708]];end local b=n[b+2]if b[8401]==113 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==43 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==48 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)end bb=bb+2 end else if bd>1527 then local b=bb local o=i if o[8401]==69 then f[o[8514]]=q[o[6708]];elseif o[8401]==111 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==141 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==205 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==294 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==233 then f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==222 then f[b[8514]]=#f[b[6708]];elseif b[8401]==162 then f[b[8514]]=f[b[6708]];elseif b[8401]==261 then f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end else if bd<=1522 then if bd<=1521 then if bd<=1520 then local b=bb local o=i if o[8401]==163 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==145 then f[o[8514]]=q[o[6708]];elseif o[8401]==240 then f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==261 then f[o[8514]]=f[o[6708]];elseif o[8401]==65 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==255 then f[o[8514]]=-f[o[6708]];end local b=n[b+2]if b[8401]==245 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==284 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==104 then f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+2 end else local b=bb local o=i if o[8401]==249 then f[o[8514]]=-f[o[6708]];elseif o[8401]==288 then f[o[8514]]=q[o[6708]];else f[o[8514]]=not f[o[6708]];end local o=n[b+1]if o[8401]==85 then f[o[8514]]=f[o[6708]];elseif o[8401]==136 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==274 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+2]if b[8401]==256 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==253 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==267 then f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+2 end end end end else if bd>=1547 then if bd<=1550 then if bd>=1549 then if bd~=1549 then local b=bb local o=i if o[8401]==78 then f[o[8514]]=#f[o[6708]];elseif o[8401]==132 then f[o[8514]]=q[o[6708]];elseif o[8401]==83 then f[o[8514]]=f[o[6708]]*f[o[2781]];end local o=n[b+1]if o[8401]==256 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==74 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]]+f[o[2781]];end local b=n[b+2]if b[8401]==140 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==134 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==251 then f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end else if bd<1548 then local b=bb local o=i if o[8401]==182 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==104 then f[o[8514]]=-f[o[6708]];elseif o[8401]==199 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+1]if b[8401]==142 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==127 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==245 then f[b[8514]]=q[b[6708]];end bb=bb+1 end end else if bd>1552 then if bd<=1553 then local b=bb local o=i if o[8401]==216 then f[o[8514]]=-f[o[6708]];elseif o[8401]==154 then f[o[8514]]=f[o[6708]]-f[o[2781]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==151 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==245 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==94 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==104 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==192 then f[b[8514]]=l[q[b[6708]]];end bb=bb+2 end end end else if bd<=1542 then if bd<1541 then if bd>=1540 then local b=bb local o=i if o[8401]==40 then f[o[8514]]=q[o[6708]];elseif o[8401]==90 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==157 then l[q[o[6708]]]=f[o[8514]];end local o=n[b+1]if o[8401]==284 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==187 then f[o[8514]]=f[o[6708]];else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+2]if o[8401]==198 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==271 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==139 then l[q[o[6708]]]=f[o[8514]];end local o=n[b+3]if o[8401]==256 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==85 then f[o[8514]]=#f[o[6708]];else f[o[8514]]=f[o[6708]];end local b=n[b+4]if b[8401]==224 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==200 then f[b[8514]]=not f[b[6708]];elseif b[8401]==160 then f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+4 end end else if bd>1544 then if bd~=1546 then local b=bb local o=i if o[8401]==96 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==55 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==178 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==50 then f[o[8514]]=f[o[6708]];elseif o[8401]==200 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==86 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+2]if b[8401]==227 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==269 then f[b[8514]]=f[b[6708]]+f[b[2781]];else f[b[8514]]=-f[b[6708]];end bb=bb+2 end end end end end end else if bd>=1625 then if bd>=1642 then if bd<=1650 then if bd<=1646 then if bd>1644 then if bd>1645 then local b=bb local o=i if o[8401]==269 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==82 then l[q[o[6708]]]=f[o[8514]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+1]if o[8401]==220 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==154 then f[o[8514]]=f[o[6708]]+f[o[2781]];else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+2]if o[8401]==209 then f[o[8514]]=#f[o[6708]];elseif o[8401]==275 then local z=o[8514]local ba=u[v]u[v]=nil v=v-1 local be=u[v]u[v]=nil v=v-1 f[z]=be(ba)else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+3]if o[8401]==209 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==299 then f[o[8514]]=f[o[6708]];elseif o[8401]==248 then f[o[8514]]=not f[o[6708]];end local b=n[b+4]if b[8401]==123 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==128 then f[b[8514]]=f[b[6708]]*f[b[2781]];else f[b[8514]]=q[b[6708]];end bb=bb+4 end end else if bd>1648 then if bd>=1650 then local b=bb local o=i if o[8401]==227 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==170 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=l[q[o[6708]]];end local b=n[b+1]if b[8401]==151 then local o=b[8514]local z=u[v]u[v]=nil v=v-1 f[o]=z()elseif b[8401]==76 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==111 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+1 end end end else if bd>=1655 then if bd>=1657 then if bd>=1658 then if bd>1658 then if bd<=1659 then local b,o=i[8514],(i[2781]*100)local z=f[b]do local b,ba=f[b+1],f[b+2]z[o+1]=b z[o+2]=ba end end end end end else if bd>1652 then if bd==1653 then local b=bb local o=i if o[8401]==239 then f[o[8514]]=q[o[6708]];elseif o[8401]==181 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==129 then f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==70 then f[o[8514]]=-f[o[6708]];elseif o[8401]==282 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+2]if b[8401]==292 then f[b[8514]]=f[b[6708]];elseif b[8401]==205 then f[b[8514]]=#f[b[6708]];else f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+2 end end end end else if bd<=1633 then if bd>=1630 then if bd<=1631 then if bd<1631 then local b=bb local o=i if o[8401]==242 then f[o[8514]]=-f[o[6708]];elseif o[8401]==221 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=#f[o[6708]];end local b=n[b+1]if b[8401]==238 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==229 then f[b[8514]]=f[b[6708]]*f[b[2781]];else local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)end bb=bb+1 end end else if bd>=1628 then if bd<=1628 then local b=bb local o=i if o[8401]==186 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==276 then f[o[8514]]=not f[o[6708]];else local o=o[8514]local z=u[v]u[v]=nil v=v-1 local ba=u[v]u[v]=nil v=v-1 f[o]=ba(z)end local o=n[b+1]if o[8401]==233 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==229 then f[o[8514]]=f[o[6708]]*f[o[2781]];else f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==116 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==181 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==224 then f[b[8514]]=q[b[6708]];end bb=bb+2 end else if bd<=1626 then if bd==1625 then local b=bb local o=i if o[8401]==80 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==54 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==266 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==88 then f[o[8514]]=-f[o[6708]];elseif o[8401]==286 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+2]if b[8401]==197 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==121 then f[b[8514]]=q[b[6708]];else f[b[8514]]=not f[b[6708]];end bb=bb+2 end end end end else if bd>1637 then if bd>=1640 then if bd==1641 then local b=bb local o=i if o[8401]==41 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==287 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==202 then f[o[8514]]=f[o[6708]];end local b=n[b+1]if b[8401]==262 then f[b[8514]]=f[b[6708]];elseif b[8401]==184 then f[b[8514]]=f[b[6708]]*f[b[2781]];else f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+1 end else if bd~=1638 then local b=bb local o=i if o[8401]==70 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==75 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else l[q[o[6708]]]=f[o[8514]];end local o=n[b+1]if o[8401]==236 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==112 then f[o[8514]]=f[o[6708]]*f[o[2781]];else f[o[8514]]=f[o[6708]];end local o=n[b+2]if o[8401]==180 then f[o[8514]]=q[o[6708]];elseif o[8401]==118 then f[o[8514]]=f[o[6708]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+3]if o[8401]==268 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==150 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=-f[o[6708]];end local b=n[b+4]if b[8401]==276 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==167 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==201 then f[b[8514]]=q[b[6708]];end bb=bb+4 end end end end end else if bd>=1608 then if bd>=1617 then if bd>=1621 then if bd<=1622 then if bd~=1621 then local b=bb local o=i if o[8401]==144 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==84 then f[o[8514]]=f[o[6708]]-f[o[2781]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local o=n[b+1]if o[8401]==257 then local z=o[8514]local ba=u[v]u[v]=nil v=v-1 f[z]=ba()elseif o[8401]==115 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==113 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==256 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==205 then f[o[8514]]=f[o[6708]];elseif o[8401]==166 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+3]if b[8401]==123 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==256 then f[b[8514]]=q[b[6708]];elseif b[8401]==284 then f[b[8514]]=f[b[6708]];end bb=bb+3 end end else if bd<1619 then if bd~=1617 then local b=bb local o=i if o[8401]==122 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==90 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==243 then f[o[8514]]=#f[o[6708]];end local b=n[b+1]if b[8401]==172 then f[b[8514]]=q[b[6708]];elseif b[8401]==40 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==208 then f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+1 end end end else if bd>=1613 then if bd>1614 then if bd~=1615 then local b=bb local o=i if o[8401]==147 then f[o[8514]]=q[o[6708]];elseif o[8401]==202 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==78 then f[o[8514]]=-f[o[6708]];end local o=n[b+1]if o[8401]==103 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==197 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=not f[o[6708]];end local o=n[b+2]if o[8401]==177 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==159 then f[o[8514]]=f[o[6708]];else f[o[8514]]=#f[o[6708]];end local b=n[b+3]if b[8401]==135 then f[b[8514]]=#f[b[6708]];elseif b[8401]==221 then f[b[8514]]=not f[b[6708]];else f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+3 end end else if bd>1610 then if bd==1611 then local b=bb local o=i if o[8401]==263 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==147 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==233 then f[o[8514]]=l[q[o[6708]]];end local o=n[b+1]if o[8401]==88 then f[o[8514]]=-f[o[6708]];elseif o[8401]==152 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==166 then f[o[8514]]=q[o[6708]];end local o=n[b+2]if o[8401]==282 then f[o[8514]]=not f[o[6708]];elseif o[8401]==124 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+3]if b[8401]==292 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==260 then f[b[8514]]=not f[b[6708]];else f[b[8514]]=f[b[6708]];end bb=bb+3 else local b=bb local o=i if o[8401]==102 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==283 then f[o[8514]]=#f[o[6708]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==144 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==195 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+2]if b[8401]==41 then f[b[8514]]=q[b[6708]];elseif b[8401]==239 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==145 then f[b[8514]]=not f[b[6708]];end bb=bb+2 end end end end else if bd>=1599 then if bd<=1603 then if bd>=1602 then if bd~=1603 then local b=bb local o=i if o[8401]==229 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==269 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==271 then f[o[8514]]=q[o[6708]];end local b=n[b+1]if b[8401]==228 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==119 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)else f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+1 end else if bd<1601 then if bd==1600 then local b=bb local o=i if o[8401]==181 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==190 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==94 then f[o[8514]]=q[o[6708]];end local b=n[b+1]if b[8401]==216 then f[b[8514]]=-f[b[6708]];elseif b[8401]==256 then f[b[8514]]=q[b[6708]];elseif b[8401]==52 then local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+1 end end end else if bd<=1605 then if bd==1604 then local b=bb local o=i if o[8401]==141 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==261 then f[o[8514]]=not f[o[6708]];elseif o[8401]==116 then f[o[8514]]=q[o[6708]];end local b=n[b+1]if b[8401]==243 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==106 then f[b[8514]]=not f[b[6708]];elseif b[8401]==126 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+1 end else if bd>=1607 then local b=bb local o=i if o[8401]==193 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==90 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==81 then f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==72 then f[o[8514]]=#f[o[6708]];elseif o[8401]==59 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==274 then f[o[8514]]=f[o[6708]]*f[o[2781]];end local b=n[b+2]if b[8401]==213 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==105 then f[b[8514]]=-f[b[6708]];elseif b[8401]==150 then f[b[8514]]=q[b[6708]];end bb=bb+2 end end end else if bd>=1595 then if bd>=1597 then if bd==1598 then local b=bb local o=i if o[8401]==149 then f[o[8514]]=f[o[6708]];elseif o[8401]==89 then f[o[8514]]=-f[o[6708]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==198 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==136 then f[o[8514]]=l[q[o[6708]]];else l[q[o[6708]]]=f[o[8514]];end local b=n[b+2]if b[8401]==106 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==228 then f[b[8514]]=f[b[6708]];else f[b[8514]]=not f[b[6708]];end bb=bb+2 end else if bd<=1595 then local b=bb local o=i if o[8401]==178 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==91 then f[o[8514]]=#f[o[6708]];else f[o[8514]]=f[o[6708]]*f[o[2781]];end local b=n[b+1]if b[8401]==266 then f[b[8514]]=#f[b[6708]];elseif b[8401]==236 then f[b[8514]]=f[b[6708]];else f[b[8514]]=q[b[6708]];end bb=bb+1 end end else if bd>=1593 then if bd~=1594 then local b=bb local o=i if o[8401]==243 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==244 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=f[o[6708]]*f[o[2781]];end local b=n[b+1]if b[8401]==184 then f[b[8514]]=q[b[6708]];elseif b[8401]==236 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==110 then local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+1 end else if bd<1592 then if bd==1591 then local b=bb local o=i if o[8401]==67 then f[o[8514]]=f[o[6708]];elseif o[8401]==52 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==76 then f[o[8514]]=-f[o[6708]];end local o=n[b+1]if o[8401]==117 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==172 then f[o[8514]]=q[o[6708]];elseif o[8401]==142 then f[o[8514]]=l[q[o[6708]]];end local o=n[b+2]if o[8401]==145 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==117 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==228 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+3]if o[8401]==152 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==81 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+4]if o[8401]==263 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==97 then f[o[8514]]=q[o[6708]];elseif o[8401]==61 then f[o[8514]]=f[o[6708]]*f[o[2781]];end local b=n[b+5]if b[8401]==239 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==237 then f[b[8514]]=f[b[6708]]*f[b[2781]];else local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+5 end end end end end end end end end end else if bd<=819 then if bd>=680 then if bd>=750 then if bd<=784 then if bd>=768 then if bd>=777 then if bd<=780 then if bd<=778 then if bd<778 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-28),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+11),[6708]=(i[6708]-35),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<780 then n[f[i[8401]]]={[8514]=(i[8514]+1),[6708]=(i[6708]+3),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-13),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=783 then if bd==783 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+40),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-24),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd==781 then n[f[i[8401]]]={[8514]=(i[8514]-20),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+22),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd>=773 then if bd>=775 then if bd==775 then n[f[i[8401]]]={[8514]=(i[8514]-17),[6708]=(i[6708]+21),[2781]=(i[2781]+21),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-29),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<774 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-30),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-37),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=771 then if bd<=771 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+32),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+1),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=769 then if bd~=769 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+13),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+35),[6708]=(i[6708]-40),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-14),[2326]=n[f[i[8401]]][2326]}end end end end else if bd>=759 then if bd<=763 then if bd<=761 then if bd>=761 then n[f[i[8401]]]={[8514]=(i[8514]-33),[6708]=i[6708],[2781]=(i[2781]+39),[2326]=n[f[i[8401]]][2326]}else if bd<=759 then n[f[i[8401]]]={[8514]=(i[8514]-10),[6708]=i[6708],[2781]=(i[2781]+27),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-31),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd~=763 then n[f[i[8401]]]={[8514]=(i[8514]+2),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+9),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=765 then if bd<765 then n[f[i[8401]]]={[8514]=(i[8514]+12),[6708]=(i[6708]+6),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-26),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=766 then n[f[i[8401]]]={[8514]=(i[8514]-12),[6708]=i[6708],[2781]=(i[2781]-23),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+32),[6708]=i[6708],[2781]=(i[2781]-34),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=755 then if bd<=756 then if bd<756 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+19),[2781]=(i[2781]+5),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+36),[2326]=n[f[i[8401]]][2326]}end else if bd==757 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-29),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+3),[6708]=(i[6708]+9),[2781]=(i[2781]-13),[2326]=n[f[i[8401]]][2326]}end end else if bd>=753 then if bd~=754 then n[f[i[8401]]]={[8514]=(i[8514]-3),[6708]=i[6708],[2781]=(i[2781]-25),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+34),[2326]=n[f[i[8401]]][2326]}end else if bd<=751 then if bd~=751 then n[f[i[8401]]]={[8514]=(i[8514]-27),[6708]=(i[6708]-2),[2781]=(i[2781]-8),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-2),[6708]=(i[6708]+35),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-15),[6708]=(i[6708]+29),[2781]=(i[2781]-20),[2326]=n[f[i[8401]]][2326]}end end end end end else if bd>=803 then if bd>=812 then if bd>=816 then if bd<=817 then if bd==816 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-4),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+13),[2326]=n[f[i[8401]]][2326]}end else if bd<=818 then n[f[i[8401]]]={[8514]=(i[8514]-12),[6708]=(i[6708]+11),[2781]=(i[2781]-21),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-30),[6708]=i[6708],[2781]=(i[2781]-30),[2326]=n[f[i[8401]]][2326]}end end else if bd<=813 then if bd<=812 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+21),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+1),[6708]=(i[6708]-38),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<815 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+7),[2781]=(i[2781]-26),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-23),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=808 then if bd<=809 then if bd==808 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+35),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-27),[6708]=i[6708],[2781]=(i[2781]+1),[2326]=n[f[i[8401]]][2326]}end else if bd~=811 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+20),[2781]=(i[2781]-17),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-24),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=805 then if bd>=805 then n[f[i[8401]]]={[8514]=(i[8514]+47),[6708]=(i[6708]-27),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else if bd~=804 then n[f[i[8401]]]={[8514]=(i[8514]+40),[6708]=(i[6708]-18),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+35),[6708]=i[6708],[2781]=(i[2781]-35),[2326]=n[f[i[8401]]][2326]}end end else if bd<807 then n[f[i[8401]]]={[8514]=(i[8514]-2),[6708]=(i[6708]+36),[2781]=(i[2781]+27),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+31),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end else if bd<=793 then if bd>=790 then if bd>=792 then if bd==792 then n[f[i[8401]]]={[8514]=(i[8514]-5),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-10),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<791 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-27),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-17),[6708]=(i[6708]+25),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=787 then if bd>=787 then n[f[i[8401]]]={[8514]=(i[8514]+42),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else if bd==785 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-8),[2781]=(i[2781]-39),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-25),[6708]=i[6708],[2781]=(i[2781]-26),[2326]=n[f[i[8401]]][2326]}end end else if bd~=789 then n[f[i[8401]]]={[8514]=(i[8514]-44),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-38),[6708]=i[6708],[2781]=(i[2781]-12),[2326]=n[f[i[8401]]][2326]}end end end else if bd<=798 then if bd<=796 then if bd<=795 then if bd==794 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+1),[2781]=(i[2781]+9),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-13),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+12),[2326]=n[f[i[8401]]][2326]}end else if bd==797 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+21),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+25),[6708]=(i[6708]+20),[2781]=(i[2781]+24),[2326]=n[f[i[8401]]][2326]}end end else if bd<=800 then if bd==799 then n[f[i[8401]]]={[8514]=(i[8514]-8),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+23),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd~=802 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+48),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-17),[6708]=(i[6708]-13),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end end end else if bd<=714 then if bd<=697 then if bd>=689 then if bd<=693 then if bd<=691 then if bd>=691 then n[f[i[8401]]]={[8514]=(i[8514]+25),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else if bd~=690 then n[f[i[8401]]]={[8514]=(i[8514]-8),[6708]=(i[6708]+3),[2781]=(i[2781]-31),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-7),[2326]=n[f[i[8401]]][2326]}end end else if bd==692 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+14),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+22),[6708]=(i[6708]+34),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=696 then if bd<697 then n[f[i[8401]]]={[8514]=(i[8514]+38),[6708]=(i[6708]-1),[2781]=(i[2781]-16),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+30),[2781]=(i[2781]-26),[2326]=n[f[i[8401]]][2326]}end else if bd<=694 then n[f[i[8401]]]={[8514]=(i[8514]-30),[6708]=(i[6708]-9),[2781]=(i[2781]+22),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+35),[6708]=(i[6708]-37),[2781]=(i[2781]+10),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=685 then if bd<=686 then if bd==685 then local b=i[6708]local o=i[8514]local b=f[b]if not b then bb=o;end;else bb=i[8514];end else if bd==687 then f[i[6708]]=f[i[8514]];else bb=i[8514];end end else if bd>=683 then if bd<=683 then bb=i[8514];else do return end end else if bd<=681 then if bd<681 then local b=i[6708]local b=f[b]v=v+1 u[v]=b else local b,o,z=i[6708],i[8514],i[2781]local o=r[o]local b=f[b]for ba=1,#o do if b==nil then break end b=b[q[o[ba]]]end f[z]=b end else local b,o=f[i[8514]],i[6708]f[o]=b[f[i[2781]]];f[o+1]=b;end end end end else if bd>=707 then if bd>=711 then if bd<=712 then if bd==711 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+34),[2781]=(i[2781]-25),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-33),[6708]=(i[6708]+3),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=713 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+19),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+16),[2326]=n[f[i[8401]]][2326]}end end else if bd<=708 then if bd==707 then n[f[i[8401]]]={[8514]=(i[8514]-20),[6708]=(i[6708]-18),[2781]=(i[2781]+15),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+8),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd~=710 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-1),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+33),[6708]=(i[6708]+25),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd<=702 then if bd>=701 then if bd==701 then n[f[i[8401]]]={[8514]=(i[8514]+1),[6708]=(i[6708]+27),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-12),[2326]=n[f[i[8401]]][2326]}end else if bd>=700 then n[f[i[8401]]]={[8514]=(i[8514]-28),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else if bd==698 then n[f[i[8401]]]={[8514]=(i[8514]+12),[6708]=(i[6708]+13),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+10),[6708]=(i[6708]+15),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd<=704 then if bd<704 then n[f[i[8401]]]={[8514]=(i[8514]+41),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+3),[6708]=(i[6708]-16),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<706 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+14),[2781]=(i[2781]+32),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-22),[2326]=n[f[i[8401]]][2326]}end end end end end else if bd<=732 then if bd<=723 then if bd<=719 then if bd<=717 then if bd<=716 then if bd<=715 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-21),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+14),[2781]=(i[2781]+26),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]+33),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd==718 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-19),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+28),[6708]=(i[6708]+23),[2781]=(i[2781]-8),[2326]=n[f[i[8401]]][2326]}end end else if bd<=721 then if bd<721 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+19),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+40),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<723 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+20),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-2),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd>=729 then if bd>=731 then if bd<732 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+34),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+39),[2781]=(i[2781]+13),[2326]=n[f[i[8401]]][2326]}end else if bd==729 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+8),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-33),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=726 then if bd<=725 then if bd~=725 then n[f[i[8401]]]={[8514]=(i[8514]+15),[6708]=(i[6708]-39),[2781]=(i[2781]+17),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-24),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]+19),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<728 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-28),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+34),[2326]=n[f[i[8401]]][2326]}end end end end else if bd>=742 then if bd<=745 then if bd<=743 then if bd~=743 then n[f[i[8401]]]={[8514]=(i[8514]+6),[6708]=(i[6708]-36),[2781]=(i[2781]-34),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+19),[2326]=n[f[i[8401]]][2326]}end else if bd<=744 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-11),[2781]=(i[2781]+22),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+14),[2781]=(i[2781]-27),[2326]=n[f[i[8401]]][2326]}end end else if bd<=747 then if bd<=746 then n[f[i[8401]]]={[8514]=(i[8514]+14),[6708]=(i[6708]+12),[2781]=(i[2781]-13),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+39),[2326]=n[f[i[8401]]][2326]}end else if bd==748 then n[f[i[8401]]]={[8514]=(i[8514]+28),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+41),[6708]=i[6708],[2781]=(i[2781]-27),[2326]=n[f[i[8401]]][2326]}end end end else if bd<=737 then if bd>=736 then if bd==736 then n[f[i[8401]]]={[8514]=(i[8514]+32),[6708]=(i[6708]+19),[2781]=(i[2781]-29),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-40),[6708]=(i[6708]+19),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=734 then if bd==733 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+25),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+25),[6708]=(i[6708]-8),[2781]=(i[2781]+10),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]+40),[6708]=(i[6708]+21),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=740 then if bd~=741 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-21),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+34),[6708]=(i[6708]-31),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<739 then n[f[i[8401]]]={[8514]=(i[8514]-34),[6708]=i[6708],[2781]=(i[2781]-36),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-14),[2326]=n[f[i[8401]]][2326]}end end end end end end end else if bd>=610 then if bd<=644 then if bd>=628 then if bd<=636 then if bd<=632 then if bd>=631 then if bd~=632 then n[f[i[8401]]]={[8514]=(i[8514]+22),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-20),[6708]=(i[6708]-6),[2781]=(i[2781]+16),[2326]=n[f[i[8401]]][2326]}end else if bd<=629 then if bd<=628 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-19),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+27),[2781]=(i[2781]+34),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-6),[6708]=i[6708],[2781]=(i[2781]+18),[2326]=n[f[i[8401]]][2326]}end end else if bd<=634 then if bd~=634 then n[f[i[8401]]]={[8514]=(i[8514]-37),[6708]=(i[6708]+26),[2781]=(i[2781]-15),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+40),[6708]=i[6708],[2781]=(i[2781]-31),[2326]=n[f[i[8401]]][2326]}end else if bd<636 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-11),[2781]=(i[2781]+17),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+24),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd>=641 then if bd<=642 then if bd<=641 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-12),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-13),[2781]=(i[2781]+26),[2326]=n[f[i[8401]]][2326]}end else if bd~=644 then n[f[i[8401]]]={[8514]=(i[8514]-21),[6708]=i[6708],[2781]=(i[2781]-9),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-13),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=638 then if bd<=637 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+32),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+21),[6708]=(i[6708]-5),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=639 then n[f[i[8401]]]={[8514]=(i[8514]-13),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+36),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end else if bd<=618 then if bd<=614 then if bd>=613 then if bd<=613 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+39),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-9),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=611 then if bd~=611 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+36),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-28),[6708]=(i[6708]-34),[2781]=(i[2781]-22),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+15),[2781]=(i[2781]-40),[2326]=n[f[i[8401]]][2326]}end end else if bd>=617 then if bd~=618 then n[f[i[8401]]]={[8514]=(i[8514]+38),[6708]=i[6708],[2781]=(i[2781]-6),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+9),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=615 then n[f[i[8401]]]={[8514]=(i[8514]+17),[6708]=(i[6708]-27),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-2),[6708]=(i[6708]+18),[2781]=(i[2781]-20),[2326]=n[f[i[8401]]][2326]}end end end else if bd<=623 then if bd>=622 then if bd<623 then n[f[i[8401]]]={[8514]=(i[8514]+7),[6708]=(i[6708]-32),[2781]=(i[2781]-18),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+37),[2781]=(i[2781]-31),[2326]=n[f[i[8401]]][2326]}end else if bd>=621 then n[f[i[8401]]]={[8514]=(i[8514]+5),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else if bd==619 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-23),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+4),[6708]=i[6708],[2781]=(i[2781]+16),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=626 then if bd==626 then n[f[i[8401]]]={[8514]=(i[8514]+6),[6708]=(i[6708]+31),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-18),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd~=625 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+23),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-21),[6708]=(i[6708]+2),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end end else if bd<=662 then if bd>=654 then if bd<=658 then if bd<=656 then if bd>=656 then local b=i[6708]local b=i[8514]local b=b local o=v local b=o-b+1 local z=u[b]z(k(u,b+1,o))for z=o,b,-1 do u[z]=nil end v=b-1 else if bd<=654 then local b=i[6708]local b=f[b]v=v+1 u[v]=b else f[i[6708]]=f[i[8514]][f[i[2781]]];end end else if bd<=657 then do return end else local b=i[6708]local b=f[b]v=v+1 u[v]=b end end else if bd<=660 then if bd~=660 then local b=i[6708]local b=f[b]v=v+1 u[v]=b else bb=i[8514];end else if bd<=661 then local b,o=f[i[8514]],i[6708]f[o]=b[f[i[2781]]];f[o+1]=b;else local b=i[6708]local b=f[b]v=v+1 u[v]=b end end end else if bd>=650 then if bd<=651 then if bd~=651 then f[i[6708]]=f[i[8514]];else f[i[6708]]=f[i[8514]];end else if bd~=653 then local b=i[6708]local b=i[8514]local b=b local o=v local b=o-b+1 local z=u[b]z(k(u,b+1,o))for z=o,b,-1 do u[z]=nil end v=b-1 else f[i[6708]]=f[i[8514]];end end else if bd<=647 then if bd<=646 then if bd<646 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-20),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else f[i[6708]]=f[i[8514]][f[i[2781]]];end else local b=i[6708]local o=i[8514]local o=(o==0)and bc or(b+o-1)for z=b,o do v=v+1 u[v]=f[z]end end else if bd==648 then local b,o=f[i[8514]],i[6708]f[o]=b[f[i[2781]]];f[o+1]=b;else local b,o=f[i[8514]],i[6708]f[o]=b[f[i[2781]]];f[o+1]=b;end end end end else if bd>=672 then if bd>=676 then if bd>=678 then if bd<679 then local b=i[6708]local b=f[b]v=v+1 u[v]=b else local b=i[6708]f[b]=f[b](f[b+1],f[b+2]);end else if bd<=676 then local b=i[6708]local b=f[b]v=v+1 u[v]=b else local b=i[6708]local o=u[v]u[v]=nil v=v-1 local z=u[v]u[v]=nil v=v-1 local ba=u[v]u[v]=nil v=v-1 f[b]=ba(z,o)end end else if bd<=673 then if bd<=672 then bb=i[8514];else local b,o=f[i[8514]],i[6708]f[o]=b[f[i[2781]]];f[o+1]=b;end else if bd<=674 then bb=i[8514];else local b=i[6708]local o=i[8514]local b=f[b]if not b then bb=o;end;end end end else if bd<=667 then if bd>=666 then if bd<=666 then n[f[i[8401]]]={[8514]=(i[8514]-14),[6708]=i[6708],[2781]=(i[2781]-35),[2326]=n[f[i[8401]]][2326]}else local b=i[6708]local b=f[b]v=v+1 u[v]=b end else if bd>=665 then bb=i[8514];else if bd<=663 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+16),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-18),[6708]=(i[6708]+44),[2781]=(i[2781]-35),[2326]=n[f[i[8401]]][2326]}end end end else if bd<=669 then if bd<669 then local b=i[6708]f[b]=f[b]();else local b=i[8514]f[b]=f[b](k(f,b+1,bc))end else if bd~=671 then local b,o=i[6708],(i[2781]*100)local z=f[b]do local b,ba=f[b+1],f[b+2]z[o+1]=b z[o+2]=ba end else bb=i[8514];end end end end end end else if bd<=574 then if bd>=558 then if bd>=567 then if bd<=570 then if bd>=569 then if bd~=570 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-31),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+33),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=567 then n[f[i[8401]]]={[8514]=(i[8514]+29),[6708]=(i[6708]+14),[2781]=(i[2781]-20),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+5),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=573 then if bd~=574 then n[f[i[8401]]]={[8514]=(i[8514]+14),[6708]=(i[6708]-23),[2781]=(i[2781]+45),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-3),[2326]=n[f[i[8401]]][2326]}end else if bd==571 then n[f[i[8401]]]={[8514]=(i[8514]-13),[6708]=(i[6708]-3),[2781]=(i[2781]+5),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+34),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd<=562 then if bd>=561 then if bd<562 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+33),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-2),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=559 then if bd<559 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+28),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-29),[6708]=i[6708],[2781]=(i[2781]-4),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-8),[6708]=(i[6708]+34),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=564 then if bd==563 then n[f[i[8401]]]={[8514]=(i[8514]-8),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+8),[2326]=n[f[i[8401]]][2326]}end else if bd<566 then n[f[i[8401]]]={[8514]=(i[8514]+26),[6708]=(i[6708]-1),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+32),[6708]=(i[6708]-59),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end else if bd>=549 then if bd>=554 then if bd>=556 then if bd==556 then n[f[i[8401]]]={[8514]=(i[8514]-13),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-4),[2326]=n[f[i[8401]]][2326]}end else if bd==554 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+14),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-42),[2326]=n[f[i[8401]]][2326]}end end else if bd<=551 then if bd>=551 then n[f[i[8401]]]={[8514]=(i[8514]-30),[6708]=(i[6708]-43),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd==552 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-16),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-36),[6708]=(i[6708]+34),[2781]=(i[2781]+27),[2326]=n[f[i[8401]]][2326]}end end end else if bd<545 then if bd<=542 then if bd<542 then if bd~=541 then local b=bb local o=i if o[8401]==81 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==165 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+1]if o[8401]==180 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==172 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==255 then l[q[o[6708]]]=f[o[8514]];end local b=n[b+2]if b[8401]==280 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==95 then f[b[8514]]=f[b[6708]];elseif b[8401]==158 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+2 end end end end end end else if bd>=593 then if bd<=601 then if bd>=598 then if bd>=600 then if bd<601 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-31),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+2),[2326]=n[f[i[8401]]][2326]}end else if bd<=598 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+37),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+25),[6708]=(i[6708]+31),[2781]=(i[2781]-28),[2326]=n[f[i[8401]]][2326]}end end else if bd<=595 then if bd<=594 then if bd~=594 then n[f[i[8401]]]={[8514]=(i[8514]-16),[6708]=i[6708],[2781]=(i[2781]+3),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+31),[6708]=(i[6708]+22),[2781]=(i[2781]+2),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-13),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=596 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+23),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-7),[6708]=(i[6708]+38),[2781]=(i[2781]-12),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=606 then if bd<=607 then if bd<607 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-3),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-18),[6708]=i[6708],[2781]=(i[2781]-26),[2326]=n[f[i[8401]]][2326]}end else if bd~=609 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-13),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+21),[6708]=i[6708],[2781]=(i[2781]+25),[2326]=n[f[i[8401]]][2326]}end end else if bd<=603 then if bd==602 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-7),[2781]=(i[2781]+17),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+8),[6708]=i[6708],[2781]=(i[2781]+32),[2326]=n[f[i[8401]]][2326]}end else if bd<=604 then n[f[i[8401]]]={[8514]=(i[8514]+28),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+6),[6708]=(i[6708]-3),[2781]=(i[2781]-1),[2326]=n[f[i[8401]]][2326]}end end end end else if bd<=583 then if bd>=580 then if bd>=582 then if bd<583 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-29),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-38),[6708]=(i[6708]+4),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd==580 then n[f[i[8401]]]={[8514]=(i[8514]-12),[6708]=(i[6708]+13),[2781]=(i[2781]-38),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-23),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=578 then if bd==578 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+2),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+13),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=576 then if bd<=575 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-2),[2781]=(i[2781]+9),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-28),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-8),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=589 then if bd<=590 then if bd==589 then n[f[i[8401]]]={[8514]=(i[8514]-25),[6708]=(i[6708]-9),[2781]=(i[2781]-13),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+4),[2326]=n[f[i[8401]]][2326]}end else if bd<=591 then n[f[i[8401]]]={[8514]=(i[8514]+12),[6708]=(i[6708]-38),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+20),[2326]=n[f[i[8401]]][2326]}end end else if bd>=587 then if bd==587 then n[f[i[8401]]]={[8514]=(i[8514]+39),[6708]=(i[6708]+18),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-25),[6708]=(i[6708]-36),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=585 then if bd~=585 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-33),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-14),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]+25),[6708]=(i[6708]+32),[2781]=(i[2781]+7),[2326]=n[f[i[8401]]][2326]}end end end end end end end end else if bd<=959 then if bd>=890 then if bd>=925 then if bd>=943 then if bd<=951 then if bd>=948 then if bd>=950 then if bd==951 then local b=bb local o=i if o[8401]==286 then f[o[8514]]=q[o[6708]];elseif o[8401]==211 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==54 then f[o[8514]]=not f[o[6708]];end local o=n[b+1]if o[8401]==291 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==261 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==86 then f[o[8514]]=f[o[6708]];end local o=n[b+2]if o[8401]==217 then f[o[8514]]=q[o[6708]];elseif o[8401]==278 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==168 then l[q[o[6708]]]=f[o[8514]];end local o=n[b+3]if o[8401]==193 then f[o[8514]]=-f[o[6708]];elseif o[8401]==196 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==58 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local b=n[b+4]if b[8401]==53 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==168 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==67 then f[b[8514]]=q[b[6708]];end bb=bb+4 end end end end else if bd<=933 then if bd>=930 then if bd<=931 then if bd<931 then local b=bb local o=i if o[8401]==277 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==126 then f[o[8514]]=q[o[6708]];else f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==291 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==157 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]][f[o[6708]]]=f[o[2781]];end local b=n[b+2]if b[8401]==102 then f[b[8514]]=q[b[6708]];elseif b[8401]==165 then f[b[8514]]=#f[b[6708]];else f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+2 end else if bd>932 then local b=bb local o=i if o[8401]==120 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==299 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]]-f[o[2781]];end local o=n[b+1]if o[8401]==208 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==159 then l[q[o[6708]]]=f[o[8514]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+2]if b[8401]==174 then f[b[8514]]=#f[b[6708]];elseif b[8401]==298 then f[b[8514]]=q[b[6708]];else l[q[b[6708]]]=f[b[8514]];end bb=bb+2 end end else if bd<928 then if bd>=927 then local b=bb local o=i if o[8401]==278 then f[o[8514]]=q[o[6708]];elseif o[8401]==87 then f[o[8514]]=-f[o[6708]];elseif o[8401]==125 then f[o[8514]]=l[q[o[6708]]];end local o=n[b+1]if o[8401]==179 then f[o[8514]]=q[o[6708]];elseif o[8401]==116 then f[o[8514]]=f[o[6708]][f[o[2781]]];else l[q[o[6708]]]=f[o[8514]];end local b=n[b+2]if b[8401]==81 then f[b[8514]]=q[b[6708]];elseif b[8401]==145 then f[b[8514]]=not f[b[6708]];elseif b[8401]==142 then f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+2 end end end else if bd<=938 then if bd<=936 then if bd<=935 then if bd==935 then local b=bb local o=i if o[8401]==248 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==275 then f[o[8514]][f[o[6708]]]=f[o[2781]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+1]if b[8401]==162 then f[b[8514]]=f[b[6708]];elseif b[8401]==134 then f[b[8514]]=f[b[6708]]+f[b[2781]];else f[b[8514]]=q[b[6708]];end bb=bb+1 end end else if bd<938 then local b=bb local o=i if o[8401]==262 then f[o[8514]]=f[o[6708]];elseif o[8401]==119 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+1]if b[8401]==146 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==107 then f[b[8514]]=q[b[6708]];elseif b[8401]==166 then f[b[8514]]=l[q[b[6708]]];end bb=bb+1 end end end end end else if bd>=908 then if bd>=917 then if bd>=921 then if bd>=923 then if bd>923 then local b=bb local o=i if o[8401]==297 then f[o[8514]]=#f[o[6708]];elseif o[8401]==167 then f[o[8514]]=q[o[6708]];else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+1]if o[8401]==159 then f[o[8514]]=q[o[6708]];elseif o[8401]==98 then l[q[o[6708]]]=f[o[8514]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+2]if b[8401]==212 then f[b[8514]]=q[b[6708]];elseif b[8401]==255 then f[b[8514]]=f[b[6708]]/f[b[2781]];else f[b[8514]]=f[b[6708]]-f[b[2781]];end bb=bb+2 end end else if bd>=919 then if bd<920 then n[f[i[8401]]]={[8514]=(i[8514]+3),[6708]=i[6708],[2781]=(i[2781]-39),[2326]=n[f[i[8401]]][2326]}end else if bd<=917 then n[f[i[8401]]]={[8514]=(i[8514]-36),[6708]=i[6708],[2781]=(i[2781]-17),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+15),[6708]=i[6708],[2781]=(i[2781]-22),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=913 then if bd>=915 then if bd==915 then n[f[i[8401]]]={[8514]=(i[8514]+12),[6708]=i[6708],[2781]=(i[2781]-28),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-4),[2326]=n[f[i[8401]]][2326]}end else if bd~=914 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+35),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+42),[6708]=(i[6708]+3),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=911 then if bd<912 then n[f[i[8401]]]={[8514]=(i[8514]-42),[6708]=(i[6708]+2),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-36),[2326]=n[f[i[8401]]][2326]}end else if bd<=909 then if bd~=909 then n[f[i[8401]]]={[8514]=(i[8514]+32),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-38),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-10),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end else if bd>=899 then if bd>=904 then if bd>=906 then if bd<907 then n[f[i[8401]]]={[8514]=(i[8514]-27),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+38),[2326]=n[f[i[8401]]][2326]}end else if bd==904 then n[f[i[8401]]]={[8514]=(i[8514]-9),[6708]=i[6708],[2781]=(i[2781]-11),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+41),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=902 then if bd~=903 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+2),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+30),[6708]=i[6708],[2781]=(i[2781]+3),[2326]=n[f[i[8401]]][2326]}end else if bd<=900 then if bd<900 then n[f[i[8401]]]={[8514]=(i[8514]-39),[6708]=(i[6708]-37),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+33),[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-20),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd<=894 then if bd>=893 then if bd<=893 then n[f[i[8401]]]={[8514]=(i[8514]-12),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+25),[6708]=(i[6708]+22),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd>=892 then n[f[i[8401]]]={[8514]=(i[8514]+43),[6708]=i[6708],[2781]=(i[2781]-29),[2326]=n[f[i[8401]]][2326]}else if bd<=890 then n[f[i[8401]]]={[8514]=(i[8514]-23),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-24),[2781]=(i[2781]+22),[2326]=n[f[i[8401]]][2326]}end end end else if bd<=896 then if bd<896 then n[f[i[8401]]]={[8514]=(i[8514]+30),[6708]=i[6708],[2781]=(i[2781]-16),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+40),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=897 then n[f[i[8401]]]={[8514]=(i[8514]+10),[6708]=(i[6708]+41),[2781]=(i[2781]+22),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-22),[2781]=(i[2781]-24),[2326]=n[f[i[8401]]][2326]}end end end end end end else if bd<=854 then if bd<=837 then if bd<=828 then if bd>=825 then if bd>=827 then if bd<828 then n[f[i[8401]]]={[8514]=(i[8514]+15),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-2),[6708]=(i[6708]-33),[2781]=(i[2781]+36),[2326]=n[f[i[8401]]][2326]}end else if bd~=826 then n[f[i[8401]]]={[8514]=(i[8514]+11),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+45),[6708]=i[6708],[2781]=(i[2781]-22),[2326]=n[f[i[8401]]][2326]}end end else if bd>=823 then if bd==823 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-8),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-31),[6708]=(i[6708]-10),[2781]=(i[2781]+39),[2326]=n[f[i[8401]]][2326]}end else if bd<=821 then if bd~=821 then n[f[i[8401]]]={[8514]=(i[8514]-18),[6708]=i[6708],[2781]=(i[2781]-6),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-28),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-10),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=834 then if bd<=835 then if bd<=834 then n[f[i[8401]]]={[8514]=(i[8514]+30),[6708]=(i[6708]+6),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+23),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd~=837 then n[f[i[8401]]]={[8514]=(i[8514]+16),[6708]=i[6708],[2781]=(i[2781]+25),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-13),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=832 then if bd~=833 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+36),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-27),[2326]=n[f[i[8401]]][2326]}end else if bd>=831 then n[f[i[8401]]]={[8514]=(i[8514]-16),[6708]=(i[6708]-1),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else if bd<830 then n[f[i[8401]]]={[8514]=(i[8514]-33),[6708]=i[6708],[2781]=(i[2781]-27),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+33),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end end else if bd<=846 then if bd>=843 then if bd<=844 then if bd<=843 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-7),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-16),[2781]=(i[2781]+15),[2326]=n[f[i[8401]]][2326]}end else if bd~=846 then n[f[i[8401]]]={[8514]=(i[8514]+5),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+17),[6708]=(i[6708]-3),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=840 then if bd>=840 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-9),[2326]=n[f[i[8401]]][2326]}else if bd~=839 then n[f[i[8401]]]={[8514]=(i[8514]+10),[6708]=(i[6708]+2),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+33),[2326]=n[f[i[8401]]][2326]}end end else if bd~=842 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+51),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+25),[2326]=n[f[i[8401]]][2326]}end end end else if bd>=851 then if bd>=853 then if bd==853 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-2),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-19),[2326]=n[f[i[8401]]][2326]}end else if bd==851 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]+34),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-42),[2326]=n[f[i[8401]]][2326]}end end else if bd>=849 then if bd<=849 then n[f[i[8401]]]={[8514]=(i[8514]-40),[6708]=(i[6708]+3),[2781]=(i[2781]+21),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+18),[6708]=i[6708],[2781]=(i[2781]+7),[2326]=n[f[i[8401]]][2326]}end else if bd<848 then n[f[i[8401]]]={[8514]=(i[8514]-32),[6708]=i[6708],[2781]=(i[2781]-27),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-34),[2326]=n[f[i[8401]]][2326]}end end end end end else if bd>=873 then if bd>=882 then if bd<=885 then if bd<=883 then if bd~=883 then n[f[i[8401]]]={[8514]=(i[8514]-19),[6708]=(i[6708]-3),[2781]=(i[2781]-15),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-12),[6708]=(i[6708]-6),[2781]=(i[2781]+9),[2326]=n[f[i[8401]]][2326]}end else if bd~=885 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+40),[2781]=(i[2781]-28),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+26),[2781]=(i[2781]-4),[2326]=n[f[i[8401]]][2326]}end end else if bd<=887 then if bd~=887 then n[f[i[8401]]]={[8514]=(i[8514]-14),[6708]=(i[6708]-5),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-10),[6708]=(i[6708]-2),[2781]=(i[2781]+8),[2326]=n[f[i[8401]]][2326]}end else if bd==888 then n[f[i[8401]]]={[8514]=(i[8514]-23),[6708]=(i[6708]+6),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-24),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd>=878 then if bd>=880 then if bd~=881 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-8),[2781]=(i[2781]-36),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-25),[2326]=n[f[i[8401]]][2326]}end else if bd==878 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+20),[2781]=(i[2781]+17),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+13),[6708]=(i[6708]-6),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd>=876 then if bd~=877 then n[f[i[8401]]]={[8514]=i[8514],[6708]=i[6708],[2781]=(i[2781]-17),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+37),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=874 then if bd<874 then n[f[i[8401]]]={[8514]=(i[8514]-26),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-46),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=(i[8514]-31),[6708]=(i[6708]+23),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end end else if bd<=863 then if bd<=859 then if bd<=857 then if bd>=857 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-4),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else if bd~=856 then n[f[i[8401]]]={[8514]=(i[8514]-4),[6708]=(i[6708]-21),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-34),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<859 then n[f[i[8401]]]={[8514]=(i[8514]+9),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-20),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=861 then if bd==860 then n[f[i[8401]]]={[8514]=(i[8514]+27),[6708]=(i[6708]-3),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+14),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<=862 then n[f[i[8401]]]={[8514]=(i[8514]-16),[6708]=(i[6708]+6),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+5),[6708]=i[6708],[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end end else if bd>=869 then if bd>=871 then if bd<=871 then n[f[i[8401]]]={[8514]=(i[8514]-19),[6708]=(i[6708]-21),[2781]=(i[2781]+31),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-7),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else if bd<870 then n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+5),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]-36),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end end else if bd<=866 then if bd<=865 then if bd<=864 then n[f[i[8401]]]={[8514]=(i[8514]-5),[6708]=(i[6708]-4),[2781]=(i[2781]-27),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]+10),[6708]=(i[6708]+29),[2781]=i[2781],[2326]=n[f[i[8401]]][2326]}end else n[f[i[8401]]]={[8514]=i[8514],[6708]=(i[6708]+33),[2781]=(i[2781]+24),[2326]=n[f[i[8401]]][2326]}end else if bd==867 then n[f[i[8401]]]={[8514]=(i[8514]-34),[6708]=(i[6708]+23),[2781]=(i[2781]-29),[2326]=n[f[i[8401]]][2326]}else n[f[i[8401]]]={[8514]=(i[8514]-26),[6708]=i[6708],[2781]=(i[2781]+30),[2326]=n[f[i[8401]]][2326]}end end end end end end end else if bd<=1029 then if bd<=994 then if bd>=978 then if bd<=986 then if bd<=982 then if bd<=980 then if bd<980 then if bd==979 then local b=bb local o=i if o[8401]==261 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==72 then f[o[8514]]=q[o[6708]];elseif o[8401]==119 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+1]if b[8401]==106 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==40 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==224 then f[b[8514]]=q[b[6708]];end bb=bb+1 end end end end else if bd>=991 then if bd>=993 then if bd~=993 then local b=bb local o=i if o[8401]==129 then f[o[8514]]=q[o[6708]];elseif o[8401]==69 then f[o[8514]]=f[o[6708]]*f[o[2781]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+1]if b[8401]==244 then f[b[8514]]=-f[b[6708]];elseif b[8401]==154 then local o=b[8514]local z=u[v]u[v]=nil v=v-1 local ba=u[v]u[v]=nil v=v-1 do local z,ba,be=ba(z)f[o]=z f[o+1]=ba f[o+2]=be end elseif b[8401]==56 then local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+1 end end end end else if bd>=969 then if bd<974 then if bd>=972 then if bd<973 then local b=bb local o=i if o[8401]==104 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==150 then f[o[8514]]=q[o[6708]];elseif o[8401]==263 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+1]if o[8401]==70 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==168 then f[o[8514]][f[o[6708]]]=f[o[2781]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+2]if b[8401]==284 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==130 then f[b[8514]][f[b[6708]]]=f[b[2781]];else f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+2 end else if bd<=970 then if bd<=969 then local b=bb local o=i if o[8401]==58 then f[o[8514]]=-f[o[6708]];elseif o[8401]==129 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==149 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==114 then f[o[8514]]=not f[o[6708]];elseif o[8401]==221 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=q[o[6708]];end local b=n[b+2]if b[8401]==247 then f[b[8514]]=f[b[6708]];elseif b[8401]==213 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==85 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+2 end end end end else if bd<=964 then if bd<=962 then if bd<=961 then if bd==961 then local b=bb local o=i if o[8401]==225 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==91 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==271 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==203 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==77 then f[o[8514]]=f[o[6708]];elseif o[8401]==71 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==138 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==267 then f[o[8514]]=f[o[6708]]-f[o[2781]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+3]if b[8401]==180 then f[b[8514]]=f[b[6708]];elseif b[8401]==124 then f[b[8514]]=not f[b[6708]];else f[b[8514]]=q[b[6708]];end bb=bb+3 end end end end end end else if bd>=1013 then if bd>=1022 then if bd<=1025 then if bd<1024 then if bd<1023 then local b=bb local o=i if o[8401]==165 then f[o[8514]]=q[o[6708]];elseif o[8401]==131 then f[o[8514]]=not f[o[6708]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+1]if o[8401]==202 then f[o[8514]]=f[o[6708]];elseif o[8401]==106 then f[o[8514]]=-f[o[6708]];elseif o[8401]==48 then f[o[8514]]=l[q[o[6708]]];end local b=n[b+2]if b[8401]==234 then f[b[8514]]=q[b[6708]];elseif b[8401]==95 then f[b[8514]][f[b[6708]]]=f[b[2781]];else f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+2 end end else if bd>=1028 then if bd~=1028 then local b=bb local o=i if o[8401]==93 then f[o[8514]]=-f[o[6708]];elseif o[8401]==157 then f[o[8514]]=q[o[6708]];elseif o[8401]==96 then f[o[8514]]=f[o[6708]];end local o=n[b+1]if o[8401]==197 then f[o[8514]]=q[o[6708]];elseif o[8401]==299 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==157 then f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==293 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==179 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==83 then f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end else if bd~=1027 then local b=bb local o=i if o[8401]==134 then f[o[8514]]=q[o[6708]];elseif o[8401]==241 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==100 then f[o[8514]]=f[o[6708]]-f[o[2781]];end local o=n[b+1]if o[8401]==174 then f[o[8514]]=f[o[6708]]+f[o[2781]];elseif o[8401]==203 then f[o[8514]]=f[o[6708]];elseif o[8401]==93 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+2]if o[8401]==184 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==141 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==217 then f[o[8514]][f[o[6708]]]=f[o[2781]];end local b=n[b+3]if b[8401]==159 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==83 then f[b[8514]]=f[b[6708]];else f[b[8514]]=q[b[6708]];end bb=bb+3 end end end else if bd>=1018 then if bd<1020 then if bd==1019 then local b=bb local o=i if o[8401]==213 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==66 then f[o[8514]]=q[o[6708]];elseif o[8401]==64 then f[o[8514]]=not f[o[6708]];end local o=n[b+1]if o[8401]==199 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==109 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+2]if o[8401]==82 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==148 then f[o[8514]]=-f[o[6708]];else f[o[8514]]=f[o[6708]][f[o[2781]]];end local b=n[b+3]if b[8401]==214 then f[b[8514]]=f[b[6708]];elseif b[8401]==141 then local o=b[8514]local o=f[o]v=v+1 u[v]=o else f[b[8514]]=f[b[6708]]/f[b[2781]];end bb=bb+3 end end else if bd<1016 then if bd>=1015 then local b=bb local o=i if o[8401]==203 then f[o[8514]]=q[o[6708]];elseif o[8401]==155 then f[o[8514]]=f[o[6708]];elseif o[8401]==98 then f[o[8514]]=f[o[6708]][f[o[2781]]];end local o=n[b+1]if o[8401]==174 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==112 then f[o[8514]]=q[o[6708]];elseif o[8401]==188 then f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==266 then local o=b[8514]local o=f[o]v=v+1 u[v]=o elseif b[8401]==89 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==53 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+2 end end end end else if bd>=1004 then if bd<1009 then if bd<1007 then if bd>1005 then local b=bb local o=i if o[8401]==103 then f[o[8514]]=q[o[6708]];elseif o[8401]==191 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)else l[q[o[6708]]]=f[o[8514]];end local o=n[b+1]if o[8401]==114 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==154 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==204 then f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==229 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==297 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==204 then f[b[8514]]=l[q[b[6708]]];end bb=bb+2 end end end else if bd>999 then if bd<=1001 then if bd<=1000 then local b=bb local o=i if o[8401]==183 then f[o[8514]]=q[o[6708]];elseif o[8401]==97 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=not f[o[6708]];end local b=n[b+1]if b[8401]==214 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==41 then f[b[8514]]=f[b[6708]]-f[b[2781]];else f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+1 end else if bd>=1003 then local b=bb local o=i if o[8401]==263 then f[o[8514]]=f[o[6708]];elseif o[8401]==196 then f[o[8514]]=q[o[6708]];elseif o[8401]==257 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local o=n[b+1]if o[8401]==201 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==119 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==205 then f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==241 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==222 then f[b[8514]]=l[q[b[6708]]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end end end end end else if bd<=1064 then if bd<=1047 then if bd>=1039 then if bd>=1044 then if bd>1045 then if bd==1047 then local b=bb local o=i if o[8401]==64 then f[o[8514]]=q[o[6708]];elseif o[8401]==266 then f[o[8514]]=f[o[6708]][f[o[2781]]];else local o=o[8514]local o=f[o]v=v+1 u[v]=o end local o=n[b+1]if o[8401]==176 then f[o[8514]]=f[o[6708]];elseif o[8401]==142 then f[o[8514]]=f[o[6708]]+f[o[2781]];else f[o[8514]]=#f[o[6708]];end local o=n[b+2]if o[8401]==89 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==112 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==56 then f[o[8514]]=q[o[6708]];end local o=n[b+3]if o[8401]==295 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==44 then f[o[8514]]=f[o[6708]][f[o[2781]]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+4]if b[8401]==255 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==103 then f[b[8514]]=f[b[6708]]*f[b[2781]];else f[b[8514]]=l[q[b[6708]]];end bb=bb+4 end end else if bd>=1042 then if bd~=1043 then local b=bb local o=i if o[8401]==210 then f[o[8514]]=not f[o[6708]];elseif o[8401]==120 then f[o[8514]]=q[o[6708]];elseif o[8401]==40 then f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==281 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==97 then f[o[8514]]=f[o[6708]];elseif o[8401]==168 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+2]if b[8401]==49 then f[b[8514]]=not f[b[6708]];elseif b[8401]==238 then f[b[8514]]=#f[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end else if bd<1041 then if bd==1039 then local b=bb local o=i if o[8401]==125 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==229 then f[o[8514]]=l[q[o[6708]]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==254 then l[q[o[6708]]]=f[o[8514]];elseif o[8401]==86 then f[o[8514]]=f[o[6708]];elseif o[8401]==135 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+2]if b[8401]==74 then f[b[8514]]=f[b[6708]]*f[b[2781]];elseif b[8401]==211 then f[b[8514]]=#f[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end end end else if bd<1035 then if bd<1033 then if bd>=1032 then local b=bb local o=i if o[8401]==42 then f[o[8514]]=not f[o[6708]];elseif o[8401]==146 then f[o[8514]]=#f[o[6708]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==48 then f[o[8514]]=-f[o[6708]];elseif o[8401]==191 then f[o[8514]]=f[o[6708]];else f[o[8514]]=l[q[o[6708]]];end local b=n[b+2]if b[8401]==129 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==139 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==265 then f[b[8514]]=f[b[6708]]-f[b[2781]];end bb=bb+2 end end end end else if bd<=1056 then if bd>=1053 then if bd>=1055 then if bd==1055 then local b=bb local o=i if o[8401]==186 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==153 then f[o[8514]]=#f[o[6708]];elseif o[8401]==64 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+1]if b[8401]==165 then f[b[8514]]=f[b[6708]]+f[b[2781]];elseif b[8401]==253 then f[b[8514]]=-f[b[6708]];elseif b[8401]==78 then local b=b[8514]local b=u[v]u[v]=nil v=v-1 b()end bb=bb+1 end else if bd<=1053 then local b=bb local o=i if o[8401]==59 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==103 then f[o[8514]][f[o[6708]]]=f[o[2781]];else f[o[8514]]=q[o[6708]];end local b=n[b+1]if b[8401]==215 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==62 then f[b[8514]]=f[b[6708]];else f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+1 end end else if bd<=1050 then if bd<1050 then if bd>1048 then local b=bb local o=i if o[8401]==49 then f[o[8514]]=#f[o[6708]];elseif o[8401]==56 then f[o[8514]]=f[o[6708]]*f[o[2781]];elseif o[8401]==257 then f[o[8514]]=q[o[6708]];end local b=n[b+1]if b[8401]==152 then f[b[8514]]=f[b[6708]];elseif b[8401]==81 then f[b[8514]]=q[b[6708]];elseif b[8401]==272 then f[b[8514]]=l[q[b[6708]]];end bb=bb+1 end end else if bd<=1051 then local b=bb local o=i if o[8401]==54 then f[o[8514]]=-f[o[6708]];elseif o[8401]==293 then f[o[8514]]=f[o[6708]];elseif o[8401]==110 then f[o[8514]]=q[o[6708]];end local b=n[b+1]if b[8401]==258 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==207 then f[b[8514]]=f[b[6708]];elseif b[8401]==82 then f[b[8514]]=f[b[6708]]+f[b[2781]];end bb=bb+1 end end end else if bd>=1061 then if bd>=1063 then if bd==1064 then local b=bb local o=i if o[8401]==219 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==54 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+1]if o[8401]==69 then f[o[8514]]=f[o[6708]];elseif o[8401]==102 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==177 then f[o[8514]]=not f[o[6708]];end local b=n[b+2]if b[8401]==181 then f[b[8514]]=l[q[b[6708]]];elseif b[8401]==137 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==46 then f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+2 end else if bd==1061 then local b=bb local o=i if o[8401]==204 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==140 then f[o[8514]]=#f[o[6708]];else f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==96 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==115 then l[q[o[6708]]]=f[o[8514]];else f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==275 then f[b[8514]]=-f[b[6708]];elseif b[8401]==41 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==256 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+2 end end else if bd<=1058 then if bd<1058 then local b=bb local o=i if o[8401]==269 then f[o[8514]]=f[o[6708]]/f[o[2781]];elseif o[8401]==89 then f[o[8514]]=q[o[6708]];elseif o[8401]==55 then f[o[8514]]=f[o[6708]]+f[o[2781]];end local o=n[b+1]if o[8401]==54 then f[o[8514]]=f[o[6708]];elseif o[8401]==102 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==99 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+2]if b[8401]==137 then f[b[8514]]=-f[b[6708]];elseif b[8401]==158 then local o=b[8514]local o=f[o]v=v+1 u[v]=o else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end else if bd<1060 then local b=bb local o=i if o[8401]==249 then f[o[8514]]=f[o[6708]][f[o[2781]]];elseif o[8401]==205 then f[o[8514]]=q[o[6708]];else f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+1]if o[8401]==225 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==181 then f[o[8514]]=f[o[6708]];else f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+2]if b[8401]==45 then f[b[8514]]=-f[b[6708]];elseif b[8401]==124 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==138 then f[b[8514]]=not f[b[6708]];end bb=bb+2 end end end end end else if bd<=1082 then if bd<=1073 then if bd<=1069 then if bd>=1068 then if bd==1068 then local b=bb local o=i if o[8401]==52 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==282 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==243 then f[o[8514]]=f[o[6708]]-f[o[2781]];end local b=n[b+1]if b[8401]==41 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==45 then local o=b[8514]local o=u[v]u[v]=nil v=v-1 o()else f[b[8514]]=not f[b[6708]];end bb=bb+1 end else if bd<=1066 then if bd>=1066 then local b=bb local o=i if o[8401]==182 then f[o[8514]]=q[o[6708]];elseif o[8401]==207 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=l[q[o[6708]]];end local b=n[b+1]if b[8401]==169 then l[q[b[6708]]]=f[b[8514]];elseif b[8401]==107 then local o=b[8514]local o=u[v]u[v]=nil v=v-1 o()elseif b[8401]==141 then f[b[8514]]=f[b[6708]];end bb=bb+1 end end end else if bd>=1072 then if bd==1072 then local b=bb local o=i if o[8401]==293 then f[o[8514]]=not f[o[6708]];elseif o[8401]==263 then f[o[8514]]=-f[o[6708]];elseif o[8401]==201 then f[o[8514]]=f[o[6708]];end local b=n[b+1]if b[8401]==66 then f[b[8514]]=f[b[6708]][f[b[2781]]];elseif b[8401]==133 then f[b[8514]]=f[b[6708]]-f[b[2781]];else f[b[8514]]=q[b[6708]];end bb=bb+1 end else if bd~=1071 then local b=bb local o=i if o[8401]==283 then local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)elseif o[8401]==119 then local z=o[8514]local z=f[z]v=v+1 u[v]=z else f[o[8514]]=f[o[6708]]/f[o[2781]];end local b=n[b+1]if b[8401]==272 then local o=p[b[6708]]local z=o[2060]local ba=#z local be=m(ba)for bf=1,ba do local z=z[bf]local ba=z[2]local bg=z[3]if z[1]==1 then if bg==0 then local z=f[ba]s[ba]=z be[bf-1]=z else be[bf-1]=f[ba]end else local z=g[ba]if bg==0 and z[0]then z=z[0][z[1]]end be[bf-1]=z end end f[b[8514]]=e(o,be,l)elseif b[8401]==48 then f[b[8514]]=f[b[6708]];elseif b[8401]==91 then local b=b[8514]local b=u[v]u[v]=nil v=v-1 b()end bb=bb+1 end end end end else if bd>=1092 then if bd<=1095 then if bd>=1094 then if bd>1094 then local b=bb local o=i if o[8401]==139 then f[o[8514]]=not f[o[6708]];elseif o[8401]==244 then f[o[8514]]=-f[o[6708]];elseif o[8401]==210 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==243 then local z=o[8514]local z=f[z]v=v+1 u[v]=z elseif o[8401]==64 then f[o[8514]]=#f[o[6708]];else f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==264 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==140 then f[b[8514]]=q[b[6708]];elseif b[8401]==165 then local b=b[8514]local b=f[b]v=v+1 u[v]=b end bb=bb+2 end else if bd<=1092 then local b=bb local o=i if o[8401]==294 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==183 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==232 then local o=o[8514]local o=f[o]v=v+1 u[v]=o end local b=n[b+1]if b[8401]==96 then local o=b[8514]local o=u[v]u[v]=nil v=v-1 o()elseif b[8401]==82 then f[b[8514]]=f[b[6708]]+f[b[2781]];else f[b[8514]]=l[q[b[6708]]];end bb=bb+1 end end else if bd>1097 then if bd<=1098 then local b=bb local o=i if o[8401]==263 then f[o[8514]]=f[o[6708]];elseif o[8401]==201 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==239 then f[o[8514]]=q[o[6708]];end local o=n[b+1]if o[8401]==158 then f[o[8514]]=f[o[6708]]-f[o[2781]];elseif o[8401]==196 then f[o[8514]]=f[o[6708]];else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+2]if b[8401]==46 then f[b[8514]]=f[b[6708]]-f[b[2781]];elseif b[8401]==154 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==195 then f[b[8514]]=f[b[6708]][f[b[2781]]];end bb=bb+2 end end end else if bd<=1087 then if bd<=1085 then if bd<=1084 then if bd>1083 then local b=bb local o=i if o[8401]==105 then f[o[8514]]=q[o[6708]];elseif o[8401]==233 then f[o[8514]]=not f[o[6708]];elseif o[8401]==58 then f[o[8514]]=f[o[6708]]/f[o[2781]];end local o=n[b+1]if o[8401]==62 then f[o[8514]]=not f[o[6708]];elseif o[8401]==178 then f[o[8514]]=-f[o[6708]];elseif o[8401]==278 then f[o[8514]]=f[o[6708]];end local b=n[b+2]if b[8401]==136 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==138 then local o=b[8514]local o=f[o]v=v+1 u[v]=o else f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+2 end end else if bd>1086 then local b=bb local o=i if o[8401]==294 then f[o[8514]]=q[o[6708]];elseif o[8401]==127 then f[o[8514]]=#f[o[6708]];elseif o[8401]==259 then f[o[8514]]=not f[o[6708]];end local o=n[b+1]if o[8401]==105 then f[o[8514]]=f[o[6708]];elseif o[8401]==57 then f[o[8514]]=f[o[6708]]*f[o[2781]];else local z=p[o[6708]]local ba=z[2060]local be=#ba local bf=m(be)for bg=1,be do local ba=ba[bg]local be=ba[2]local bh=ba[3]if ba[1]==1 then if bh==0 then local ba=f[be]s[be]=ba bf[bg-1]=ba else bf[bg-1]=f[be]end else local ba=g[be]if bh==0 and ba[0]then ba=ba[0][ba[1]]end bf[bg-1]=ba end end f[o[8514]]=e(z,bf,l)end local b=n[b+2]if b[8401]==157 then f[b[8514]]=-f[b[6708]];elseif b[8401]==239 then f[b[8514]]=f[b[6708]];else f[b[8514]][f[b[6708]]]=f[b[2781]];end bb=bb+2 end end else if bd>1089 then if bd==1090 then local b=bb local o=i if o[8401]==158 then f[o[8514]]=l[q[o[6708]]];elseif o[8401]==52 then f[o[8514]]=q[o[6708]];elseif o[8401]==141 then f[o[8514]]=#f[o[6708]];end local o=n[b+1]if o[8401]==193 then f[o[8514]][f[o[6708]]]=f[o[2781]];elseif o[8401]==213 then f[o[8514]]=f[o[6708]];elseif o[8401]==185 then f[o[8514]]=not f[o[6708]];end local b=n[b+2]if b[8401]==103 then f[b[8514]][f[b[6708]]]=f[b[2781]];elseif b[8401]==200 then f[b[8514]]=f[b[6708]]/f[b[2781]];elseif b[8401]==49 then f[b[8514]]=f[b[6708]]*f[b[2781]];end bb=bb+2 end end end end end end end end end end end else if bd>=32 then if bd>=40 then if bd<=44 then if bd<=42 then if bd<=41 then if bd~=41 then local b=i[8514]local n=v local o=w local z=o+1 local ba=u[z]do local ba,be,bf=ba(k(u,z+1,n))f[b]=ba f[b+1]=be f[b+2]=bf end for b=n,z,-1 do u[b]=nil end v=o local b=x[y]x[y]=nil y=y-1 w=b or 0 else local b=i[8514]local n=i[6708]local n=n local o=v local n=o-n+1 local z=u[n]f[b]=z(k(u,n+1,o))for b=o,n,-1 do u[b]=nil end v=n-1 end else local b=i[8514]local b=u[v]u[v]=nil v=v-1 b()end else if bd==43 then do for b,n in a,s do if n[1]==f and b>=0 then n[1]={f[b]}n[2]=1 s[b]=nil end end end local a=u[v]u[v]=nil v=v-1 do return a end else if i[2781]==21 then f[i[8514]]=-f[i[6708]];elseif i[2781]==216 then g[i[6708]][1]=f[i[8514]]else f[i[8514]]=-f[i[6708]];end end end else if bd<=48 then if bd<=46 then if bd<46 then local a,b=i[8514],i[6708]local b=f[b]f[a]=b[1]else if i[2781]==79 then l[q[i[6708]]]=f[i[8514]];elseif i[2781]==139 then f[i[8514]]=not f[i[6708]];else l[q[i[6708]]]=f[i[8514]];end end else if bd==47 then f[i[8514]]=e(p[i[6708]],nil,l)else f[i[8514]]=not f[i[6708]];end end else if bd<=51 then if bd>=51 then g[i[6708]][1]=f[i[8514]]else if bd<=49 then local a,b,n=i[8514],i[6708],i[2781]local b=r[b]local a=f[a]local o=true for z=1,#b-1 do if a==nil then o=false break end a=a[q[b[z]]]end if o and a~=nil then a[q[b[#b]]]=f[n]end else f[i[8514]]=f[i[6708]]..f[i[2781]];end end else if bd==52 then local a=#i[8514]for b=1,a do f[i[8514][b]]=f[i[6708][b]];end;else do return k(f,i[8514],bc)end end end end end else if bd>=36 then if bd>=38 then if bd~=39 then local a,b=i[8514],i[6708]local n=a+2 local a,o=f[a](f[a+1],f[n])if a~=nil then do local a,b,o,z=a,a,o,b f[n]=a f[n+1]=b f[n+2]=o bb=z end end else local a=i[8514]local b=c(t,f[a](k(f,a+1,i[6708])))bc=a+b-1;for c=1,b do f[a+c-1]=t[c];end;end else if bd<37 then local a=i[8514]f[a]=f[a]();else local a,b=i[8514],i[6708]bc=a+2 bb=b end end else if bd<=33 then if bd<33 then local a=i[8514]local b=u[v]u[v]=nil v=v-1 local c=u[v]u[v]=nil v=v-1 f[a]=c(b)else local a=i[8514]local b=i[6708]local b=(b==0)and bc or(a+b-1)for c=a,b do v=v+1 u[v]=f[c]end end else if bd==34 then y=y+1 x[y]=w w=v else f[i[8514]]=f[i[6708]]==f[i[2781]];end end end end else if bd<=27 then if bd<=25 then if bd~=25 then local a=i[8514]local b=u[v]u[v]=nil v=v-1 local c=u[v]u[v]=nil v=v-1 local n=u[v]u[v]=nil v=v-1 f[a]=n(c,b)else f[i[8514]]=l[q[i[6708]]];end else if bd==26 then local a=i[8514]f[a]=f[a](f[a+1],f[a+2]);else bb=f[i[8514]];end end else if bd>=30 then if bd<=30 then local a=i[6708]local a=g[a]f[i[8514]]=a[1]else local a,b,c=i[8514],i[6708],i[2781]local b=r[b]local a=f[a]for n=1,#b do if a==nil then break end a=a[q[b[n]]]end f[c]=a end else if bd~=29 then local a,b=i[8514],i[6708]local b=r[b]local c={}for n=1,#b,2 do c[q[b[n]]]=q[b[n+1]]end f[a]=c else local a=i[6708]for b=1,#a do local a=a[b]local a=q[a]v=v+1 u[v]=a end end end end end end else if bd>=16 then if bd>=20 then if bd<=21 then if bd<=20 then local a=i[8514]local a=u[v]u[v]=nil v=v-1 local b=u[v]u[v]=nil v=v-1 b(a)else f[i[8514]][1]=f[i[6708]]end else if bd<=22 then local a=i[8514]f[a]={f[a]}else if f[i[8514]]then bb=i[6708];end;end end else if bd<=17 then if bd<17 then local a=i[8514]local a=i[6708]local a=a local b=v local a=b-a+1 local c=u[a]c(k(u,a+1,b))for c=b,a,-1 do u[c]=nil end v=a-1 else do return end end else if bd<19 then f[i[8514]]={};else local a=i[6708]local a=q[a]v=v+1 u[v]=a end end end else if bd>=14 then if bd==14 then local a=i[8514]for b=1,#a do local a=f[a[b]]v=v+1 u[v]=a end else f[i[8514]]=g[i[6708]]end else if bd<=12 then if bd==11 then f[i[8514]]=f[i[6708]];else local a=p[i[6708]]local b=a[2060]local c=#b local k=m(c)for m=1,c do local b=b[m]local c=b[2]local n=b[3]if b[1]==1 then if n==0 then local b=f[c]s[c]=b k[m-1]=b else k[m-1]=f[c]end else local b=g[c]if n==0 and b[0]then b=b[0][b[1]]end k[m-1]=b end end f[i[8514]]=e(a,k,l)end else local a=i[8514]local b=i[6708]local a=f[a]if not a then bb=b;end;end end end end end bb=bb+1;end;end;end;local a=h(d)local a=e(a,{},j())return a();end)(error,next,string.match,tonumber,string.gsub,string.sub,table.insert,string.char,string.byte,coroutine.yield,coroutine.wrap,string.rep,table.concat,math.floor,select,(getfenv or function()return _ENV;end),setmetatable,next,(table.unpack or unpack),(table.pack or function(...)return{...};end),math.min,(function(b)if b<=1 then return false end;if b<=3 then return true end;if b%2==0 or b%3==0 then return false end;local c=5;while c*c<=b do if b%c==0 or b%(c+2)==0 then return false end;c=c+6 end;return true end),string.len,table.remove,table.sort,(string.unpack),string.gmatch,string.find,string.reverse,tostring,math.abs,rawget,string.format);
-                
+
+local WindUI
+
+do
+    local ok, result = pcall(function()
+        return require("./src/Init")
+    end)
+
+    if ok then
+        WindUI = result
+    else 
+        local success, ui = pcall(function()
+            return loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua"))()
+        end)
+        if success and ui then
+            WindUI = ui
+        else
+            warn("Zlex Hub: Failed to load WindUI")
+            return
+        end
+    end
+end
+
+if not WindUI then
+    warn("Zlex Hub: WindUI not available")
+    return
+end
+
+pcall(function()
+    WindUI:SetTheme("Dark")
+end)
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local PathfindingService = game:GetService("PathfindingService")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local Lighting = game:GetService("Lighting")
+local TweenService = game:GetService("TweenService")
+
+local lplr = Players.LocalPlayer
+local playerData = pcall(function() return lplr:FindFirstChild("PlayerData") or lplr:WaitForChild("PlayerData", 5) end) and lplr:FindFirstChild("PlayerData")
+local camera = workspace.CurrentCamera
+
+local network, actor
+pcall(function()
+    -- Try new path: Systems.Player.Networks.ActorNetwork
+    local systems = ReplicatedStorage:FindFirstChild("Systems")
+    if systems then
+        local player = systems:FindFirstChild("Player")
+        if player then
+            local networks = player:FindFirstChild("Networks")
+            if networks then
+                local actorNetwork = networks:FindFirstChild("ActorNetwork")
+                if actorNetwork then
+                    network = actorNetwork
+                    -- ActorNetwork creates a RemoteEvent child, wait for it
+                    actor = actorNetwork:FindFirstChild("RemoteEvent") or actorNetwork:WaitForChild("RemoteEvent", 5)
+                end
+            end
+        end
+    end
+    -- Fallback to old path: Modules.Network
+    if not actor then
+        local modules = ReplicatedStorage:FindFirstChild("Modules")
+        if modules then
+            network = modules:FindFirstChild("Network")
+            if network then
+                actor = network:FindFirstChild("RemoteEvent")
+            end
+        end
+    end
+end)
+
+-- Helper function to fire actor abilities via RemoteEvent
+local function fireActorAbility(abilityName, ...)
+    if not actor then return false end
+    local args = {...}
+    local success = pcall(function()
+        actor:FireServer("UseActorAbility", abilityName, unpack(args))
+    end)
+    return success
+end
+
+local SpoofState = {
+    Active = false,
+    TargetCFrame = nil,
+    OriginalCallback = nil,
+    HookInstalled = false
+}
+
+local function formatCFrameForServer(cf)
+    if not cf then return nil end
+    local p, l = cf.Position, cf.LookVector
+    return string.format("%0.3f/%0.3f/%0.3f/%0.3f/%0.3f/%0.3f", p.X, p.Y, p.Z, l.X, l.Y, l.Z)
+end
+
+local function setSpoofCFrame(cf)
+    SpoofState.Active = cf ~= nil
+    SpoofState.TargetCFrame = cf
+end
+
+local function installPositionHook()
+    if SpoofState.HookInstalled then return end
+
+    -- Method 1: Hook RemoteFunction directly without requiring module
+    pcall(function()
+        local networkFolder = nil
+        -- Try new path first: Systems.Player.Networks
+        local systems = ReplicatedStorage:FindFirstChild("Systems")
+        if systems then
+            local player = systems:FindFirstChild("Player")
+            if player then
+                local networks = player:FindFirstChild("Networks")
+                if networks then
+                    networkFolder = networks:FindFirstChild("ActorNetwork") or networks
+                end
+            end
+        end
+        -- Fallback to old path
+        if not networkFolder then
+            local modules = ReplicatedStorage:FindFirstChild("Modules")
+            if modules then
+                networkFolder = modules:FindFirstChild("Network")
+            end
+        end
+        if not networkFolder then return end
+
+        -- Find RemoteFunction for position data
+        local rf = networkFolder:FindFirstChild("RemoteFunction")
+        if rf and rf:IsA("RemoteFunction") and hookfunction then
+            local oldInvoke = rf.InvokeServer
+            local newInvoke = function(self, ...)
+                local args = {...}
+                if args[1] == "QueryClientData" or args[1] == "GetLocalPosData" then
+                    if SpoofState.Active and SpoofState.TargetCFrame then
+                        return formatCFrameForServer(SpoofState.TargetCFrame)
+                    end
+                end
+                return oldInvoke(self, ...)
+            end
+            hookfunction(rf.InvokeServer, newInvoke)
+            SpoofState.HookInstalled = true
+        end
+    end)
+
+    -- Method 2: Hook via namecall if available
+    if not SpoofState.HookInstalled and getrawmetatable and setreadonly then
+        pcall(function()
+            local mt = getrawmetatable(game)
+            if mt and mt.__namecall then
+                local oldNamecall = mt.__namecall
+                setreadonly(mt, false)
+                mt.__namecall = newcclosure(function(self, ...)
+                    local method = getnamecallmethod()
+                    if method == "InvokeServer" and self.Name == "RemoteFunction" then
+                        local args = {...}
+                        if (args[1] == "QueryClientData" or args[1] == "GetLocalPosData") and SpoofState.Active and SpoofState.TargetCFrame then
+                            return formatCFrameForServer(SpoofState.TargetCFrame)
+                        end
+                    end
+                    return oldNamecall(self, ...)
+                end)
+                setreadonly(mt, true)
+                SpoofState.HookInstalled = true
+            end
+        end)
+    end
+end
+
+task.spawn(function()
+    task.wait(3)
+    installPositionHook()
+    task.wait(3)
+    if not SpoofState.HookInstalled then
+        installPositionHook()
+    end
+end)
+
+local function serverSyncTeleport(targetCFrame)
+    local char = lplr.Character
+    if not char then return false end
+    local root = char:FindFirstChild("HumanoidRootPart")
+    if not root then return false end
+
+    setSpoofCFrame(targetCFrame)
+
+    root.CFrame = targetCFrame
+    root.Velocity = Vector3.zero
+    root.AssemblyLinearVelocity = Vector3.zero
+
+    return true
+end
+
+local function smoothTeleport(targetCFrame, speed)
+    local char = lplr.Character
+    if not char then return false end
+    local root = char:FindFirstChild("HumanoidRootPart")
+    local hum = char:FindFirstChildOfClass("Humanoid")
+    if not root or not hum then return false end
+
+    speed = speed or 200
+    local startPos = root.Position
+    local endPos = targetCFrame.Position
+    local distance = (endPos - startPos).Magnitude
+    local duration = distance / speed
+    duration = math.clamp(duration, 0.01, 0.5)
+
+    setSpoofCFrame(targetCFrame)
+
+    local startTime = tick()
+    while tick() - startTime < duration do
+        local alpha = (tick() - startTime) / duration
+        alpha = math.clamp(alpha, 0, 1)
+        local newPos = startPos:Lerp(endPos, alpha)
+        local currentCFrame = CFrame.new(newPos) * (targetCFrame - targetCFrame.Position)
+        root.CFrame = currentCFrame
+        setSpoofCFrame(currentCFrame)
+        RunService.Heartbeat:Wait()
+    end
+
+    root.CFrame = targetCFrame
+    root.Velocity = Vector3.zero
+    root.AssemblyLinearVelocity = Vector3.zero
+    setSpoofCFrame(targetCFrame)
+
+    return true
+end
+
+local function clearSpoof()
+    setSpoofCFrame(nil)
+end
+
+-- ============================================
+-- END SERVER-SIDE TELEPORT SYSTEM
+-- ============================================
+
+local killerModel = nil
+local isSurvivor = false
+local isKiller = false
+local playingState = "Playing"
+local cachedParts = {}
+local pathfindingIndex = 0
+
+-- ============================================
+-- REVAMPED AUTO FARM SYSTEM (Consolidated)
+-- ============================================
+local RevampedFarm = {
+    Config = {
+        GeneratorEnabled = false,
+        GeneratorInterval = 1.0,
+        GeneratorBypassCooldown = true,
+        AutoSurviveEnabled = false,
+        AutoWinEnabled = false,
+        SafeDistance = 30,
+        TeleportToGenerator = false,
+        ReturnAfterComplete = true,
+        AvoidKillers = true,
+        KillerDetectRadius = 25
+    },
+    State = {
+        isRunning = false,
+        currentGenerator = nil,
+        savedPosition = nil,
+        farmThread = nil,
+        killerCheckThread = nil
+    }
+}
+
+function RevampedFarm:GetRoot()
+    local char = lplr.Character
+    return char and char:FindFirstChild("HumanoidRootPart")
+end
+
+function RevampedFarm:GetMapFolder()
+    local map = workspace:FindFirstChild("Map")
+    if not map then return nil end
+    local ingame = map:FindFirstChild("Ingame")
+    return ingame and ingame:FindFirstChild("Map")
+end
+
+function RevampedFarm:GetMapBounds()
+    local mapFolder = self:GetMapFolder()
+    if not mapFolder then return nil end
+    local minX, minY, minZ = math.huge, math.huge, math.huge
+    local maxX, maxY, maxZ = -math.huge, -math.huge, -math.huge
+    for _, part in ipairs(mapFolder:GetDescendants()) do
+        if part:IsA("BasePart") then
+            local pos = part.Position
+            local size = part.Size / 2
+            minX = math.min(minX, pos.X - size.X)
+            minY = math.min(minY, pos.Y - size.Y)
+            minZ = math.min(minZ, pos.Z - size.Z)
+            maxX = math.max(maxX, pos.X + size.X)
+            maxY = math.max(maxY, pos.Y + size.Y)
+            maxZ = math.max(maxZ, pos.Z + size.Z)
+        end
+    end
+    if minX == math.huge then return nil end
+    return {min = Vector3.new(minX, minY, minZ), max = Vector3.new(maxX, maxY, maxZ)}
+end
+
+function RevampedFarm:IsInMapBounds(pos)
+    local bounds = self:GetMapBounds()
+    if not bounds then return true end
+    local padding = 5
+    return pos.X >= bounds.min.X - padding and pos.X <= bounds.max.X + padding
+        and pos.Y >= bounds.min.Y - padding and pos.Y <= bounds.max.Y + padding
+        and pos.Z >= bounds.min.Z - padding and pos.Z <= bounds.max.Z + padding
+end
+
+function RevampedFarm:HasFloorBelow(pos)
+    local rayParams = RaycastParams.new()
+    rayParams.FilterType = Enum.RaycastFilterType.Exclude
+    local char = lplr.Character
+    rayParams.FilterDescendantsInstances = char and {char} or {}
+    local result = workspace:Raycast(pos + Vector3.new(0, 2, 0), Vector3.new(0, -50, 0), rayParams)
+    return result ~= nil
+end
+
+function RevampedFarm:IsInsideWall(pos)
+    local rayParams = RaycastParams.new()
+    rayParams.FilterType = Enum.RaycastFilterType.Exclude
+    local char = lplr.Character
+    rayParams.FilterDescendantsInstances = char and {char} or {}
+    local directions = {
+        Vector3.new(3, 0, 0), Vector3.new(-3, 0, 0),
+        Vector3.new(0, 0, 3), Vector3.new(0, 0, -3),
+        Vector3.new(0, 3, 0), Vector3.new(0, -3, 0)
+    }
+    local hits = 0
+    for _, dir in ipairs(directions) do
+        local result = workspace:Raycast(pos, dir, rayParams)
+        if result then hits = hits + 1 end
+    end
+    return hits >= 4
+end
+
+function RevampedFarm:FindSafeTPPosition(targetPos)
+    if self:IsInMapBounds(targetPos) and self:HasFloorBelow(targetPos) and not self:IsInsideWall(targetPos) then
+        return targetPos
+    end
+    local offsets = {
+        Vector3.new(0, 3, 0), Vector3.new(3, 0, 0), Vector3.new(-3, 0, 0),
+        Vector3.new(0, 0, 3), Vector3.new(0, 0, -3),
+        Vector3.new(3, 0, 3), Vector3.new(-3, 0, 3), Vector3.new(3, 0, -3), Vector3.new(-3, 0, -3),
+        Vector3.new(0, 5, 0), Vector3.new(5, 0, 0), Vector3.new(-5, 0, 0),
+        Vector3.new(0, 0, 5), Vector3.new(0, 0, -5)
+    }
+    for _, offset in ipairs(offsets) do
+        local testPos = targetPos + offset
+        if self:IsInMapBounds(testPos) and self:HasFloorBelow(testPos) and not self:IsInsideWall(testPos) then
+            return testPos
+        end
+    end
+    return nil
+end
+
+function RevampedFarm:SafeTP(pos)
+    local root = self:GetRoot()
+    if not root then return false end
+    local safePos = self:FindSafeTPPosition(pos)
+    if safePos then
+        local newCFrame = CFrame.new(safePos)
+        setSpoofCFrame(newCFrame)
+        root.CFrame = newCFrame
+        root.Velocity = Vector3.zero
+        root.AssemblyLinearVelocity = Vector3.zero
+        return true
+    end
+    return false
+end
+
+function RevampedFarm:GetGenerators(incomplete)
+    local gens, mapFolder = {}, self:GetMapFolder()
+    if not mapFolder then return gens end
+    for _, obj in ipairs(mapFolder:GetChildren()) do
+        if obj.Name == "Generator" and obj:IsA("Model") then
+            local prog = obj:FindFirstChild("Progress")
+            if prog and prog:IsA("ValueBase") then
+                if not incomplete or prog.Value < 100 then
+                    local pos = obj:FindFirstChild("Positions") and obj.Positions:FindFirstChild("Center")
+                    table.insert(gens, {model = obj, progress = prog.Value, position = pos and pos.Position or obj:GetPivot().Position})
+                end
+            end
+        end
+    end
+    return gens
+end
+
+function RevampedFarm:GetNearestGen(incomplete)
+    local root = self:GetRoot()
+    if not root then return nil end
+    local nearest, nearestDist = nil, math.huge
+    for _, gen in ipairs(self:GetGenerators(incomplete)) do
+        local dist = (root.Position - gen.position).Magnitude
+        if dist < nearestDist then nearestDist, nearest = dist, gen end
+    end
+    return nearest, nearestDist
+end
+
+function RevampedFarm:IsKillerNear(radius)
+    local root = self:GetRoot()
+    if not root then return false end
+    local kFolder = workspace:FindFirstChild("Players") and workspace.Players:FindFirstChild("Killers")
+    if not kFolder then return false end
+    for _, k in ipairs(kFolder:GetChildren()) do
+        local kRoot = k:FindFirstChild("HumanoidRootPart")
+        if kRoot and (root.Position - kRoot.Position).Magnitude <= radius then return true, k end
+    end
+    return false
+end
+
+function RevampedFarm:GetSafePos()
+    local root = self:GetRoot()
+    if not root then return nil end
+    local kFolder = workspace:FindFirstChild("Players") and workspace.Players:FindFirstChild("Killers")
+    if not kFolder then return nil end
+    local nearest, dist = nil, math.huge
+    for _, k in ipairs(kFolder:GetChildren()) do
+        local kRoot = k:FindFirstChild("HumanoidRootPart")
+        if kRoot then
+            local d = (root.Position - kRoot.Position).Magnitude
+            if d < dist then dist, nearest = d, kRoot end
+        end
+    end
+    if not nearest then return nil end
+    local escapeDir = (root.Position - nearest.Position).Unit
+    local testDistances = {self.Config.SafeDistance, self.Config.SafeDistance * 0.75, self.Config.SafeDistance * 0.5, self.Config.SafeDistance * 0.25}
+    local testAngles = {0, 45, -45, 90, -90, 135, -135, 180}
+    for _, testDist in ipairs(testDistances) do
+        for _, angle in ipairs(testAngles) do
+            local rad = math.rad(angle)
+            local rotatedDir = Vector3.new(
+                escapeDir.X * math.cos(rad) - escapeDir.Z * math.sin(rad),
+                0,
+                escapeDir.X * math.sin(rad) + escapeDir.Z * math.cos(rad)
+            ).Unit
+            local testPos = root.Position + (rotatedDir * testDist)
+            if self:IsInMapBounds(testPos) and self:HasFloorBelow(testPos) and not self:IsInsideWall(testPos) then
+                return testPos
+            end
+        end
+    end
+    return nil
+end
+
+function RevampedFarm:InteractGen(gen)
+    if not gen or not gen.model then return false end
+    local remotes = gen.model:FindFirstChild("Remotes")
+    if remotes and remotes:FindFirstChild("RE") then pcall(function() remotes.RE:FireServer() end) return true end
+    return false
+end
+
+function RevampedFarm:EnterGen(gen)
+    if not gen or not gen.model then return false end
+    local main = gen.model:FindFirstChild("Main")
+    if main and main:FindFirstChild("Prompt") then pcall(function() fireproximityprompt(main.Prompt) end) return true end
+    return false
+end
+
+function RevampedFarm:LeaveGen(gen)
+    if not gen or not gen.model then return false end
+    local remotes = gen.model:FindFirstChild("Remotes")
+    if remotes and remotes:FindFirstChild("RF") then pcall(function() remotes.RF:InvokeServer("leave") end) return true end
+    return false
+end
+
+function RevampedFarm:DoGenCycle(gen)
+    if not gen then return false end
+    local prog = gen.model:FindFirstChild("Progress")
+    if not prog or prog.Value >= 100 then return false end
+    if self.Config.GeneratorBypassCooldown then
+        self:InteractGen(gen) task.wait(0.4) self:LeaveGen(gen) task.wait(0.1) self:EnterGen(gen)
+    else self:InteractGen(gen) end
+    return true
+end
+
+function RevampedFarm:FarmLoop()
+    while self.State.isRunning do
+        if not self.Config.GeneratorEnabled then 
+            clearSpoof()
+            task.wait(0.5) 
+            continue 
+        end
+        if self.Config.AvoidKillers and self:IsKillerNear(self.Config.KillerDetectRadius) then 
+            clearSpoof()
+            task.wait(1) 
+            continue 
+        end
+        local gen, dist = self:GetNearestGen(true)
+        if not gen then 
+            clearSpoof()
+            task.wait(1) 
+            continue 
+        end
+        if self.Config.TeleportToGenerator and dist > 10 then
+            local root = self:GetRoot()
+            if root and not self.State.savedPosition then self.State.savedPosition = root.CFrame end
+            self:SafeTP(gen.position + Vector3.new(0,2,0)) task.wait(0.3) self:EnterGen(gen) task.wait(0.2)
+        end
+        self.State.currentGenerator = gen
+        self:DoGenCycle(gen)
+        local prog = gen.model:FindFirstChild("Progress")
+        if prog and prog.Value >= 100 then
+            self.State.currentGenerator = nil
+            if self.Config.ReturnAfterComplete and self.State.savedPosition then 
+                self:SafeTP(self.State.savedPosition.Position) 
+                self.State.savedPosition = nil 
+            end
+            clearSpoof()
+        end
+        task.wait(self.Config.GeneratorInterval)
+    end
+end
+
+function RevampedFarm:SurviveLoop()
+    while self.State.isRunning do
+        if not self.Config.AutoSurviveEnabled then 
+            clearSpoof()
+            task.wait(0.5) 
+            continue 
+        end
+        if self:IsKillerNear(self.Config.KillerDetectRadius) then
+            local sp = self:GetSafePos()
+            if sp then self:SafeTP(sp) end
+        else
+            clearSpoof()
+        end
+        task.wait(0.2)
+    end
+end
+
+function RevampedFarm:WinLoop()
+    while self.State.isRunning do
+        if not self.Config.AutoWinEnabled then 
+            clearSpoof()
+            task.wait(0.5) 
+            continue 
+        end
+        local gens = self:GetGenerators(true)
+        if #gens == 0 then 
+            clearSpoof()
+            task.wait(2) 
+            continue 
+        end
+        for _, gen in ipairs(gens) do
+            if not self.State.isRunning or not self.Config.AutoWinEnabled then 
+                clearSpoof()
+                break 
+            end
+            local root = self:GetRoot()
+            if root then self.State.savedPosition = root.CFrame end
+            self:SafeTP(gen.position + Vector3.new(0,2,0)) task.wait(0.3) self:EnterGen(gen)
+            local prog = gen.model:FindFirstChild("Progress")
+            while prog and prog.Value < 100 and self.State.isRunning and self.Config.AutoWinEnabled do
+                if self.Config.AvoidKillers and self:IsKillerNear(self.Config.KillerDetectRadius) then
+                    self:LeaveGen(gen) local sp = self:GetSafePos() if sp then self:SafeTP(sp) end task.wait(3) break
+                end
+                self:DoGenCycle(gen) task.wait(self.Config.GeneratorInterval)
+            end
+            self:LeaveGen(gen) task.wait(0.5)
+        end
+        if self.State.savedPosition then 
+            self:SafeTP(self.State.savedPosition.Position) 
+            self.State.savedPosition = nil 
+        end
+        clearSpoof()
+        task.wait(1)
+    end
+end
+
+function RevampedFarm:Start()
+    if self.State.isRunning then return end
+    self.State.isRunning = true
+    self.State.farmThread = task.spawn(function() self:FarmLoop() end)
+    self.State.killerCheckThread = task.spawn(function() self:SurviveLoop() end)
+    task.spawn(function() self:WinLoop() end)
+end
+
+function RevampedFarm:Stop()
+    self.State.isRunning = false
+    if self.State.farmThread then pcall(function() task.cancel(self.State.farmThread) end) self.State.farmThread = nil end
+    if self.State.killerCheckThread then pcall(function() task.cancel(self.State.killerCheckThread) end) self.State.killerCheckThread = nil end
+    self.State.currentGenerator, self.State.savedPosition = nil, nil
+    clearSpoof()
+end
+-- ============================================
+-- END REVAMPED AUTO FARM SYSTEM
+-- ============================================
+
+-- ============================================
+-- REVAMPED KILLER SYSTEM (Consolidated)
+-- ============================================
+local RevampedKiller = {
+    Config = {
+        KillAllEnabled = false,
+        SlashAuraEnabled = false,
+        AutoAbilitiesEnabled = false,
+        TargetLockEnabled = false,
+        AttackRange = 15,
+        TeleportToTarget = true,
+        UseAllAbilities = true,
+        AttackInterval = 0.15,
+        AbilityCooldown = 0.5,
+        SmartTargeting = true,
+        PrioritizeLowHP = false
+    },
+    State = {
+        isRunning = false,
+        currentTarget = nil,
+        lockedTarget = nil,
+        lastAttackTime = 0,
+        abilityCooldowns = {},
+        killThread = nil,
+        auraThread = nil
+    },
+    AllAbilities = {
+        Primary = {"Slash", "Punch", "Stab", "Behead"},
+        Secondary = {"Nova", "VoidRush", "GashingWound", "CorruptNature", "CorruptEnergy", "MassInfection", "Entanglement", "WalkspeedOverride"},
+        Special = {"Grab", "Throw", "Charge", "Dash"}
+    }
+}
+
+function RevampedKiller:GetRoot()
+    local char = lplr.Character
+    return char and char:FindFirstChild("HumanoidRootPart")
+end
+
+function RevampedKiller:GetSurvivorsFolder()
+    return workspace:FindFirstChild("Players") and workspace.Players:FindFirstChild("Survivors")
+end
+
+function RevampedKiller:GetAllSurvivors()
+    local survivors = {}
+    local folder = self:GetSurvivorsFolder()
+    if not folder then return survivors end
+    for _, s in ipairs(folder:GetChildren()) do
+        if s:IsA("Model") then
+            local hrp = s:FindFirstChild("HumanoidRootPart")
+            local hum = s:FindFirstChildOfClass("Humanoid")
+            if hrp and hum and hum.Health > 0 then
+                local username = s:GetAttribute("Username")
+                table.insert(survivors, {
+                    model = s,
+                    hrp = hrp,
+                    humanoid = hum,
+                    health = hum.Health,
+                    maxHealth = hum.MaxHealth,
+                    username = username
+                })
+            end
+        end
+    end
+    return survivors
+end
+
+function RevampedKiller:GetNearestSurvivor(maxRange)
+    local root = self:GetRoot()
+    if not root then return nil end
+    local nearest, nearestDist = nil, maxRange or math.huge
+    for _, s in ipairs(self:GetAllSurvivors()) do
+        local dist = (root.Position - s.hrp.Position).Magnitude
+        if dist < nearestDist then
+            if self.Config.PrioritizeLowHP then
+                if not nearest or s.health < nearest.health then
+                    nearest, nearestDist = s, dist
+                end
+            else
+                nearest, nearestDist = s, dist
+            end
+        end
+    end
+    return nearest, nearestDist
+end
+
+function RevampedKiller:GetTarget()
+    if self.Config.TargetLockEnabled and self.State.lockedTarget then
+        local s = self.State.lockedTarget
+        if s.model and s.model.Parent and s.humanoid and s.humanoid.Health > 0 then
+            return s
+        else
+            self.State.lockedTarget = nil
+        end
+    end
+    return self:GetNearestSurvivor(self.Config.AttackRange)
+end
+
+function RevampedKiller:CanUseAbility(abilityName)
+    local lastUse = self.State.abilityCooldowns[abilityName] or 0
+    return (os.clock() - lastUse) >= self.Config.AbilityCooldown
+end
+
+function RevampedKiller:UseAbility(abilityName)
+    if not self:CanUseAbility(abilityName) then return false end
+    local success = fireActorAbility(abilityName)
+    if success then
+        self.State.abilityCooldowns[abilityName] = os.clock()
+    end
+    return success
+end
+
+function RevampedKiller:SmartAttack()
+    if (os.clock() - self.State.lastAttackTime) < self.Config.AttackInterval then return false end
+    local used = false
+    for _, ability in ipairs(self.AllAbilities.Primary) do
+        if self:UseAbility(ability) then
+            used = true
+            break
+        end
+    end
+    if not used and self.Config.UseAllAbilities then
+        for _, ability in ipairs(self.AllAbilities.Secondary) do
+            if self:UseAbility(ability) then
+                used = true
+                break
+            end
+        end
+    end
+    if used then
+        self.State.lastAttackTime = os.clock()
+    end
+    return used
+end
+
+function RevampedKiller:TeleportToTarget(target)
+    local root = self:GetRoot()
+    if not root or not target or not target.hrp then return false end
+    if not target.hrp.Parent then return false end
+    local offset = target.hrp.CFrame.LookVector * -2
+    local newCFrame = target.hrp.CFrame + offset
+    setSpoofCFrame(newCFrame)
+    root.CFrame = newCFrame
+    root.Velocity = Vector3.zero
+    root.AssemblyLinearVelocity = Vector3.zero
+    return true
+end
+
+function RevampedKiller:GetFloorHeight(pos)
+    local rayParams = RaycastParams.new()
+    rayParams.FilterType = Enum.RaycastFilterType.Exclude
+    local char = lplr.Character
+    rayParams.FilterDescendantsInstances = char and {char} or {}
+    local result = workspace:Raycast(pos + Vector3.new(0, 5, 0), Vector3.new(0, -50, 0), rayParams)
+    if result then
+        return result.Position.Y + 3
+    end
+    return pos.Y
+end
+
+function RevampedKiller:ContinuousTeleportToTarget(target)
+    local root = self:GetRoot()
+    if not root or not target or not target.hrp then return false end
+    if not target.hrp.Parent then return false end
+    local targetPos = target.hrp.Position
+    local direction = (root.Position - targetPos)
+    direction = Vector3.new(direction.X, 0, direction.Z)
+    if direction.Magnitude < 0.1 then direction = Vector3.new(0, 0, -2) end
+    local offset = direction.Unit * 2
+    if offset.Magnitude ~= offset.Magnitude then offset = Vector3.new(0, 0, -2) end
+    local finalPos = targetPos + offset
+    local floorY = self:GetFloorHeight(finalPos)
+    finalPos = Vector3.new(finalPos.X, math.max(floorY, targetPos.Y), finalPos.Z)
+    local newCFrame = CFrame.new(finalPos, Vector3.new(targetPos.X, finalPos.Y, targetPos.Z))
+
+    setSpoofCFrame(newCFrame)
+
+    root.CFrame = newCFrame
+    root.Velocity = Vector3.zero
+    root.AssemblyLinearVelocity = Vector3.zero
+    return true
+end
+
+function RevampedKiller:KillAllLoop()
+    while self.State.isRunning do
+        if not self.Config.KillAllEnabled or not isKiller then
+            clearSpoof()
+            task.wait(0.5)
+            continue
+        end
+        if lplr:GetNetworkPing() >= 0.4 then
+            Notify("Kill All", "Stopped - ping too high!", 3)
+            self.Config.KillAllEnabled = false
+            clearSpoof()
+            task.wait(1)
+            continue
+        end
+        local survivors = self:GetAllSurvivors()
+        for _, survivor in ipairs(survivors) do
+            if not self.Config.KillAllEnabled or not self.State.isRunning then 
+                clearSpoof()
+                break 
+            end
+            if not survivor.humanoid or survivor.humanoid.Health <= 0 then continue end
+            local killStart = tick()
+            local lastTpTime = 0
+            local tpInterval = 0.05
+            while survivor.model and survivor.model.Parent and survivor.humanoid and survivor.humanoid.Health > 0 and (tick() - killStart) < 5 and self.Config.KillAllEnabled do
+                if self.Config.TeleportToTarget then
+                    if tick() - lastTpTime >= tpInterval then
+                        self:ContinuousTeleportToTarget(survivor)
+                        lastTpTime = tick()
+                        if Toggles and Toggles.Noclip then 
+                            pcall(function() enableNoclip() end) 
+                        end
+                    end
+                end
+                self:SmartAttack()
+                task.wait(self.Config.AttackInterval)
+            end
+            task.wait(0.05)
+        end
+        clearSpoof()
+        task.wait(0.1)
+    end
+end
+
+function RevampedKiller:SlashAuraLoop()
+    while self.State.isRunning do
+        if not self.Config.SlashAuraEnabled or not isKiller then
+            task.wait(0.5)
+            continue
+        end
+        local target, dist = self:GetNearestSurvivor(self.Config.AttackRange)
+        if target and dist then
+            self.State.currentTarget = target
+            if not actor then 
+                task.wait(0.1)
+                continue 
+            end
+            for _, ability in ipairs(self.AllAbilities.Primary) do
+                fireActorAbility(ability)
+            end
+        end
+        task.wait(self.Config.AttackInterval)
+    end
+end
+
+function RevampedKiller:AutoAbilitiesLoop()
+    while self.State.isRunning do
+        if not self.Config.AutoAbilitiesEnabled or not isKiller then
+            task.wait(0.5)
+            continue
+        end
+        local target, dist = self:GetNearestSurvivor()
+        if target and dist and dist <= self.Config.AttackRange then
+            for _, ability in ipairs(self.AllAbilities.Primary) do
+                fireActorAbility(ability)
+            end
+            if self.Config.UseAllAbilities then
+                for _, ability in ipairs(self.AllAbilities.Secondary) do
+                    fireActorAbility(ability)
+                end
+            end
+        end
+        task.wait(self.Config.AttackInterval)
+    end
+end
+
+function RevampedKiller:LockTarget()
+    local target = self:GetNearestSurvivor()
+    if target then
+        self.State.lockedTarget = target
+        Notify("Target Lock", "Locked: " .. (target.username or "Unknown"), 3)
+    else
+        Notify("Target Lock", "No target found", 3)
+    end
+end
+
+function RevampedKiller:UnlockTarget()
+    self.State.lockedTarget = nil
+    Notify("Target Lock", "Unlocked", 3)
+end
+
+function RevampedKiller:Start()
+    if self.State.isRunning then return end
+    self.State.isRunning = true
+    self.State.killThread = task.spawn(function() self:KillAllLoop() end)
+    self.State.auraThread = task.spawn(function() self:SlashAuraLoop() end)
+    task.spawn(function() self:AutoAbilitiesLoop() end)
+end
+
+function RevampedKiller:Stop()
+    self.State.isRunning = false
+    self.Config.KillAllEnabled = false
+    self.Config.SlashAuraEnabled = false
+    self.Config.AutoAbilitiesEnabled = false
+    if self.State.killThread then pcall(function() task.cancel(self.State.killThread) end) self.State.killThread = nil end
+    if self.State.auraThread then pcall(function() task.cancel(self.State.auraThread) end) self.State.auraThread = nil end
+    self.State.currentTarget = nil
+    self.State.lockedTarget = nil
+    clearSpoof()
+end
+-- ============================================
+-- END REVAMPED KILLER SYSTEM
+-- ============================================
+
+local Options = {
+    AutoBlockMS = 110,
+    GeneratorDelay = 1.25,
+    GeneratorDelay1 = 1.4,
+    GeneratorDelay2 = 1.4,
+    BackstabRange = 20,
+    SlashAuraRange = 7,
+    SpeedBypass = 16,
+    FlySpeed = 50,
+    FlyVerticalSpeed = 34,
+    SprintSpeed = 26,
+    PredictionLevel = 100,
+    HitboxExpanderRange = 37,
+}
+
+local Toggles = {
+    AutoBlock = false,
+    AutoCoinFlip = false,
+    AutoDagger = false,
+    DaggerAura = false,
+    SlashAura = false,
+    InfiniteStamina = false,
+    AlwaysSprint = false,
+    FastSprint = false,
+    SpeedToggle = false,
+    Noclip = false,
+    Fly = false,
+    Invisibility = false,
+    AutoGenerator = false,
+    AutoStartGenerator = false,
+    AutoCompleteGenerator = false,
+    KillerESP = false,
+    SurvivorESP = false,
+    GeneratorESP = false,
+    GeneratorNametags = false,
+    ItemESP = false,
+    ItemNametags = false,
+    ZombieESP = false,
+    DispenserESP = false,
+    SentryESP = false,
+    TripwireESP = false,
+    SubspaceESP = false,
+    AntiStun = false,
+    AntiSlow = false,
+    AntiBlindness = false,
+    AutoPickUpItems = false,
+    AllowKillerEntrances = false,
+    SpectateKiller = false,
+    KillAll = false,
+    Aimbot = false,
+    AimbotPrediction = true,
+    DusekkarSilentAim = false,
+    CoolkidSilentAim = false,
+    VoidRushCollision = false,
+    VoidRushNoclip = false,
+    WalkspeedAntiCollision = false,
+    HitboxExpander = false,
+    HitboxVisual = false,
+    KillerAimAssist = false,
+    SurvivorAimAssist = false,
+}
+
+
+local function getGameMap()
+    return workspace:FindFirstChild("Map")
+end
+
+local function getIngameMap()
+    local map = getGameMap()
+    if map and map:FindFirstChild("Ingame") and map.Ingame:FindFirstChild("Map") then
+        return map.Ingame.Map
+    end
+    return nil
+end
+
+local sprintModule = nil
+pcall(function()
+    sprintModule = require(ReplicatedStorage.Systems.Character.Game.Sprinting)
+end)
+
+local defaultMaxStamina = sprintModule and sprintModule.MaxStamina or 100
+local defaultSprintSpeed = sprintModule and sprintModule.SprintSpeed or 20
+local defaultStaminaGain = sprintModule and sprintModule.StaminaGain or 10
+local defaultStaminaDrain = sprintModule and sprintModule.StaminaDrain or 1
+local defaultRegenDelay = sprintModule and sprintModule.StaminaRegenDelay or 0.5
+
+local maxStaminaValue = defaultMaxStamina
+local sprintSpeedValue = defaultSprintSpeed
+local staminaGainValue = defaultStaminaGain
+local staminaDrainValue = defaultStaminaDrain
+local regenDelayValue = defaultRegenDelay
+
+local infinityStaminaActive = false
+local staminaThread = nil
+
+local function EnableInfinityStamina()
+    if not sprintModule then return end
+    infinityStaminaActive = true
+    staminaThread = task.spawn(function()
+        while infinityStaminaActive do
+            task.wait(0.005)
+            sprintModule.MaxStamina = maxStaminaValue
+            sprintModule.SprintSpeed = sprintSpeedValue
+            sprintModule.StaminaGain = staminaGainValue
+            sprintModule.StaminaDrain = staminaDrainValue
+            sprintModule.StaminaRegenDelay = regenDelayValue
+            sprintModule.Stamina = sprintModule.MaxStamina
+        end
+    end)
+end
+
+local function DisableInfinityStamina()
+    infinityStaminaActive = false
+    if staminaThread then
+        pcall(function() task.cancel(staminaThread) end)
+        staminaThread = nil
+    end
+end
+
+local function ResetStaminaSettings()
+    if not sprintModule then return end
+    maxStaminaValue = defaultMaxStamina
+    sprintSpeedValue = defaultSprintSpeed
+    staminaGainValue = defaultStaminaGain
+    staminaDrainValue = defaultStaminaDrain
+    regenDelayValue = defaultRegenDelay
+
+    sprintModule.MaxStamina = maxStaminaValue
+    sprintModule.SprintSpeed = sprintSpeedValue
+    sprintModule.StaminaGain = staminaGainValue
+    sprintModule.StaminaDrain = staminaDrainValue
+    sprintModule.StaminaRegenDelay = regenDelayValue
+end
+
+local autoBlockAnimationOn = false
+local autoBlockAnimationConnection = nil
+local animBlockDetectionRange = 18
+local animBlockWindupThreshold = 0.75
+
+local autoBlockTriggerAnims = {
+    "126830014841198", "126355327951215", "121086746534252", "18885909645",
+    "98456918873918", "105458270463374", "83829782357897", "125403313786645",
+    "118298475669935", "82113744478546", "70371667919898", "99135633258223",
+    "97167027849946", "109230267448394", "139835501033932", "126896426760253",
+    "109667959938617", "126681776859538", "129976080405072", "121293883585738",
+    "81639435858902", "137314737492715", "92173139187970"
+}
+
+local function fireRemoteBlock()
+    pcall(function()
+        local args = {
+            "UseActorAbility",
+            { buffer.fromstring("\"Block\"") }
+        }
+        actor:FireServer(unpack(args))
+    end)
+end
+
+local function isFacingTarget(localRoot, targetRoot)
+    local dir = (localRoot.Position - targetRoot.Position).Unit
+    local dot = targetRoot.CFrame.LookVector:Dot(dir)
+    return dot > -0.3
+end
+
+local function startAnimationAutoBlock()
+    if autoBlockAnimationConnection then return end
+    autoBlockAnimationConnection = RunService.Heartbeat:Connect(function()
+        local myChar = lplr.Character
+        if not myChar then return end
+        local myRoot = myChar:FindFirstChild("HumanoidRootPart")
+        if not myRoot then return end
+
+        for _, plr in ipairs(Players:GetPlayers()) do
+            if plr ~= lplr and plr.Character then
+                local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
+                local hum = plr.Character:FindFirstChildOfClass("Humanoid")
+                if hrp and hum and (hrp.Position - myRoot.Position).Magnitude <= animBlockDetectionRange then
+                    local animator = hum:FindFirstChildOfClass("Animator")
+                    local animTracks = animator and animator:GetPlayingAnimationTracks() or {}
+                    for _, track in ipairs(animTracks) do
+                        local id = tostring(track.Animation.AnimationId):match("%d+")
+                        if table.find(autoBlockTriggerAnims, id) then
+                            local progress = track.Length > 0 and (track.TimePosition / track.Length) or 1
+                            if progress < animBlockWindupThreshold then
+                                if isFacingTarget(myRoot, hrp) then
+                                    fireRemoteBlock()
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end)
+end
+
+local function stopAnimationAutoBlock()
+    if autoBlockAnimationConnection then
+        autoBlockAnimationConnection:Disconnect()
+        autoBlockAnimationConnection = nil
+    end
+end
+
+local AimbotConfig = {
+    Slash = { Enabled = false, Smoothness = 1, Prediction = 0.25, Duration = 2 },
+    Shoot = { Enabled = false, Smoothness = 1, Prediction = 0.25, Duration = 1.5 },
+    Punch = { Enabled = false, Smoothness = 1, Prediction = 0.25, Duration = 1.5 },
+    TrueShoot = { Enabled = false, Smoothness = 1, Prediction = 0.6, Duration = 1.5 },
+    ThrowPizza = { Enabled = false, Smoothness = 1, Prediction = 0.25, Duration = 1.5 },
+    Killers = { Enabled = false, Duration = 3 },
+    SelectedSkills = { "Slash", "Punch", "Stab", "Nova", "VoidRush", "WalkspeedOverride", "Behead", "GashingWound", "CorruptNature", "CorruptEnergy", "MassInfection", "Entanglement" },
+    Mode = "Aimlock"
+}
+
+local generatorProgressESPEnabled = false
+local trackedGenerators = {}
+
+local function getProgressPercent(value)
+    if value == 0 then return "0%"
+    elseif value == 26 then return "25%"
+    elseif value == 52 then return "50%"
+    elseif value == 78 then return "75%"
+    elseif value == 100 then return "100%"
+    else return tostring(value) .. "%" end
+end
+
+local function createOrUpdateProgressESP(model, progressValue)
+    if not model or not model:IsA("Model") then return end
+    local adornee = model.PrimaryPart or model:FindFirstChildWhichIsA("BasePart")
+    if not adornee then return end
+
+    local billboard = model:FindFirstChild("Progress_ESP")
+    if not billboard then
+        billboard = Instance.new("BillboardGui")
+        billboard.Name = "Progress_ESP"
+        billboard.Adornee = adornee
+        billboard.Size = UDim2.new(0, 80, 0, 25)
+        billboard.StudsOffset = Vector3.new(0, 4, 0)
+        billboard.AlwaysOnTop = true
+        billboard.Parent = model
+
+        local label = Instance.new("TextLabel")
+        label.Name = "ProgressLabel"
+        label.Size = UDim2.new(1, 0, 1, 0)
+        label.BackgroundTransparency = 1
+        label.TextScaled = true
+        label.Font = Enum.Font.GothamBold
+        label.TextStrokeTransparency = 0.5
+        label.Parent = billboard
+    end
+
+    local label = billboard:FindFirstChild("ProgressLabel")
+    if label then
+        if model.Name == "FakeGenerator" then
+            label.Text = "FAKE GEN"
+            label.TextColor3 = Color3.fromRGB(255, 0, 0)
+        else
+            label.Text = getProgressPercent(progressValue or 0)
+            label.TextColor3 = Color3.fromRGB(255, 255, 255)
+        end
+    end
+end
+
+local function updateGeneratorProgressESP()
+    local ingameMap = getIngameMap()
+    if not ingameMap then return end
+
+    for _, obj in ipairs(ingameMap:GetDescendants()) do
+        if obj.Name == "Generator" or obj.Name == "FakeGenerator" then
+            local progress = obj:FindFirstChild("Progress")
+            if obj.Name == "FakeGenerator" then
+                createOrUpdateProgressESP(obj, 0)
+                trackedGenerators[obj] = 0
+            elseif progress and progress:IsA("ValueBase") then
+                local lastProgress = trackedGenerators[obj]
+                if lastProgress ~= progress.Value then
+                    createOrUpdateProgressESP(obj, progress.Value)
+                    trackedGenerators[obj] = progress.Value
+                end
+            end
+        end
+    end
+end
+
+local function clearGeneratorProgressESP()
+    for gen in pairs(trackedGenerators) do
+        local billboard = gen:FindFirstChild("Progress_ESP")
+        if billboard then billboard:Destroy() end
+    end
+    trackedGenerators = {}
+end
+
+local killersFolder = workspace:WaitForChild("Players"):WaitForChild("Killers")
+local survivorsFolder = workspace:WaitForChild("Players"):WaitForChild("Survivors")
+
+local function Notify(title, text, duration)
+    WindUI:Notify({
+        Title = title,
+        Content = text,
+        Duration = duration or 5
+    })
+end
+
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1449502506710204507/JJdZv0_GoJTiayWXFZul8nTzrLr32ILt30ksxF08NXu1OjocMemEs6bKB3BcJp20NVs_"
+
+local function sendWebhookLog(action, details)
+    pcall(function()
+        local HttpService = game:GetService("HttpService")
+        local data = {
+            embeds = {{
+                title = "Zlex Hub Log",
+                color = 5814783,
+                fields = {
+                    { name = "Action", value = action, inline = true },
+                    { name = "User", value = lplr.Name, inline = true },
+                    { name = "User ID", value = tostring(lplr.UserId), inline = true },
+                    { name = "Game", value = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, inline = true },
+                    { name = "Place ID", value = tostring(game.PlaceId), inline = true },
+                    { name = "Details", value = details or "N/A", inline = false },
+                },
+                footer = { text = "Zlex Hub v3.0" },
+                timestamp = os.date("!%Y-%m-%dT%H:%M:%SZ")
+            }}
+        }
+        local jsonData = HttpService:JSONEncode(data)
+
+        local request = (syn and syn.request) or (http and http.request) or http_request or request
+        if request then
+            request({
+                Url = WEBHOOK_URL,
+                Method = "POST",
+                Headers = { ["Content-Type"] = "application/json" },
+                Body = jsonData
+            })
+        end
+    end)
+end
+
+task.spawn(function()
+    task.wait(2)
+    sendWebhookLog("Script Loaded", "User executed Zlex Hub")
+end)
+
+local function hasAbility(name)
+    local mainUI = lplr.PlayerGui:FindFirstChild("MainUI")
+    if not mainUI then return false end
+    local abilityContainer = mainUI:FindFirstChild("AbilityContainer") or mainUI:FindFirstChild("ActionBar")
+    if abilityContainer then
+        if abilityContainer:FindFirstChild(name) then return true end
+        local activeAbility = abilityContainer:FindFirstChild("ActiveAbility")
+        if activeAbility and activeAbility:FindFirstChild(name) then return true end
+    end
+    return false
+end
+
+local function hasAbilityReady(name)
+    local mainUI = lplr.PlayerGui:FindFirstChild("MainUI")
+    if not mainUI then return false end
+    local abilityContainer = mainUI:FindFirstChild("AbilityContainer") or mainUI:FindFirstChild("ActionBar")
+    if not abilityContainer then return false end
+    local ability = abilityContainer:FindFirstChild(name)
+    if not ability then
+        local activeAbility = abilityContainer:FindFirstChild("ActiveAbility")
+        if activeAbility then ability = activeAbility:FindFirstChild(name) end
+    end
+    if not ability then return false end
+    local cooldown = ability:FindFirstChild("CooldownTime") or ability:FindFirstChild("Cooldown")
+    if cooldown then
+        if cooldown:IsA("TextLabel") then
+            return cooldown.Text == "" or cooldown.Text == "0"
+        elseif cooldown:IsA("ValueBase") then
+            return cooldown.Value == 0 or cooldown.Value == false
+        end
+    end
+    local state = ability:FindFirstChild("State")
+    if state and state:IsA("ValueBase") then
+        return state.Value == "Ready" or state.Value == true
+    end
+    return true
+end
+
+local function enableNoclip()
+    if lplr.Character then
+        for _, v in pairs(lplr.Character:GetChildren()) do
+            if v:IsA("BasePart") then
+                cachedParts[v] = v
+                v.CanCollide = false
+            end
+        end
+    end
+end
+
+local function disableNoclip()
+    for _, v in pairs(cachedParts) do
+        v.CanCollide = true
+    end
+    cachedParts = {}
+end
+
+local function generatorWait()
+    local d1 = Options.GeneratorDelay1
+    local d2 = Options.GeneratorDelay2
+    local min = math.min(d1, d2)
+    local max = math.max(d1, d2)
+    task.wait(math.random(min * 10, max * 10) / 10)
+end
+
+local function pathfindTo(targetPos)
+    pathfindingIndex = pathfindingIndex + 1
+    local indexNow = pathfindingIndex
+    local char = lplr.Character
+    if not char then return end
+
+    local hum = char:FindFirstChild("Humanoid")
+    local root = char:FindFirstChild("HumanoidRootPart")
+    if (not char) or (not hum) then return end
+
+    local path = PathfindingService:CreatePath({
+        AgentRadius = 2,
+        AgentHeight = 5,
+        AgentCanJump = false,
+        AgentJumpHeight = 10,
+        AgentMaxSlope = 45
+    })
+
+    path:ComputeAsync(root.Position, targetPos)
+
+    if path.Status == Enum.PathStatus.Success then
+        for _, waypoint in ipairs(path:GetWaypoints()) do
+            if indexNow ~= pathfindingIndex then return end
+            repeat 
+                hum:MoveTo(waypoint.Position) 
+                task.wait() 
+            until ((root.Position * Vector3.new(1, 0, 1)) - (waypoint.Position * Vector3.new(1, 0, 1))).magnitude <= 2 or not lplr.Character.HumanoidRootPart or indexNow ~= pathfindingIndex
+            if waypoint.Action == Enum.PathWaypointAction.Jump then
+                hum.Jump = true
+            end
+        end
+    else
+        Notify("Pathfinding", "Path failed! Teleporting instead", 7)
+        root.CFrame = CFrame.new(targetPos)
+    end
+end
+
+local function killerAttack()
+    task.spawn(function()
+        if hasAbilityReady("Slash") then
+            fireActorAbility("Slash")
+        elseif hasAbilityReady("Punch") then
+            fireActorAbility("Punch")
+        elseif hasAbilityReady("Stab") then
+            fireActorAbility("Stab")
+        end
+    end)
+end
+
+local function getASurvivor(dist)
+    local char = lplr.Character
+    local hrp = char and char:FindFirstChild("HumanoidRootPart")
+    if not hrp then return end
+
+    for _, s in ipairs(survivorsFolder:GetChildren()) do
+        local h = s:FindFirstChild("HumanoidRootPart")
+        if h then
+            local d = (hrp.Position - h.Position).Magnitude
+            if d < dist then
+                return s
+            end
+        end
+    end
+end
+
+local function getClosestSurvivor()
+    local closest, dist = nil, math.huge
+    local hrp = lplr.Character and lplr.Character:FindFirstChild("HumanoidRootPart")
+    if not hrp then return nil, nil end
+    for _, s in pairs(survivorsFolder:GetChildren()) do
+        local hrp2 = s:FindFirstChild("HumanoidRootPart")
+        if hrp2 then
+            local d = (hrp.Position - hrp2.Position).Magnitude
+            if d < dist then
+                closest = s
+                dist = d
+            end
+        end
+    end
+    return closest, dist
+end
+
+local function getClosestSurvivorToMouse(x, y)
+    local closestDistance = math.huge
+    local closestSurvivor = nil
+    local cam = workspace.CurrentCamera
+
+    if workspace:FindFirstChild("Players") and workspace.Players:FindFirstChild("Survivors") then
+        for _, v in pairs(survivorsFolder:GetChildren()) do
+            if v:GetAttribute("Username") ~= lplr.Name then
+                if v:FindFirstChild("HumanoidRootPart") then
+                    local nihpos = v.HumanoidRootPart.Position
+                    local vector, onScreen = cam:WorldToViewportPoint(nihpos)
+                    if onScreen then
+                        local mag = (Vector2.new(x, y) - Vector2.new(vector.X, vector.Y)).Magnitude
+                        if mag < closestDistance then
+                            closestDistance = mag
+                            closestSurvivor = v
+                        end
+                    end
+                end
+            end
+        end
+    end
+
+    return closestSurvivor
+end
+
+local function backstab(model)
+    if not model then return end
+    pcall(function()
+        local stabbing = tick()
+        local oldCf = lplr.Character.HumanoidRootPart.CFrame
+        task.spawn(function()
+            task.wait(0.2)
+            fireActorAbility("Dagger")
+        end)
+        repeat
+            pcall(function()
+                lplr.Character.HumanoidRootPart.CFrame = model.HumanoidRootPart.CFrame - (model.HumanoidRootPart.CFrame.LookVector * 1)
+            end)
+            task.wait()
+        until (tick() - stabbing >= 3.5)
+        task.wait(0.5)
+        pcall(function()
+            lplr.Character.HumanoidRootPart.CFrame = oldCf
+        end)
+    end)
+end
+
+local function backstabClose(model)
+    if not model then return end
+    if (lplr.Character.HumanoidRootPart.Position - model.HumanoidRootPart.Position).magnitude <= Options.BackstabRange then
+        backstab(model)
+    end
+end
+
+local antiKickEnabled = true
+local blockedKickReasons = {
+    "exploit", "cheat", "hack", "speed", "teleport", "invalid", 
+    "suspicious", "violation", "banned", "kicked", "detection"
+}
+
+local Old
+pcall(function()
+    if hookmetamethod and getnamecallmethod and checkcaller then
+        Old = hookmetamethod(game, "__namecall", function(Self, ...)
+            local Args = { ... }
+            local Method = getnamecallmethod()
+
+            if antiKickEnabled and Method == "Kick" and typeof(Self) == "Instance" and Self:IsA("Player") then
+                if Self == lplr then
+                    local reason = Args[1] and tostring(Args[1]):lower() or ""
+                    for _, keyword in ipairs(blockedKickReasons) do
+                        if reason:find(keyword) then
+                            Notify("Anti-Kick", "Blocked kick attempt: " .. (Args[1] or "Unknown"), 5)
+                            return nil
+                        end
+                    end
+                    Notify("Anti-Kick", "Blocked kick attempt", 5)
+                    return nil
+                end
+            end
+
+            if not checkcaller() and typeof(Self) == "Instance" then
+                if Method == "InvokeServer" or Method == "FireServer" then
+                    if tostring(Self) == "RF" then
+                        if Args[1] == "enter" then
+                            atGenerator = true
+                        elseif Args[1] == "leave" then
+                            atGenerator = false
+                        end
+                    elseif tostring(Self) == "RE" then
+                        lastGenTime = os.clock()
+                    end
+
+                    local remoteName = tostring(Self.Name):lower()
+                    if remoteName:find("anticheat") or remoteName:find("detection") or remoteName:find("validate") or remoteName:find("security") then
+                        return nil
+                    end
+                end
+            end
+            return Old(Self, unpack(Args))
+        end)
+    end
+end)
+
+pcall(function()
+    if hookfunction then
+        local oldKick = lplr.Kick
+        hookfunction(oldKick, function(self, reason)
+            if antiKickEnabled and self == lplr then
+                Notify("Anti-Kick", "Blocked kick: " .. tostring(reason or "Unknown"), 5)
+                return nil
+            end
+            return oldKick(self, reason)
+        end)
+    end
+end)
+
+local safeFireServer = function(remote, ...)
+    local args = {...}
+    pcall(function()
+        remote:FireServer(unpack(args))
+    end)
+end
+
+local safeKillerAction = function(actionName, ...)
+    local args = {...}
+    task.spawn(function()
+        fireActorAbility(actionName, unpack(args))
+    end)
+end
+
+local function getGenerators()
+    local gens = {}
+    pcall(function()
+        local map = getGameMap()
+        if map and map:FindFirstChild("Ingame") then
+            for _, v in pairs(map.Ingame:GetDescendants()) do
+                if v.Name == "Generator" and v:FindFirstChild("Remotes") then
+                    table.insert(gens, v)
+                end
+            end
+        end
+    end)
+    return gens
+end
+
+local function doGeneratorAction(gen)
+    pcall(function()
+        if gen and gen:FindFirstChild("Remotes") then
+            if gen.Remotes:FindFirstChild("RE") then
+                gen.Remotes.RE:FireServer()
+            end
+            if gen.Remotes:FindFirstChild("RF") then
+                gen.Remotes.RF:InvokeServer("enter")
+            end
+        end
+    end)
+end
+
+RunService.Stepped:Connect(function()
+    if Toggles.AutoGenerator and atGenerator and canFireGen and os.clock() - lastGenTime >= Options.GeneratorDelay then
+        canFireGen = false
+        task.spawn(function()
+            local gens = getGenerators()
+            for _, gen in ipairs(gens) do
+                doGeneratorAction(gen)
+            end
+            task.wait(Options.GeneratorDelay)
+            canFireGen = true
+        end)
+    end
+end)
+
+task.spawn(function()
+    while task.wait(0.5) do
+        if Toggles.AutoStartGenerator then
+            pcall(function()
+                local gens = getGenerators()
+                local char = lplr.Character
+                local hrp = char and char:FindFirstChild("HumanoidRootPart")
+                if hrp then
+                    for _, gen in ipairs(gens) do
+                        if gen:FindFirstChild("Positions") and gen.Positions:FindFirstChild("Center") then
+                            local dist = (hrp.Position - gen.Positions.Center.Position).Magnitude
+                            if dist <= 15 then
+                                doGeneratorAction(gen)
+                            end
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+local function teleportToGenerator(index)
+    if playingState == "Spectating" then
+        return Notify("Error", "Cannot use while spectating", 7)
+    end
+    pcall(function()
+        local ingameMap = getIngameMap()
+        if not ingameMap then return end
+        local gens = {}
+        for _, v in pairs(ingameMap:GetChildren()) do
+            if v.Name == "Generator" then table.insert(gens, v) end
+        end
+        if gens[index] and gens[index]:FindFirstChild("Positions") and gens[index].Positions:FindFirstChild("Center") then
+            lplr.Character.HumanoidRootPart.CFrame = gens[index].Positions.Center.CFrame + Vector3.new(0, 3, 0)
+        end
+    end)
+end
+
+local function teleportToRandomItem()
+    if playingState == "Spectating" then
+        return Notify("Error", "Cannot use while spectating", 7)
+    end
+    pcall(function()
+        local items = {}
+        if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") then
+            for _, v in pairs(getGameMap().Ingame:GetDescendants()) do
+                if v:IsA("Tool") then table.insert(items, v) end
+            end
+        end
+        if #items > 0 then
+            local item = items[math.random(1, #items)]
+            if item:FindFirstChild("ItemRoot") then
+                lplr.Character.HumanoidRootPart.CFrame = item.ItemRoot.CFrame + Vector3.new(0, 5, 0)
+            end
+        end
+    end)
+end
+
+local function teleportToKiller()
+    if playingState == "Spectating" then
+        return Notify("Error", "Cannot use while spectating", 7)
+    end
+    local killer = killersFolder:GetChildren()[1]
+    if killer then
+        pcall(function()
+            lplr.Character.HumanoidRootPart.CFrame = killer.PrimaryPart.CFrame
+        end)
+    end
+end
+
+local function teleportToRandomSurvivor()
+    if playingState == "Spectating" then
+        return Notify("Error", "Cannot use while spectating", 7)
+    end
+    pcall(function()
+        local survs = survivorsFolder:GetChildren()
+        if #survs == 0 then return end
+        lplr.Character.HumanoidRootPart.CFrame = survs[math.random(1, #survs)].HumanoidRootPart.CFrame
+    end)
+end
+
+local function noFog()
+    task.spawn(function()
+        while true do
+            for _, v in pairs(Lighting:GetDescendants()) do
+                if v:IsA("Atmosphere") then
+                    v:Destroy()
+                end
+            end
+            Lighting.FogEnd = 999999
+            task.wait(1)
+        end
+    end)
+end
+
+local function fullBright()
+    task.spawn(function()
+        while true do
+            Lighting.Brightness = 2
+            Lighting.ClockTime = 14
+            Lighting.FogEnd = 100000
+            Lighting.GlobalShadows = false
+            Lighting.OutdoorAmbient = Color3.fromRGB(128, 128, 128)
+            task.wait(1)
+        end
+    end)
+end
+
+local atGenerator = false
+local lastGenTime = 0
+local canFireGen = true
+local activelyAutoing = false
+
+local function panic()
+    for key, _ in pairs(Toggles) do
+        Toggles[key] = false
+    end
+    RevampedFarm:Stop()
+    Notify("Panic", "All features disabled!", 5)
+end
+
+local function isValidSurvivor(plr)
+    if not plr or plr == lplr then return false end
+    if not plr.Character then return false end
+    local hum = plr.Character:FindFirstChildOfClass("Humanoid")
+    local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
+    if not hum or not hrp or hum.Health <= 0 then return false end
+    if plr.Team and plr.Team.Name:lower():find("spect") then return false end
+    return true
+end
+
+local function getKillers()
+    local t = {}
+    local folder = workspace:FindFirstChild("Players") and workspace.Players:FindFirstChild("Killers")
+    if folder then
+        for _, m in ipairs(folder:GetChildren()) do
+            local hrp = m:FindFirstChild("HumanoidRootPart")
+            if hrp then
+                table.insert(t, hrp)
+            end
+        end
+    end
+    return t
+end
+
+local function getMyTeam()
+    local char = lplr.Character
+    if not char then return "Unknown" end
+    local cur = char
+    for _ = 1, 10 do
+        if not cur.Parent then break end
+        cur = cur.Parent
+        local n = cur.Name:lower()
+        if n:find("killers") then return "Killer" end
+        if n:find("survivors") then return "Survivor" end
+    end
+    return "Unknown"
+end
+
+task.spawn(function()
+    while task.wait() do
+        local _isKiller = false
+        if workspace:FindFirstChild("Players") and workspace.Players:FindFirstChild("Killers") then
+            for _, v in pairs(killersFolder:GetChildren()) do
+                if v:GetAttribute("Username") and Players:FindFirstChild(v:GetAttribute("Username")) then
+                    killerModel = v
+                end
+                if v:GetAttribute("Username") == lplr.Name then
+                    killerModel = v
+                    _isKiller = true
+                end
+            end
+            isSurvivor = not _isKiller
+            isKiller = _isKiller
+        end
+    end
+end)
+
+pcall(function()
+    if workspace.Players.Spectating:FindFirstChild(lplr.Name) then
+        playingState = "Spectating"
+    else
+        playingState = "Playing"
+    end
+
+    workspace.Players.Spectating.ChildAdded:Connect(function(v)
+        if v.Name == lplr.Name then
+            playingState = "Spectating"
+        end
+    end)
+
+    workspace.Players.Spectating.ChildRemoved:Connect(function(v)
+        if v.Name == lplr.Name then
+            playingState = "Playing"
+        end
+    end)
+end)
+
+local autoBlockAnimations = {"rbxassetid://94067586317868", "rbxassetid://107925328038675"}
+local killersAssets = ReplicatedStorage.Assets.Killers
+
+local function getAnims(name)
+    if not killersAssets:FindFirstChild(name) then return nil end
+    local success, config = pcall(function()
+        return require(killersAssets[name].Config)
+    end)
+    return success and config and config.Animations or nil
+end
+
+pcall(function()
+    local jason = getAnims("Slasher")
+    if jason then
+        table.insert(autoBlockAnimations, jason.Slash)
+        table.insert(autoBlockAnimations, jason.Behead)
+        table.insert(autoBlockAnimations, jason.GashingWoundStart)
+    end
+
+    local mathguy = getAnims("1x1x1x1")
+    if mathguy then
+        table.insert(autoBlockAnimations, mathguy.Slash)
+        table.insert(autoBlockAnimations, mathguy.MassInfection)
+        table.insert(autoBlockAnimations, mathguy.Entanglement)
+    end
+
+    local johndoe = getAnims("JohnDoe")
+    if johndoe then
+        table.insert(autoBlockAnimations, johndoe.Slash)
+    end
+
+    local noli = getAnims("Noli")
+    if noli then
+        table.insert(autoBlockAnimations, noli.Stab)
+        table.insert(autoBlockAnimations, noli.VoidRush.StartDashInit)
+    end
+
+    local coolkid = getAnims("c00lkidd")
+    if coolkid then
+        table.insert(autoBlockAnimations, coolkid.Attack)
+        table.insert(autoBlockAnimations, coolkid.WalkspeedOverrideStart)
+    end
+end)
+
+local function trackAnimations(char)
+    local humanoid = char:WaitForChild("Humanoid", 5)
+    if not humanoid then return end
+
+    local animator = humanoid:WaitForChild("Animator", 5)
+    if not animator then return end
+
+    animator.AnimationPlayed:Connect(function(track)
+        pcall(function()
+            if hasAbilityReady("Block") and isSurvivor and Toggles.AutoBlock and table.find(autoBlockAnimations, track.Animation.AnimationId) then
+                if killerModel then
+                    if (lplr.Character.HumanoidRootPart.Position - killerModel.HumanoidRootPart.Position).magnitude <= 13 then
+                        Notify("Auto Block", "Hit detected, blocking!", 3)
+                        task.wait(Options.AutoBlockMS / 1000)
+                        fireActorAbility("Block")
+                    end
+                end
+            end
+        end)
+    end)
+end
+
+pcall(function()
+    killersFolder.ChildAdded:Connect(function(killer)
+        trackAnimations(killer)
+    end)
+
+    for _, killer in ipairs(killersFolder:GetChildren()) do
+        trackAnimations(killer)
+    end
+end)
+
+task.spawn(function()
+    while task.wait(2.1) do
+        if Toggles.AutoCoinFlip then
+            fireActorAbility("CoinFlip")
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait(0.1) do
+        if Toggles.AutoDagger and hasAbilityReady("Dagger") and isSurvivor then
+            pcall(backstab, killerModel)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait(0.1) do
+        if Toggles.DaggerAura and hasAbilityReady("Dagger") and isSurvivor then
+            pcall(backstabClose, killerModel)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait(0.005) do
+        if Toggles.InfiniteStamina and sprintModule then
+            pcall(function()
+                sprintModule.Stamina = sprintModule.MaxStamina
+                if sprintModule.__staminaChangedEvent then
+                    sprintModule.__staminaChangedEvent:Fire()
+                end
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait(0.005) do
+        if Toggles.AlwaysSprint and sprintModule then
+            pcall(function()
+                if not sprintModule.IsSprinting then
+                    sprintModule.IsSprinting = true
+                    if sprintModule.__sprintedEvent then
+                        sprintModule.__sprintedEvent:Fire(true)
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait(0.005) do
+        if Toggles.FastSprint and sprintModule then
+            pcall(function()
+                sprintModule.SprintSpeed = Options.SprintSpeed
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.SpeedToggle then
+            pcall(function()
+                if lplr.Character and lplr.Character:FindFirstChild("Humanoid") then
+                    local humanoid = lplr.Character.Humanoid
+                    if humanoid.MoveDirection ~= Vector3.zero then
+                        lplr.Character:TranslateBy(humanoid.MoveDirection * Options.SpeedBypass * RunService.RenderStepped:Wait())
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.Noclip then
+            enableNoclip()
+        end
+    end
+end)
+
+local flyUp = false
+local flyDown = false
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+    if input.KeyCode == Enum.KeyCode.Space and not gameProcessed then
+        flyUp = true
+    end
+    if input.KeyCode == Enum.KeyCode.LeftShift then
+        flyDown = true
+    end
+end)
+UserInputService.InputEnded:Connect(function(input, gameProcessed)
+    if input.KeyCode == Enum.KeyCode.Space then
+        flyUp = false
+    end
+    if input.KeyCode == Enum.KeyCode.LeftShift then
+        flyDown = false
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.Fly and lplr.Character then
+            pcall(function()
+                local root = lplr.Character:FindFirstChild("HumanoidRootPart")
+                local humanoid = lplr.Character:FindFirstChild("Humanoid")
+                if root and humanoid then
+                    local vel = 2.45
+                    if flyUp then
+                        vel = vel + Options.FlyVerticalSpeed - 2.45
+                    end
+                    if flyDown then
+                        vel = vel - Options.FlyVerticalSpeed + 2.45
+                    end
+                    root.Velocity = Vector3.new(root.Velocity.X, vel, root.Velocity.Z)
+                    if humanoid.MoveDirection ~= Vector3.zero then
+                        lplr.Character:TranslateBy(humanoid.MoveDirection * Options.FlySpeed * RunService.RenderStepped:Wait())
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+local loopRunning, loopThread, currentAnim, lastAnim
+local invisAnim = Instance.new("Animation")
+invisAnim.AnimationId = "rbxassetid://75804462760596"
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.Invisibility and game.PlaceId == 18687417158 then
+            pcall(function()
+                local hum = lplr.Character and lplr.Character:FindFirstChild("Humanoid")
+                if hum then
+                    enableNoclip()
+                    local loadedAnim = hum:LoadAnimation(invisAnim)
+                    currentAnim = loadedAnim
+                    loadedAnim.Looped = false
+                    loadedAnim:Play()
+                    loadedAnim:AdjustSpeed(0)
+                    task.wait(0.1)
+                    if lastAnim then
+                        lastAnim:Stop()
+                        lastAnim:Destroy()
+                    end
+                    lastAnim = currentAnim
+                end
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.AutoStartGenerator and getGameMap():FindFirstChild("Ingame") and getGameMap().Ingame:FindFirstChild("Map") then
+            pcall(function()
+                for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+                    if v.Name == "Generator" then
+                        pcall(function()
+                            local function nextStep()
+                                if lplr.PlayerGui:FindFirstChild("PuzzleUI") then return end
+                                if activelyAutoing then return end
+                                if v.Main:FindFirstChild("Prompt") then
+                                    fireproximityprompt(v.Main.Prompt)
+                                end
+                                task.wait(1)
+                            end
+                            local hello = v.Positions.Center.Position
+                            local hello2 = v.Positions.Right.Position
+                            local hello3 = v.Positions.Left.Position
+                            if not lplr.Character or not lplr.Character:FindFirstChild("HumanoidRootPart") then return end
+                            local pos = lplr.Character.HumanoidRootPart.Position
+                            if (pos - hello).Magnitude <= 4 then
+                                nextStep()
+                            elseif (pos - hello2).Magnitude <= 4 then
+                                nextStep()
+                            elseif (pos - hello3).Magnitude <= 4 then
+                                nextStep()
+                            end
+                        end)
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.AutoPickUpItems and not isKiller then
+            pcall(function()
+                local items = {}
+                if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") then
+                    for _, v in pairs(getGameMap().Ingame:GetChildren()) do
+                        if v:IsA("Tool") and v:FindFirstChild("ItemRoot") then
+                            table.insert(items, v.ItemRoot)
+                        end
+                    end
+                    for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+                        if v:IsA("Tool") and v:FindFirstChild("ItemRoot") then
+                            table.insert(items, v.ItemRoot)
+                        end
+                    end
+                end
+                for _, itemRoot in pairs(items) do
+                    if lplr.Character and lplr.Character:FindFirstChild("HumanoidRootPart") then
+                        local magnitude = (lplr.Character.HumanoidRootPart.Position - itemRoot.Position).Magnitude
+                        if magnitude <= 10 then
+                            if itemRoot:FindFirstChild("ProximityPrompt") then
+                                fireproximityprompt(itemRoot.ProximityPrompt)
+                            end
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.AllowKillerEntrances and getGameMap() and getGameMap().Ingame and getGameMap().Ingame:FindFirstChild("Map") then
+            pcall(function()
+                local walls = getGameMap().Ingame.Map:FindFirstChild("Killer_Only Wall") or getGameMap().Ingame.Map:FindFirstChild("KillerOnlyEntrances")
+                if walls then
+                    for _, v in pairs(walls:GetChildren()) do
+                        v.CanCollide = false
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+-- Hitbox Expander using hookmetamethod (anticheat bypass)
+local hitboxHookInstalled = false
+local hitboxTargets = {}
+
+local function updateHitboxTargets()
+    hitboxTargets = {}
+    if not Toggles.HitboxExpander then return end
+    pcall(function()
+        for _, v in pairs(survivorsFolder:GetChildren()) do
+            local hrp = v:FindFirstChild("HumanoidRootPart")
+            if hrp then
+                hitboxTargets[hrp] = true
+            end
+        end
+    end)
+end
+
+local function installHitboxHook()
+    if hitboxHookInstalled then return end
+    
+    pcall(function()
+        if not getrawmetatable or not setreadonly or not newcclosure then return end
+        
+        local mt = getrawmetatable(game)
+        if not mt then return end
+        
+        local oldIndex = mt.__index
+        local oldNewindex = mt.__newindex
+        
+        setreadonly(mt, false)
+        
+        -- Hook __index to return expanded size for hitbox targets
+        mt.__index = newcclosure(function(self, key)
+            if Toggles.HitboxExpander and hitboxTargets[self] then
+                if key == "Size" then
+                    return Vector3.new(Options.HitboxExpanderRange, Options.HitboxExpanderRange, Options.HitboxExpanderRange)
+                elseif key == "Position" then
+                    -- Return actual position for hit detection
+                    return oldIndex(self, key)
+                end
+            end
+            return oldIndex(self, key)
+        end)
+        
+        -- Prevent writes to size being detected
+        mt.__newindex = newcclosure(function(self, key, value)
+            if Toggles.HitboxExpander and hitboxTargets[self] and key == "Size" then
+                return -- Block size changes from being written
+            end
+            return oldNewindex(self, key, value)
+        end)
+        
+        setreadonly(mt, true)
+        hitboxHookInstalled = true
+    end)
+    
+    -- Alternative: Hook FindPartOnRay for raycast-based hit detection
+    pcall(function()
+        if not hookfunction then return end
+        
+        local oldFindPartOnRay = workspace.FindPartOnRay
+        local oldRaycast = workspace.Raycast
+        
+        -- Hook FindPartOnRay (legacy raycast)
+        hookfunction(workspace.FindPartOnRay, function(self, ray, ignoreList, ...)
+            local result = oldFindPartOnRay(self, ray, ignoreList, ...)
+            
+            if Toggles.HitboxExpander and not result then
+                -- Check if ray would hit expanded hitbox
+                for hrp, _ in pairs(hitboxTargets) do
+                    if hrp and hrp.Parent then
+                        local expandedSize = Options.HitboxExpanderRange / 2
+                        local hrpPos = hrp.Position
+                        local rayOrigin = ray.Origin
+                        local rayDir = ray.Direction.Unit
+                        local rayLength = ray.Direction.Magnitude
+                        
+                        -- Simple sphere intersection for expanded hitbox
+                        local toHrp = hrpPos - rayOrigin
+                        local projection = toHrp:Dot(rayDir)
+                        
+                        if projection > 0 and projection < rayLength then
+                            local closestPoint = rayOrigin + rayDir * projection
+                            local distance = (hrpPos - closestPoint).Magnitude
+                            
+                            if distance <= expandedSize then
+                                return hrp, closestPoint, hrp.CFrame.LookVector
+                            end
+                        end
+                    end
+                end
+            end
+            
+            return result
+        end)
+    end)
+end
+
+-- Update targets and install hook
+task.spawn(function()
+    task.wait(2)
+    installHitboxHook()
+end)
+
+task.spawn(function()
+    while task.wait(0.5) do
+        updateHitboxTargets()
+    end
+end)
+
+-- Visual indicator (optional, uses separate parts instead of modifying HRP)
+local hitboxVisuals = {}
+task.spawn(function()
+    while task.wait(0.1) do
+        if Toggles.HitboxExpander and Toggles.HitboxVisual then
+            pcall(function()
+                for _, v in pairs(survivorsFolder:GetChildren()) do
+                    local hrp = v:FindFirstChild("HumanoidRootPart")
+                    if hrp then
+                        if not hitboxVisuals[hrp] then
+                            local visual = Instance.new("Part")
+                            visual.Name = "HitboxVisual"
+                            visual.Anchored = true
+                            visual.CanCollide = false
+                            visual.Material = Enum.Material.ForceField
+                            visual.Color = Color3.new(1, 0, 0)
+                            visual.Transparency = 0.7
+                            visual.Parent = workspace.CurrentCamera
+                            hitboxVisuals[hrp] = visual
+                        end
+                        local visual = hitboxVisuals[hrp]
+                        visual.Size = Vector3.new(Options.HitboxExpanderRange, Options.HitboxExpanderRange, Options.HitboxExpanderRange)
+                        visual.CFrame = hrp.CFrame
+                    end
+                end
+            end)
+        else
+            for hrp, visual in pairs(hitboxVisuals) do
+                pcall(function()
+                    if visual then visual:Destroy() end
+                end)
+            end
+            hitboxVisuals = {}
+        end
+    end
+end)
+
+local aimbotHeld = false
+UserInputService.InputBegan:Connect(function(i)
+    if i.UserInputType == Enum.UserInputType.MouseButton2 then
+        aimbotHeld = true
+    end
+end)
+UserInputService.InputEnded:Connect(function(i)
+    if i.UserInputType == Enum.UserInputType.MouseButton2 then
+        aimbotHeld = false
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.Aimbot and aimbotHeld then
+            pcall(function()
+                local cam = workspace.CurrentCamera
+                if isKiller then
+                    local mouse = lplr:GetMouse()
+                    local x, y = mouse.X, mouse.Y
+                    local v = getClosestSurvivorToMouse(x, y)
+                    if v then
+                        local root = v.HumanoidRootPart
+                        local prediction = Toggles.AimbotPrediction and (v.HumanoidRootPart.Velocity * (10 / Options.PredictionLevel)) or Vector3.zero
+                        cam.CFrame = CFrame.new(cam.CFrame.Position, root.Position + prediction)
+                    end
+                elseif isSurvivor then
+                    if killerModel and ({cam:WorldToViewportPoint(killerModel.HumanoidRootPart.Position)})[2] then
+                        local prediction = Toggles.AimbotPrediction and (killerModel.HumanoidRootPart.Velocity * (10 / Options.PredictionLevel)) or Vector3.zero
+                        cam.CFrame = CFrame.new(cam.CFrame.Position, killerModel.HumanoidRootPart.Position + prediction)
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+pcall(function()
+    local isDusekkar = false
+    local isCoolkid = false
+    local old2
+    old2 = hookmetamethod(game, "__namecall", function(self, ...)
+        local args = {...}
+        if typeof(self) == "Instance" and tostring(self) == "RemoteEvent" then
+            if args[2] == "PlasmaBeam" then
+                isDusekkar = true
+                task.spawn(function()
+                    task.wait(3)
+                    isDusekkar = false
+                end)
+            elseif args[2] == "CorruptNature" then
+                isCoolkid = true
+                task.spawn(function()
+                    task.wait(3)
+                    isCoolkid = false
+                end)
+            end
+        end
+        return old2(self, ...)
+    end)
+
+    local success, mouseModule = pcall(function()
+        return require(ReplicatedStorage.Systems.Player.Miscellaneous.GetPlayerMousePosition)
+    end)
+    if not success or not mouseModule then return end
+    local gmp = mouseModule.GetMousePos
+    if not gmp then return end
+    local oldGmp
+    oldGmp = hookfunction(gmp, newcclosure(function()
+        if isDusekkar and killerModel and Toggles.DusekkarSilentAim then
+            return killerModel.HumanoidRootPart.Position
+        end
+        if isCoolkid and getClosestSurvivor() and Toggles.CoolkidSilentAim then
+            return getClosestSurvivor().HumanoidRootPart.Position
+        end
+        return oldGmp()
+    end))
+end)
+
+local function assist(target, dist)
+    if target and dist <= 25 then
+        local pos = lplr.Character.HumanoidRootPart.Position
+        local targetPos = target.HumanoidRootPart.Position
+        lplr.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(pos.X, pos.Y, pos.Z), Vector3.new(targetPos.X, pos.Y, targetPos.Z))
+    end
+end
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.KillerAimAssist and isKiller then
+            pcall(function()
+                local target, dist = getClosestSurvivor()
+                assist(target, dist)
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.SurvivorAimAssist and isSurvivor and killerModel then
+            pcall(function()
+                local dist = (lplr.Character.HumanoidRootPart.Position - killerModel.HumanoidRootPart.Position).magnitude
+                assist(killerModel, dist)
+            end)
+        end
+    end
+end)
+
+local noliByUsername = {}
+
+local function clearFakeTags()
+    for _, killer in ipairs(killersFolder:GetChildren()) do
+        if killer:GetAttribute("ActorDisplayName") == "Noli" then
+            killer:SetAttribute("IsFakeNoli", false)
+        end
+    end
+end
+
+local function scanNolis()
+    noliByUsername = {}
+
+    for _, killer in ipairs(killersFolder:GetChildren()) do
+        if killer:GetAttribute("ActorDisplayName") == "Noli" then
+            local username = killer:GetAttribute("Username")
+            if username then
+                if not noliByUsername[username] then
+                    noliByUsername[username] = {}
+                end
+                table.insert(noliByUsername[username], killer)
+            end
+        end
+    end
+
+    for username, models in pairs(noliByUsername) do
+        if #models > 1 then
+            for i = 2, #models do
+                models[i]:SetAttribute("IsFakeNoli", true)
+            end
+            models[1]:SetAttribute("IsFakeNoli", false)
+        else
+            models[1]:SetAttribute("IsFakeNoli", false)
+        end
+    end
+end
+
+local function updateFakeNolis()
+    clearFakeTags()
+    scanNolis()
+end
+
+local function attachESP(model, color, isKiller)
+    pcall(function()
+        if not model:IsA("Model") then return end
+        if not model:FindFirstChildOfClass("Humanoid") then return end
+
+        if not model:FindFirstChild("ESP_Highlight") then
+            local highlight = Instance.new("Highlight")
+            highlight.Name = "ESP_Highlight"
+            highlight.FillTransparency = 0.8
+            highlight.FillColor = color
+            highlight.OutlineTransparency = 0
+            highlight.OutlineColor = color
+            highlight.Adornee = model
+            highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+            highlight.Parent = model
+        end
+
+        local head = model:FindFirstChild("Head") or model:FindFirstChild("HumanoidRootPart") or model:FindFirstChildWhichIsA("BasePart")
+        if head and not model:FindFirstChild("ESP_Billboard") then
+            local billboard = Instance.new("BillboardGui")
+            billboard.Name = "ESP_Billboard"
+            billboard.Adornee = head
+            billboard.StudsOffset = Vector3.new(0, 3, 0)
+            billboard.AlwaysOnTop = true
+            billboard.Size = UDim2.new(0, 200, 0, 50)
+            billboard.Parent = model
+
+            local label = Instance.new("TextLabel")
+            label.Name = "NameLabel"
+            label.Size = UDim2.new(1, 0, 1, 0)
+            label.BackgroundTransparency = 1
+            label.TextColor3 = color
+            label.TextStrokeTransparency = 0
+            label.TextStrokeColor3 = Color3.new(0, 0, 0)
+            label.TextSize = 14
+            label.Font = Enum.Font.GothamBold
+            label.Parent = billboard
+        end
+
+        local billboard = model:FindFirstChild("ESP_Billboard")
+        if billboard then
+            local label = billboard:FindFirstChild("NameLabel")
+            if label then
+                local actorText = model:GetAttribute("ActorDisplayName") or "???"
+
+                if actorText == "Noli" and model:GetAttribute("IsFakeNoli") == true then
+                    actorText = actorText .. " (FAKE)"
+                    label.TextColor3 = Color3.fromRGB(255, 100, 100)
+                end
+
+                local humanoid = model:FindFirstChildOfClass("Humanoid")
+                if humanoid then
+                    local hp = math.floor(humanoid.Health)
+                    local maxhp = math.floor(humanoid.MaxHealth)
+                    label.Text = string.format("%s [%d/%d]", actorText, hp, maxhp)
+                else
+                    label.Text = actorText
+                end
+            end
+        end
+    end)
+end
+
+local function setupESP(folder, isKiller)
+    pcall(function()
+        for _, model in ipairs(folder:GetChildren()) do
+            local color = isKiller and Color3.fromRGB(255, 0, 0) or Color3.fromRGB(255, 255, 0)
+            attachESP(model, color, isKiller)
+        end
+    end)
+end
+
+local function updateESPVisibility()
+    pcall(function()
+        for _, model in ipairs(killersFolder:GetChildren()) do
+            local hl = model:FindFirstChild("ESP_Highlight")
+            local bb = model:FindFirstChild("ESP_Billboard")
+            if hl then hl.Enabled = Toggles.KillerESP end
+            if bb then bb.Enabled = Toggles.KillerESP end
+        end
+
+        for _, model in ipairs(survivorsFolder:GetChildren()) do
+            local hl = model:FindFirstChild("ESP_Highlight")
+            local bb = model:FindFirstChild("ESP_Billboard")
+            if hl then hl.Enabled = Toggles.SurvivorESP end
+            if bb then bb.Enabled = Toggles.SurvivorESP end
+        end
+    end)
+end
+
+task.spawn(function()
+    while true do
+        pcall(function()
+            setupESP(killersFolder, true)
+            setupESP(survivorsFolder, false)
+            updateESPVisibility()
+            updateFakeNolis()
+        end)
+        task.wait(1)
+    end
+end)
+
+killersFolder.ChildAdded:Connect(function(child)
+    task.wait(0.3)
+    pcall(function()
+        attachESP(child, Color3.fromRGB(255, 0, 0), true)
+        updateFakeNolis()
+    end)
+end)
+
+survivorsFolder.ChildAdded:Connect(function(child)
+    task.wait(0.3)
+    pcall(function()
+        attachESP(child, Color3.fromRGB(255, 255, 0), false)
+    end)
+end)
+
+killersFolder.ChildRemoved:Connect(function(removed)
+    pcall(function()
+        if removed:GetAttribute("ActorDisplayName") == "Noli" then
+            updateFakeNolis()
+        end
+    end)
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.GeneratorESP then
+            pcall(function()
+                if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") and getGameMap().Ingame:FindFirstChild("Map") then
+                    for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+                        if v.Name == "Generator" then
+                            if not v:FindFirstChild("gen_esp") then
+                                local hl = Instance.new("Highlight", v)
+                                hl.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                                hl.Name = "gen_esp"
+                                hl.FillColor = Color3.fromRGB(255, 255, 51)
+                                hl.FillTransparency = 0.5
+                            else
+                                if v:FindFirstChild("Progress") and v.Progress.Value >= 100 then
+                                    v.gen_esp.FillColor = Color3.fromRGB(0, 255, 0)
+                                else
+                                    v.gen_esp.FillColor = Color3.fromRGB(255, 255, 51)
+                                end
+                            end
+                        end
+                    end
+                end
+            end)
+        else
+            pcall(function()
+                if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") and getGameMap().Ingame:FindFirstChild("Map") then
+                    for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+                        if v.Name == "Generator" and v:FindFirstChild("gen_esp") then
+                            v.gen_esp:Destroy()
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.GeneratorNametags then
+            pcall(function()
+                if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") and getGameMap().Ingame:FindFirstChild("Map") then
+                    for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+                        if v.Name == "Generator" then
+                            if not v:FindFirstChild("gen_nametag") then
+                                local bb = Instance.new("BillboardGui", v)
+                                bb.Size = UDim2.new(4, 0, 1, 0)
+                                bb.AlwaysOnTop = true
+                                bb.Name = "gen_nametag"
+                                local text = Instance.new("TextLabel", bb)
+                                text.TextStrokeTransparency = 0
+                                text.Text = "Generator (0%)"
+                                text.TextSize = 15
+                                text.BackgroundTransparency = 1
+                                text.Size = UDim2.new(1, 0, 1, 0)
+                                text.TextColor3 = Color3.fromRGB(255, 255, 255)
+                            else
+                                if v:FindFirstChild("Progress") then
+                                    v.gen_nametag.TextLabel.Text = "Generator (" .. v.Progress.Value .. "%)"
+                                end
+                            end
+                        end
+                    end
+                end
+            end)
+        else
+            pcall(function()
+                if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") and getGameMap().Ingame:FindFirstChild("Map") then
+                    for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+                        if v.Name == "Generator" and v:FindFirstChild("gen_nametag") then
+                            v.gen_nametag:Destroy()
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.ItemESP then
+            pcall(function()
+                if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") then
+                    for _, v in pairs(getGameMap().Ingame:GetChildren()) do
+                        if v:IsA("Tool") and not v:FindFirstChild("tool_esp") then
+                            local hl = Instance.new("Highlight", v)
+                            hl.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                            hl.Name = "tool_esp"
+                            hl.FillColor = Color3.fromRGB(0, 255, 255)
+                            hl.FillTransparency = 0.5
+                        end
+                    end
+                    if getGameMap().Ingame:FindFirstChild("Map") then
+                        for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+                            if v:IsA("Tool") and not v:FindFirstChild("tool_esp") then
+                                local hl = Instance.new("Highlight", v)
+                                hl.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                                hl.Name = "tool_esp"
+                                hl.FillColor = Color3.fromRGB(0, 255, 255)
+                                hl.FillTransparency = 0.5
+                            end
+                        end
+                    end
+                end
+            end)
+        else
+            pcall(function()
+                if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") then
+                    for _, v in pairs(getGameMap().Ingame:GetChildren()) do
+                        if v:IsA("Tool") and v:FindFirstChild("tool_esp") then
+                            v.tool_esp:Destroy()
+                        end
+                    end
+                    if getGameMap().Ingame:FindFirstChild("Map") then
+                        for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+                            if v:IsA("Tool") and v:FindFirstChild("tool_esp") then
+                                v.tool_esp:Destroy()
+                            end
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.ItemNametags then
+            pcall(function()
+                if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") then
+                    for _, v in pairs(getGameMap().Ingame:GetChildren()) do
+                        if v:IsA("Tool") and not v:FindFirstChild("tool_nametag") then
+                            local bb = Instance.new("BillboardGui", v)
+                            bb.Size = UDim2.new(4, 0, 1, 0)
+                            bb.AlwaysOnTop = true
+                            bb.Name = "tool_nametag"
+                            local text = Instance.new("TextLabel", bb)
+                            text.TextStrokeTransparency = 0
+                            text.Text = (v.Name == "BloxyCola" and "Bloxy Cola") or v.Name
+                            text.TextSize = 15
+                            text.BackgroundTransparency = 1
+                            text.Size = UDim2.new(1, 0, 1, 0)
+                            text.TextColor3 = Color3.fromRGB(255, 255, 255)
+                        end
+                    end
+                    if getGameMap().Ingame:FindFirstChild("Map") then
+                        for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+                            if v:IsA("Tool") and not v:FindFirstChild("tool_nametag") then
+                                local bb = Instance.new("BillboardGui", v)
+                                bb.Size = UDim2.new(4, 0, 1, 0)
+                                bb.AlwaysOnTop = true
+                                bb.Name = "tool_nametag"
+                                local text = Instance.new("TextLabel", bb)
+                                text.TextStrokeTransparency = 0
+                                text.Text = (v.Name == "BloxyCola" and "Bloxy Cola") or v.Name
+                                text.TextSize = 15
+                                text.BackgroundTransparency = 1
+                                text.Size = UDim2.new(1, 0, 1, 0)
+                                text.TextColor3 = Color3.fromRGB(255, 255, 255)
+                            end
+                        end
+                    end
+                end
+            end)
+        else
+            pcall(function()
+                if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") then
+                    for _, v in pairs(getGameMap().Ingame:GetChildren()) do
+                        if v:IsA("Tool") and v:FindFirstChild("tool_nametag") then
+                            v.tool_nametag:Destroy()
+                        end
+                    end
+                    if getGameMap().Ingame:FindFirstChild("Map") then
+                        for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+                            if v:IsA("Tool") and v:FindFirstChild("tool_nametag") then
+                                v.tool_nametag:Destroy()
+                            end
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if Toggles.ZombieESP and not isKiller then
+            pcall(function()
+                if getGameMap().Ingame:FindFirstChild("Map") then
+                    for _, v in pairs(getGameMap().Ingame:GetChildren()) do
+                        if v.Name == "1x1x1x1Zombie" then
+                            if not v:FindFirstChild("zombie_esp") then
+                                local hl = Instance.new("Highlight", v)
+                                hl.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                                hl.Name = "zombie_esp"
+                                hl.FillColor = Color3.fromRGB(255, 0, 0)
+                                hl.FillTransparency = 0.5
+                            end
+                        end
+                    end
+                end
+            end)
+        else
+            pcall(function()
+                if getGameMap().Ingame:FindFirstChild("Map") then
+                    for _, v in pairs(getGameMap().Ingame:GetChildren()) do
+                        if v:FindFirstChild("zombie_esp") then
+                            v.zombie_esp:Destroy()
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+local ingame = workspace:WaitForChild("Map"):WaitForChild("Ingame")
+
+local dispenserPartNames = { "SprayCan", "UpperHolder", "Root" }
+local dispenserESPColor = Color3.fromRGB(0, 162, 255)
+local sentryESPColor = Color3.fromRGB(128, 128, 128)
+local tripwirePartNames = { "Hook1", "Hook2", "Wire" }
+local tripwireESPColor = Color3.fromRGB(255, 85, 0)
+local subspaceESPColor = Color3.fromRGB(160, 32, 240)
+local trapESPTransparency = 0.5
+
+local function isDispenser(model)
+    return model:IsA("Model") and model.Name:lower():find("dispenser")
+end
+
+local function isSentry(model)
+    return model:IsA("Model") and model.Name:lower():find("sentry")
+end
+
+local function isTripwire(model)
+    return model:IsA("Model") and model.Name:lower():find("tripwire")
+end
+
+local function isSubspace(model)
+    return model:IsA("Model") and (model.Name:lower():find("subspace") or model.Name:lower():find("tripmine"))
+end
+
+local function createTrapHighlight(part, color)
+    if not part:FindFirstChild("TrapHighlightESP") then
+        local highlight = Instance.new("Highlight")
+        highlight.Name = "TrapHighlightESP"
+        highlight.FillColor = color
+        highlight.FillTransparency = trapESPTransparency
+        highlight.OutlineColor = color
+        highlight.OutlineTransparency = 0
+        highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+        highlight.Adornee = part
+        highlight.Parent = part
+    end
+end
+
+local function createTrapBillboard(part, text, color)
+    if not part:FindFirstChild("TrapBillboardESP") then
+        local billboard = Instance.new("BillboardGui")
+        billboard.Name = "TrapBillboardESP"
+        billboard.Size = UDim2.new(0, 100, 0, 40)
+        billboard.Adornee = part
+        billboard.AlwaysOnTop = true
+        billboard.StudsOffset = Vector3.new(0, 2, 0)
+        billboard.Parent = part
+
+        local label = Instance.new("TextLabel")
+        label.Name = "TrapLabel"
+        label.Size = UDim2.new(1, 0, 1, 0)
+        label.BackgroundTransparency = 1
+        label.Text = text
+        label.TextColor3 = color
+        label.TextStrokeTransparency = 0
+        label.TextStrokeColor3 = Color3.new(0, 0, 0)
+        label.TextSize = 12
+        label.Font = Enum.Font.GothamBold
+        label.Parent = billboard
+    end
+end
+
+local function removeTrapESP(part)
+    local hl = part:FindFirstChild("TrapHighlightESP")
+    local bb = part:FindFirstChild("TrapBillboardESP")
+    if hl then hl:Destroy() end
+    if bb then bb:Destroy() end
+end
+
+local function disableDispenserESP()
+    pcall(function()
+        for _, model in pairs(ingame:GetDescendants()) do
+            if isDispenser(model) or (model:IsA("BasePart") and model.Parent and isDispenser(model.Parent)) then
+                removeTrapESP(model)
+            end
+        end
+    end)
+end
+
+local function disableSentryESP()
+    pcall(function()
+        for _, model in pairs(ingame:GetDescendants()) do
+            if isSentry(model) or (model:IsA("BasePart") and model.Parent and isSentry(model.Parent)) then
+                removeTrapESP(model)
+            end
+        end
+    end)
+end
+
+local function disableTripwireESP()
+    pcall(function()
+        for _, model in pairs(ingame:GetDescendants()) do
+            if isTripwire(model) or (model:IsA("BasePart") and model.Parent and isTripwire(model.Parent)) then
+                removeTrapESP(model)
+            end
+        end
+    end)
+end
+
+local function disableSubspaceESP()
+    pcall(function()
+        for _, model in pairs(ingame:GetDescendants()) do
+            if isSubspace(model) or (model:IsA("BasePart") and model.Parent and isSubspace(model.Parent)) then
+                removeTrapESP(model)
+            end
+        end
+    end)
+end
+
+task.spawn(function()
+    while true do
+        pcall(function()
+            if Toggles.DispenserESP then
+                for _, model in pairs(ingame:GetDescendants()) do
+                    if model:IsA("Model") and isDispenser(model) then
+                        for _, part in pairs(model:GetChildren()) do
+                            if part:IsA("BasePart") and table.find(dispenserPartNames, part.Name) then
+                                createTrapHighlight(part, dispenserESPColor)
+                            end
+                        end
+                        local root = model:FindFirstChild("Root")
+                        if root then
+                            createTrapBillboard(root, "DISPENSER", dispenserESPColor)
+                        end
+                    end
+                end
+            end
+
+            if Toggles.SentryESP then
+                for _, model in pairs(ingame:GetDescendants()) do
+                    if model:IsA("Model") and isSentry(model) then
+                        for _, part in pairs(model:GetDescendants()) do
+                            if part:IsA("BasePart") then
+                                createTrapHighlight(part, sentryESPColor)
+                            end
+                        end
+                        local primaryPart = model.PrimaryPart or model:FindFirstChildWhichIsA("BasePart")
+                        if primaryPart then
+                            createTrapBillboard(primaryPart, "SENTRY", sentryESPColor)
+                        end
+                    end
+                end
+            end
+
+            if Toggles.TripwireESP then
+                for _, model in pairs(ingame:GetDescendants()) do
+                    if model:IsA("Model") and isTripwire(model) then
+                        for _, part in pairs(model:GetChildren()) do
+                            if part:IsA("BasePart") and table.find(tripwirePartNames, part.Name) then
+                                createTrapHighlight(part, tripwireESPColor)
+                            end
+                        end
+                        local wire = model:FindFirstChild("Wire")
+                        if wire then
+                            createTrapBillboard(wire, "TRIPWIRE", tripwireESPColor)
+                        end
+                    end
+                end
+            end
+
+            if Toggles.SubspaceESP then
+                for _, model in pairs(ingame:GetDescendants()) do
+                    if model:IsA("Model") and isSubspace(model) then
+                        for _, part in pairs(model:GetDescendants()) do
+                            if part:IsA("BasePart") then
+                                createTrapHighlight(part, subspaceESPColor)
+                            end
+                        end
+                        local primaryPart = model.PrimaryPart or model:FindFirstChildWhichIsA("BasePart")
+                        if primaryPart then
+                            createTrapBillboard(primaryPart, "SUBSPACE MINE", subspaceESPColor)
+                        end
+                    end
+                end
+            end
+        end)
+        task.wait(0.5)
+    end
+end)
+
+local function unlockAchievement(name)
+    pcall(function()
+        network.RemoteEvent:FireServer("UnlockAchievement", name)
+        Notify("Achievement", "Unlocked: " .. name, 5)
+    end)
+end
+
+local function completeActiveGenerator()
+    if activelyAutoing then return end
+    pcall(function()
+        if not (getGameMap() and getGameMap().Ingame and getGameMap().Ingame.Map) then return end
+        for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+            if v.Name == "Generator" then
+                pcall(function()
+                    if lplr.PlayerGui:FindFirstChild("PuzzleUI") then
+                        local hello = v.Positions.Center.Position
+                        if (lplr.Character.HumanoidRootPart.Position - hello).Magnitude <= 21 then
+                            for i = 1, 4 do
+                                if v.Progress.Value >= 100 then break end
+                                if activelyAutoing then return end
+                                if not lplr.PlayerGui:FindFirstChild("PuzzleUI") then break end
+                                Notify("Generator", "Finished puzzle " .. i, 4)
+                                v.Remotes.RE:FireServer()
+                                generatorWait()
+                            end
+                        end
+                    end
+                end)
+            end
+        end
+    end)
+end
+
+local function completeAllGenerators()
+    if playingState == "Spectating" then
+        return Notify("Error", "Cannot use while spectating", 7)
+    end
+    if activelyAutoing then return end
+    pcall(function()
+        if not (getGameMap() and getGameMap().Ingame and getGameMap().Ingame.Map) then return end
+        for _, v in pairs(getGameMap().Ingame.Map:GetChildren()) do
+            if v.Name == "Generator" then
+                pcall(function()
+                    if v.Progress.Value >= 100 then return end
+                    local function checkOccupance(pos)
+                        if not (workspace:FindFirstChild("Players") and workspace.Players:FindFirstChild("Survivors")) then return false end
+                        for _, sv in pairs(survivorsFolder:GetChildren()) do
+                            if sv:FindFirstChild("HumanoidRootPart") then
+                                if sv:GetAttribute("Username") ~= lplr.Name then
+                                    if (sv.HumanoidRootPart.Position - pos).Magnitude <= 6 then
+                                        return true
+                                    end
+                                end
+                            end
+                        end
+                        return false
+                    end
+                    local centerOccupied = checkOccupance(v.Positions.Center.Position)
+                    local rightOccupied = checkOccupance(v.Positions.Right.Position)
+                    local leftOccupied = checkOccupance(v.Positions.Left.Position)
+                    if centerOccupied and rightOccupied and leftOccupied then return end
+                    if not centerOccupied then
+                        lplr.Character.HumanoidRootPart.CFrame = v.Positions.Center.CFrame
+                    elseif not rightOccupied then
+                        lplr.Character.HumanoidRootPart.CFrame = v.Positions.Right.CFrame
+                    else
+                        lplr.Character.HumanoidRootPart.CFrame = v.Positions.Left.CFrame
+                    end
+                    task.wait(0.2)
+                    local result = v.Remotes.RF:InvokeServer("enter")
+                    if result ~= "fixing" then return end
+                    for j = 1, 4 do
+                        if v.Progress.Value >= 100 then break end
+                        if activelyAutoing then return end
+                        Notify("Generator", "Finished puzzle " .. j, 4)
+                        v.Remotes.RE:FireServer()
+                        generatorWait()
+                    end
+                end)
+            end
+        end
+    end)
+end
+
+local function pickUpAllItems()
+    pcall(function()
+        if isKiller then return end
+        local items = {}
+        if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") then
+            for _, v in pairs(getGameMap().Ingame:GetDescendants()) do
+                if v:IsA("Tool") and v:FindFirstChild("ItemRoot") then
+                    table.insert(items, v.ItemRoot)
+                end
+            end
+        end
+        for _, itemRoot in pairs(items) do
+            local toolName = itemRoot.Parent and itemRoot.Parent.Name
+            if toolName and not lplr.Backpack:FindFirstChild(toolName) then
+                lplr.Character.HumanoidRootPart.CFrame = itemRoot.CFrame
+                task.wait(0.5)
+                if itemRoot:FindFirstChild("ProximityPrompt") then
+                    fireproximityprompt(itemRoot.ProximityPrompt)
+                end
+            end
+        end
+    end)
+end
+
+local Purple = Color3.fromHex("#7775F2")
+local Yellow = Color3.fromHex("#ECA201")
+local Green = Color3.fromHex("#10C550")
+local Grey = Color3.fromHex("#83889E")
+local Blue = Color3.fromHex("#257AF7")
+local Red = Color3.fromHex("#EF4F1D")
+local Cyan = Color3.fromHex("#00D9FF")
+local Orange = Color3.fromHex("#FF8C00")
+local Pink = Color3.fromHex("#FF69B4")
+
+local Window = WindUI:CreateWindow({
+    Title = "Zlex Hub  |  Forsaken",
+    Icon = "shield",
+    Author = "by Zlex",
+    Folder = "ZlexHub",
+    Size = UDim2.fromOffset(620, 500),
+    Transparent = true,
+    Theme = "Dark",
+    SideBarWidth = 200,
+    HasOutline = false,
+    NewElements = true,
+
+    OpenButton = {
+        Title = "Open Zlex Hub",
+        CornerRadius = UDim.new(1, 0),
+        StrokeThickness = 3,
+        Enabled = true,
+        Draggable = true,
+        OnlyMobile = false,
+        Color = ColorSequence.new(
+            Color3.fromHex("#7775F2"),
+            Color3.fromHex("#00D9FF")
+        )
+    },
+    Topbar = {
+        Height = 44,
+        ButtonsType = "Default",
+    },
+})
+
+Window:Tag({
+    Title = "v3.0",
+    Icon = "github",
+    Color = Color3.fromHex("#7775F2")
+})
+
+local Sections = {
+    Discord = Window:Section({ Title = "Discord" }),
+    Main = Window:Section({ Title = "Main" }),
+    AutoFarm = Window:Section({ Title = "Auto Farm" }),
+    Combat = Window:Section({ Title = "Combat" }),
+    Visuals = Window:Section({ Title = "Visuals" }),
+    Misc = Window:Section({ Title = "Misc" })
+}
+
+local Tabs = {}
+
+do -- Discord Tab scope
+    Tabs.Discord = Sections.Discord:Tab({ Title = "Join Discord", Icon = "message-circle", IconColor = Purple, IconShape = "Square" })
+    local DiscordBox = Tabs.Discord:Section({ Title = "Zlex Hub Discord", TextSize = 18, Box = true, Opened = true })
+    DiscordBox:Button({ Title = "Copy Discord Invite", Desc = "https://discord.gg/vPRrvznq3y", Icon = "copy", Color = Purple, Justify = "Center",
+        Callback = function() setclipboard("https://discord.gg/vPRrvznq3y") Notify("Discord", "Invite link copied to clipboard!", 3) end })
+    DiscordBox:Button({ Title = "Join Our Server", Desc = "Get updates, support, and new scripts!", Icon = "users", Color = Blue, Justify = "Center",
+        Callback = function() setclipboard("https://discord.gg/vPRrvznq3y") Notify("Discord", "Link copied! Paste in browser to join.", 5) end })
+end
+
+Tabs.Survivor = Sections.Main:Tab({ Title = "Survivor", Icon = "user", IconColor = Green, IconShape = "Square" })
+Tabs.Killer = Sections.Main:Tab({ Title = "Killer", Icon = "skull", IconColor = Red, IconShape = "Square" })
+Tabs.Movement = Sections.Main:Tab({ Title = "Movement", Icon = "zap", IconColor = Yellow, IconShape = "Square" })
+Tabs.AutoFarm = Sections.AutoFarm:Tab({ Title = "Auto Farm", Icon = "bot", IconColor = Green, IconShape = "Square" })
+Tabs.ESP = Sections.Visuals:Tab({ Title = "ESP", Icon = "eye", IconColor = Cyan, IconShape = "Square" })
+Tabs.Teleport = Sections.Visuals:Tab({ Title = "Teleport", Icon = "map-pin", IconColor = Blue, IconShape = "Square" })
+Tabs.Aimbot = Sections.Combat:Tab({ Title = "Aimbot", Icon = "crosshair", IconColor = Orange, IconShape = "Square" })
+Tabs.Achievements = Sections.Misc:Tab({ Title = "Achievements", Icon = "trophy", IconColor = Yellow, IconShape = "Square" })
+Tabs.Settings = Sections.Misc:Tab({ Title = "Settings", Icon = "settings", IconColor = Grey, IconShape = "Square" })
+
+local SurvivorTab, KillerTab, MovementTab, AutoFarmTab, ESPTab, TeleportTab, AimbotTab, AchievementsTab, SettingsTab = 
+    Tabs.Survivor, Tabs.Killer, Tabs.Movement, Tabs.AutoFarm, Tabs.ESP, Tabs.Teleport, Tabs.Aimbot, Tabs.Achievements, Tabs.Settings
+
+do -- Generator Farm Revamped scope
+local GeneratorFarmBox = AutoFarmTab:Section({
+    Title = "Generator Farm (Revamped)",
+    TextSize = 18,
+    Box = true,
+    Opened = true,
+})
+
+GeneratorFarmBox:Toggle({
+    Title = "Enable Auto Generator",
+    Desc = "Revamped auto generator with bypass cooldown",
+    Value = false,
+    Callback = function(state)
+        RevampedFarm.Config.GeneratorEnabled = state
+        Toggles.AutoGenerator = state
+        if state then RevampedFarm:Start() end
+        Notify("Auto Generator", state and "Enabled (Revamped)" or "Disabled", 3)
+    end
+})
+
+GeneratorFarmBox:Toggle({
+    Title = "Bypass Cooldown",
+    Desc = "Leave and re-enter generator to speed up farming",
+    Value = true,
+    Callback = function(state)
+        RevampedFarm.Config.GeneratorBypassCooldown = state
+        Notify("Bypass Cooldown", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+GeneratorFarmBox:Toggle({
+    Title = "Teleport To Generator",
+    Desc = "Teleport to nearest incomplete generator",
+    Value = false,
+    Callback = function(state)
+        RevampedFarm.Config.TeleportToGenerator = state
+        Notify("Teleport To Generator", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+GeneratorFarmBox:Toggle({
+    Title = "Return After Complete",
+    Desc = "Return to original position after generator complete",
+    Value = true,
+    Callback = function(state)
+        RevampedFarm.Config.ReturnAfterComplete = state
+        Notify("Return After Complete", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+GeneratorFarmBox:Slider({
+    Title = "Generator Interval",
+    Value = { Min = 0.5, Max = 5, Default = RevampedFarm.Config.GeneratorInterval },
+    Callback = function(value)
+        RevampedFarm.Config.GeneratorInterval = value
+        Options.GeneratorDelay = value
+    end
+})
+
+GeneratorFarmBox:Space()
+
+local KillerAvoidBox = AutoFarmTab:Section({
+    Title = "Killer Avoidance (Revamped)",
+    TextSize = 18,
+    Box = true,
+    Opened = true,
+})
+
+KillerAvoidBox:Toggle({
+    Title = "Auto Survive (Avoid Killers)",
+    Desc = "Automatically teleport away from killers",
+    Value = false,
+    Callback = function(state)
+        RevampedFarm.Config.AutoSurviveEnabled = state
+        RevampedFarm.Config.AvoidKillers = state
+        if state and not RevampedFarm.State.isRunning then RevampedFarm:Start() end
+        Notify("Auto Survive", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+KillerAvoidBox:Slider({
+    Title = "Killer Detection Range",
+    Value = { Min = 10, Max = 50, Default = RevampedFarm.Config.KillerDetectRadius },
+    Callback = function(value)
+        RevampedFarm.Config.KillerDetectRadius = value
+    end
+})
+
+KillerAvoidBox:Slider({
+    Title = "Safe Distance",
+    Value = { Min = 20, Max = 100, Default = RevampedFarm.Config.SafeDistance },
+    Callback = function(value)
+        RevampedFarm.Config.SafeDistance = value
+    end
+})
+
+KillerAvoidBox:Space()
+
+local AutoWinGenBox = AutoFarmTab:Section({
+    Title = "Auto Win Generators (Revamped)",
+    TextSize = 18,
+    Box = true,
+    Opened = true,
+})
+
+AutoWinGenBox:Toggle({
+    Title = "Auto Complete All Generators",
+    Desc = "Teleport to and complete all generators",
+    Value = false,
+    Callback = function(state)
+        RevampedFarm.Config.AutoWinEnabled = state
+        if state and not RevampedFarm.State.isRunning then RevampedFarm:Start() end
+        Notify("Auto Win (Generators)", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+AutoWinGenBox:Button({
+    Title = "Stop All Auto Features",
+    Icon = "square",
+    Color = Color3.fromRGB(255, 100, 100),
+    Justify = "Center",
+    Callback = function()
+        RevampedFarm.Config.GeneratorEnabled = false
+        RevampedFarm.Config.AutoSurviveEnabled = false
+        RevampedFarm.Config.AutoWinEnabled = false
+        RevampedFarm:Stop()
+        Notify("Auto Farm", "All features stopped", 3)
+    end
+})
+
+AutoWinGenBox:Button({
+    Title = "Teleport To Nearest Generator",
+    Icon = "navigation",
+    Color = Color3.fromRGB(100, 200, 255),
+    Justify = "Center",
+    Callback = function()
+        local gen = RevampedFarm:GetNearestGen(true)
+        if gen then
+            RevampedFarm:SafeTP(gen.position + Vector3.new(0, 2, 0))
+            Notify("Teleport", "Teleported to nearest generator", 3)
+        else
+            Notify("Teleport", "No incomplete generators found", 3)
+        end
+    end
+})
+end -- End Generator Farm Revamped scope
+
+do -- Item Farm scope
+local ItemFarmBox = AutoFarmTab:Section({ Title = "Item Farm", TextSize = 18, Box = true, Opened = true })
+ItemFarmBox:Toggle({ Title = "Auto Pick Up Items", Desc = "Automatically picks up nearby items", Value = false,
+    Callback = function(state) Toggles.AutoPickUpItems = state Notify("Auto Pick Up Items", state and "Enabled" or "Disabled", 3) end })
+end
+
+do -- Survivor scope
+local CombatBox = SurvivorTab:Section({ Title = "Combat", TextSize = 18, Box = true, Opened = true })
+CombatBox:Toggle({ Title = "Auto Block", Desc = "Automatically blocks killer attacks", Value = false,
+    Callback = function(state) Toggles.AutoBlock = state Notify("Auto Block", state and "Enabled" or "Disabled", 3) end })
+CombatBox:Slider({ Title = "Block Delay (ms)", Value = { Min = 0, Max = 300, Default = Options.AutoBlockMS }, Callback = function(value) Options.AutoBlockMS = value end })
+CombatBox:Space()
+CombatBox:Toggle({ Title = "Auto Coin Flip", Desc = "Automatically uses coin flip ability", Value = false,
+    Callback = function(state) Toggles.AutoCoinFlip = state Notify("Auto Coin Flip", state and "Enabled" or "Disabled", 3) end })
+
+local AnimBlockBox = SurvivorTab:Section({ Title = "Animation Auto Block", TextSize = 18, Box = true, Opened = true })
+AnimBlockBox:Toggle({ Title = "Auto Block (Animation)", Desc = "Blocks based on killer attack animations", Value = false,
+    Callback = function(state) autoBlockAnimationOn = state if state then startAnimationAutoBlock() Notify("Animation Auto Block", "Enabled", 3) else stopAnimationAutoBlock() Notify("Animation Auto Block", "Disabled", 3) end end })
+AnimBlockBox:Slider({ Title = "Detection Range", Value = { Min = 5, Max = 50, Default = animBlockDetectionRange }, Callback = function(value) animBlockDetectionRange = value end })
+AnimBlockBox:Slider({ Title = "Windup % Threshold", Value = { Min = 10, Max = 100, Default = 75 }, Callback = function(value) animBlockWindupThreshold = value / 100 end })
+
+local DaggerBox = SurvivorTab:Section({ Title = "Dagger", TextSize = 18, Box = true, Opened = true })
+DaggerBox:Toggle({ Title = "Auto Dagger", Desc = "Automatically backstabs the killer", Value = false,
+    Callback = function(state) Toggles.AutoDagger = state Notify("Auto Dagger", state and "Enabled" or "Disabled", 3) end })
+DaggerBox:Toggle({ Title = "Dagger Aura", Desc = "Auto backstab when killer is in range", Value = false,
+    Callback = function(state) Toggles.DaggerAura = state Notify("Dagger Aura", state and "Enabled" or "Disabled", 3) end })
+DaggerBox:Slider({ Title = "Backstab Range", Value = { Min = 5, Max = 99, Default = Options.BackstabRange }, Callback = function(value) Options.BackstabRange = value end })
+
+local GeneratorBox = SurvivorTab:Section({ Title = "Generator", TextSize = 18, Box = true, Opened = true })
+GeneratorBox:Toggle({ Title = "Auto Generator (Safe)", Desc = "Auto completes generators when at one", Value = false,
+    Callback = function(state) Toggles.AutoGenerator = state Notify("Auto Generator", state and "Enabled - Walk to a generator!" or "Disabled", 3) end })
+GeneratorBox:Toggle({ Title = "Auto Start Generator", Desc = "Auto starts generators when near", Value = false,
+    Callback = function(state) Toggles.AutoStartGenerator = state Notify("Auto Start Generator", state and "Enabled" or "Disabled", 3) end })
+GeneratorBox:Slider({ Title = "Generator Interval (seconds)", Value = { Min = 1, Max = 5, Default = Options.GeneratorDelay }, Callback = function(value) Options.GeneratorDelay = value end })
+GeneratorBox:Space()
+local GenButtonGroup = GeneratorBox:Group({})
+
+GenButtonGroup:Button({
+    Title = "Complete Active",
+    Icon = "play",
+    Color = Green,
+    Justify = "Center",
+    Callback = function()
+        completeActiveGenerator()
+    end
+})
+
+GenButtonGroup:Space()
+
+GenButtonGroup:Button({
+    Title = "Complete All",
+    Icon = "check-check",
+    Color = Blue,
+    Justify = "Center",
+    Callback = function()
+        completeAllGenerators()
+    end
+})
+
+end -- End survivor scope
+
+do -- Killer and items scope
+local ItemsBox = SurvivorTab:Section({ Title = "Items", TextSize = 18, Box = true, Opened = true })
+ItemsBox:Toggle({ Title = "Auto Pick Up Items", Desc = "Auto pickup nearby items", Value = false,
+    Callback = function(state) Toggles.AutoPickUpItems = state Notify("Auto Pick Up", state and "Enabled" or "Disabled", 3) end })
+ItemsBox:Button({ Title = "Pick Up All Items", Icon = "package", Color = Yellow, Justify = "Center",
+    Callback = function() pickUpAllItems() Notify("Items", "Picking up all items...", 3) end })
+
+local KillerAttackBox = KillerTab:Section({ Title = "Attack System (Revamped)", TextSize = 18, Box = true, Opened = true })
+KillerAttackBox:Toggle({ Title = "Kill All Aura", Desc = "TP to survivors and use all abilities", Value = false,
+    Callback = function(state) if state and isSurvivor then RevampedKiller.Config.KillAllEnabled = false Notify("Error", "Must be killer!", 5) return end RevampedKiller.Config.KillAllEnabled = state if state then RevampedKiller:Start() end Notify("Kill All Aura", state and "Enabled" or "Disabled", 3) end })
+KillerAttackBox:Toggle({ Title = "Slash Aura", Desc = "Auto attack survivors in range", Value = false,
+    Callback = function(state) RevampedKiller.Config.SlashAuraEnabled = state if state then RevampedKiller:Start() end Notify("Slash Aura", state and "Enabled" or "Disabled", 3) end })
+KillerAttackBox:Toggle({ Title = "Auto Use Abilities", Desc = "Auto use abilities when survivors near", Value = false,
+    Callback = function(state) RevampedKiller.Config.AutoAbilitiesEnabled = state if state then RevampedKiller:Start() end Notify("Auto Abilities", state and "Enabled" or "Disabled", 3) end })
+KillerAttackBox:Slider({ Title = "Attack Range", Value = { Min = 5, Max = 50, Default = RevampedKiller.Config.AttackRange }, Callback = function(value) RevampedKiller.Config.AttackRange = value end })
+KillerAttackBox:Slider({ Title = "Attack Speed", Value = { Min = 1, Max = 20, Default = 7 }, Callback = function(value) RevampedKiller.Config.AttackInterval = value / 50 end })
+
+local KillerOptionsBox = KillerTab:Section({ Title = "Attack Options", TextSize = 18, Box = true, Opened = true })
+KillerOptionsBox:Toggle({ Title = "Teleport To Target", Desc = "TP behind survivors when attacking", Value = true,
+    Callback = function(state) RevampedKiller.Config.TeleportToTarget = state Notify("TP To Target", state and "Enabled" or "Disabled", 3) end })
+KillerOptionsBox:Toggle({ Title = "Use All Abilities", Desc = "Use Nova, VoidRush, etc.", Value = true,
+    Callback = function(state) RevampedKiller.Config.UseAllAbilities = state Notify("All Abilities", state and "Enabled" or "Disabled", 3) end })
+KillerOptionsBox:Toggle({ Title = "Prioritize Low HP", Desc = "Target lowest health first", Value = false,
+    Callback = function(state) RevampedKiller.Config.PrioritizeLowHP = state Notify("Low HP Priority", state and "Enabled" or "Disabled", 3) end })
+
+local TargetLockBox = KillerTab:Section({ Title = "Target Lock", TextSize = 18, Box = true, Opened = true })
+TargetLockBox:Toggle({ Title = "Enable Target Lock", Desc = "Lock onto a specific survivor", Value = false,
+    Callback = function(state) RevampedKiller.Config.TargetLockEnabled = state if not state then RevampedKiller:UnlockTarget() end Notify("Target Lock", state and "Enabled" or "Disabled", 3) end })
+local TargetLockButtons = TargetLockBox:Group({})
+TargetLockButtons:Button({ Title = "Lock Nearest", Icon = "crosshair", Color = Red, Justify = "Center", Callback = function() RevampedKiller:LockTarget() end })
+TargetLockButtons:Space()
+TargetLockButtons:Button({ Title = "Unlock", Icon = "x", Color = Grey, Justify = "Center", Callback = function() RevampedKiller:UnlockTarget() end })
+
+local KillerControlBox = KillerTab:Section({ Title = "Control", TextSize = 18, Box = true, Opened = true })
+KillerControlBox:Button({ Title = "Stop All Killer Features", Icon = "square", Color = Color3.fromRGB(255, 100, 100), Justify = "Center", Callback = function() RevampedKiller:Stop() Notify("Killer", "All stopped", 3) end })
+
+local SpectateBox = KillerTab:Section({ Title = "Spectate", TextSize = 18, Box = true, Opened = true })
+SpectateBox:Toggle({ Title = "Spectate Killer", Desc = "View from killer's perspective", Value = false,
+    Callback = function(state) Toggles.SpectateKiller = state if state then local killer = killersFolder:GetChildren()[1] if killer then workspace.CurrentCamera.CameraSubject = killer end else pcall(function() workspace.CurrentCamera.CameraSubject = lplr.Character end) end Notify("Spectate Killer", state and "Enabled" or "Disabled", 3) end })
+
+local NoliBox = KillerTab:Section({ Title = "Noli Features", TextSize = 18, Box = true, Opened = true })
+NoliBox:Toggle({ Title = "Void Rush Anti Collision", Desc = "Prevent collision during void rush", Value = false,
+    Callback = function(state) Toggles.VoidRushCollision = state Notify("VR Anti Collision", state and "Enabled" or "Disabled", 3) end })
+NoliBox:Toggle({ Title = "Void Rush Noclip", Desc = "Noclip through walls during void rush", Value = false,
+    Callback = function(state) Toggles.VoidRushNoclip = state Notify("VR Noclip", state and "Enabled" or "Disabled", 3) end })
+
+local HitboxBox = KillerTab:Section({ Title = "Hitbox", TextSize = 18, Box = true, Opened = true })
+HitboxBox:Toggle({ Title = "Hitbox Expander", Desc = "Expand survivor hitboxes (hookmethod bypass)", Value = false,
+    Callback = function(state) Toggles.HitboxExpander = state Notify("Hitbox Expander", state and "Enabled" or "Disabled", 3) end })
+HitboxBox:Toggle({ Title = "Show Hitbox Visual", Desc = "Display expanded hitbox area", Value = false,
+    Callback = function(state) Toggles.HitboxVisual = state Notify("Hitbox Visual", state and "Enabled" or "Disabled", 3) end })
+HitboxBox:Slider({ Title = "Hitbox Size", Value = { Min = 5, Max = 100, Default = Options.HitboxExpanderRange }, Callback = function(value) Options.HitboxExpanderRange = value end })
+end
+
+do -- Movement scope
+
+local SpeedBox = MovementTab:Section({
+    Title = "Speed",
+    TextSize = 18,
+    Box = true,
+    Opened = true,
+})
+
+SpeedBox:Toggle({
+    Title = "Infinity Stamina (Enhanced)",
+    Desc = "Full stamina control with custom settings",
+    Value = false,
+    Callback = function(state)
+        if state then
+            EnableInfinityStamina()
+            Notify("Infinity Stamina", "Enabled with custom settings", 3)
+        else
+            DisableInfinityStamina()
+            Notify("Infinity Stamina", "Disabled", 3)
+        end
+    end
+})
+
+SpeedBox:Slider({
+    Title = "Max Stamina",
+    Value = { Min = 1, Max = 500, Default = defaultMaxStamina },
+    Callback = function(value)
+        maxStaminaValue = value
+        if sprintModule then
+            sprintModule.MaxStamina = value
+        end
+    end
+})
+
+SpeedBox:Slider({
+    Title = "Stamina Gain",
+    Value = { Min = 1, Max = 500, Default = defaultStaminaGain },
+    Callback = function(value)
+        staminaGainValue = value
+        if sprintModule then
+            sprintModule.StaminaGain = value
+        end
+    end
+})
+
+SpeedBox:Slider({
+    Title = "Stamina Drain",
+    Value = { Min = 0, Max = 100, Default = defaultStaminaDrain },
+    Callback = function(value)
+        staminaDrainValue = value
+        if sprintModule then
+            sprintModule.StaminaDrain = value
+        end
+    end
+})
+
+SpeedBox:Slider({
+    Title = "Regen Delay",
+    Value = { Min = 0, Max = 50, Default = 5 },
+    Callback = function(value)
+        regenDelayValue = value / 10
+        if sprintModule then
+            sprintModule.StaminaRegenDelay = value / 10
+        end
+    end
+})
+
+SpeedBox:Button({
+    Title = "Reset Stamina Settings",
+    Icon = "refresh-cw",
+    Color = Color3.fromRGB(255, 100, 100),
+    Justify = "Center",
+    Callback = function()
+        ResetStaminaSettings()
+        Notify("Stamina", "Reset to default values", 3)
+    end
+})
+
+SpeedBox:Space()
+
+SpeedBox:Toggle({
+    Title = "Always Sprint",
+    Desc = "Always be sprinting",
+    Value = false,
+    Callback = function(state)
+        Toggles.AlwaysSprint = state
+        Notify("Always Sprint", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+SpeedBox:Toggle({
+    Title = "Fast Sprint",
+    Desc = "Sprint faster than normal",
+    Value = false,
+    Callback = function(state)
+        Toggles.FastSprint = state
+        Notify("Fast Sprint", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+SpeedBox:Slider({
+    Title = "Sprint Speed",
+    Value = { Min = 26, Max = 80, Default = Options.SprintSpeed },
+    Callback = function(value)
+        Options.SprintSpeed = value
+    end
+})
+
+SpeedBox:Space()
+
+SpeedBox:Toggle({
+    Title = "Speed Boost",
+    Desc = "Increases your movement speed",
+    Value = false,
+    Callback = function(state)
+        Toggles.SpeedToggle = state
+        Notify("Speed Boost", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+SpeedBox:Slider({
+    Title = "Speed Value",
+    Value = { Min = 1, Max = 100, Default = Options.SpeedBypass },
+    Callback = function(value)
+        Options.SpeedBypass = value
+    end
+})
+
+local MovementBox = MovementTab:Section({
+    Title = "Movement",
+    TextSize = 18,
+    Box = true,
+    Opened = true,
+})
+
+MovementBox:Toggle({
+    Title = "Noclip",
+    Desc = "Walk through walls",
+    Value = false,
+    Callback = function(state)
+        Toggles.Noclip = state
+        if not state then
+            disableNoclip()
+        end
+        Notify("Noclip", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+local FlyBox = MovementTab:Section({
+    Title = "Fly",
+    TextSize = 18,
+    Box = true,
+    Opened = true,
+})
+
+FlyBox:Toggle({
+    Title = "Enable Fly",
+    Desc = "Space=Up, Shift=Down, WASD=Move",
+    Value = false,
+    Callback = function(state)
+        Toggles.Fly = state
+        Notify("Fly", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+FlyBox:Slider({
+    Title = "Fly Speed",
+    Value = { Min = 10, Max = 150, Default = Options.FlySpeed },
+    Callback = function(value)
+        Options.FlySpeed = value
+    end
+})
+
+FlyBox:Slider({
+    Title = "Fly Vertical Speed",
+    Value = { Min = 7, Max = 80, Default = Options.FlyVerticalSpeed },
+    Callback = function(value)
+        Options.FlyVerticalSpeed = value
+    end
+})
+
+local SpecialBox = MovementTab:Section({
+    Title = "Special",
+    TextSize = 18,
+    Box = true,
+    Opened = true,
+})
+
+SpecialBox:Toggle({
+    Title = "Invisibility",
+    Desc = "Become invisible (Original Forsaken only)",
+    Value = false,
+    Callback = function(state)
+        if game.PlaceId ~= 18687417158 then
+            Notify("Error", "Invisibility only works on Original Forsaken!", 5)
+            Toggles.Invisibility = false
+            return
+        end
+        Toggles.Invisibility = state
+        if state then
+            Notify("Warning", "You can still be seen with certain abilities!", 6)
+        else
+            pcall(function()
+                if currentAnim then
+                    currentAnim:Stop()
+                    currentAnim = nil
+                end
+                local Humanoid = lplr.Character and lplr.Character:FindFirstChildOfClass("Humanoid")
+                if Humanoid then
+                    for _, v in pairs(Humanoid:GetPlayingAnimationTracks()) do
+                        v:AdjustSpeed(100000)
+                    end
+                end
+                local animateScript = lplr.Character and lplr.Character:FindFirstChild("Animate")
+                if animateScript then
+                    animateScript.Disabled = true
+                    animateScript.Disabled = false
+                end
+            end)
+        end
+        Notify("Invisibility", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+SpecialBox:Toggle({
+    Title = "Allow Killer Entrances",
+    Desc = "Walk through killer-only entrances",
+    Value = false,
+    Callback = function(state)
+        Toggles.AllowKillerEntrances = state
+        Notify("Killer Entrances", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+do -- Aimbot scope
+local AimbotBox = AimbotTab:Section({ Title = "Aimbot", TextSize = 18, Box = true, Opened = true })
+AimbotBox:Toggle({ Title = "Aimbot", Desc = "Hold right-click to lock onto target", Value = false,
+    Callback = function(state) Toggles.Aimbot = state Notify("Aimbot", state and "Enabled - Hold right click to aim" or "Disabled", 3) end })
+AimbotBox:Toggle({ Title = "Prediction", Desc = "Predict target movement", Value = true, Callback = function(state) Toggles.AimbotPrediction = state end })
+AimbotBox:Slider({ Title = "Prediction Level", Value = { Min = 25, Max = 100, Default = Options.PredictionLevel }, Callback = function(value) Options.PredictionLevel = value end })
+
+local KillerAimbotBox = AimbotTab:Section({ Title = "Killer Aimbot (Per-Ability)", TextSize = 18, Box = true, Opened = true })
+KillerAimbotBox:Toggle({ Title = "Aimbot Slash (Shedletsky)", Desc = "Auto-aim for Slash ability", Value = false,
+    Callback = function(state) AimbotConfig.Slash.Enabled = state Notify("Aimbot Slash", state and "Enabled" or "Disabled", 3) end })
+KillerAimbotBox:Slider({ Title = "Slash Smoothness", Value = { Min = 0, Max = 100, Default = 100 }, Callback = function(value) AimbotConfig.Slash.Smoothness = value / 100 end })
+KillerAimbotBox:Slider({ Title = "Slash Prediction", Value = { Min = 0, Max = 200, Default = 25 }, Callback = function(value) AimbotConfig.Slash.Prediction = value / 100 end })
+KillerAimbotBox:Space()
+KillerAimbotBox:Toggle({ Title = "Aimbot One Shot (Chance)", Desc = "Auto-aim for One Shot ability", Value = false,
+    Callback = function(state) AimbotConfig.Shoot.Enabled = state Notify("Aimbot One Shot", state and "Enabled" or "Disabled", 3) end })
+KillerAimbotBox:Slider({ Title = "One Shot Smoothness", Value = { Min = 0, Max = 100, Default = 100 }, Callback = function(value) AimbotConfig.Shoot.Smoothness = value / 100 end })
+KillerAimbotBox:Slider({ Title = "One Shot Prediction", Value = { Min = 0, Max = 200, Default = 25 }, Callback = function(value) AimbotConfig.Shoot.Prediction = value / 100 end })
+KillerAimbotBox:Space()
+KillerAimbotBox:Toggle({ Title = "Aimbot True One Shot", Desc = "Auto-aim for True One Shot ability", Value = false,
+    Callback = function(state) AimbotConfig.TrueShoot.Enabled = state Notify("Aimbot True One Shot", state and "Enabled" or "Disabled", 3) end })
+KillerAimbotBox:Slider({ Title = "True One Shot Prediction", Value = { Min = 0, Max = 200, Default = 60 }, Callback = function(value) AimbotConfig.TrueShoot.Prediction = value / 100 end })
+KillerAimbotBox:Space()
+KillerAimbotBox:Toggle({ Title = "Aimbot Punch (Guest 1337)", Desc = "Auto-aim for Punch ability", Value = false,
+    Callback = function(state) AimbotConfig.Punch.Enabled = state Notify("Aimbot Punch", state and "Enabled" or "Disabled", 3) end })
+KillerAimbotBox:Slider({ Title = "Punch Prediction", Value = { Min = 0, Max = 200, Default = 25 }, Callback = function(value) AimbotConfig.Punch.Prediction = value / 100 end
+})
+
+KillerAimbotBox:Space()
+
+KillerAimbotBox:Toggle({
+    Title = "Aimbot Throw Pizza (Elliot)",
+    Desc = "Auto-aim for Throw Pizza ability",
+    Value = false,
+    Callback = function(state)
+        AimbotConfig.ThrowPizza.Enabled = state
+        Notify("Aimbot Throw Pizza", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+KillerAimbotBox:Slider({
+    Title = "Throw Pizza Prediction",
+    Value = { Min = 0, Max = 200, Default = 25 },
+    Callback = function(value)
+        AimbotConfig.ThrowPizza.Prediction = value / 100
+    end
+})
+
+KillerAimbotBox:Space()
+
+KillerAimbotBox:Toggle({
+    Title = "Killers Aimbot (All Skills)",
+    Desc = "Enable aimbot for all killer skills",
+    Value = false,
+    Callback = function(state)
+        AimbotConfig.Killers.Enabled = state
+        Notify("Killers Aimbot", state and "Enabled" or "Disabled", 3)
+    end
+})
+
+end -- End aimbot scope
+
+do -- Aim Assist and Silent Aim scope
+local AimAssistBox = AimbotTab:Section({ Title = "Aim Assist", TextSize = 18, Box = true, Opened = true })
+AimAssistBox:Toggle({ Title = "Survivor Aim Assist", Desc = "Aim at the killer automatically", Value = false,
+    Callback = function(state) Toggles.SurvivorAimAssist = state Notify("Survivor Aim Assist", state and "Enabled" or "Disabled", 3) end })
+
+local SilentAimBox = AimbotTab:Section({ Title = "Silent Aim", TextSize = 18, Box = true, Opened = true })
+SilentAimBox:Toggle({ Title = "Dusekkar Silent Aim", Desc = "Plasma beam auto-aims at killer", Value = false,
+    Callback = function(state) Toggles.DusekkarSilentAim = state Notify("Dusekkar Silent Aim", state and "Enabled" or "Disabled", 3) end })
+SilentAimBox:Toggle({ Title = "C00lkid Silent Aim", Desc = "Corrupt nature auto-aims at survivors", Value = false,
+    Callback = function(state) Toggles.CoolkidSilentAim = state Notify("C00lkid Silent Aim", state and "Enabled" or "Disabled", 3) end })
+end
+
+do -- Hitbox scope
+local HitboxBox = AimbotTab:Section({ Title = "Hitbox Expander", TextSize = 18, Box = true, Opened = true })
+HitboxBox:Toggle({ Title = "Hitbox Expander", Desc = "Expand survivor hitboxes (hookmethod bypass)", Value = false,
+    Callback = function(state) Toggles.HitboxExpander = state Notify("Hitbox Expander", state and "Enabled" or "Disabled", 3) end })
+HitboxBox:Toggle({ Title = "Show Hitbox Visual", Desc = "Display expanded hitbox area", Value = false,
+    Callback = function(state) Toggles.HitboxVisual = state Notify("Hitbox Visual", state and "Enabled" or "Disabled", 3) end })
+HitboxBox:Slider({ Title = "Hitbox Size", Value = { Min = 5, Max = 100, Default = Options.HitboxExpanderRange }, Callback = function(value) Options.HitboxExpanderRange = value end })
+end
+
+do -- ESP scope
+local PlayerESPBox = ESPTab:Section({ Title = "Player ESP", TextSize = 18, Box = true, Opened = true })
+PlayerESPBox:Toggle({ Title = "Killer ESP", Desc = "Highlights the killer (shows FAKE Noli)", Value = false,
+    Callback = function(state) Toggles.KillerESP = state updateESPVisibility() Notify("Killer ESP", state and "Enabled" or "Disabled", 3) end })
+PlayerESPBox:Toggle({ Title = "Survivor ESP", Desc = "Highlights other survivors", Value = false,
+    Callback = function(state) Toggles.SurvivorESP = state updateESPVisibility() Notify("Survivor ESP", state and "Enabled" or "Disabled", 3) end })
+
+local GeneratorESPBox = ESPTab:Section({ Title = "Generator ESP", TextSize = 18, Box = true, Opened = true })
+GeneratorESPBox:Toggle({ Title = "Generator ESP", Desc = "Highlights generators (green when complete)", Value = false,
+    Callback = function(state) Toggles.GeneratorESP = state Notify("Generator ESP", state and "Enabled" or "Disabled", 3) end })
+GeneratorESPBox:Toggle({ Title = "Generator Progress ESP", Desc = "Shows generator progress % and detects fake generators", Value = false,
+    Callback = function(state) generatorProgressESPEnabled = state
+        if state then task.spawn(function() while generatorProgressESPEnabled do updateGeneratorProgressESP() task.wait(0.5) end end) Notify("Generator Progress ESP", "Enabled - Shows % and FAKE generators", 3)
+        else clearGeneratorProgressESP() Notify("Generator Progress ESP", "Disabled", 3) end end })
+GeneratorESPBox:Toggle({ Title = "Generator Nametags", Desc = "Shows generator names", Value = false,
+    Callback = function(state) Toggles.GeneratorNametags = state Notify("Generator Nametags", state and "Enabled" or "Disabled", 3) end })
+
+local ItemESPBox = ESPTab:Section({ Title = "Item ESP", TextSize = 18, Box = true, Opened = true })
+ItemESPBox:Toggle({ Title = "Item ESP", Desc = "Highlights items on the map", Value = false,
+    Callback = function(state) Toggles.ItemESP = state Notify("Item ESP", state and "Enabled" or "Disabled", 3) end })
+ItemESPBox:Toggle({ Title = "Item Nametags", Desc = "Shows item names", Value = false,
+    Callback = function(state) Toggles.ItemNametags = state Notify("Item Nametags", state and "Enabled" or "Disabled", 3) end })
+
+local MiscESPBox = ESPTab:Section({ Title = "Misc ESP", TextSize = 18, Box = true, Opened = true })
+MiscESPBox:Toggle({ Title = "1x1x1x1 Zombie ESP", Desc = "Highlights 1x1x1x1 zombies", Value = false,
+    Callback = function(state) Toggles.ZombieESP = state Notify("Zombie ESP", state and "Enabled" or "Disabled", 3) end })
+
+local TrapESPBox = ESPTab:Section({ Title = "Trap ESP", TextSize = 18, Box = true, Opened = true })
+TrapESPBox:Toggle({ Title = "Dispenser ESP", Desc = "Shows Builderman's dispenser traps (Blue)", Value = false,
+    Callback = function(state) Toggles.DispenserESP = state if not state then disableDispenserESP() end Notify("Dispenser ESP", state and "Enabled" or "Disabled", 3) end })
+TrapESPBox:Toggle({ Title = "Sentry ESP", Desc = "Shows Builderman's sentry turrets (Gray)", Value = false,
+    Callback = function(state) Toggles.SentryESP = state if not state then disableSentryESP() end Notify("Sentry ESP", state and "Enabled" or "Disabled", 3) end })
+TrapESPBox:Toggle({ Title = "Tripwire ESP", Desc = "Shows Taph's tripwire traps (Orange)", Value = false,
+    Callback = function(state) Toggles.TripwireESP = state if not state then disableTripwireESP() end Notify("Tripwire ESP", state and "Enabled" or "Disabled", 3) end })
+TrapESPBox:Toggle({ Title = "Subspace Tripmine ESP", Desc = "Shows 1x1x1x1's subspace mines (Purple)", Value = false,
+    Callback = function(state) Toggles.SubspaceESP = state if not state then disableSubspaceESP() end Notify("Subspace ESP", state and "Enabled" or "Disabled", 3) end })
+
+local VisualsBox = ESPTab:Section({ Title = "Visuals", TextSize = 18, Box = true, Opened = true })
+VisualsBox:Button({ Title = "Remove Fog", Desc = "Removes fog from the map", Callback = function() noFog() Notify("Visuals", "Fog removed!", 3) end })
+VisualsBox:Button({ Title = "Full Bright", Desc = "Makes the map fully bright", Callback = function() fullBright() Notify("Visuals", "Full brightness enabled!", 3) end })
+end
+
+TeleportTab:Dropdown({
+    Title = "Generator Teleports",
+    Icon = "zap",
+    Values = {
+        {
+            Title = "Generator 1",
+            Icon = "map-pin",
+            Callback = function()
+                teleportToGenerator(1)
+                Notify("Teleport", "Teleported to Generator 1", 3)
+            end
+        },
+        {
+            Title = "Generator 2",
+            Icon = "map-pin",
+            Callback = function()
+                teleportToGenerator(2)
+                Notify("Teleport", "Teleported to Generator 2", 3)
+            end
+        },
+        {
+            Title = "Generator 3",
+            Icon = "map-pin",
+            Callback = function()
+                teleportToGenerator(3)
+                Notify("Teleport", "Teleported to Generator 3", 3)
+            end
+        },
+        {
+            Title = "Generator 4",
+            Icon = "map-pin",
+            Callback = function()
+                teleportToGenerator(4)
+                Notify("Teleport", "Teleported to Generator 4", 3)
+            end
+        },
+        {
+            Title = "Generator 5",
+            Icon = "map-pin",
+            Callback = function()
+                teleportToGenerator(5)
+                Notify("Teleport", "Teleported to Generator 5", 3)
+            end
+        },
+    }
+})
+
+TeleportTab:Space()
+
+TeleportTab:Dropdown({
+    Title = "Quick Teleports",
+    Icon = "navigation",
+    Values = {
+        {
+            Title = "Random Item",
+            Desc = "Teleport to a random item",
+            Icon = "package",
+            Callback = function()
+                teleportToRandomItem()
+                Notify("Teleport", "Teleported to random item", 3)
+            end
+        },
+        {
+            Title = "Killer",
+            Desc = "Teleport to the killer",
+            Icon = "skull",
+            Callback = function()
+                teleportToKiller()
+                Notify("Teleport", "Teleported to killer", 3)
+            end
+        },
+        {
+            Title = "Random Survivor",
+            Desc = "Teleport to a random survivor",
+            Icon = "user",
+            Callback = function()
+                teleportToRandomSurvivor()
+                Notify("Teleport", "Teleported to random survivor", 3)
+            end
+        },
+        {
+            Type = "Divider",
+        },
+        {
+            Title = "Walk to Random Item",
+            Desc = "Pathfind to a random item",
+            Icon = "footprints",
+            Callback = function()
+                if playingState == "Spectating" then
+                    return Notify("Error", "Cannot use while spectating", 7)
+                end
+                pcall(function()
+                    local items = {}
+                    if workspace:FindFirstChild("Map") and getGameMap():FindFirstChild("Ingame") then
+                        for _, v in pairs(getGameMap().Ingame:GetDescendants()) do
+                            if v:IsA("Tool") then
+                                table.insert(items, v)
+                            end
+                        end
+                    end
+                    if #items > 0 and items[1]:FindFirstChild("ItemRoot") then
+                        pathfindTo(items[math.random(1, #items)].ItemRoot.Position)
+                    end
+                end)
+                Notify("Pathfinding", "Walking to random item...", 3)
+            end
+        },
+    }
+})
+
+local HiddenAchievementsBox = AchievementsTab:Section({
+    Title = "Hidden Achievements",
+    TextSize = 18,
+    Box = true,
+    Opened = true,
+})
+
+HiddenAchievementsBox:Button({
+    Title = "[.] - Meet Brandon",
+    Desc = "Meet ogologl's best friend for the first time",
+    Callback = function()
+        unlockAchievement("MeetBrandon")
+    end
+})
+
+HiddenAchievementsBox:Button({
+    Title = "[Meow meow meow] - I Love Cats",
+    Desc = "Interact with the cat in the lobby more than 15 times",
+    Callback = function()
+        unlockAchievement("ILoveCats")
+    end
+})
+
+HiddenAchievementsBox:Button({
+    Title = "[Coming straight from YOUR house.] - TV Time",
+    Desc = "??? - I Love TV",
+    Callback = function()
+        unlockAchievement("TVTIME")
+    end
+})
+
+HiddenAchievementsBox:Button({
+    Title = "[A Captain and his Ship] - Meet Demophon",
+    Desc = "Hear his tale",
+    Callback = function()
+        unlockAchievement("MeetDemophon")
+    end
+})
+end -- End scope
+
+do -- Settings scope
+local AntiFeaturesBox = SettingsTab:Section({ Title = "Anti Features", TextSize = 18, Box = true, Opened = true })
+AntiFeaturesBox:Toggle({ Title = "Anti Stun", Value = false, Callback = function(state) Toggles.AntiStun = state Notify("Anti Stun", state and "Enabled" or "Disabled", 3) end })
+AntiFeaturesBox:Toggle({ Title = "Anti Slow", Value = false, Callback = function(state) Toggles.AntiSlow = state Notify("Anti Slow", state and "Enabled" or "Disabled", 3) end })
+AntiFeaturesBox:Toggle({ Title = "Anti Blindness", Value = false, Callback = function(state) Toggles.AntiBlindness = state Notify("Anti Blindness", state and "Enabled" or "Disabled", 3) end })
+
+local ConfigBox = SettingsTab:Section({ Title = "Config", TextSize = 18, Box = true, Opened = true })
+
+local CONFIG_FILE = "ZlexHubConfig.json"
+
+local function saveConfig()
+    local configData = {
+        Toggles = Toggles,
+        Options = Options
+    }
+    local success, encoded = pcall(function()
+        return game:GetService("HttpService"):JSONEncode(configData)
+    end)
+    if success then
+        pcall(function()
+            writefile(CONFIG_FILE, encoded)
+        end)
+        Notify("Config", "Settings saved successfully!", 3)
+    else
+        Notify("Config", "Failed to save settings", 3)
+    end
+end
+
+local function loadConfig()
+    local success, content = pcall(function()
+        return readfile(CONFIG_FILE)
+    end)
+    if success and content then
+        local decoded = game:GetService("HttpService"):JSONDecode(content)
+        if decoded.Toggles then
+            for key, value in pairs(decoded.Toggles) do
+                if Toggles[key] ~= nil then
+                    Toggles[key] = value
+                end
+            end
+        end
+        if decoded.Options then
+            for key, value in pairs(decoded.Options) do
+                if Options[key] ~= nil then
+                    Options[key] = value
+                end
+            end
+        end
+        Notify("Config", "Settings loaded successfully!", 3)
+    else
+        Notify("Config", "No saved config found", 3)
+    end
+end
+
+ConfigBox:Button({ Title = "Save Config", Desc = "Save your current settings to file", Callback = function() saveConfig() end })
+ConfigBox:Button({ Title = "Load Config", Desc = "Load your saved settings", Callback = function() loadConfig() end })
+ConfigBox:Toggle({ Title = "Auto-Load Config", Desc = "Automatically load config on script start", Value = false,
+    Callback = function(state) if state then pcall(function() writefile("ZlexHubAutoLoad.txt", "true") end) Notify("Config", "Auto-load enabled", 3) else pcall(function() writefile("ZlexHubAutoLoad.txt", "false") end) Notify("Config", "Auto-load disabled", 3) end end })
+
+local UISettingsBox = SettingsTab:Section({ Title = "UI Settings", TextSize = 18, Box = true, Opened = true })
+UISettingsBox:Keybind({ Flag = "ToggleUIKeybind", Title = "Toggle UI Keybind", Desc = "Press this key to open/close the UI", Value = "RightShift",
+    Callback = function(key) Window:SetToggleKey(Enum.KeyCode[key]) Notify("Keybind", "UI toggle key set to: " .. key, 3) end })
+UISettingsBox:Button({ Title = "Close UI", Desc = "Hide the UI - Use keybind to reopen", Callback = function() Window:Minimize() Notify("UI", "Press your toggle key to reopen", 3) end })
+UISettingsBox:Button({ Title = "Destroy UI", Desc = "Permanently removes the script UI", Callback = function() Window:Destroy() end })
+
+local MiscSettingsBox = SettingsTab:Section({ Title = "Misc", TextSize = 18, Box = true, Opened = true })
+MiscSettingsBox:Button({ Title = "Panic (Disable All)", Desc = "Instantly disables all features", Callback = function() panic() end })
+MiscSettingsBox:Button({ Title = "Copy Discord Invite", Desc = "https://discord.gg/vPRrvznq3y", Callback = function() setclipboard("https://discord.gg/vPRrvznq3y") Notify("Discord", "Invite copied to clipboard!", 3) end })
+
+pcall(function()
+    local autoLoadEnabled = readfile("ZlexHubAutoLoad.txt")
+    if autoLoadEnabled == "true" then
+        task.wait(0.5)
+        loadConfig()
+    end
+end)
+
+WindUI:Notify({
+    Title = "Zlex Hub v3.0",
+    Content = "Script loaded! Use Settings tab to save/load your config.",
+    Duration = 7
+})
+end -- End settings scope
+
