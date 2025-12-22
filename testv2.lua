@@ -25,7 +25,7 @@ end
 -- Expose httpRequest function
 PandaAuthConfig.httpRequest = httpRequest
 
-PandaAuthConfig.discord_key = true  -- Set to true to use Discord preset key
+PandaAuthConfig.discord_key = false  -- Set to true to use Discord preset key
 
 -- Discord preset key (the key you share in your Discord server channel)
 PandaAuthConfig.DISCORD_PRESET_KEY = "niggerboy"  -- Example: "PANDA-XXXX-XXXX-XXXX"
