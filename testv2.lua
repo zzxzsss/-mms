@@ -25,7 +25,7 @@ end
 -- Expose httpRequest function
 PandaAuthConfig.httpRequest = httpRequest
 
-PandaAuthConfig.discord_key = false  -- Set to true to use Discord preset key
+PandaAuthConfig.discord_key = true  -- Set to true to use Discord preset key
 
 -- Discord preset key (the key you share in your Discord server channel)
 PandaAuthConfig.DISCORD_PRESET_KEY = "niggerboy"  -- Example: "PANDA-XXXX-XXXX-XXXX"
@@ -34,7 +34,7 @@ PandaAuthConfig.DISCORD_PRESET_KEY = "niggerboy"  -- Example: "PANDA-XXXX-XXXX-X
 PandaAuthConfig.SERVICE_IDENTIFIER = "zzzhub2"
 
 -- Discord invite link
-PandaAuthConfig.DISCORD_INVITE = "https://discord.gg/XUaQ4rutsj"
+PandaAuthConfig.DISCORD_INVITE = "https://discord.gg/fF7UjXHW9a"
 
 -- Script to load after successful authentication
 PandaAuthConfig.MAIN_SCRIPT_URL = "https://raw.githubusercontent.com/kizzythegng/GROW-A-GARDEN-PET-DUPE/refs/heads/main/nggg"
