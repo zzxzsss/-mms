@@ -31,7 +31,7 @@ PandaAuthConfig.discord_key = false  -- Set to true to use Discord preset key
 PandaAuthConfig.DISCORD_PRESET_KEY = "niggerboy"  -- Example: "PANDA-XXXX-XXXX-XXXX"
 
 -- Service identifier from Panda Development (required for both modes)
-PandaAuthConfig.SERVICE_IDENTIFIER = "zlex"
+PandaAuthConfig.SERVICE_IDENTIFIER = "zzzhubv2"
 
 -- Discord invite link
 PandaAuthConfig.DISCORD_INVITE = "https://discord.gg/fF7UjXHW9a"
